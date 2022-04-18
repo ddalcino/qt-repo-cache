@@ -10,6 +10,7 @@ on:
   push:
     branches:
       - gh-pages
+      - main
     paths:
       - 'src/**'
       - 'public/last_updated.json'
