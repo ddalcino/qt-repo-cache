@@ -16,6 +16,8 @@ IGNORED_FOLDERS = ("Parent Directory", "extras_src")  # "preview_main_node", "li
 logging.basicConfig()
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
+PUBLIC_ROOT = Path(__file__).parent.parent / "public"
+LAST_UPDATED_JSON_FILE = PUBLIC_ROOT / "last_updated.json"
 
 
 def banner_message(msg: str):
@@ -59,17 +61,15 @@ def is_recently_updated(date: datetime, date_of_last_update: datetime) -> bool:
 
 
 def save_date_of_last_update(time_last_update: datetime):
-    json_file = Path(__file__).parent.parent / "public/cache/last_updated.json"
-    if not json_file.parent.is_dir():
-        json_file.parent.mkdir(parents=True)
-    json_file.write_text(
+    if not LAST_UPDATED_JSON_FILE.parent.is_dir():
+        LAST_UPDATED_JSON_FILE.parent.mkdir(parents=True)
+    LAST_UPDATED_JSON_FILE.write_text(
         json.dumps({"date_of_last_update": time_last_update.timestamp()})
     )
 
 
 def get_date_of_last_update():
-    json_file = Path(__file__).parent.parent / "public/cache/last_updated.json"
-    timestamp = json.loads(json_file.read_text())["date_of_last_update"]
+    timestamp = json.loads(LAST_UPDATED_JSON_FILE.read_text())["date_of_last_update"]
     return datetime.fromtimestamp(timestamp)
 
 
@@ -107,14 +107,16 @@ def xml_to_modules(xml_text: str) -> Dict[str, Dict[str, str]]:
 def update_xml_files():
     last_update: datetime = get_date_of_last_update()
     most_recent = last_update
-    cache_root = Path(__file__).parent.parent / "public"
     for host, target in iterate_hosts_targets():
         LOGGER.info(banner_message(f"Entering {host}/{target}"))
+        cache_dir = PUBLIC_ROOT / host / target
+        if not cache_dir.exists():
+            cache_dir.mkdir(parents=True)
         tools = set()  # set(directory.get("tools", []))
         qts = set()  # set(directory.get("qt", []))
         # Download html file:
         html_path = ArchiveId("qt", host, target).to_url()
-        for folder, date in iterate_folders(fetch_http(html_path)):
+        for folder, date in iterate_folders(fetch_http(html_path, is_check_hash=False)):
             if date <= last_update:
                 (tools if folder.startswith("tools") else qts).add(folder)
                 continue
@@ -125,13 +127,13 @@ def update_xml_files():
             content = xml_to_modules(xml_data)
             if not content:
                 continue
-            json_file = cache_root / host / target / f"{folder}.json"
+            json_file = PUBLIC_ROOT / host / target / f"{folder}.json"
             json_file.write_text(json.dumps(content))
             if date > most_recent:
                 most_recent = date
             (tools if folder.startswith("tools") else qts).add(folder)
 
-        dir_file = cache_root / host / target / "directory.json"
+        dir_file = PUBLIC_ROOT / host / target / "directory.json"
         if not dir_file.parent.is_dir():
             dir_file.parent.mkdir(parents=True)
         old_directory = json.loads(dir_file.read_text()) if dir_file.exists() else {}
@@ -141,7 +143,7 @@ def update_xml_files():
             removed = old_set.difference(new_set)
             # Prune removed json files
             for folder in removed:
-                file_to_remove = cache_root / host / target / f"{folder}.json"
+                file_to_remove = PUBLIC_ROOT / host / target / f"{folder}.json"
                 LOGGER.info(f"Removing {file_to_remove}")
                 file_to_remove.unlink()
 
