@@ -112,11 +112,12 @@ def update_xml_files():
         cache_dir = PUBLIC_ROOT / host / target
         if not cache_dir.exists():
             cache_dir.mkdir(parents=True)
-        tools = set()  # set(directory.get("tools", []))
-        qts = set()  # set(directory.get("qt", []))
+        tools = set()
+        qts = set()
         # Download html file:
         html_path = ArchiveId("qt", host, target).to_url()
         for folder, date in iterate_folders(fetch_http(html_path, is_check_hash=False)):
+            # Skip files that have not been updated
             if date <= last_update:
                 (tools if folder.startswith("tools") else qts).add(folder)
                 continue
@@ -127,27 +128,23 @@ def update_xml_files():
             content = xml_to_modules(xml_data)
             if not content:
                 continue
-            json_file = PUBLIC_ROOT / host / target / f"{folder}.json"
+            json_file = cache_dir / f"{folder}.json"
             json_file.write_text(json.dumps(content))
             if date > most_recent:
                 most_recent = date
             (tools if folder.startswith("tools") else qts).add(folder)
 
-        dir_file = PUBLIC_ROOT / host / target / "directory.json"
-        if not dir_file.parent.is_dir():
-            dir_file.parent.mkdir(parents=True)
-        old_directory = json.loads(dir_file.read_text()) if dir_file.exists() else {}
-        # Prune cache of files that no longer exist in the qt repo
-        for key, new_set in (("qt", qts), ("tools", tools)):
-            old_set = set(old_directory.get(key, []))
-            removed = old_set.difference(new_set)
-            # Prune removed json files
-            for folder in removed:
-                file_to_remove = PUBLIC_ROOT / host / target / f"{folder}.json"
-                LOGGER.info(f"Removing {file_to_remove}")
-                file_to_remove.unlink()
-
+        # Record the new directory listing
+        dir_file = cache_dir / "directory.json"
         dir_file.write_text(json.dumps({"tools": sorted(tools), "qt": sorted(qts)}))
+
+        # Prune cache of files that no longer exist in the qt repo
+        for json_file in cache_dir.glob("*.json"):
+            filename = json_file.with_suffix('').name
+            if filename != "directory" and filename not in tools and filename not in qts:
+                LOGGER.info(f"Removing {json_file}")
+                json_file.unlink()
+
     save_date_of_last_update(most_recent)
 
 
