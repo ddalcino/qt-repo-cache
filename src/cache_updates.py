@@ -1,6 +1,7 @@
 import json
 import logging
 import posixpath
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Dict, Generator, Optional, Tuple
@@ -12,10 +13,10 @@ from aqt.metadata import ArchiveId
 from defusedxml import ElementTree
 
 fetch_http = aqt.metadata.MetadataFactory.fetch_http
-IGNORED_FOLDERS = ("Parent Directory", "extras_src")  # "preview_main_node", "licenses")
 logging.basicConfig()
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
+DEV_REGEX = re.compile(r"^qt\d_dev")
 PUBLIC_ROOT = Path(__file__).parent.parent / "public"
 LAST_UPDATED_JSON_FILE = PUBLIC_ROOT / "last_updated.json"
 
@@ -47,13 +48,16 @@ def iterate_folders(html_doc: str) -> Generator[Tuple[str, datetime], None, None
         content: Optional[Tuple[str, datetime]] = table_row_to_folder(row)
         if not content:
             continue
-        folder = content[0]
-        if (
-            folder not in IGNORED_FOLDERS
-            and "backup" not in folder
-            and (folder.startswith("tools") or folder.startswith("qt"))
-        ):
+        if should_use(content[0]):
             yield content
+
+
+def should_use(folder: str) -> bool:
+    if DEV_REGEX.match(folder) is not None:
+        return False
+    if "backup" in folder:
+        return False
+    return folder.startswith("tools_") or folder.startswith("qt")
 
 
 def is_recently_updated(date: datetime, date_of_last_update: datetime) -> bool:
@@ -91,16 +95,15 @@ def xml_to_modules(xml_text: str) -> Dict[str, Dict[str, str]]:
         if downloads is None or update_file is None or not downloads.text:
             continue
         name = packageupdate.find("Name").text
-        packages[name] = {}
+        packages[name] = {
+            "CompressedSize": human_readable_amt(update_file.attrib["CompressedSize"]),
+            "UncompressedSize": human_readable_amt(
+                update_file.attrib["UncompressedSize"]
+            ),
+            "DownloadableArchives": [s for s in ssplit(downloads.text)],
+        }
         for key in ["Name", "DisplayName", "Description", "Version", "ReleaseDate"]:
             packages[name][key] = packageupdate.find(key).text
-        packages[name]["CompressedSize"] = human_readable_amt(
-            int(update_file.attrib["CompressedSize"])
-        )
-        packages[name]["UncompressedSize"] = human_readable_amt(
-            int(update_file.attrib["UncompressedSize"])
-        )
-        packages[name]["DownloadableArchives"] = [s for s in ssplit(downloads.text)]
     return packages
 
 
@@ -139,17 +142,18 @@ def update_xml_files():
         dir_file.write_text(json.dumps({"tools": sorted(tools), "qt": sorted(qts)}))
 
         # Prune cache of files that no longer exist in the qt repo
+        all_files = tools.union(qts)
         for json_file in cache_dir.glob("*.json"):
-            filename = json_file.with_suffix('').name
-            if filename != "directory" and filename not in tools and filename not in qts:
+            filename = json_file.with_suffix("").name
+            if filename != "directory" and filename not in all_files:
                 LOGGER.info(f"Removing {json_file}")
                 json_file.unlink()
 
     save_date_of_last_update(most_recent)
 
 
-def human_readable_amt(num_bytes: int) -> str:
-    size = num_bytes
+def human_readable_amt(num_bytes_str: str) -> str:
+    size = int(num_bytes_str)
     for label in ["B", "KB", "MB", "GB", "TB"]:
         if size < 1024:
             return f"{size:.4g} {label}"

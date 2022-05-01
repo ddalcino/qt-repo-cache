@@ -10,7 +10,6 @@ on:
   push:
     branches:
       - gh-pages
-      - main
     paths:
       - 'src/**'
       - 'public/last_updated.json'
@@ -31,7 +30,7 @@ jobs:
       - name: Install deps
         run: python -m pip install -r requirements.txt
       - name: Generate and/or update caches
-        run: python ./src/cache-updates.py
+        run: python ./src/cache_updates.py
       - name: Commit cache updates
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
