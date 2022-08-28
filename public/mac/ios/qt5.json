@@ -1,1 +1,71 @@
-{"qt.520.ios.addons": {"CompressedSize": "10.19 MB", "UncompressedSize": "90.6 MB", "DownloadableArchives": ["ios_qt5_addons.7z"], "Name": "qt.520.ios.addons", "DisplayName": "Add-On modules", "Description": "Qt 5.2.0 Prebuilt Add-on modules for iOS", "Version": "5.2.0", "ReleaseDate": "2013-12-11"}, "qt.520.ios.essentials": {"CompressedSize": "502.4 MB", "UncompressedSize": "3.202 GB", "DownloadableArchives": ["ios_qt5_essentials.7z"], "Name": "qt.520.ios.essentials", "DisplayName": "Essential modules", "Description": "Qt 5.2.0 Prebuilt Essential modules for iOS", "Version": "5.2.0", "ReleaseDate": "2013-12-11"}, "qt.521.ios.addons": {"CompressedSize": "10.28 MB", "UncompressedSize": "90.32 MB", "DownloadableArchives": ["qt5_addons.7z", "examples_addons.7z"], "Name": "qt.521.ios.addons", "DisplayName": "Add-On modules", "Description": "Qt 5.2.1 Prebuilt Add-on modules for iOS", "Version": "5.2.1", "ReleaseDate": "2014-02-04"}, "qt.521.ios.essentials": {"CompressedSize": "516.7 MB", "UncompressedSize": "3.212 GB", "DownloadableArchives": ["qt5_essentials.7z", "qt5_docs.7z", "examples_essentials.7z"], "Name": "qt.521.ios.essentials", "DisplayName": "Essential modules", "Description": "Qt 5.2.1 Prebuilt Essential modules for iOS", "Version": "5.2.1", "ReleaseDate": "2014-02-04"}}
+{
+ "qt.520.ios.addons": {
+  "Name": "qt.520.ios.addons",
+  "DisplayName": "Add-On modules",
+  "Description": "Qt 5.2.0 Prebuilt Add-on modules for iOS",
+  "Version": "5.2.0",
+  "ReleaseDate": "2013-12-11",
+  "Dependencies": "qt.520.ios.essentials",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "100",
+  "DownloadableArchives": "ios_qt5_addons.7z",
+  "CompressedSize": "10.2M",
+  "UncompressedSize": "90.6M",
+  "SHA1": "2f2a7df146a36b3924a25d8add01c48dbbb25f9e"
+ },
+ "qt.520.ios.essentials": {
+  "Name": "qt.520.ios.essentials",
+  "DisplayName": "Essential modules",
+  "Description": "Qt 5.2.0 Prebuilt Essential modules for iOS",
+  "Version": "5.2.0",
+  "ReleaseDate": "2013-12-11",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "0",
+  "DownloadableArchives": "ios_qt5_essentials.7z",
+  "CompressedSize": "502.4M",
+  "UncompressedSize": "3.2G",
+  "SHA1": "eb400ae05199c3cfa35ca56238a95960b4c97b2e"
+ },
+ "qt.521.ios.addons": {
+  "Name": "qt.521.ios.addons",
+  "DisplayName": "Add-On modules",
+  "Description": "Qt 5.2.1 Prebuilt Add-on modules for iOS",
+  "Version": "5.2.1",
+  "ReleaseDate": "2014-02-04",
+  "Dependencies": "qt.521.ios.essentials",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "100",
+  "DownloadableArchives": "qt5_addons.7z, examples_addons.7z",
+  "CompressedSize": "10.3M",
+  "UncompressedSize": "90.3M",
+  "SHA1": "ac24e04fffb00ca631a7a092d114d947562446b2",
+  "ArchiveSizes": {
+   "qt5_addons.7z": "9.2M",
+   "examples_addons.7z": "1.1M"
+  }
+ },
+ "qt.521.ios.essentials": {
+  "Name": "qt.521.ios.essentials",
+  "DisplayName": "Essential modules",
+  "Description": "Qt 5.2.1 Prebuilt Essential modules for iOS",
+  "Version": "5.2.1",
+  "ReleaseDate": "2014-02-04",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "0",
+  "DownloadableArchives": "qt5_essentials.7z, qt5_docs.7z, examples_essentials.7z",
+  "CompressedSize": "516.7M",
+  "UncompressedSize": "3.2G",
+  "SHA1": "89fa31a156c0545c61beec065fd099a0a1fe53fd",
+  "ArchiveSizes": {
+   "qt5_essentials.7z": "380M",
+   "qt5_docs.7z": "123M",
+   "examples_essentials.7z": "14M"
+  }
+ }
+}

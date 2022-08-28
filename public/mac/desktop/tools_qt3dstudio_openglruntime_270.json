@@ -1,1 +1,56 @@
-{"qt.tools.qt3dstudioopenglruntime.5128": {"CompressedSize": "8.453 MB", "UncompressedSize": "11.4 MB", "DownloadableArchives": ["ogl-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 for Qt 5.12.8", "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.7.0 inside Qt 5.12.8 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: b9b52349d0df29e2eaa30dd13644b9f42d9e4f3e", "Version": "2.7.0-0-202006021109", "ReleaseDate": "2020-06-02"}, "qt.tools.qt3dstudioopenglruntime.5128.clang_64": {"CompressedSize": "3.236 MB", "UncompressedSize": "18.24 MB", "DownloadableArchives": ["ogl-runtime-clang64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.clang_64", "DisplayName": "Clang", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.", "Version": "2.7.0-0-202006021109", "ReleaseDate": "2020-06-02"}, "qt.tools.qt3dstudioopenglruntime.5128.debug_info.clang_64": {"CompressedSize": "11.64 MB", "UncompressedSize": "81.98 MB", "DownloadableArchives": ["ogl-runtime-clang64-debug-symbols.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.debug_info.clang_64", "DisplayName": "Desktop Clang 64-bit Debug Information Files", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 Debug Information Files", "Version": "2.7.0-0-202006021109", "ReleaseDate": "2020-06-02"}, "qt.tools.qt3dstudioopenglruntime.5128.examples": {"CompressedSize": "2.745 MB", "UncompressedSize": "3.225 MB", "DownloadableArchives": ["ogl-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.examples", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 examples", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 examples.", "Version": "2.7.0-0-202006021109", "ReleaseDate": "2020-06-02"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5128": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 for Qt 5.12.8",
+  "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.7.0 inside Qt 5.12.8 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: b9b52349d0df29e2eaa30dd13644b9f42d9e4f3e",
+  "Version": "2.7.0-0-202006021109",
+  "ReleaseDate": "2020-06-02",
+  "Default": "false",
+  "SortingPriority": "819",
+  "DownloadableArchives": "ogl-runtime-doc.7z",
+  "CompressedSize": "8.5M",
+  "UncompressedSize": "11.4M",
+  "SHA1": "cddfa391a2da098fe65dae3f3628659bbe1af8c0"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5128.clang_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.clang_64",
+  "DisplayName": "Clang",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.",
+  "Version": "2.7.0-0-202006021109",
+  "ReleaseDate": "2020-06-02",
+  "Virtual": "false",
+  "SortingPriority": "515",
+  "DownloadableArchives": "ogl-runtime-clang64.7z",
+  "CompressedSize": "3.2M",
+  "UncompressedSize": "18.2M",
+  "SHA1": "38e62f1355a7aee756fef9b8867f6519c46892f7"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5128.debug_info.clang_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.debug_info.clang_64",
+  "DisplayName": "Desktop Clang 64-bit Debug Information Files",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 Debug Information Files",
+  "Version": "2.7.0-0-202006021109",
+  "ReleaseDate": "2020-06-02",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5128.clang_64",
+  "Dependencies": "qt.tools.qt3dstudioopenglruntime.5128.clang_64",
+  "Virtual": "true",
+  "DownloadableArchives": "ogl-runtime-clang64-debug-symbols.7z",
+  "CompressedSize": "11.6M",
+  "UncompressedSize": "82.0M",
+  "SHA1": "5e505e10772b63f4514f14259d921e80b52ea39f"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5128.examples": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.examples",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 examples",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 examples.",
+  "Version": "2.7.0-0-202006021109",
+  "ReleaseDate": "2020-06-02",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5128",
+  "Virtual": "true",
+  "SortingPriority": "515",
+  "DownloadableArchives": "ogl-runtime-examples.7z",
+  "CompressedSize": "2.7M",
+  "UncompressedSize": "3.2M",
+  "SHA1": "16303823c3bc51f596d4036a64763800a012d9fe"
+ }
+}

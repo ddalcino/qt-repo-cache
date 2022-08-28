@@ -1,1 +1,32 @@
-{"qt.tools.maintenance": {"CompressedSize": "10.91 MB", "UncompressedSize": "31.36 MB", "DownloadableArchives": ["installerbase-tqtc_master-linux-x64.7z"], "Name": "qt.tools.maintenance", "DisplayName": "Maintenance Tool", "Description": "Maintenance Tool", "Version": "4.0.0-0-202009251152", "ReleaseDate": "2020-09-25"}, "qt.tools.maintenance.icons": {"CompressedSize": "14.71 KB", "UncompressedSize": "15.69 KB", "DownloadableArchives": ["QtIcon.7z"], "Name": "qt.tools.maintenance.icons", "DisplayName": "Maintenance Tool icons", "Description": "Maintenance Tool icons", "Version": "2.0.4", "ReleaseDate": "2020-09-25"}}
+{
+ "qt.tools.maintenance": {
+  "Name": "qt.tools.maintenance",
+  "DisplayName": "Maintenance Tool",
+  "Description": "Maintenance Tool",
+  "Version": "4.0.0-0-202009251152",
+  "ReleaseDate": "2020-09-25",
+  "Script": "installscript.qs",
+  "Essential": "true",
+  "ForcedInstallation": "true",
+  "Virtual": "true",
+  "DownloadableArchives": "installerbase-tqtc_master-linux-x64.7z",
+  "CompressedSize": "10.9M",
+  "UncompressedSize": "31.4M",
+  "SHA1": "75b1c93f850e6d045c927613da0759822708525a"
+ },
+ "qt.tools.maintenance.icons": {
+  "Name": "qt.tools.maintenance.icons",
+  "DisplayName": "Maintenance Tool icons",
+  "Description": "Maintenance Tool icons",
+  "Version": "2.0.4",
+  "ReleaseDate": "2020-09-25",
+  "AutoDependOn": "qt.tools.maintenance",
+  "Script": "installscript.qs",
+  "ForcedInstallation": "true",
+  "Virtual": "true",
+  "DownloadableArchives": "QtIcon.7z",
+  "CompressedSize": "14.7K",
+  "UncompressedSize": "15.7K",
+  "SHA1": "8a076bd08da498591a0f9187a0ef74951d1a27ec"
+ }
+}

@@ -1,1 +1,43 @@
-{"qt.tools.qt3dstudioruntime.5112": {"CompressedSize": "10.66 MB", "UncompressedSize": "13.01 MB", "DownloadableArchives": ["qt3d-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioruntime.5112", "DisplayName": "Qt 3D Studio Runtime 2.1.0 for Qt 5.11.2", "Description": "These options install the Qt 3D Studio Runtime 2.1.0 inside Qt 5.11.2 installation only.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "2.1.0-0-201809260514", "ReleaseDate": "2018-09-26"}, "qt.tools.qt3dstudioruntime.5112.clang_64": {"CompressedSize": "5.823 MB", "UncompressedSize": "40.02 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5112.clang_64", "DisplayName": "Clang", "Description": "Qt 3D Studio Runtime 2.1.0.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "2.1.0-0-201809260514", "ReleaseDate": "2018-09-26"}, "qt.tools.qt3dstudioruntime.5112.examples": {"CompressedSize": "3.791 MB", "UncompressedSize": "4.517 MB", "DownloadableArchives": ["qt3d-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioruntime.5112.examples", "DisplayName": "Qt 3D Studio Runtime 2.1.0 examples", "Description": "Qt 3D Studio Runtime 2.1.0 examples.", "Version": "2.1.0-0-201809260514", "ReleaseDate": "2018-09-26"}}
+{
+ "qt.tools.qt3dstudioruntime.5112": {
+  "Name": "qt.tools.qt3dstudioruntime.5112",
+  "DisplayName": "Qt 3D Studio Runtime 2.1.0 for Qt 5.11.2",
+  "Description": "These options install the Qt 3D Studio Runtime 2.1.0 inside Qt 5.11.2 installation only.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "2.1.0-0-201809260514",
+  "ReleaseDate": "2018-09-26",
+  "Default": "false",
+  "SortingPriority": "812",
+  "DownloadableArchives": "qt3d-runtime-doc.7z",
+  "CompressedSize": "10.7M",
+  "UncompressedSize": "13.0M",
+  "SHA1": "cad551929b2fceb4e929597ea4999b02e1d1a0a0"
+ },
+ "qt.tools.qt3dstudioruntime.5112.clang_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5112.clang_64",
+  "DisplayName": "Clang",
+  "Description": "Qt 3D Studio Runtime 2.1.0.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "2.1.0-0-201809260514",
+  "ReleaseDate": "2018-09-26",
+  "Virtual": "false",
+  "Dependencies": "qt.qt5.5112.clang_64",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "5.8M",
+  "UncompressedSize": "40.0M",
+  "SHA1": "466190ad4c470e639b85f676c84c842f9cb1c4ac"
+ },
+ "qt.tools.qt3dstudioruntime.5112.examples": {
+  "Name": "qt.tools.qt3dstudioruntime.5112.examples",
+  "DisplayName": "Qt 3D Studio Runtime 2.1.0 examples",
+  "Description": "Qt 3D Studio Runtime 2.1.0 examples.",
+  "Version": "2.1.0-0-201809260514",
+  "ReleaseDate": "2018-09-26",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5112",
+  "Virtual": "true",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime-examples.7z",
+  "CompressedSize": "3.8M",
+  "UncompressedSize": "4.5M",
+  "SHA1": "31eaeb5be8453e41be5a95d217609c4ad3c2cbfb"
+ }
+}

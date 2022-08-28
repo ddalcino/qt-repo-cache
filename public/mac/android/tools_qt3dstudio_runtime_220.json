@@ -1,1 +1,44 @@
-{"qt.tools.qt3dstudioruntime.5120.android_arm64_v8a": {"CompressedSize": "1.195 MB", "UncompressedSize": "7.303 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5120.android_arm64_v8a", "DisplayName": "Android ARM64-v8a", "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.2.0-0-201812121335", "ReleaseDate": "2018-12-12"}, "qt.tools.qt3dstudioruntime.5120.android_armv7": {"CompressedSize": "1.14 MB", "UncompressedSize": "6.311 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5120.android_armv7", "DisplayName": "Android ARMv7", "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.2.0-0-201812121335", "ReleaseDate": "2018-12-12"}, "qt.tools.qt3dstudioruntime.5120.android_x86": {"CompressedSize": "1.226 MB", "UncompressedSize": "6.832 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5120.android_x86", "DisplayName": "Android x86", "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.2.0-0-201812121335", "ReleaseDate": "2018-12-12"}}
+{
+ "qt.tools.qt3dstudioruntime.5120.android_arm64_v8a": {
+  "Name": "qt.tools.qt3dstudioruntime.5120.android_arm64_v8a",
+  "DisplayName": "Android ARM64-v8a",
+  "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.2.0-0-201812121335",
+  "ReleaseDate": "2018-12-12",
+  "Dependencies": "qt.qt5.5120.android_arm64_v8a",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "1.2M",
+  "UncompressedSize": "7.3M",
+  "SHA1": "c491a8295e306f946fda48a401b236fe8b51fc2e"
+ },
+ "qt.tools.qt3dstudioruntime.5120.android_armv7": {
+  "Name": "qt.tools.qt3dstudioruntime.5120.android_armv7",
+  "DisplayName": "Android ARMv7",
+  "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.2.0-0-201812121335",
+  "ReleaseDate": "2018-12-12",
+  "Dependencies": "qt.qt5.5120.android_armv7",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "1.1M",
+  "UncompressedSize": "6.3M",
+  "SHA1": "2f776cf533d4c6a77058599f469b2630802b72bd"
+ },
+ "qt.tools.qt3dstudioruntime.5120.android_x86": {
+  "Name": "qt.tools.qt3dstudioruntime.5120.android_x86",
+  "DisplayName": "Android x86",
+  "Description": "Qt 3D Studio Runtime 2.2.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.2.0-0-201812121335",
+  "ReleaseDate": "2018-12-12",
+  "Dependencies": "qt.qt5.5120.android_x86",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "1.2M",
+  "UncompressedSize": "6.8M",
+  "SHA1": "806a17593b3d0ea689edef3f2dbcccc9a1982608"
+ }
+}

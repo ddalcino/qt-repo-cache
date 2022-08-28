@@ -1,1 +1,44 @@
-{"qt.tools.qt3dstudioopenglruntime.5124.android_arm64_v8a": {"CompressedSize": "1.261 MB", "UncompressedSize": "5.691 MB", "DownloadableArchives": ["ogl-runtime-android-arm64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_arm64_v8a", "DisplayName": "Android ARM64-v8a", "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906261210", "ReleaseDate": "2019-06-26"}, "qt.tools.qt3dstudioopenglruntime.5124.android_armv7": {"CompressedSize": "1.151 MB", "UncompressedSize": "4.699 MB", "DownloadableArchives": ["ogl-runtime-android-armv7.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_armv7", "DisplayName": "Android ARMv7", "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906261210", "ReleaseDate": "2019-06-26"}, "qt.tools.qt3dstudioopenglruntime.5124.android_x86": {"CompressedSize": "1.404 MB", "UncompressedSize": "5.668 MB", "DownloadableArchives": ["ogl-runtime-android-x86.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_x86", "DisplayName": "Android x86", "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906261210", "ReleaseDate": "2019-06-26"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5124.android_arm64_v8a": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_arm64_v8a",
+  "DisplayName": "Android ARM64-v8a",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906261210",
+  "ReleaseDate": "2019-06-26",
+  "Dependencies": "qt.qt5.5124.android_arm64_v8a",
+  "Virtual": "false",
+  "SortingPriority": "513",
+  "DownloadableArchives": "ogl-runtime-android-arm64.7z",
+  "CompressedSize": "1.3M",
+  "UncompressedSize": "5.7M",
+  "SHA1": "d150b027ba9e84e7cafd963f85e28abac4e2558b"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5124.android_armv7": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_armv7",
+  "DisplayName": "Android ARMv7",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906261210",
+  "ReleaseDate": "2019-06-26",
+  "Dependencies": "qt.qt5.5124.android_armv7",
+  "Virtual": "false",
+  "SortingPriority": "513",
+  "DownloadableArchives": "ogl-runtime-android-armv7.7z",
+  "CompressedSize": "1.2M",
+  "UncompressedSize": "4.7M",
+  "SHA1": "666bcc51fbe4311720c12b10a0873c6831a63ad2"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5124.android_x86": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124.android_x86",
+  "DisplayName": "Android x86",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906261210",
+  "ReleaseDate": "2019-06-26",
+  "Dependencies": "qt.qt5.5124.android_x86",
+  "Default": "false",
+  "SortingPriority": "513",
+  "DownloadableArchives": "ogl-runtime-android-x86.7z",
+  "CompressedSize": "1.4M",
+  "UncompressedSize": "5.7M",
+  "SHA1": "16da4936b92c10bae87a1527ffe8178200cfa1e2"
+ }
+}

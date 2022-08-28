@@ -1,1 +1,18 @@
-{"qt.tools.ninja": {"CompressedSize": "87.39 KB", "UncompressedSize": "223.3 KB", "DownloadableArchives": ["linux64_ninja.7z"], "Name": "qt.tools.ninja", "DisplayName": "Ninja 1.10.2", "Description": "Ninja 1.10.2", "Version": "1.10.2-202108061017", "ReleaseDate": "2021-08-06"}}
+{
+ "qt.tools.ninja": {
+  "Name": "qt.tools.ninja",
+  "DisplayName": "Ninja 1.10.2",
+  "Description": "Ninja 1.10.2",
+  "Version": "1.10.2-202108061017",
+  "ReleaseDate": "2021-08-06",
+  "Dependencies": "qt.tools.qtcreator",
+  "Script": "installscript.qs",
+  "DownloadableArchives": "linux64_ninja.7z",
+  "Default": "true",
+  "CompressedSize": "87.4K",
+  "UncompressedSize": "223.3K",
+  "UserInterfaces": "licensedialog.ui",
+  "Licenses": "\n   ",
+  "SHA1": "b912f36bf6c9517ffbec065aba765e37d06b9f93"
+ }
+}

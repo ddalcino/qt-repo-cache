@@ -1,1 +1,30 @@
-{"qt.tools.conan": {"CompressedSize": "12.75 MB", "UncompressedSize": "13.04 MB", "DownloadableArchives": ["win32_conan.exe.7z"], "Name": "qt.tools.conan", "DisplayName": "Conan 1.33", "Description": "Conan command line tool 1.33", "Version": "1.33-202102101246", "ReleaseDate": "2021-02-10"}, "qt.tools.conan.cmake": {"CompressedSize": "13.34 KB", "UncompressedSize": "54.81 KB", "DownloadableArchives": ["conan.cmake.7z"], "Name": "qt.tools.conan.cmake", "DisplayName": "Conan conan.cmake", "Description": "Conan conan.cmake (0.16.0)", "Version": "0.16.0-202102101246", "ReleaseDate": "2021-02-10"}}
+{
+ "qt.tools.conan": {
+  "Name": "qt.tools.conan",
+  "DisplayName": "Conan 1.33",
+  "Description": "Conan command line tool 1.33",
+  "Version": "1.33-202102101246",
+  "ReleaseDate": "2021-02-10",
+  "Dependencies": "qt.tools.qtcreator",
+  "Script": "installscript.qs",
+  "DownloadableArchives": "win32_conan.exe.7z",
+  "CompressedSize": "12.8M",
+  "UncompressedSize": "13.0M",
+  "Licenses": "\n   ",
+  "SHA1": "9e29d7fddac9aa61fe42e38d6cd68db5c7e5bab2"
+ },
+ "qt.tools.conan.cmake": {
+  "Name": "qt.tools.conan.cmake",
+  "DisplayName": "Conan conan.cmake",
+  "Description": "Conan conan.cmake (0.16.0)",
+  "Version": "0.16.0-202102101246",
+  "ReleaseDate": "2021-02-10",
+  "AutoDependOn": "qt.tools.conan",
+  "Essential": "false",
+  "Virtual": "true",
+  "DownloadableArchives": "conan.cmake.7z",
+  "CompressedSize": "13.3K",
+  "UncompressedSize": "54.8K",
+  "SHA1": "e5976834ec20e2ff421a9c32064be447276b96e5"
+ }
+}

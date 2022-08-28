@@ -1,1 +1,85 @@
-{"qt.tools.qt3dstudioruntime.5122": {"CompressedSize": "11.15 MB", "UncompressedSize": "13.74 MB", "DownloadableArchives": ["qt3d-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioruntime.5122", "DisplayName": "Qt 3D Studio Runtime 2.3.0 for Qt 5.12.2", "Description": "These options install the Qt 3D Studio Runtime 2.3.0 inside Qt 5.12.2 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.examples": {"CompressedSize": "4.001 MB", "UncompressedSize": "4.806 MB", "DownloadableArchives": ["qt3d-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.examples", "DisplayName": "Qt 3D Studio Runtime 2.3.0 examples", "Description": "Qt 3D Studio Runtime 2.3.0 examples.", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win32_msvc2017": {"CompressedSize": "16.57 MB", "UncompressedSize": "117.9 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win32_msvc2017", "DisplayName": "MSVC 2017 32-bit", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_mingw73_64": {"CompressedSize": "33.48 MB", "UncompressedSize": "228.5 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_mingw73_64", "DisplayName": "MinGW 7.3.0 64-bit", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_64": {"CompressedSize": "18.64 MB", "UncompressedSize": "144.6 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_64", "DisplayName": "MSVC 2015 64-bit", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_64": {"CompressedSize": "16.94 MB", "UncompressedSize": "119.4 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_64", "DisplayName": "MSVC 2017 64-bit", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010633", "ReleaseDate": "2019-04-01"}}
+{
+ "qt.tools.qt3dstudioruntime.5122": {
+  "Name": "qt.tools.qt3dstudioruntime.5122",
+  "DisplayName": "Qt 3D Studio Runtime 2.3.0 for Qt 5.12.2",
+  "Description": "These options install the Qt 3D Studio Runtime 2.3.0 inside Qt 5.12.2 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "Default": "false",
+  "SortingPriority": "814",
+  "DownloadableArchives": "qt3d-runtime-doc.7z",
+  "CompressedSize": "11.1M",
+  "UncompressedSize": "13.7M",
+  "SHA1": "6b85ca46bb92c29ed6488aa4f92f85d634303a56"
+ },
+ "qt.tools.qt3dstudioruntime.5122.examples": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.examples",
+  "DisplayName": "Qt 3D Studio Runtime 2.3.0 examples",
+  "Description": "Qt 3D Studio Runtime 2.3.0 examples.",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5122",
+  "Virtual": "true",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime-examples.7z",
+  "CompressedSize": "4.0M",
+  "UncompressedSize": "4.8M",
+  "SHA1": "e55db53be627b34f0e210b60cacb057b00c14ece"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win32_msvc2017": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win32_msvc2017",
+  "DisplayName": "MSVC 2017 32-bit",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win32_msvc2017",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "16.6M",
+  "UncompressedSize": "117.9M",
+  "SHA1": "27313bd8ee386aa226de1397fe46e7b96e56f363"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_mingw73_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_mingw73_64",
+  "DisplayName": "MinGW 7.3.0 64-bit",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_mingw73",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "33.5M",
+  "UncompressedSize": "228.5M",
+  "SHA1": "edd1ce1773a9e75d21ee9c7996d5449d229a7a62"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_64",
+  "DisplayName": "MSVC 2015 64-bit",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2015_64",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "18.6M",
+  "UncompressedSize": "144.6M",
+  "SHA1": "46f41fbebe922ec8e666b703c416810d7df867d2"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_64",
+  "DisplayName": "MSVC 2017 64-bit",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010633",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2017_64",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "16.9M",
+  "UncompressedSize": "119.4M",
+  "SHA1": "0fba2836538ee143323fa84eaf25cbccb9af78ce"
+ }
+}

@@ -1,1 +1,15 @@
-{"qt.tools.ifw.44": {"CompressedSize": "41.8 MB", "UncompressedSize": "118.7 MB", "DownloadableArchives": ["ifw-linux-x64.7z"], "Name": "qt.tools.ifw.44", "DisplayName": "Qt Installer Framework 4.4", "Description": "The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.", "Version": "4.4.1-0-202206210640", "ReleaseDate": "2022-06-21"}}
+{
+ "qt.tools.ifw.44": {
+  "Name": "qt.tools.ifw.44",
+  "DisplayName": "Qt Installer Framework 4.4",
+  "Description": "The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.",
+  "Version": "4.4.1-0-202206210640",
+  "ReleaseDate": "2022-06-21",
+  "Default": "false",
+  "SortingPriority": "441",
+  "DownloadableArchives": "ifw-linux-x64.7z",
+  "CompressedSize": "41.8M",
+  "UncompressedSize": "118.7M",
+  "SHA1": "e8b9b2b391798859c02b8d6d913da0aec739fc26"
+ }
+}

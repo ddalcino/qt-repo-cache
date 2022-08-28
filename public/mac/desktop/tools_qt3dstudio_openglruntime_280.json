@@ -1,1 +1,56 @@
-{"qt.tools.qt3dstudioopenglruntime.5129": {"CompressedSize": "8.447 MB", "UncompressedSize": "11.4 MB", "DownloadableArchives": ["ogl-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5129", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.8.0 for Qt 5.12.9", "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.8.0 inside Qt 5.12.9 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: b53aeb784f950d7b2a5ebe38ea37c5bb6f456c9c", "Version": "2.8.0-0-202010230708", "ReleaseDate": "2020-10-23"}, "qt.tools.qt3dstudioopenglruntime.5129.clang_64": {"CompressedSize": "3.246 MB", "UncompressedSize": "18.24 MB", "DownloadableArchives": ["ogl-runtime-clang64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5129.clang_64", "DisplayName": "Clang", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.9. Please make sure it has been installed.", "Version": "2.8.0-0-202010230708", "ReleaseDate": "2020-10-23"}, "qt.tools.qt3dstudioopenglruntime.5129.debug_info.clang_64": {"CompressedSize": "11.64 MB", "UncompressedSize": "81.86 MB", "DownloadableArchives": ["ogl-runtime-clang64-debug-symbols.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5129.debug_info.clang_64", "DisplayName": "Desktop Clang 64-bit Debug Information Files", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0 Debug Information Files", "Version": "2.8.0-0-202010230708", "ReleaseDate": "2020-10-23"}, "qt.tools.qt3dstudioopenglruntime.5129.examples": {"CompressedSize": "2.745 MB", "UncompressedSize": "3.226 MB", "DownloadableArchives": ["ogl-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5129.examples", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.8.0 examples", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0 examples.", "Version": "2.8.0-0-202010230708", "ReleaseDate": "2020-10-23"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5129": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5129",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.8.0 for Qt 5.12.9",
+  "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.8.0 inside Qt 5.12.9 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: b53aeb784f950d7b2a5ebe38ea37c5bb6f456c9c",
+  "Version": "2.8.0-0-202010230708",
+  "ReleaseDate": "2020-10-23",
+  "Default": "false",
+  "SortingPriority": "821",
+  "DownloadableArchives": "ogl-runtime-doc.7z",
+  "CompressedSize": "8.4M",
+  "UncompressedSize": "11.4M",
+  "SHA1": "c97ffb91b6dc812da751d3e92139447dc8ecf142"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5129.clang_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5129.clang_64",
+  "DisplayName": "Clang",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.9. Please make sure it has been installed.",
+  "Version": "2.8.0-0-202010230708",
+  "ReleaseDate": "2020-10-23",
+  "Virtual": "false",
+  "SortingPriority": "517",
+  "DownloadableArchives": "ogl-runtime-clang64.7z",
+  "CompressedSize": "3.2M",
+  "UncompressedSize": "18.2M",
+  "SHA1": "41276519533703af84d152331d376bfe6a676011"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5129.debug_info.clang_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5129.debug_info.clang_64",
+  "DisplayName": "Desktop Clang 64-bit Debug Information Files",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0 Debug Information Files",
+  "Version": "2.8.0-0-202010230708",
+  "ReleaseDate": "2020-10-23",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5129.clang_64",
+  "Dependencies": "qt.tools.qt3dstudioopenglruntime.5129.clang_64",
+  "Virtual": "true",
+  "DownloadableArchives": "ogl-runtime-clang64-debug-symbols.7z",
+  "CompressedSize": "11.6M",
+  "UncompressedSize": "81.9M",
+  "SHA1": "78ac23d20d10aea3ccb44f96cb3da0645d9f99aa"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5129.examples": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5129.examples",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.8.0 examples",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0 examples.",
+  "Version": "2.8.0-0-202010230708",
+  "ReleaseDate": "2020-10-23",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5129",
+  "Virtual": "true",
+  "SortingPriority": "517",
+  "DownloadableArchives": "ogl-runtime-examples.7z",
+  "CompressedSize": "2.7M",
+  "UncompressedSize": "3.2M",
+  "SHA1": "829f0e8351e74cbc14e444f2d14e74d03e916932"
+ }
+}

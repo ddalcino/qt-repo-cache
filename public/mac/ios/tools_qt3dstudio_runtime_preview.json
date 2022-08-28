@@ -1,1 +1,16 @@
-{"preview.qt.tools.qt3dstudioruntime.ios": {"CompressedSize": "90.63 MB", "UncompressedSize": "707.1 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "preview.qt.tools.qt3dstudioruntime.ios", "DisplayName": "iOS", "Description": "Qt 3D Studio Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906140724", "ReleaseDate": "2019-06-14"}}
+{
+ "preview.qt.tools.qt3dstudioruntime.ios": {
+  "Name": "preview.qt.tools.qt3dstudioruntime.ios",
+  "DisplayName": "iOS",
+  "Description": "Qt 3D Studio Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906140724",
+  "ReleaseDate": "2019-06-14",
+  "Dependencies": "qt.qt5.5123.ios",
+  "Default": "false",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "90.6M",
+  "UncompressedSize": "707.1M",
+  "SHA1": "a463a719d90267556095c5bd402b7219ef7d40ad"
+ }
+}

@@ -1,1 +1,74 @@
-{"qt.tools.qt3dstudioruntime.5110": {"CompressedSize": "9.62 MB", "UncompressedSize": "10.62 MB", "DownloadableArchives": ["qt3d-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioruntime.5110", "DisplayName": "Qt 3D Studio Runtime 2.0.0 for Qt 5.11.0", "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "5.11.0-0-201806121305", "ReleaseDate": "2018-06-12"}, "qt.tools.qt3dstudioruntime.5110.examples": {"CompressedSize": "3.791 MB", "UncompressedSize": "4.517 MB", "DownloadableArchives": ["qt3d-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioruntime.5110.examples", "DisplayName": "Qt 3D Studio Runtime 5.11.0 examples", "Description": "Qt 3D Studio Runtime 5.11.0 examples.", "Version": "5.11.0-0-201806121305", "ReleaseDate": "2018-06-12"}, "qt.tools.qt3dstudioruntime.5110.win32_msvc2015": {"CompressedSize": "10.13 MB", "UncompressedSize": "73.92 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5110.win32_msvc2015", "DisplayName": "Qt 3D Studio Runtime 5.11.0", "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "5.11.0-0-201806121305", "ReleaseDate": "2018-06-12"}, "qt.tools.qt3dstudioruntime.5110.win64_msvc2015_64": {"CompressedSize": "10.56 MB", "UncompressedSize": "75.72 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5110.win64_msvc2015_64", "DisplayName": "Qt 3D Studio Runtime 5.11.0", "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "5.11.0-0-201806121305", "ReleaseDate": "2018-06-12"}, "qt.tools.qt3dstudioruntime.5110.win64_msvc2017_64": {"CompressedSize": "9.482 MB", "UncompressedSize": "63 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5110.win64_msvc2017_64", "DisplayName": "Qt 3D Studio Runtime 5.11.0", "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.", "Version": "5.11.0-0-201806121305", "ReleaseDate": "2018-06-12"}}
+{
+ "qt.tools.qt3dstudioruntime.5110": {
+  "Name": "qt.tools.qt3dstudioruntime.5110",
+  "DisplayName": "Qt 3D Studio Runtime 2.0.0 for Qt 5.11.0",
+  "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "5.11.0-0-201806121305",
+  "ReleaseDate": "2018-06-12",
+  "Default": "false",
+  "SortingPriority": "811",
+  "DownloadableArchives": "qt3d-runtime-doc.7z",
+  "CompressedSize": "9.6M",
+  "UncompressedSize": "10.6M",
+  "SHA1": "0d756d12437168f94d1fb1b597fa7d277378dfbc"
+ },
+ "qt.tools.qt3dstudioruntime.5110.examples": {
+  "Name": "qt.tools.qt3dstudioruntime.5110.examples",
+  "DisplayName": "Qt 3D Studio Runtime 5.11.0 examples",
+  "Description": "Qt 3D Studio Runtime 5.11.0 examples.",
+  "Version": "5.11.0-0-201806121305",
+  "ReleaseDate": "2018-06-12",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5110",
+  "Virtual": "true",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime-examples.7z",
+  "CompressedSize": "3.8M",
+  "UncompressedSize": "4.5M",
+  "SHA1": "afdc33bd97f29eb622da90c0d968c22c4b11d703"
+ },
+ "qt.tools.qt3dstudioruntime.5110.win32_msvc2015": {
+  "Name": "qt.tools.qt3dstudioruntime.5110.win32_msvc2015",
+  "DisplayName": "Qt 3D Studio Runtime 5.11.0",
+  "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "5.11.0-0-201806121305",
+  "ReleaseDate": "2018-06-12",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5110, qt.qt5.5110.win32_msvc2015",
+  "Dependencies": "qt.qt5.5110.win32_msvc2015",
+  "Virtual": "true",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "10.1M",
+  "UncompressedSize": "73.9M",
+  "SHA1": "264f298981895bd2aca6a9da7488e80e2dbc787b"
+ },
+ "qt.tools.qt3dstudioruntime.5110.win64_msvc2015_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5110.win64_msvc2015_64",
+  "DisplayName": "Qt 3D Studio Runtime 5.11.0",
+  "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "5.11.0-0-201806121305",
+  "ReleaseDate": "2018-06-12",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5110, qt.qt5.5110.win64_msvc2015_64",
+  "Dependencies": "qt.qt5.5110.win64_msvc2015_64",
+  "Virtual": "true",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "10.6M",
+  "UncompressedSize": "75.7M",
+  "SHA1": "a791fed1d22fe458bd110fb81df5d1ec6617df8b"
+ },
+ "qt.tools.qt3dstudioruntime.5110.win64_msvc2017_64": {
+  "Name": "qt.tools.qt3dstudioruntime.5110.win64_msvc2017_64",
+  "DisplayName": "Qt 3D Studio Runtime 5.11.0",
+  "Description": "Qt 3D Studio Runtime provides C++ and QML APIs for integrating Qt 3D Studio scenes into Qt applications.<br><br>This component is available under commercial licenses from The Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.",
+  "Version": "5.11.0-0-201806121305",
+  "ReleaseDate": "2018-06-12",
+  "AutoDependOn": "qt.tools.qt3dstudioruntime.5110, qt.qt5.5110.win64_msvc2017_64",
+  "Dependencies": "qt.qt5.5110.win64_msvc2017_64",
+  "Virtual": "true",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "9.5M",
+  "UncompressedSize": "63.0M",
+  "SHA1": "42e26b45f190b834b950f97036e686dd9f04e28e"
+ }
+}

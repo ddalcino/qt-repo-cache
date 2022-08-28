@@ -1,1 +1,34 @@
-{"qt.tools.qtdesignstudio": {"CompressedSize": "517.4 MB", "UncompressedSize": "1.43 GB", "DownloadableArchives": ["design_studio_extra_qt_docs.7z", "designstudio_base.7z", "plugin-telemetry.7z", "qdb.7z", "qml2puppet.7z", "qt5_design_studio_reduced_version.7z", "qt6_design_studio_reduced_version.7z", "qtcreator.7z", "qtcreator_sdktool.7z", "qtdesignviewer_arm64-v8a.7z", "qtdesignviewer_armeabi-v7a.7z", "qtdesignviewer_x86.7z", "qtdesignviewer_x86_64.7z", "content.7z"], "Name": "qt.tools.qtdesignstudio", "DisplayName": "Qt Design Studio 3.5.0", "Description": "Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.", "Version": "3.5.0-0-202206290514", "ReleaseDate": "2022-06-29"}}
+{
+ "qt.tools.qtdesignstudio": {
+  "Name": "qt.tools.qtdesignstudio",
+  "DisplayName": "Qt Design Studio 3.5.0",
+  "Description": "Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.",
+  "Version": "3.5.0-0-202206290514",
+  "ReleaseDate": "2022-06-29",
+  "Script": "installscript.qs",
+  "Default": "true",
+  "SortingPriority": "950",
+  "CompressedSize": "517.4M",
+  "UncompressedSize": "1.4G",
+  "DownloadableArchives": "design_studio_extra_qt_docs.7z,designstudio_base.7z,plugin-telemetry.7z,qdb.7z,qml2puppet.7z,qt5_design_studio_reduced_version.7z,qt6_design_studio_reduced_version.7z,qtcreator.7z,qtcreator_sdktool.7z,qtdesignviewer_arm64-v8a.7z,qtdesignviewer_armeabi-v7a.7z,qtdesignviewer_x86.7z,qtdesignviewer_x86_64.7z,content.7z",
+  "UserInterfaces": "associatecommonfiletypesform.ui,launchqtdesignstudiocheckboxform.ui,readmecheckboxform.ui",
+  "Translations": "fr.qm,es.qm,ja.qm,pt.qm,ru.qm,ar.qm,de.qm",
+  "SHA1": "4c4b87882087b3a3b9bb958dd46db5516b126632",
+  "ArchiveSizes": {
+   "qtdesignviewer_x86_64.7z": "31M",
+   "qtdesignviewer_x86.7z": "33M",
+   "qtdesignviewer_armeabi-v7a.7z": "25M",
+   "qtdesignviewer_arm64-v8a.7z": "30M",
+   "qtcreator_sdktool.7z": "1.1M",
+   "qtcreator.7z": "134M",
+   "qt6_design_studio_reduced_version.7z": "115M",
+   "qt5_design_studio_reduced_version.7z": "103M",
+   "qml2puppet.7z": "4.6M",
+   "qdb.7z": "5.5M",
+   "plugin-telemetry.7z": "175K",
+   "designstudio_base.7z": "7.2M",
+   "design_studio_extra_qt_docs.7z": "28M",
+   "content.7z": "1.4K"
+  }
+ }
+}

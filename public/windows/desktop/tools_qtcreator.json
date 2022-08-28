@@ -1,1 +1,68 @@
-{"qt.tools.qtcreator": {"CompressedSize": "114.6 MB", "UncompressedSize": "480.8 MB", "DownloadableArchives": ["qtcreator.7z", "wininterrupt32.7z", "wininterrupt64.7z", "qtcreator_sdktool.7z", "jom.7z"], "Name": "qt.tools.qtcreator", "DisplayName": "Qt Creator 8.0.1", "Description": "IDE for Qt application development", "Version": "8.0.1-0-202208110346", "ReleaseDate": "2022-08-11"}, "qt.tools.qtcreatorcdbext": {"CompressedSize": "4.66 MB", "UncompressedSize": "12.54 MB", "DownloadableArchives": ["qtcreatorcdbext32.7z", "qtcreatorcdbext64.7z"], "Name": "qt.tools.qtcreatorcdbext", "DisplayName": "Qt Creator 8.0.1 CDB Debugger Support", "Description": "CDB Debugger support for Qt Creator", "Version": "8.0.1-0-202208110346", "ReleaseDate": "2022-08-11"}, "qt.tools.qtcreatordbg": {"CompressedSize": "233.3 MB", "UncompressedSize": "1.547 GB", "DownloadableArchives": ["qtcreator-debug.7z"], "Name": "qt.tools.qtcreatordbg", "DisplayName": "Qt Creator 8.0.1 Debug Symbols", "Description": "Additional symbol files required to debug Qt Creator", "Version": "8.0.1-0-202208110346", "ReleaseDate": "2022-08-11"}, "qt.tools.qtcreatordev": {"CompressedSize": "9.716 MB", "UncompressedSize": "118.9 MB", "DownloadableArchives": ["qtcreator_dev.7z"], "Name": "qt.tools.qtcreatordev", "DisplayName": "Qt Creator 8.0.1 Plugin Development", "Description": "Headers and libs required to develop additional plugins", "Version": "8.0.1-0-202208110346", "ReleaseDate": "2022-08-11"}}
+{
+ "qt.tools.qtcreator": {
+  "Name": "qt.tools.qtcreator",
+  "DisplayName": "Qt Creator 8.0.1",
+  "Description": "IDE for Qt application development",
+  "Version": "8.0.1-0-202208110346",
+  "ReleaseDate": "2022-08-11",
+  "Script": "installscript.qs",
+  "Dependencies": null,
+  "SortingPriority": "1000",
+  "ForcedInstallation": "true",
+  "DownloadableArchives": "qtcreator.7z, wininterrupt32.7z, wininterrupt64.7z, qtcreator_sdktool.7z, jom.7z",
+  "CompressedSize": "114.6M",
+  "UncompressedSize": "480.8M",
+  "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
+  "Translations": "fr.qm,es.qm,ja.qm,pt.qm,ru.qm,ar.qm,de.qm",
+  "SHA1": "08a85c3aad89030822c6710945c6ff2aababab8d",
+  "ArchiveSizes": {
+   "wininterrupt64.7z": "5.6K",
+   "wininterrupt32.7z": "5.5K",
+   "qtcreator_sdktool.7z": "1.2M",
+   "qtcreator.7z": "112M",
+   "jom.7z": "1.0M"
+  }
+ },
+ "qt.tools.qtcreatorcdbext": {
+  "Name": "qt.tools.qtcreatorcdbext",
+  "DisplayName": "Qt Creator 8.0.1 CDB Debugger Support",
+  "Description": "CDB Debugger support for Qt Creator",
+  "Version": "8.0.1-0-202208110346",
+  "ReleaseDate": "2022-08-11",
+  "Dependencies": "qt.tools.qtcreator,qt.license.python",
+  "SortingPriority": "999",
+  "Default": "true",
+  "DownloadableArchives": "qtcreatorcdbext32.7z, qtcreatorcdbext64.7z",
+  "CompressedSize": "4.7M",
+  "UncompressedSize": "12.5M",
+  "SHA1": "8da8a195eed0b12f88ce7f45f198697ca7485c6c",
+  "ArchiveSizes": {
+   "qtcreatorcdbext64.7z": "2.4M",
+   "qtcreatorcdbext32.7z": "2.2M"
+  }
+ },
+ "qt.tools.qtcreatordbg": {
+  "Name": "qt.tools.qtcreatordbg",
+  "DisplayName": "Qt Creator 8.0.1 Debug Symbols",
+  "Description": "Additional symbol files required to debug Qt Creator",
+  "Version": "8.0.1-0-202208110346",
+  "ReleaseDate": "2022-08-11",
+  "SortingPriority": "994",
+  "DownloadableArchives": "qtcreator-debug.7z",
+  "CompressedSize": "233.3M",
+  "UncompressedSize": "1.5G",
+  "SHA1": "de60764eb1cf9fb8379f77c639d44606ae267ff0"
+ },
+ "qt.tools.qtcreatordev": {
+  "Name": "qt.tools.qtcreatordev",
+  "DisplayName": "Qt Creator 8.0.1 Plugin Development",
+  "Description": "Headers and libs required to develop additional plugins",
+  "Version": "8.0.1-0-202208110346",
+  "ReleaseDate": "2022-08-11",
+  "SortingPriority": "990",
+  "DownloadableArchives": "qtcreator_dev.7z",
+  "CompressedSize": "9.7M",
+  "UncompressedSize": "118.9M",
+  "SHA1": "53a439fed918a93770b9677f6789dbee61c30f44"
+ }
+}

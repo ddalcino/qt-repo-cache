@@ -1,1 +1,22 @@
-{"preview.qt.tools.qt3dstudio": {"CompressedSize": "195.6 MB", "UncompressedSize": "318.7 MB", "DownloadableArchives": ["qt3dstudio-documentation.7z", "qt3dstudio-examples-2.8.0.7z", "qt3dstudio.7z"], "Name": "preview.qt.tools.qt3dstudio", "DisplayName": "Qt 3D Studio 2.8.0-rc2", "Description": "Qt 3D Studio is a world-class 3D user interface design tool which incorporates 2D and 3D graphics, as well as powerful interaction capabilities. <br><br>sha1: 736126cd903ea849ae8370bf7230b4b89fc247fd", "Version": "2.8.0-202010161015", "ReleaseDate": "2020-10-16"}}
+{
+ "preview.qt.tools.qt3dstudio": {
+  "Name": "preview.qt.tools.qt3dstudio",
+  "DisplayName": "Qt 3D Studio 2.8.0-rc2",
+  "Description": "Qt 3D Studio is a world-class 3D user interface design tool which incorporates 2D and 3D graphics, as well as powerful interaction capabilities. <br><br>sha1: 736126cd903ea849ae8370bf7230b4b89fc247fd",
+  "Version": "2.8.0-202010161015",
+  "ReleaseDate": "2020-10-16",
+  "Script": "installscript.qs",
+  "Default": "false",
+  "SortingPriority": "700",
+  "CompressedSize": "195.6M",
+  "UncompressedSize": "318.7M",
+  "DownloadableArchives": "qt3dstudio-documentation.7z,qt3dstudio-examples-2.8.0.7z,qt3dstudio.7z",
+  "UserInterfaces": "launchqt3dstudiopreviewcheckboxform.ui,associatecommonfiletypesform.ui",
+  "SHA1": "a8295a7d9381d6138e0147bded50016138a1228d",
+  "ArchiveSizes": {
+   "qt3dstudio.7z": "185M",
+   "qt3dstudio-examples-2.8.0.7z": "795K",
+   "qt3dstudio-documentation.7z": "10M"
+  }
+ }
+}

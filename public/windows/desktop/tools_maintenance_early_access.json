@@ -1,1 +1,17 @@
-{"qt.tools.maintenance": {"CompressedSize": "8.753 MB", "UncompressedSize": "22.84 MB", "DownloadableArchives": ["installerbase-tqtc_master-win-x86.7z"], "Name": "qt.tools.maintenance", "DisplayName": "Maintenance Tool", "Description": "Maintenance Tool", "Version": "4.0.0-0-202009251152", "ReleaseDate": "2020-09-25"}}
+{
+ "qt.tools.maintenance": {
+  "Name": "qt.tools.maintenance",
+  "DisplayName": "Maintenance Tool",
+  "Description": "Maintenance Tool",
+  "Version": "4.0.0-0-202009251152",
+  "ReleaseDate": "2020-09-25",
+  "Script": "installscript.qs",
+  "Essential": "true",
+  "ForcedInstallation": "true",
+  "Virtual": "true",
+  "DownloadableArchives": "installerbase-tqtc_master-win-x86.7z",
+  "CompressedSize": "8.8M",
+  "UncompressedSize": "22.8M",
+  "SHA1": "39f555d9be2b766b8dc974119a89f4e555899ab2"
+ }
+}

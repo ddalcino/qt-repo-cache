@@ -1,1 +1,41 @@
-{"qt.tools.qt3dstudioopenglruntime.5128.android_arm64_v8a": {"CompressedSize": "1.303 MB", "UncompressedSize": "5.987 MB", "DownloadableArchives": ["ogl-runtime-android-arm64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_arm64_v8a", "DisplayName": "Android ARM64-v8a", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.", "Version": "2.7.0-0-202006021106", "ReleaseDate": "2020-06-02"}, "qt.tools.qt3dstudioopenglruntime.5128.android_armv7": {"CompressedSize": "1.195 MB", "UncompressedSize": "4.956 MB", "DownloadableArchives": ["ogl-runtime-androidarmv7.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_armv7", "DisplayName": "Android ARMv7", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.", "Version": "2.7.0-0-202006021106", "ReleaseDate": "2020-06-02"}, "qt.tools.qt3dstudioopenglruntime.5128.android_x86": {"CompressedSize": "1.455 MB", "UncompressedSize": "5.972 MB", "DownloadableArchives": ["ogl-runtime-androidx86.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_x86", "DisplayName": "Android x86", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.", "Version": "2.7.0-0-202006021106", "ReleaseDate": "2020-06-02"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5128.android_arm64_v8a": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_arm64_v8a",
+  "DisplayName": "Android ARM64-v8a",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.",
+  "Version": "2.7.0-0-202006021106",
+  "ReleaseDate": "2020-06-02",
+  "Virtual": "false",
+  "SortingPriority": "515",
+  "DownloadableArchives": "ogl-runtime-android-arm64.7z",
+  "CompressedSize": "1.3M",
+  "UncompressedSize": "6.0M",
+  "SHA1": "f6cbec47daac09f05cc93e6c3c168dd2b188924b"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5128.android_armv7": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_armv7",
+  "DisplayName": "Android ARMv7",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.",
+  "Version": "2.7.0-0-202006021106",
+  "ReleaseDate": "2020-06-02",
+  "Virtual": "false",
+  "SortingPriority": "515",
+  "DownloadableArchives": "ogl-runtime-androidarmv7.7z",
+  "CompressedSize": "1.2M",
+  "UncompressedSize": "5.0M",
+  "SHA1": "ae70658d8d36e1fdbb5551120b065ac3836eacc1"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5128.android_x86": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5128.android_x86",
+  "DisplayName": "Android x86",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.12.8. Please make sure it has been installed.",
+  "Version": "2.7.0-0-202006021106",
+  "ReleaseDate": "2020-06-02",
+  "Default": "false",
+  "SortingPriority": "515",
+  "DownloadableArchives": "ogl-runtime-androidx86.7z",
+  "CompressedSize": "1.5M",
+  "UncompressedSize": "6.0M",
+  "SHA1": "3573fd1d0f2641eac1da4dd1c6d1f181d267648c"
+ }
+}

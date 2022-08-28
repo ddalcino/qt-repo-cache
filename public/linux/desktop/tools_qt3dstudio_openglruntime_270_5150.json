@@ -1,1 +1,56 @@
-{"qt.tools.qt3dstudioopenglruntime.5150": {"CompressedSize": "8.453 MB", "UncompressedSize": "11.4 MB", "DownloadableArchives": ["ogl-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5150", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 for Qt 5.15.0", "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.7.0 inside Qt 5.15.0 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: 1c2f256c2afd320bec7e94bfc94760892d6fc9e8", "Version": "2.7.0-0-202006230431", "ReleaseDate": "2020-06-23"}, "qt.tools.qt3dstudioopenglruntime.5150.debug_info.gcc_64": {"CompressedSize": "21.68 MB", "UncompressedSize": "104.3 MB", "DownloadableArchives": ["ogl-runtime-gcc64-debug-symbols.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5150.debug_info.gcc_64", "DisplayName": "Desktop gcc 64-bit Debug Information Files", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 Debug Information Files", "Version": "2.7.0-0-202006230431", "ReleaseDate": "2020-06-23"}, "qt.tools.qt3dstudioopenglruntime.5150.examples": {"CompressedSize": "2.745 MB", "UncompressedSize": "3.225 MB", "DownloadableArchives": ["ogl-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5150.examples", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 examples", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 examples.", "Version": "2.7.0-0-202006230431", "ReleaseDate": "2020-06-23"}, "qt.tools.qt3dstudioopenglruntime.5150.gcc_64": {"CompressedSize": "1.671 MB", "UncompressedSize": "6.693 MB", "DownloadableArchives": ["ogl-runtime-gcc64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5150.gcc_64", "DisplayName": "GCC 64-bit", "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.15.0. Please make sure it has been installed.", "Version": "2.7.0-0-202006230431", "ReleaseDate": "2020-06-23"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5150": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5150",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 for Qt 5.15.0",
+  "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.7.0 inside Qt 5.15.0 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.  <br><br>sha1: 1c2f256c2afd320bec7e94bfc94760892d6fc9e8",
+  "Version": "2.7.0-0-202006230431",
+  "ReleaseDate": "2020-06-23",
+  "Default": "false",
+  "SortingPriority": "820",
+  "DownloadableArchives": "ogl-runtime-doc.7z",
+  "CompressedSize": "8.5M",
+  "UncompressedSize": "11.4M",
+  "SHA1": "9c25f8f28cf3890bbec3f831a48bebb0e8a4663f"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5150.debug_info.gcc_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5150.debug_info.gcc_64",
+  "DisplayName": "Desktop gcc 64-bit Debug Information Files",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 Debug Information Files",
+  "Version": "2.7.0-0-202006230431",
+  "ReleaseDate": "2020-06-23",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5150.gcc_64",
+  "Dependencies": "qt.tools.qt3dstudioopenglruntime.5150.gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "ogl-runtime-gcc64-debug-symbols.7z",
+  "CompressedSize": "21.7M",
+  "UncompressedSize": "104.3M",
+  "SHA1": "1716cd3bd8839a3c2b014b32361048656d9703cf"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5150.examples": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5150.examples",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.7.0 examples",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0 examples.",
+  "Version": "2.7.0-0-202006230431",
+  "ReleaseDate": "2020-06-23",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5150",
+  "Virtual": "true",
+  "SortingPriority": "516",
+  "DownloadableArchives": "ogl-runtime-examples.7z",
+  "CompressedSize": "2.7M",
+  "UncompressedSize": "3.2M",
+  "SHA1": "87d0dd6e6e56610b285b11fa38b365e00ed52d78"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5150.gcc_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5150.gcc_64",
+  "DisplayName": "GCC 64-bit",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.7.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This component requires Qt 5.15.0. Please make sure it has been installed.",
+  "Version": "2.7.0-0-202006230431",
+  "ReleaseDate": "2020-06-23",
+  "Default": "false",
+  "SortingPriority": "516",
+  "DownloadableArchives": "ogl-runtime-gcc64.7z",
+  "CompressedSize": "1.7M",
+  "UncompressedSize": "6.7M",
+  "SHA1": "d57879e647fbeef439680b16d4c04ad1a05bcf4f"
+ }
+}

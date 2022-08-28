@@ -1,1 +1,42 @@
-{"preview.qt.tools.qt3dstudio": {"CompressedSize": "230.5 MB", "UncompressedSize": "621.6 MB", "DownloadableArchives": ["fbx-sdk-2016.1.2-release-linux-64.7z", "icu.7z", "qt3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qt3dstudio-documentation.7z", "qt3dstudio-examples-2.8.0.7z", "qt3dstudio.7z", "qtbase-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtcanvas3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtcharts-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtconnectivity-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtdeclarative-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtgamepad-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtgraphicaleffects-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtlocation-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtmultimedia-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtquickcontrols-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtquickcontrols2-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtscxml-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtsensors-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtserialport-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtwebchannel-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtwebsockets-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z", "qtxmlpatterns-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z"], "Name": "preview.qt.tools.qt3dstudio", "DisplayName": "Qt 3D Studio 2.8.0-rc2", "Description": "Qt 3D Studio is a world-class 3D user interface design tool which incorporates 2D and 3D graphics, as well as powerful interaction capabilities. <br><br>sha1: 736126cd903ea849ae8370bf7230b4b89fc247fd", "Version": "2.8.0-202010161014", "ReleaseDate": "2020-10-16"}}
+{
+ "preview.qt.tools.qt3dstudio": {
+  "Name": "preview.qt.tools.qt3dstudio",
+  "DisplayName": "Qt 3D Studio 2.8.0-rc2",
+  "Description": "Qt 3D Studio is a world-class 3D user interface design tool which incorporates 2D and 3D graphics, as well as powerful interaction capabilities. <br><br>sha1: 736126cd903ea849ae8370bf7230b4b89fc247fd",
+  "Version": "2.8.0-202010161014",
+  "ReleaseDate": "2020-10-16",
+  "Script": "installscript.qs",
+  "Default": "false",
+  "SortingPriority": "700",
+  "CompressedSize": "230.5M",
+  "UncompressedSize": "621.6M",
+  "DownloadableArchives": "fbx-sdk-2016.1.2-release-linux-64.7z,icu.7z,qt3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qt3dstudio-documentation.7z,qt3dstudio-examples-2.8.0.7z,qt3dstudio.7z,qtbase-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtcanvas3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtcharts-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtconnectivity-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtdeclarative-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtgamepad-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtgraphicaleffects-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtlocation-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtmultimedia-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtquickcontrols-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtquickcontrols2-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtscxml-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtsensors-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtserialport-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtwebchannel-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtwebsockets-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z,qtxmlpatterns-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z",
+  "UserInterfaces": "launchqt3dstudiopreviewcheckboxform.ui,associatecommonfiletypesform.ui",
+  "SHA1": "faa3872600fd1bca497d8c839d9e6fecdde64180",
+  "ArchiveSizes": {
+   "qtxmlpatterns-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "1.3M",
+   "qtwebsockets-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "81K",
+   "qtwebchannel-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "63K",
+   "qtserialport-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "41K",
+   "qtsensors-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "189K",
+   "qtscxml-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "259K",
+   "qtquickcontrols2-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "1.9M",
+   "qtquickcontrols-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "853K",
+   "qtmultimedia-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "765K",
+   "qtlocation-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "3.0M",
+   "qtgraphicaleffects-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "67K",
+   "qtgamepad-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "72K",
+   "qtdeclarative-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "8.5M",
+   "qtconnectivity-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "522K",
+   "qtcharts-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "626K",
+   "qtcanvas3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "156K",
+   "qtbase-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "36M",
+   "qt3dstudio.7z": "149M",
+   "qt3dstudio-examples-2.8.0.7z": "795K",
+   "qt3dstudio-documentation.7z": "10M",
+   "qt3d-Linux-RHEL_7_4-GCC-Linux-RHEL_7_4-X86_64.7z": "4.9M",
+   "icu.7z": "7.3M",
+   "fbx-sdk-2016.1.2-release-linux-64.7z": "3.8M"
+  }
+ }
+}

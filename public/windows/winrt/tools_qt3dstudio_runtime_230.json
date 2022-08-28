@@ -1,1 +1,72 @@
-{"qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_armv7": {"CompressedSize": "16.99 MB", "UncompressedSize": "138.1 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_armv7", "DisplayName": "UWP ARMv7 (MSVC 2015)", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010636", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_x64": {"CompressedSize": "17 MB", "UncompressedSize": "135.4 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_x64", "DisplayName": "UWP x64 (MSVC 2015)", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010636", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_armv7": {"CompressedSize": "15.33 MB", "UncompressedSize": "112.4 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_armv7", "DisplayName": "UWP ARMv7 (MSVC 2017)", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010636", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x64": {"CompressedSize": "15.48 MB", "UncompressedSize": "110.8 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x64", "DisplayName": "UWP x64 (MSVC 2017)", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010636", "ReleaseDate": "2019-04-01"}, "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x86": {"CompressedSize": "15.14 MB", "UncompressedSize": "109.5 MB", "DownloadableArchives": ["qt3d-runtime.7z"], "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x86", "DisplayName": "UWP x86 (MSVC2017)", "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.3.0-0-201904010636", "ReleaseDate": "2019-04-01"}}
+{
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_armv7": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_armv7",
+  "DisplayName": "UWP ARMv7 (MSVC 2015)",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010636",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2015_winrt_armv7",
+  "Virtual": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "17.0M",
+  "UncompressedSize": "138.1M",
+  "SHA1": "3e3fb35c4ca62daa2c25d392ffc6cdd3a7dc75f8"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_x64": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2015_winrt_x64",
+  "DisplayName": "UWP x64 (MSVC 2015)",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010636",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2015_winrt_x64",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "17.0M",
+  "UncompressedSize": "135.4M",
+  "SHA1": "3d194b6acf835c7cdb059aad4870e7cbce871e96"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_armv7": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_armv7",
+  "DisplayName": "UWP ARMv7 (MSVC 2017)",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010636",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2017_winrt_armv7",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "15.3M",
+  "UncompressedSize": "112.4M",
+  "SHA1": "ce034d7211de15cea859b67682b88bca9dc3eba6"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x64": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x64",
+  "DisplayName": "UWP x64 (MSVC 2017)",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010636",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2017_winrt_x64",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "15.5M",
+  "UncompressedSize": "110.8M",
+  "SHA1": "e2c591827a9dd24bbe2b5fad8ea257f8964b7aae"
+ },
+ "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x86": {
+  "Name": "qt.tools.qt3dstudioruntime.5122.win64_msvc2017_winrt_x86",
+  "DisplayName": "UWP x86 (MSVC2017)",
+  "Description": "Qt 3D Studio Runtime 2.3.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.3.0-0-201904010636",
+  "ReleaseDate": "2019-04-01",
+  "Dependencies": "qt.qt5.5122.win64_msvc2017_winrt_x86",
+  "Default": "false",
+  "SortingPriority": "512",
+  "DownloadableArchives": "qt3d-runtime.7z",
+  "CompressedSize": "15.1M",
+  "UncompressedSize": "109.5M",
+  "SHA1": "f82a5b38245c38d1420dd0299985af802ed1e199"
+ }
+}

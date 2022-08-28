@@ -1,1 +1,23 @@
-{"qt.tools.maintenance": {"CompressedSize": "14.42 MB", "UncompressedSize": "40.86 MB", "DownloadableArchives": ["tqtc-installer-framework-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-QtInstaller.7z", "installer-changelog.7z", "installer-resource.7z"], "Name": "qt.tools.maintenance", "DisplayName": "Maintenance Tool", "Description": "Maintenance Tool", "Version": "4.4.1-0-202206210828", "ReleaseDate": "2022-06-21"}}
+{
+ "qt.tools.maintenance": {
+  "Name": "qt.tools.maintenance",
+  "DisplayName": "Maintenance Tool",
+  "Description": "Maintenance Tool",
+  "Version": "4.4.1-0-202206210828",
+  "ReleaseDate": "2022-06-21",
+  "Script": "installscript.qs",
+  "Essential": "true",
+  "ForcedInstallation": "true",
+  "Virtual": "true",
+  "DownloadableArchives": "tqtc-installer-framework-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-QtInstaller.7z, installer-changelog.7z, installer-resource.7z",
+  "CompressedSize": "14.4M",
+  "UncompressedSize": "40.9M",
+  "SHA1": "342405dd25d3a2300bde0fbc72b775875134409b",
+  "ArchiveSizes": {
+   "tqtc-installer-framework-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-QtInstaller.7z": "14M",
+   "installer-resource.7z": "13K",
+   "installer-changelog.7z": "2.6K",
+   "content.7z": "9.7K"
+  }
+ }
+}

@@ -1,1 +1,43 @@
-{"qt.tools.qt3dstudioopenglruntime.5124": {"CompressedSize": "4.465 MB", "UncompressedSize": "5.306 MB", "DownloadableArchives": ["ogl-runtime-doc.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.4.0 for Qt 5.12.4", "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.4.0 inside Qt 5.12.4 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906261204", "ReleaseDate": "2019-06-26"}, "qt.tools.qt3dstudioopenglruntime.5124.examples": {"CompressedSize": "2.632 MB", "UncompressedSize": "3.03 MB", "DownloadableArchives": ["ogl-runtime-examples.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124.examples", "DisplayName": "Qt 3D Studio OpenGL Runtime 2.4.0 examples", "Description": "Qt 3D Studio OpenGL Runtime 2.4.0 examples.", "Version": "2.4.0-0-201906261204", "ReleaseDate": "2019-06-26"}, "qt.tools.qt3dstudioopenglruntime.5124.gcc_64": {"CompressedSize": "21.16 MB", "UncompressedSize": "101 MB", "DownloadableArchives": ["ogl-runtime-gcc64.7z"], "Name": "qt.tools.qt3dstudioopenglruntime.5124.gcc_64", "DisplayName": "GCC 64-bit", "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3", "Version": "2.4.0-0-201906261204", "ReleaseDate": "2019-06-26"}}
+{
+ "qt.tools.qt3dstudioopenglruntime.5124": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.4.0 for Qt 5.12.4",
+  "Description": "These options install the Qt 3D Studio OpenGL Runtime 2.4.0 inside Qt 5.12.4 installation only.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906261204",
+  "ReleaseDate": "2019-06-26",
+  "Default": "false",
+  "SortingPriority": "816",
+  "DownloadableArchives": "ogl-runtime-doc.7z",
+  "CompressedSize": "4.5M",
+  "UncompressedSize": "5.3M",
+  "SHA1": "8627302e0747d2799543b9f654ee358329d6097e"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5124.examples": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124.examples",
+  "DisplayName": "Qt 3D Studio OpenGL Runtime 2.4.0 examples",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.4.0 examples.",
+  "Version": "2.4.0-0-201906261204",
+  "ReleaseDate": "2019-06-26",
+  "AutoDependOn": "qt.tools.qt3dstudioopenglruntime.5124",
+  "Virtual": "true",
+  "SortingPriority": "513",
+  "DownloadableArchives": "ogl-runtime-examples.7z",
+  "CompressedSize": "2.6M",
+  "UncompressedSize": "3.0M",
+  "SHA1": "6767741735c1fc822a3b1c86553b789010ab2369"
+ },
+ "qt.tools.qt3dstudioopenglruntime.5124.gcc_64": {
+  "Name": "qt.tools.qt3dstudioopenglruntime.5124.gcc_64",
+  "DisplayName": "GCC 64-bit",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.4.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3",
+  "Version": "2.4.0-0-201906261204",
+  "ReleaseDate": "2019-06-26",
+  "Dependencies": "qt.qt5.5124.gcc_64",
+  "Default": "false",
+  "SortingPriority": "513",
+  "DownloadableArchives": "ogl-runtime-gcc64.7z",
+  "CompressedSize": "21.2M",
+  "UncompressedSize": "101.0M",
+  "SHA1": "56f00760aff42d952fca537e83d21b093ddc7fba"
+ }
+}

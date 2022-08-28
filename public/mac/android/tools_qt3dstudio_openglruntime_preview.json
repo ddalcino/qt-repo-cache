@@ -1,1 +1,41 @@
-{"preview.qt.tools.qt3dstudioopenglruntime.android_arm64_v8a": {"CompressedSize": "1.31 MB", "UncompressedSize": "6.016 MB", "DownloadableArchives": ["qt3d-openglruntime.7z"], "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_arm64_v8a", "DisplayName": "Android ARM64-v8a", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.", "Version": "2.8.0-0-202010161020", "ReleaseDate": "2020-10-16"}, "preview.qt.tools.qt3dstudioopenglruntime.android_armv7": {"CompressedSize": "1.197 MB", "UncompressedSize": "4.957 MB", "DownloadableArchives": ["qt3d-openglruntime.7z"], "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_armv7", "DisplayName": "Android ARMv7", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.", "Version": "2.8.0-0-202010161020", "ReleaseDate": "2020-10-16"}, "preview.qt.tools.qt3dstudioopenglruntime.android_x86": {"CompressedSize": "1.463 MB", "UncompressedSize": "5.997 MB", "DownloadableArchives": ["qt3d-openglruntime.7z"], "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_x86", "DisplayName": "Android x86", "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.", "Version": "2.8.0-0-202010161020", "ReleaseDate": "2020-10-16"}}
+{
+ "preview.qt.tools.qt3dstudioopenglruntime.android_arm64_v8a": {
+  "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_arm64_v8a",
+  "DisplayName": "Android ARM64-v8a",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.",
+  "Version": "2.8.0-0-202010161020",
+  "ReleaseDate": "2020-10-16",
+  "Virtual": "false",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-openglruntime.7z",
+  "CompressedSize": "1.3M",
+  "UncompressedSize": "6.0M",
+  "SHA1": "4cd957cc5f7ab4496ba126b57bae7b4e911742ed"
+ },
+ "preview.qt.tools.qt3dstudioopenglruntime.android_armv7": {
+  "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_armv7",
+  "DisplayName": "Android ARMv7",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.",
+  "Version": "2.8.0-0-202010161020",
+  "ReleaseDate": "2020-10-16",
+  "Virtual": "false",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-openglruntime.7z",
+  "CompressedSize": "1.2M",
+  "UncompressedSize": "5.0M",
+  "SHA1": "6de7c03c0b5eef6db29df495864bc4dcbc8e66f1"
+ },
+ "preview.qt.tools.qt3dstudioopenglruntime.android_x86": {
+  "Name": "preview.qt.tools.qt3dstudioopenglruntime.android_x86",
+  "DisplayName": "Android x86",
+  "Description": "Qt 3D Studio OpenGL Runtime 2.8.0.<br><br>This component is available under commercial licenses from The  Qt Company, or under GPL v3. For open source use, please note the additional requirements compared to LGPL v3.<br><br>NOTE: This preview requires Qt 5.12.9. Please make sure it has been installed.",
+  "Version": "2.8.0-0-202010161020",
+  "ReleaseDate": "2020-10-16",
+  "Default": "false",
+  "SortingPriority": "511",
+  "DownloadableArchives": "qt3d-openglruntime.7z",
+  "CompressedSize": "1.5M",
+  "UncompressedSize": "6.0M",
+  "SHA1": "5c22acddee7e7ced691e20a691c3691ab5f5c472"
+ }
+}

@@ -1,1 +1,24 @@
-{"qt.tools.sdktools.doc": {"CompressedSize": "22.69 KB", "UncompressedSize": "87.8 KB", "DownloadableArchives": ["readme.7z", "build_log_rhel.7z", "build_log_osx.7z", "build_log_win81.7z", "build_log_win10.7z"], "Name": "qt.tools.sdktools.doc", "DisplayName": "SDK Creation Doc", "Description": "Documentation how to use the scripts and tools to create your own SDK", "Version": "1.0.0-0-202110260846", "ReleaseDate": "2021-10-26"}}
+{
+ "qt.tools.sdktools.doc": {
+  "Name": "qt.tools.sdktools.doc",
+  "DisplayName": "SDK Creation Doc",
+  "Description": "Documentation how to use the scripts and tools to create your own SDK",
+  "Version": "1.0.0-0-202110260846",
+  "Dependencies": null,
+  "ReleaseDate": "2021-10-26",
+  "SortingPriority": "100",
+  "Virtual": "true",
+  "DownloadableArchives": "readme.7z, build_log_rhel.7z, build_log_osx.7z, build_log_win81.7z, build_log_win10.7z",
+  "CompressedSize": "22.7K",
+  "UncompressedSize": "87.8K",
+  "SHA1": "966815365db488613183581e0f4a77e1acb7cbb4",
+  "ArchiveSizes": {
+   "readme.7z": "6.9K",
+   "content.7z": "9.0K",
+   "build_log_win81.7z": "1.6K",
+   "build_log_win10.7z": "1.6K",
+   "build_log_rhel.7z": "1.8K",
+   "build_log_osx.7z": "1.6K"
+  }
+ }
+}
