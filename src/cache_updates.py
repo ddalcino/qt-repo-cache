@@ -35,7 +35,7 @@ def iterate_hosts_targets() -> Generator[Tuple[str, str], None, None]:
 def is_qt_or_tools(folder: str) -> bool:
     if DEV_REGEX.match(folder) is not None:
         return False
-    if "backup" in folder:
+    if "backup" in folder or "preview" in folder:
         return False
     return folder.startswith("tools_") or folder.startswith("qt")
 
