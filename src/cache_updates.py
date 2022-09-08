@@ -98,7 +98,7 @@ def fetch_file_directory(root_folder: str, existing_dict: RecursiveStrDict, last
         html_doc = meta.fetch_http(rest_of_url, is_check_hash=False)
         for folder, date, size in iter_html_content(html_doc, lambda s: s.strip() != "Parent Directory"):
             # Skip folders that have not changed since the last update
-            if date <= last_update and depth >= required_depth:
+            if date <= last_update and depth >= required_depth and folder in existing_data_at_level.keys():
                 new_content[folder] = existing_data_at_level[folder]
             elif folder.endswith("/"):
                 LOGGER.info(f"Entering {rest_of_url}{folder}")
