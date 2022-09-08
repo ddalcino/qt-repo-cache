@@ -3,7 +3,7 @@ import logging
 import re
 from datetime import datetime
 from pathlib import Path
-from typing import Callable, Dict, Generator, Optional, Set, Tuple
+from typing import Callable, Dict, Generator, Set, Tuple, Union
 
 import aqt.metadata
 import bs4
@@ -18,6 +18,7 @@ DEV_REGEX = re.compile(r"^qt\d_dev")
 PUBLIC_ROOT = Path(__file__).parent.parent / "public"
 LAST_UPDATED_JSON_FILE = PUBLIC_ROOT / "last_updated.json"
 INDENT_SIZE = 1
+REQUIRED_FETCH_DEPTH = 1
 
 
 def banner_message(msg: str):
@@ -42,24 +43,74 @@ def is_qt_or_tools(folder: str) -> bool:
 
 def iter_folders(
     html_doc: str, folder_predicate: Callable[[str], bool] = is_qt_or_tools
+):
+    yield from iter_html_content(html_doc, folder_predicate, lambda s: s.rstrip("/"))
+
+
+def iter_html_content(
+    html_doc: str, item_predicate: Callable[[str], bool], transform_item: Callable[[str], str] = lambda s: s
 ) -> Generator[Tuple[str, datetime, str], None, None]:
-    def table_row_to_folder(tr: bs4.element.Tag) -> Optional[Tuple[str, datetime, str]]:
-        try:
-            folder: str = tr.find_all("td")[1].a.contents[0].rstrip("/")
-            date_str = tr.find_all("td")[2].contents[0].rstrip()
-            dt = datetime.strptime(date_str, "%d-%b-%Y %H:%M")
-            size_str = tr.find_all("td")[3].contents[0].strip()
-            return folder, dt, size_str
-        except (AttributeError, IndexError, ValueError):
-            return None
+    def table_row_to_folder(tr: bs4.element.Tag) -> Tuple[str, datetime, str]:
+        _folder: str = transform_item(tr.find_all("td")[1].a.contents[0].strip())
+        date_str = tr.find_all("td")[2].contents[0].strip()
+        _dt = datetime.strptime(date_str, "%d-%b-%Y %H:%M")
+        _size_str = tr.find_all("td")[3].contents[0].strip()
+        return _folder, _dt, _size_str
 
     soup: bs4.BeautifulSoup = bs4.BeautifulSoup(html_doc, "html.parser")
     for row in soup.body.table.find_all("tr"):
-        content: Optional[Tuple[str, datetime]] = table_row_to_folder(row)
-        if not content:
+        try:
+            folder, dt, size_str = table_row_to_folder(row)
+            if item_predicate(folder):
+                yield folder, dt, size_str
+        except (AttributeError, IndexError, ValueError):
             continue
-        if folder_predicate(content[0]):
-            yield content
+
+
+"""
+A recursive dictionary, where the keys are either folders or filenames, 
+and the values are either the size of the file or another recursive dictionary.
+Keys that end in "/" are folders; all other keys are filenames.
+"""
+RecursiveStrDict = Dict[str, Union[str, Dict]]
+
+
+def fetch_file_directory(root_folder: str, existing_dict: RecursiveStrDict, last_update: datetime, required_depth: int) -> Tuple[RecursiveStrDict, datetime]:
+    """
+
+    :param root_folder:
+    :param existing_dict:   The existing cache of official_releases metadata.
+    :param last_update:     The time at which `existing_dict` was last updated.
+    :param required_depth:  The depth at which it's acceptable to rely on the `existing_dict` metadata, rather than
+                            downloading a fresh copy, when the modification date is older than the last update.
+                            There is an issue where the `last_modified` date of a parent folder is older than some of
+                            its contents, and the `required_depth` param is a workaround for this.
+    :return:                A recursive dictionary, where the keys are either folders or filenames,
+                            and the values are either the size of the file or another recursive dictionary.
+    """
+    dummy_archive_id = ArchiveId("qt", "linux", "desktop")  # ignored
+    meta = MetadataFactory(dummy_archive_id)
+    most_recent = last_update
+
+    def get_info_from_page(rest_of_url: str, existing_data_at_level: RecursiveStrDict, depth: int) -> RecursiveStrDict:
+        nonlocal most_recent
+        new_content = dict()
+        html_doc = meta.fetch_http(rest_of_url, is_check_hash=False)
+        for folder, date, size in iter_html_content(html_doc, lambda s: s.strip() != "Parent Directory"):
+            # Skip folders that have not changed since the last update
+            if date <= last_update and depth >= required_depth:
+                new_content[folder] = existing_data_at_level[folder]
+            elif folder.endswith("/"):
+                LOGGER.info(f"Entering {rest_of_url}{folder}")
+                new_content[folder] = \
+                    get_info_from_page(rest_of_url + folder, existing_data_at_level.get(folder, dict()), depth + 1)
+            else:
+                new_content[folder] = size  # humanize.naturalsize(size, gnu=True)
+            if date > most_recent:
+                most_recent = date
+        return new_content
+
+    return get_info_from_page(f"{root_folder}/", existing_dict, 0), most_recent
 
 
 def insert_archive_sizes(
@@ -85,21 +136,25 @@ def is_recently_updated(date: datetime, date_of_last_update: datetime) -> bool:
     return date > date_of_last_update
 
 
-def save_date_of_last_update(time_last_update: datetime):
+def save_last_update_dates(dates: Dict[str, datetime]):
+    def timestamp_or_zero(d: datetime) -> float:
+        try:
+            return d.timestamp()
+        except (OSError, OverflowError, ):
+            return 0.0
+
     if not LAST_UPDATED_JSON_FILE.parent.is_dir():
         LAST_UPDATED_JSON_FILE.parent.mkdir(parents=True)
-    LAST_UPDATED_JSON_FILE.write_text(
-        json.dumps({"date_of_last_update": time_last_update.timestamp()})
-    )
+    dates_dict = {key: timestamp_or_zero(value) for key, value in dates.items()}
+    LAST_UPDATED_JSON_FILE.write_text(json.dumps(dates_dict, indent=INDENT_SIZE))
 
 
-def get_date_of_last_update():
-    timestamp = json.loads(LAST_UPDATED_JSON_FILE.read_text())["date_of_last_update"]
-    return datetime.fromtimestamp(timestamp)
+def get_last_update_dates() -> Dict[str, datetime]:
+    timestamps = json.loads(LAST_UPDATED_JSON_FILE.read_text())
+    return {key: datetime.fromtimestamp(timestamp) for key, timestamp in timestamps.items()}
 
 
-def update_xml_files():
-    last_update: datetime = get_date_of_last_update()
+def update_xml_files(last_update: datetime) -> datetime:
     most_recent = last_update
     for host, target in iterate_hosts_targets():
         LOGGER.info(banner_message(f"Entering {host}/{target}"))
@@ -142,10 +197,30 @@ def update_xml_files():
             if filename != "directory" and filename not in all_files:
                 LOGGER.info(f"Removing {json_file}")
                 json_file.unlink()
-
-    save_date_of_last_update(most_recent)
+    return most_recent
 
 
 if __name__ == "__main__":
     Settings.load_settings()
-    update_xml_files()
+    last_updates: Dict[str, datetime] = get_last_update_dates()
+    new_dates: Dict[str, datetime] = {key: val for key, val in last_updates.items()}
+    for root_folder in [
+        "official_releases",
+        # "new_archive",
+        # "ministro",
+        # "linguist_releases",
+        # "learning",
+        # "community_releases",
+        # "archive",
+    ]:
+        cached_meta_file = PUBLIC_ROOT / f"{root_folder}.json"
+        previous_metadata = json.loads(cached_meta_file.read_text()) if cached_meta_file.is_file() else dict()
+        previous_update_time = last_updates.get(root_folder, datetime.fromtimestamp(0))
+        folder_metadata, folder_update_time = \
+            fetch_file_directory(root_folder, previous_metadata, previous_update_time, REQUIRED_FETCH_DEPTH)
+        new_dates[root_folder] = folder_update_time
+        cached_meta_file.write_text(json.dumps(folder_metadata, indent=INDENT_SIZE))
+
+    new_dates["online"] = update_xml_files(last_updates["online"])
+
+    save_last_update_dates(new_dates)
