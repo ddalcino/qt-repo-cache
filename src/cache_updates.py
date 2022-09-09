@@ -106,7 +106,7 @@ def fetch_file_directory(root_folder: str, existing_dict: RecursiveStrDict, last
                     get_info_from_page(rest_of_url + folder, existing_data_at_level.get(folder, dict()), depth + 1)
             else:
                 new_content[folder] = size  # humanize.naturalsize(size, gnu=True)
-            if date > most_recent:
+            if date > most_recent and depth > required_depth:
                 most_recent = date
         return new_content
 
