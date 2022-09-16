@@ -3,8 +3,8 @@
   "Name": "qt.qt6.640.addons.qt3d.ios",
   "DisplayName": "Qt 3D Module for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qt3d, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -13,14 +13,14 @@
   "DownloadableArchives": "qt3d-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "223.7M",
   "UncompressedSize": "2.0G",
-  "SHA1": "3e2ed0cd26dd776d92141cbf18e045f32252d42b"
+  "SHA1": "b76bc3c07e3403e4d0d9894f686dcfc251953e61"
  },
  "qt.qt6.640.addons.qtcharts.ios": {
   "Name": "qt.qt6.640.addons.qtcharts.ios",
   "DisplayName": "Qt Charts for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtcharts, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -29,14 +29,14 @@
   "DownloadableArchives": "qtcharts-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "51.7M",
   "UncompressedSize": "455.6M",
-  "SHA1": "8a670f6a056a82aa362cafdc7acf4360ba2e7dda"
+  "SHA1": "b82f37db500b547134047a1824b31fcda84dc16e"
  },
  "qt.qt6.640.addons.qtconnectivity.ios": {
   "Name": "qt.qt6.640.addons.qtconnectivity.ios",
   "DisplayName": "Qt Connectivity for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtconnectivity, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -45,14 +45,14 @@
   "DownloadableArchives": "qtconnectivity-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "9.4M",
   "UncompressedSize": "72.8M",
-  "SHA1": "c7b419fafee0dbd79a6a40066648f5b8987a0330"
+  "SHA1": "fec9396644c2c7c52f687ac62c783d33165180b3"
  },
  "qt.qt6.640.addons.qtdatavis3d.ios": {
   "Name": "qt.qt6.640.addons.qtdatavis3d.ios",
   "DisplayName": "Qt Data Visualization for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtdatavis3d, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -61,14 +61,14 @@
   "DownloadableArchives": "qtdatavis3d-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "20.8M",
   "UncompressedSize": "184.7M",
-  "SHA1": "802fdfd096588242b7bfc570cb3c97bee03a29d3"
+  "SHA1": "4279415d19463f18e4b9620a8a8b645e7d89f8c7"
  },
  "qt.qt6.640.addons.qthttpserver.ios": {
   "Name": "qt.qt6.640.addons.qthttpserver.ios",
   "DisplayName": "Qt HTTP Server for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qthttpserver, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -77,14 +77,14 @@
   "DownloadableArchives": "qthttpserver-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "2.0M",
   "UncompressedSize": "15.1M",
-  "SHA1": "a86775e78774f45b999421c983f21dca62e67e4d"
+  "SHA1": "7f118847f16a76464c90cf7c2827273361ba703b"
  },
  "qt.qt6.640.addons.qtimageformats.ios": {
   "Name": "qt.qt6.640.addons.qtimageformats.ios",
   "DisplayName": "Qt Image Formats for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtimageformats, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -93,14 +93,14 @@
   "DownloadableArchives": "qtimageformats-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "4.6M",
   "UncompressedSize": "34.6M",
-  "SHA1": "cbb741ee0daee6c4a8657cdac72e9f9a82707772"
+  "SHA1": "212f4981f90dc38129bd0ba5734b2f34034d07d6"
  },
  "qt.qt6.640.addons.qtlottie.ios": {
   "Name": "qt.qt6.640.addons.qtlottie.ios",
   "DisplayName": "Qt Lottie Animation for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtlottie, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -109,14 +109,14 @@
   "DownloadableArchives": "qtlottie-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "7.4M",
   "UncompressedSize": "60.6M",
-  "SHA1": "bc0233839b7449f6504c64c3b262d62492b1c37d"
+  "SHA1": "7accdc047f72ad209ecb2a72bafb50b31d26f535"
  },
  "qt.qt6.640.addons.qtmultimedia.ios": {
   "Name": "qt.qt6.640.addons.qtmultimedia.ios",
   "DisplayName": "Qt Multimedia for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtmultimedia, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -125,14 +125,14 @@
   "DownloadableArchives": "qtmultimedia-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "34.6M",
   "UncompressedSize": "291.4M",
-  "SHA1": "16d32b55e7a4bc77125cd295ff66d8ff40e25bad"
+  "SHA1": "0889786bacfd907f4a42aa3ad1959b7be2b0f72e"
  },
  "qt.qt6.640.addons.qtnetworkauth.ios": {
   "Name": "qt.qt6.640.addons.qtnetworkauth.ios",
   "DisplayName": "Qt Network Authorization for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtnetworkauth, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -141,14 +141,14 @@
   "DownloadableArchives": "qtnetworkauth-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "2.7M",
   "UncompressedSize": "20.3M",
-  "SHA1": "55043709a801e2e2afd63fbcede249d4f57a4a70"
+  "SHA1": "b8b3e011d85a61ff1a81c6c25a38701cd776fb73"
  },
  "qt.qt6.640.addons.qtpdf.ios": {
   "Name": "qt.qt6.640.addons.qtpdf.ios",
   "DisplayName": "Qt PDF for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtpdf, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -157,14 +157,14 @@
   "DownloadableArchives": "qtpdf-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "21.8M",
   "UncompressedSize": "162.6M",
-  "SHA1": "5ee8586acde7bc009870a9a938d2e2bba538f8d1"
+  "SHA1": "2eff22ac6b5e0307df3015391c6f50f6b354a807"
  },
  "qt.qt6.640.addons.qtpositioning.ios": {
   "Name": "qt.qt6.640.addons.qtpositioning.ios",
   "DisplayName": "Qt Positioning for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtpositioning, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -173,14 +173,14 @@
   "DownloadableArchives": "qtpositioning-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "12.3M",
   "UncompressedSize": "96.9M",
-  "SHA1": "29df774259c55162f350c59cf2751cb98c33235e"
+  "SHA1": "c606aa6e6756a9574f65a46737b2ebbfa33439af"
  },
  "qt.qt6.640.addons.qtquick3dphysics.ios": {
   "Name": "qt.qt6.640.addons.qtquick3dphysics.ios",
   "DisplayName": "Quick: 3D Physicsfor iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtquick3dphysics, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -189,30 +189,30 @@
   "DownloadableArchives": "qtquick3dphysics-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "174.2M",
   "UncompressedSize": "897.4M",
-  "SHA1": "33c37139f9789b20ca319e4f1f818114258529c6"
+  "SHA1": "b40d12e94ae613cb4c2a1774ac55228f4d58f164"
  },
  "qt.qt6.640.addons.qtremoteobjects.ios": {
   "Name": "qt.qt6.640.addons.qtremoteobjects.ios",
   "DisplayName": "Qt Remote Objects for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtremoteobjects, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtremoteobjects-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
-  "CompressedSize": "10.1M",
-  "UncompressedSize": "79.8M",
-  "SHA1": "78aa2375931d112e9d8bbfad3ce0611234cf7990"
+  "CompressedSize": "9.7M",
+  "UncompressedSize": "76.4M",
+  "SHA1": "1b2a688db03a27c0e2a3d45dd68fcd4ecffd5327"
  },
  "qt.qt6.640.addons.qtscxml.ios": {
   "Name": "qt.qt6.640.addons.qtscxml.ios",
   "DisplayName": "Qt State Machine for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtscxml, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -221,14 +221,14 @@
   "DownloadableArchives": "qtscxml-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "15.9M",
   "UncompressedSize": "128.3M",
-  "SHA1": "d5cbe1840b8279f61d53002053dcebdb7f2e971f"
+  "SHA1": "c8450967402bbaf514696d5454e2454e8e18540c"
  },
  "qt.qt6.640.addons.qtsensors.ios": {
   "Name": "qt.qt6.640.addons.qtsensors.ios",
   "DisplayName": "Qt Sensors for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtsensors, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -237,14 +237,14 @@
   "DownloadableArchives": "qtsensors-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "9.2M",
   "UncompressedSize": "98.0M",
-  "SHA1": "cdff03dedb213c2dd3a0f10bbc5b6f567f24c288"
+  "SHA1": "56e13fbffc60155993ab4beb55a3deed5bac5334"
  },
  "qt.qt6.640.addons.qtserialbus.ios": {
   "Name": "qt.qt6.640.addons.qtserialbus.ios",
   "DisplayName": "Qt SerialBus for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtserialbus, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -253,46 +253,46 @@
   "DownloadableArchives": "qtserialbus-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "6.0M",
   "UncompressedSize": "48.9M",
-  "SHA1": "bc90e27e57467dfc6cd0a8b5db3a27705ec1a29c"
+  "SHA1": "9593f45a595fc9eb486cbd6e1ac319beaeb95286"
  },
  "qt.qt6.640.addons.qtspeech.ios": {
   "Name": "qt.qt6.640.addons.qtspeech.ios",
   "DisplayName": "Qt Speech for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtspeech, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtspeech-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
-  "CompressedSize": "3.0M",
-  "UncompressedSize": "25.5M",
-  "SHA1": "d7ad9eccfdab9cc21ad09fb446946137022bbc8e"
+  "CompressedSize": "3.1M",
+  "UncompressedSize": "26.8M",
+  "SHA1": "d1b8c4fa8be91e71173787bdad30ce4189f31571"
  },
  "qt.qt6.640.addons.qtvirtualkeyboard.ios": {
   "Name": "qt.qt6.640.addons.qtvirtualkeyboard.ios",
   "DisplayName": "Qt Virtual Keyboard for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtvirtualkeyboard, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtvirtualkeyboard-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
-  "CompressedSize": "25.8M",
-  "UncompressedSize": "218.1M",
-  "SHA1": "f1fcc2fabafdb62565336dfd5092be9e31e1a5dc"
+  "CompressedSize": "25.6M",
+  "UncompressedSize": "217.2M",
+  "SHA1": "4b55ffbe47e382c05688853f6b61b9605e85caa7"
  },
  "qt.qt6.640.addons.qtwebchannel.ios": {
   "Name": "qt.qt6.640.addons.qtwebchannel.ios",
   "DisplayName": "Qt WebChannel for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtwebchannel, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -301,14 +301,14 @@
   "DownloadableArchives": "qtwebchannel-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "2.5M",
   "UncompressedSize": "19.2M",
-  "SHA1": "3e99e4622937204548d69983cea1d560b3a7c539"
+  "SHA1": "c73ec676a40cdaf5d3697a595ea0f6d7531fa74e"
  },
  "qt.qt6.640.addons.qtwebsockets.ios": {
   "Name": "qt.qt6.640.addons.qtwebsockets.ios",
   "DisplayName": "Qt WebSockets for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtwebsockets, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -317,14 +317,14 @@
   "DownloadableArchives": "qtwebsockets-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "3.7M",
   "UncompressedSize": "28.1M",
-  "SHA1": "05fe879dc58a089735558cbc8f49f9e5d10f4183"
+  "SHA1": "8373d9fa8fdb01c4e86ca976240707cb77d7da35"
  },
  "qt.qt6.640.addons.qtwebview.ios": {
   "Name": "qt.qt6.640.addons.qtwebview.ios",
   "DisplayName": "Qt WebView for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.addons.qtwebview, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -332,29 +332,29 @@
   "SortingPriority": null,
   "DownloadableArchives": "qtwebview-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "3.8M",
-  "UncompressedSize": "29.4M",
-  "SHA1": "5c2e5c4d8f42db36ff3bbdc8155bdeea3054a766"
+  "UncompressedSize": "29.3M",
+  "SHA1": "cef059ed2fa3fc0cd37d7f89148ed5c4f6ce5f51"
  },
  "qt.qt6.640.ios": {
   "Name": "qt.qt6.640.ios",
   "DisplayName": "iOS",
   "Description": "Qt 6.4.0 Prebuilt Components for iOS",
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "Dependencies": "qt.tools.qtcreator, qt.qt6.640.clang_64, qt.qt6.640.doc, qt.qt6.640.examples",
   "AutoDependOn": null,
   "Default": "false",
   "Script": "installscript.qs",
   "SortingPriority": "100",
   "DownloadableArchives": "qtbase-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z, qttools-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z, qtdeclarative-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z, qtsvg-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z, qttranslations-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
-  "CompressedSize": "954.5M",
+  "CompressedSize": "956.9M",
   "UncompressedSize": "7.7G",
-  "SHA1": "b0986433f5363a36f8f2ab5bd604f9cd3c755384",
+  "SHA1": "c6f1800268046eac2ef5cf859720185fa9ddd258",
   "ArchiveSizes": {
    "qttranslations-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "1.5M",
    "qttools-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "12M",
-   "qtsvg-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "6.3M",
-   "qtdeclarative-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "621M",
+   "qtsvg-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "6.2M",
+   "qtdeclarative-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "624M",
    "qtbase-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z": "313M"
   }
  },
@@ -362,8 +362,8 @@
   "Name": "qt.qt6.640.qt5compat.ios",
   "DisplayName": "Qt 5 Compatibility Modulefor iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.qt5compat, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -371,31 +371,31 @@
   "SortingPriority": null,
   "DownloadableArchives": "qt5compat-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "10.9M",
-  "UncompressedSize": "90.8M",
-  "SHA1": "6d86f7ff8d196844906c2eddbba673555ce7f25d"
+  "UncompressedSize": "90.4M",
+  "SHA1": "28d2353bd0b6316e1099fa088b1860cb22359588"
  },
  "qt.qt6.640.qtquick3d.ios": {
   "Name": "qt.qt6.640.qtquick3d.ios",
   "DisplayName": "Qt Quick 3D for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.qtquick3d, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtquick3d-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
-  "CompressedSize": "129.6M",
-  "UncompressedSize": "1.0G",
-  "SHA1": "d875c7836dd64e65e595fce6d8fb8d45cee39b9d"
+  "CompressedSize": "131.3M",
+  "UncompressedSize": "1.1G",
+  "SHA1": "6d2efaf6833cbd90a63564c46621cf71981b09b4"
  },
  "qt.qt6.640.qtquicktimeline.ios": {
   "Name": "qt.qt6.640.qtquicktimeline.ios",
   "DisplayName": "Qt Quick Timeline for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.qtquicktimeline, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -404,14 +404,14 @@
   "DownloadableArchives": "qtquicktimeline-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "3.3M",
   "UncompressedSize": "25.9M",
-  "SHA1": "f91d448dcacf26cb7beb19a4be3b750c87568140"
+  "SHA1": "29604c4194eb0041d22ac17eb6fa376272b52942"
  },
  "qt.qt6.640.qtshadertools.ios": {
   "Name": "qt.qt6.640.qtshadertools.ios",
   "DisplayName": "Qt Shader Tools for iOS",
   "Description": null,
-  "Version": "6.4.0-0-202208301021",
-  "ReleaseDate": "2022-08-30",
+  "Version": "6.4.0-0-202209140412",
+  "ReleaseDate": "2022-09-14",
   "AutoDependOn": "qt.qt6.640.qtshadertools, qt.qt6.640.ios",
   "Dependencies": "qt.qt6.640.ios",
   "Virtual": "true",
@@ -420,6 +420,6 @@
   "DownloadableArchives": "qtshadertools-MacOS-MacOS_12-Clang-IOS-IOS_ANY-ARM64.7z",
   "CompressedSize": "27.7M",
   "UncompressedSize": "250.7M",
-  "SHA1": "9165a2e2fba8cef328e09972f9f0d3202ed28277"
+  "SHA1": "d49eaaf1ebef8a1bfd22bc07b572fba4c43aefe9"
  }
 }
