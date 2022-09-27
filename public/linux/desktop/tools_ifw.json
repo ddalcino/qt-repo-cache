@@ -3,13 +3,13 @@
   "Name": "qt.tools.ifw.44",
   "DisplayName": "Qt Installer Framework 4.4",
   "Description": "The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.",
-  "Version": "4.4.1-0-202206210640",
-  "ReleaseDate": "2022-06-21",
+  "Version": "4.4.2-0-202209230738",
+  "ReleaseDate": "2022-09-23",
   "Default": "false",
-  "SortingPriority": "441",
+  "SortingPriority": "442",
   "DownloadableArchives": "ifw-linux-x64.7z",
   "CompressedSize": "41.8M",
   "UncompressedSize": "118.7M",
-  "SHA1": "e8b9b2b391798859c02b8d6d913da0aec739fc26"
+  "SHA1": "585ab419aba9620b6f7623f52fbd1cda3fe766d7"
  }
 }

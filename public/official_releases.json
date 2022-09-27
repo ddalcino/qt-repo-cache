@@ -3876,6 +3876,13 @@
   }
  },
  "qt-installer-framework/": {
+  "4.4.2/": {
+   "installer-framework-opensource-src-4.4.2.zip": "5.7M",
+   "installer-framework-opensource-src-4.4.2.tar.xz": "3.1M",
+   "QtInstallerFramework-windows-x64-4.4.2.exe": "66M",
+   "QtInstallerFramework-macOS-x64-4.4.2.dmg": "46M",
+   "QtInstallerFramework-linux-x64-4.4.2.run": "73M"
+  },
   "4.4.1/": {
    "installer-framework-opensource-src-4.4.1.zip": "5.7M",
    "installer-framework-opensource-src-4.4.1.tar.xz": "3.1M",
