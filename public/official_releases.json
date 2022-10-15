@@ -3406,6 +3406,10 @@
    }
   },
   "shiboken6/": {
+   "PySide6-6.4.0-src/": {
+    "pyside-setup-opensource-src-6.4.0.zip": "12M",
+    "pyside-setup-opensource-src-6.4.0.tar.xz": "8.2M"
+   },
    "PySide6-6.3.2-src/": {
     "pyside-setup-opensource-src-6.3.2.zip": "12M",
     "pyside-setup-opensource-src-6.3.2.tar.xz": "7.5M"
@@ -3474,6 +3478,12 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "shiboken6-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "1.5M",
+   "shiboken6-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "229K",
+   "shiboken6-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "439K",
+   "shiboken6-6.4.0-cp36-abi3-win_amd64.whl": "1.5M",
+   "shiboken6-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "176K",
+   "shiboken6-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "339K",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-win_amd64.whl": "1.5M",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-manylinux_2_28_x86_64.whl": "231K",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-macosx_10_14_universal2.whl": "395K",
@@ -3532,6 +3542,24 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-none-win_amd64.whl": "2.2M",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-manylinux1_x86_64.whl": "942K",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "71M",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "76M",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "132M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-win_amd64.whl": "71M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "76M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "91M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "106M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "208M",
+   "PySide6_Addons-6.4.0-cp36-abi3-win_amd64.whl": "91M",
+   "PySide6_Addons-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "106M",
+   "PySide6_Addons-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "208M",
+   "PySide6-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "7.2K",
+   "PySide6-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "6.7K",
+   "PySide6-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "6.7K",
+   "PySide6-6.4.0-cp36-abi3-win_amd64.whl": "7.2K",
+   "PySide6-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "6.7K",
+   "PySide6-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "6.7K",
    "PySide6-6.3.2-6.3.2-cp36-abi3-win_amd64.whl": "162M",
    "PySide6-6.3.2-6.3.2-cp36-abi3-manylinux_2_28_x86_64.whl": "193M",
    "PySide6-6.3.2-6.3.2-cp36-abi3-macosx_10_14_universal2.whl": "338M",
@@ -3592,6 +3620,12 @@
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "43M"
   },
   "shiboken6-generator/": {
+   "shiboken6_generator-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "22M",
+   "shiboken6_generator-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "26M",
+   "shiboken6_generator-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "45M",
+   "shiboken6_generator-6.4.0-cp36-abi3-win_amd64.whl": "22M",
+   "shiboken6_generator-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "26M",
+   "shiboken6_generator-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "45M",
    "shiboken6_generator-6.3.2-6.3.2-cp36-abi3-win_amd64.whl": "22M",
    "shiboken6_generator-6.3.2-6.3.2-cp36-abi3-manylinux_2_28_x86_64.whl": "26M",
    "shiboken6_generator-6.3.2-6.3.2-cp36-abi3-macosx_10_14_universal2.whl": "45M",
@@ -4142,6 +4176,10 @@
    "shiboken2_generator-5.12.0-5.12.0-cp27-cp27m-macosx_10_12_intel.whl": "25M"
   },
   "pyside6/": {
+   "PySide6-6.4.0-src/": {
+    "pyside-setup-opensource-src-6.4.0.zip": "12M",
+    "pyside-setup-opensource-src-6.4.0.tar.xz": "8.2M"
+   },
    "PySide6-6.3.2-src/": {
     "pyside-setup-opensource-src-6.3.2.zip": "12M",
     "pyside-setup-opensource-src-6.3.2.tar.xz": "7.5M"
@@ -4210,6 +4248,12 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "shiboken6-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "1.5M",
+   "shiboken6-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "229K",
+   "shiboken6-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "439K",
+   "shiboken6-6.4.0-cp36-abi3-win_amd64.whl": "1.5M",
+   "shiboken6-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "176K",
+   "shiboken6-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "339K",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-win_amd64.whl": "1.5M",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-manylinux_2_28_x86_64.whl": "231K",
    "shiboken6-6.3.2-6.3.2-cp36-abi3-macosx_10_14_universal2.whl": "395K",
@@ -4268,6 +4312,24 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-none-win_amd64.whl": "2.2M",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-manylinux1_x86_64.whl": "942K",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "71M",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "76M",
+   "PySide6_Essentials-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "132M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-win_amd64.whl": "71M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "76M",
+   "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "91M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "106M",
+   "PySide6_Addons-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "208M",
+   "PySide6_Addons-6.4.0-cp36-abi3-win_amd64.whl": "91M",
+   "PySide6_Addons-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "106M",
+   "PySide6_Addons-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "208M",
+   "PySide6-6.4.0-pp39-pypy39_pp73-win_amd64.whl": "7.2K",
+   "PySide6-6.4.0-pp39-pypy39_pp73-manylinux_2_28_x86_64.whl": "6.7K",
+   "PySide6-6.4.0-pp39-pypy39_pp73-macosx_10_9_universal2.whl": "6.7K",
+   "PySide6-6.4.0-cp36-abi3-win_amd64.whl": "7.2K",
+   "PySide6-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "6.7K",
+   "PySide6-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "6.7K",
    "PySide6-6.3.2-6.3.2-cp36-abi3-win_amd64.whl": "162M",
    "PySide6-6.3.2-6.3.2-cp36-abi3-manylinux_2_28_x86_64.whl": "193M",
    "PySide6-6.3.2-6.3.2-cp36-abi3-macosx_10_14_universal2.whl": "338M",
