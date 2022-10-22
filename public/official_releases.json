@@ -277,6 +277,43 @@
  },
  "qtcreator/": {
   "8.0/": {
+   "8.0.2/": {
+    "installer_source/": {
+     "windows_x86/": {
+      "wininterrupt.7z": "5.3K",
+      "qtcreatorcdbext.7z": "2.1M",
+      "md5sums.txt": "103"
+     },
+     "windows_x64/": {
+      "wininterrupt.7z": "5.4K",
+      "qtcreatorcdbext.7z": "2.3M",
+      "qtcreator_dev.7z": "9.8M",
+      "qtcreator.7z": "107M",
+      "qtcreator-debug.7z": "233M",
+      "md5sums.txt": "254"
+     },
+     "mac_x64/": {
+      "qtcreator_dev.7z": "21M",
+      "qtcreator.7z": "142M",
+      "qtcreator-debug.7z": "491M",
+      "md5sums.txt": "151"
+     },
+     "linux_x64/": {
+      "qtcreator_dev.7z": "22M",
+      "qtcreator.7z": "109M",
+      "qtcreator-debug.7z": "491M",
+      "md5sums.txt": "151"
+     }
+    },
+    "qt-creator-opensource-windows-x86_64-8.0.2.exe": "270M",
+    "qt-creator-opensource-src-8.0.2.zip": "73M",
+    "qt-creator-opensource-src-8.0.2.tar.xz": "47M",
+    "qt-creator-opensource-src-8.0.2.tar.gz": "59M",
+    "qt-creator-opensource-mac-x86_64-8.0.2_installer.dmg": "186M",
+    "qt-creator-opensource-mac-x86_64-8.0.2.dmg": "236M",
+    "qt-creator-opensource-linux-x86_64-8.0.2.run": "177M",
+    "md5sums.txt": "540"
+   },
    "8.0.1/": {
     "installer_source/": {
      "windows_x86/": {
@@ -2547,6 +2584,17 @@
   }
  },
  "qbs/": {
+  "1.23.2/": {
+   "sha256sums.txt": "626",
+   "qbs.1.23.2.nupkg": "19K",
+   "qbs-windows-x86_64-1.23.2.zip": "13M",
+   "qbs-windows-x86-1.23.2.zip": "12M",
+   "qbs-src-1.23.2.zip": "14M",
+   "qbs-src-1.23.2.tar.gz": "8.9M",
+   "qbs-linux-x86_64-1.23.2.tar.gz": "28M",
+   "md5sums.txt": "402",
+   "changes-1.23.2.md": "182"
+  },
   "1.23.1/": {
    "sha256sums.txt": "626",
    "qbs.1.23.1.nupkg": "19K",
