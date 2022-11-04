@@ -1,13 +1,13 @@
 {
  "qt.tools.openssl.win_x64": {
   "Name": "qt.tools.openssl.win_x64",
-  "DisplayName": "OpenSSL 64-bit binaries",
-  "Description": "OpenSSL 64-bit binaries.<br><br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.<br><br>Note: Qt installer doesn't set up OpenSSL environment. User needs to define the path and environment variables.",
-  "Version": "1.1.1-10",
-  "ReleaseDate": "2021-02-26",
-  "DownloadableArchives": "openssl_1.1.1j_prebuild_x64.7z",
-  "CompressedSize": "3.6M",
-  "UncompressedSize": "56.6M",
-  "SHA1": "3d92854f623a240cab0f42fbe98eaff851df4b61"
+  "DisplayName": "OpenSSL 64-bit binaries (MSVC 2019)",
+  "Description": "OpenSSL 64-bit binaries (MSVC 2019).<br><br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.<br><br>Note: Qt installer doesn't set up OpenSSL environment. User needs to define the path and environment variables.",
+  "Version": "1.1.1-17",
+  "ReleaseDate": "2022-11-03",
+  "DownloadableArchives": "openssl_1.1.1q_prebuild_x64.7z",
+  "CompressedSize": "4.6M",
+  "UncompressedSize": "60.9M",
+  "SHA1": "9aa4580666a35aa86034c6818b6d263e682a2151"
  }
 }
