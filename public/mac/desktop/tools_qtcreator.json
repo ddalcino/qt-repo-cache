@@ -1,47 +1,47 @@
 {
  "qt.tools.qtcreator": {
   "Name": "qt.tools.qtcreator",
-  "DisplayName": "Qt Creator 8.0.2",
+  "DisplayName": "Qt Creator 9.0.0",
   "Description": "IDE for Qt application development",
-  "Version": "8.0.2-0-202210191544",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "Script": "installscript.qs",
   "Dependencies": null,
   "SortingPriority": "1000",
   "ForcedInstallation": "true",
   "DownloadableArchives": "qtcreator.7z, qtcreator_sdktool.7z",
-  "CompressedSize": "144.2M",
-  "UncompressedSize": "659.0M",
+  "CompressedSize": "149.9M",
+  "UncompressedSize": "679.9M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "396bd36c5d7e1263e0f942cc55490aa30b926ad7",
+  "SHA1": "dadc40fc073a34044577fb568d007988c56aba2e",
   "ArchiveSizes": {
    "qtcreator_sdktool.7z": "1.7M",
-   "qtcreator.7z": "142M"
+   "qtcreator.7z": "148M"
   }
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 8.0.2 Debug Symbols",
+  "DisplayName": "Qt Creator 9.0.0 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "8.0.2-0-202210191544",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "491.5M",
+  "CompressedSize": "502.3M",
   "UncompressedSize": "3.1G",
-  "SHA1": "1549e23f0818d5188a6090f7bc40269623983965"
+  "SHA1": "e58744624904fa7fc63a993074b9802a5c23bcf5"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 8.0.2 Plugin Development",
+  "DisplayName": "Qt Creator 9.0.0 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "8.0.2-0-202210191544",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "21.3M",
-  "UncompressedSize": "172.3M",
-  "SHA1": "371304b6238481f40c3452d8e030605a7301956c"
+  "CompressedSize": "25.7M",
+  "UncompressedSize": "186.1M",
+  "SHA1": "b127e52b17f8bef58d2e439873bd7ba5030e353a"
  }
 }

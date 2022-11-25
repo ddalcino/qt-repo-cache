@@ -1,60 +1,60 @@
 {
  "qt.tools.qtcreator": {
   "Name": "qt.tools.qtcreator",
-  "DisplayName": "Qt Creator 8.0.2",
+  "DisplayName": "Qt Creator 9.0.0",
   "Description": "IDE for Qt application development",
-  "Version": "8.0.2-0-202210191454",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "Script": "installscript.qs",
   "Dependencies": null,
   "SortingPriority": "1000",
   "ForcedInstallation": "true",
   "DownloadableArchives": "qtcreator.7z, qtcreator_sdktool.7z",
-  "CompressedSize": "116.8M",
-  "UncompressedSize": "460.4M",
+  "CompressedSize": "120.7M",
+  "UncompressedSize": "472.0M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "50fa4b8c1fa4f81aa17da066eb2fc245ecaf2908",
+  "SHA1": "e2fd72a9f9115db1bd75f3fce73d8bfbc83ee7aa",
   "ArchiveSizes": {
    "qtcreator_sdktool.7z": "2.0M",
-   "qtcreator.7z": "115M"
+   "qtcreator.7z": "119M"
   }
  },
  "qt.tools.qtcreator.src": {
   "Name": "qt.tools.qtcreator.src",
-  "DisplayName": "Qt Creator 8.0.2 Src",
-  "Description": "Qt Creator 8.0.2 Src",
-  "Version": "8.0.2-0-202210191454",
-  "ReleaseDate": "2022-10-19",
+  "DisplayName": "Qt Creator 9.0.0 Src",
+  "Description": "Qt Creator 9.0.0 Src",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "Virtual": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator_src.7z",
-  "CompressedSize": "46.3M",
-  "UncompressedSize": "188.0M",
-  "SHA1": "c6d226dbe85dec228804e58c9f878fa3993d10f2"
+  "CompressedSize": "46.4M",
+  "UncompressedSize": "177.6M",
+  "SHA1": "928f5227b3187157d107e52b3da407865a7c11e7"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 8.0.2 Debug Symbols",
+  "DisplayName": "Qt Creator 9.0.0 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "8.0.2-0-202210191454",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "492.0M",
-  "UncompressedSize": "2.3G",
-  "SHA1": "dcd0edd2c7e108b218bb1febb666dd5eb15b0b61"
+  "CompressedSize": "517.0M",
+  "UncompressedSize": "2.4G",
+  "SHA1": "4ca0becfe60f5a5c620c91c2ee07da21d5ba3b2a"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 8.0.2 Plugin Development",
+  "DisplayName": "Qt Creator 9.0.0 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "8.0.2-0-202210191454",
-  "ReleaseDate": "2022-10-19",
+  "Version": "9.0.0-0-202211220359",
+  "ReleaseDate": "2022-11-22",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "22.1M",
-  "UncompressedSize": "197.0M",
-  "SHA1": "75b1820db7e4819c58e651620eb48fb0c95bc1a2"
+  "CompressedSize": "25.3M",
+  "UncompressedSize": "218.4M",
+  "SHA1": "13e35280af8d998850bf5845175803159d7b46b7"
  }
 }
