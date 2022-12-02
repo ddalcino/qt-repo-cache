@@ -3491,9 +3491,6 @@
    "android-ndk-r10-linux-x86-gdb.tar.xz": "15M"
   }
  },
- "debian/": {
-  "qt-company-debian-repo.gpg": "2.2K"
- },
  "additional_libraries/": {
   "qtnetworkauth/": {
    "6.0/": {
