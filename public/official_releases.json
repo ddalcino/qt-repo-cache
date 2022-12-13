@@ -2603,6 +2603,14 @@
   }
  },
  "qt-installer-framework/": {
+  "4.5.1/": {
+   "md5sums.txt": "388",
+   "installer-framework-opensource-src-4.5.1.zip": "5.8M",
+   "installer-framework-opensource-src-4.5.1.tar.xz": "3.1M",
+   "QtInstallerFramework-windows-x64-4.5.1.exe": "66M",
+   "QtInstallerFramework-macOS-x64-4.5.1.dmg": "46M",
+   "QtInstallerFramework-linux-x64-4.5.1.run": "73M"
+  },
   "4.5.0/": {
    "md5sums.txt": "388",
    "installer-framework-opensource-src-4.5.0.zip": "5.8M",
