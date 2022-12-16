@@ -22,9 +22,11 @@
   "tools_qt3dstudio_runtime_230",
   "tools_qt3dstudio_runtime_240",
   "tools_qtcreator",
+  "tools_qtcreator_gui",
   "tools_qtdesignstudio",
   "tools_qtdesignstudio_generation2",
-  "tools_telemetry"
+  "tools_telemetry",
+  "tools_telemetry_gui"
  ],
  "qt": [
   "qt5_5100",

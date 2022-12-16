@@ -27,10 +27,12 @@
   "tools_qt3dstudio_runtime_230",
   "tools_qt3dstudio_runtime_240",
   "tools_qtcreator",
+  "tools_qtcreator_gui",
   "tools_qtcreator_kits_and_debuggers",
   "tools_qtdesignstudio",
   "tools_qtdesignstudio_generation2",
   "tools_telemetry",
+  "tools_telemetry_gui",
   "tools_vcredist"
  ],
  "qt": [
