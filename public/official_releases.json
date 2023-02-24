@@ -3091,6 +3091,17 @@
   }
  },
  "qbs/": {
+  "1.24.1/": {
+   "sha256sums.txt": "626",
+   "qbs.1.24.1.nupkg": "19K",
+   "qbs-windows-x86_64-1.24.1.zip": "13M",
+   "qbs-windows-x86-1.24.1.zip": "12M",
+   "qbs-src-1.24.1.zip": "14M",
+   "qbs-src-1.24.1.tar.gz": "8.9M",
+   "qbs-linux-x86_64-1.24.1.tar.gz": "28M",
+   "md5sums.txt": "402",
+   "changes-1.24.1.md": "152"
+  },
   "1.24.0/": {
    "sha256sums.txt": "542",
    "qbs.1.24.0.nupkg": "19K",
