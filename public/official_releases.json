@@ -1,5 +1,11 @@
 {
  "vsaddin/": {
+  "2.9.1/": {
+   "qt-vsaddin-msvc2022-2.9.1-rev.06.vsix": "20M",
+   "qt-vsaddin-msvc2019-2.9.1-rev.06.vsix": "18M",
+   "qt-vsaddin-msvc2017-2.9.1-rev.06.vsix": "19M",
+   "md5sums.txt": "216"
+  },
   "2.8.1/": {
    "qt-vsaddin-msvc2022-2.8.1-rev.06.vsix": "20M",
    "qt-vsaddin-msvc2019-2.8.1-rev.06.vsix": "17M",
