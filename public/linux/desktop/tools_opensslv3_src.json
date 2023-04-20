@@ -1,0 +1,13 @@
+{
+ "qt.tools.opensslv3.src": {
+  "Name": "qt.tools.opensslv3.src",
+  "DisplayName": "OpenSSL source code",
+  "Description": "OpenSSL source code.<br><br>Due to import and export restrictions in some parts of the world, developers wishing to use SSL communication in their deployed applications should either ensure that their users have the appropriate libraries installed, or they should consult a suitably qualified legal professional to ensure that applications using code from the OpenSSL project are correctly certified for import and export in relevant regions of the world.<br><br>Note: Qt installer doesn't set up OpenSSL environment. User needs to define the path and environment variables.",
+  "Version": "3.0.8-1",
+  "ReleaseDate": "2023-03-24",
+  "DownloadableArchives": "openssl-3.0.8.tar.gz",
+  "CompressedSize": "14.6M",
+  "UncompressedSize": "51.6M",
+  "SHA1": "a29f24502a33b7874263f23adbacb3c4da1c7c51"
+ }
+}
