@@ -1,57 +1,57 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 10.0.0",
+  "DisplayName": "Qt Creator 10.0.1",
   "Description": "IDE for Qt application development",
-  "Version": "10.0.0-0-202303281239",
-  "ReleaseDate": "2023-03-28",
+  "Version": "10.0.1-0-202305040320",
+  "ReleaseDate": "2023-05-04",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z",
   "CompressedSize": "121.2M",
-  "UncompressedSize": "477.1M",
+  "UncompressedSize": "477.5M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "5f7c0c5b59bb249852c7501b91d5801f632325ed"
+  "SHA1": "528b083f6cd7022594a2c3ad7d12fc462f196689"
  },
  "qt.tools.qtcreator_gui.src": {
   "Name": "qt.tools.qtcreator_gui.src",
-  "DisplayName": "Qt Creator 10.0.0 Src",
-  "Description": "Qt Creator 10.0.0 Src",
-  "Version": "10.0.0-0-202303281239",
-  "ReleaseDate": "2023-03-28",
+  "DisplayName": "Qt Creator 10.0.1 Src",
+  "Description": "Qt Creator 10.0.1 Src",
+  "Version": "10.0.1-0-202305040320",
+  "ReleaseDate": "2023-05-04",
   "Virtual": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator_src.7z",
   "Replaces": "qt.tools.qtcreator.src",
-  "CompressedSize": "46.3M",
+  "CompressedSize": "46.2M",
   "UncompressedSize": "153.9M",
-  "SHA1": "db0922973febe7ff9c0dbb11cc3078b2428eab24"
+  "SHA1": "69ff6f09c47813dd8d5adcf7dff663179453de6d"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 10.0.0 Debug Symbols",
+  "DisplayName": "Qt Creator 10.0.1 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "10.0.0-0-202303281239",
-  "ReleaseDate": "2023-03-28",
+  "Version": "10.0.1-0-202305040320",
+  "ReleaseDate": "2023-05-04",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "531.3M",
+  "CompressedSize": "531.2M",
   "UncompressedSize": "2.4G",
-  "SHA1": "4e7f9884ec6d0750888a1488ec3be0d5db79c467"
+  "SHA1": "d47f57847607209cf430f4d9fb625f12250aa05e"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 10.0.0 Plugin Development",
+  "DisplayName": "Qt Creator 10.0.1 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "10.0.0-0-202303281239",
-  "ReleaseDate": "2023-03-28",
+  "Version": "10.0.1-0-202305040320",
+  "ReleaseDate": "2023-05-04",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "26.2M",
   "UncompressedSize": "225.5M",
-  "SHA1": "91a7ed0e17e919b27ebe527cb0e864044ae99eb5"
+  "SHA1": "970ad975f0bc5e396470c9ecd16d385e4f1228bd"
  }
 }

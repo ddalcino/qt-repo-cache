@@ -283,6 +283,47 @@
  },
  "qtcreator/": {
   "10.0/": {
+   "10.0.1/": {
+    "installer_source/": {
+     "windows_x86/": {
+      "wininterrupt.7z": "5.3K",
+      "qtcreatorcdbext.7z": "2.1M",
+      "md5sums.txt": "103"
+     },
+     "windows_x64/": {
+      "wininterrupt.7z": "13K",
+      "qtcreatorcdbext.7z": "2.3M",
+      "qtcreator_dev.7z": "12M",
+      "qtcreator.7z": "109M",
+      "qtcreator-debug.7z": "248M",
+      "md5sums.txt": "254"
+     },
+     "mac_x64/": {
+      "qtcreator_dev.7z": "27M",
+      "qtcreator.7z": "152M",
+      "qtcreator-debug.7z": "523M",
+      "md5sums.txt": "151"
+     },
+     "linux_x64/": {
+      "qtcreator_dev.7z": "26M",
+      "qtcreator.7z": "115M",
+      "qtcreator-debug.7z": "531M",
+      "md5sums.txt": "151"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-10.0.1.deb": "108M",
+     "md5sums.txt": "79"
+    },
+    "qt-creator-opensource-windows-x86_64-10.0.1.exe": "276M",
+    "qt-creator-opensource-src-10.0.1.zip": "65M",
+    "qt-creator-opensource-src-10.0.1.tar.xz": "46M",
+    "qt-creator-opensource-src-10.0.1.tar.gz": "56M",
+    "qt-creator-opensource-mac-x86_64-10.0.1_installer.dmg": "204M",
+    "qt-creator-opensource-mac-x86_64-10.0.1.dmg": "251M",
+    "qt-creator-opensource-linux-x86_64-10.0.1.run": "194M",
+    "md5sums.txt": "547"
+   },
    "10.0.0/": {
     "installer_source/": {
      "windows_x86/": {
