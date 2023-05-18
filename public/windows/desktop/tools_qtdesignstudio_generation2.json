@@ -1,32 +1,32 @@
 {
  "qt.tools.qtdesignstudio": {
   "Name": "qt.tools.qtdesignstudio",
-  "DisplayName": "Qt Design Studio 4.0.1",
+  "DisplayName": "Qt Design Studio 4.1.0",
   "Description": "Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.",
-  "Version": "4.0.1-0-202303290520",
-  "ReleaseDate": "2023-03-29",
+  "Version": "4.1.0-0-202305160651",
+  "ReleaseDate": "2023-05-16",
   "Script": "installscript.qs",
   "TreeName": "qtdesignstudio.release",
   "Default": "true",
   "SortingPriority": "100",
-  "CompressedSize": "533.7M",
-  "UncompressedSize": "1.5G",
+  "CompressedSize": "832.4M",
+  "UncompressedSize": "3.0G",
   "DownloadableArchives": "design_studio_extra_qt_docs.7z,designstudio_base.7z,plugin-telemetry.7z,qdb.7z,qt5_design_studio_reduced_version.7z,qt5_qmlpuppet.7z,qt6_design_studio_reduced_version.7z,qt6_qmlpuppet.7z,qtcreator.7z,qtcreator_sdktool.7z,qtdesignviewer_arm64-v8a.zip,qtdesignviewer_armeabi-v7a.zip,qtdesignviewer_x86.zip,qtdesignviewer_x86_64.zip,content.7z",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtdesignstudiocheckboxform.ui,readmecheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "f884a3a3fd13f25a9feca0c1fa0520461359866e",
+  "SHA1": "875d22ac39a02c4989f55520475fff7a6c3fff9a",
   "ArchiveSizes": {
    "qtcreator_sdktool.7z": "1.1M",
-   "qtcreator.7z": "148M",
-   "qt6_qmlpuppet.7z": "827K",
-   "qt6_design_studio_reduced_version.7z": "117M",
-   "qt5_qmlpuppet.7z": "682K",
-   "qt5_design_studio_reduced_version.7z": "103M",
+   "qtcreator.7z": "150M",
+   "qt6_qmlpuppet.7z": "858K",
+   "qt6_design_studio_reduced_version.7z": "306M",
+   "qt5_qmlpuppet.7z": "680K",
+   "qt5_design_studio_reduced_version.7z": "190M",
    "qdb.7z": "5.5M",
    "plugin-telemetry.7z": "171K",
-   "designstudio_base.7z": "7.9M",
-   "design_studio_extra_qt_docs.7z": "30M",
-   "content.7z": "1.4K"
+   "designstudio_base.7z": "13M",
+   "design_studio_extra_qt_docs.7z": "47M",
+   "content.7z": "1.2K"
   }
  }
 }
