@@ -3435,6 +3435,14 @@
   }
  },
  "qt-installer-framework/": {
+  "4.6.0/": {
+   "md5sums.txt": "388",
+   "installer-framework-everywhere-src-4.6.0.zip": "5.9M",
+   "installer-framework-everywhere-src-4.6.0.tar.xz": "3.2M",
+   "QtInstallerFramework-windows-x64-4.6.0.exe": "66M",
+   "QtInstallerFramework-macOS-x64-4.6.0.dmg": "46M",
+   "QtInstallerFramework-linux-x64-4.6.0.run": "73M"
+  },
   "4.5.2/": {
    "md5sums.txt": "388",
    "installer-framework-opensource-src-4.5.2.zip": "5.8M",
@@ -4304,9 +4312,9 @@
   "PySide-1.1.1qt474.win-amd64-py2.7.exe": "41M"
  },
  "online_installers/": {
-  "qt-unified-windows-x64-online.exe": "41M",
-  "qt-unified-mac-x64-online.dmg": "18M",
-  "qt-unified-linux-x64-online.run": "55M"
+  "qt-unified-windows-x64-online.exe": "39M",
+  "qt-unified-mac-x64-online.dmg": "15M",
+  "qt-unified-linux-x64-online.run": "52M"
  },
  "jom/": {
   "unstable-jom.zip": "1.2M",
