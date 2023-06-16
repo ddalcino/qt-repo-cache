@@ -1,0 +1,19 @@
+{
+ "qt.tools.qtcreator_gui.telemetry_evaluator": {
+  "Name": "qt.tools.qtcreator_gui.telemetry_evaluator",
+  "DisplayName": "Qt Telemetry plugin (Evaluators)",
+  "Description": "Collects pseudonymous data from Qt Creator",
+  "Version": "9.0.1-0-202212090837",
+  "ReleaseDate": "2022-12-09",
+  "Script": "installscript.qs",
+  "Virtual": "true",
+  "AutoDependOn": "qt.tools.qtcreator_gui",
+  "Replaces": "qt.tools.qtcreator.telemetry_evaluator",
+  "CompressedSize": "122.3K",
+  "UncompressedSize": "663.9K",
+  "DownloadableArchives": "telemetry.7z",
+  "UserInterfaces": "telemetrypluginform.ui",
+  "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
+  "SHA1": "e9c97d3519b2b7ad75c72e29f143429e50e85a2f"
+ }
+}

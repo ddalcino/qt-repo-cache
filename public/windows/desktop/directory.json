@@ -34,6 +34,7 @@
   "tools_qtdesignstudio",
   "tools_qtdesignstudio_generation2",
   "tools_telemetry",
+  "tools_telemetry_eval_gui",
   "tools_telemetry_gui",
   "tools_vcredist"
  ],
@@ -189,6 +190,10 @@
   "qt6_651",
   "qt6_651_src_doc_examples",
   "qt6_651_wasm_multithread",
-  "qt6_651_wasm_singlethread"
+  "qt6_651_wasm_singlethread",
+  "qt6_660",
+  "qt6_660_src_doc_examples",
+  "qt6_660_wasm_multithread",
+  "qt6_660_wasm_singlethread"
  ]
 }

@@ -1,10 +1,10 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 10.0.1",
+  "DisplayName": "Qt Creator 10.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "10.0.1-0-202305040320",
-  "ReleaseDate": "2023-05-04",
+  "Version": "10.0.2-0-202306141241",
+  "ReleaseDate": "2023-06-14",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
@@ -14,30 +14,30 @@
   "UncompressedSize": "704.6M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "a6cc4592c17d5626ae0e04f0592d0ebcca7405b3"
+  "SHA1": "323754f471b9be87d096820679ecd702573ffcda"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 10.0.1 Debug Symbols",
+  "DisplayName": "Qt Creator 10.0.2 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "10.0.1-0-202305040320",
-  "ReleaseDate": "2023-05-04",
+  "Version": "10.0.2-0-202306141241",
+  "ReleaseDate": "2023-06-14",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "531.0M",
+  "CompressedSize": "531.1M",
   "UncompressedSize": "3.3G",
-  "SHA1": "fc14e700a0d7d223a4d9d060787c57d2922b2c4d"
+  "SHA1": "e1c5fc1aecd31ea2cb2c7bc3b5b0e95959956c78"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 10.0.1 Plugin Development",
+  "DisplayName": "Qt Creator 10.0.2 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "10.0.1-0-202305040320",
-  "ReleaseDate": "2023-05-04",
+  "Version": "10.0.2-0-202306141241",
+  "ReleaseDate": "2023-06-14",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "26.7M",
   "UncompressedSize": "192.8M",
-  "SHA1": "e8647e6d62f4fa1ba6bb30b51e94116707061f34"
+  "SHA1": "f8b33d8ee8fe82f0cfbbbb52ce2ca0c416f2a4d5"
  }
 }
