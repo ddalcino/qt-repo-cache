@@ -26,6 +26,7 @@
   "tools_qtcreator_gui",
   "tools_qtdesignstudio",
   "tools_qtdesignstudio_generation2",
+  "tools_qtdesignstudio_generation2_lts",
   "tools_telemetry",
   "tools_telemetry_eval_gui",
   "tools_telemetry_gui"

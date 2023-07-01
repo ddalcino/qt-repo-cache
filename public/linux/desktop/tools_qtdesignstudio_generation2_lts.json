@@ -1,0 +1,29 @@
+{
+ "qtdesignstudio.lts": {
+  "Name": "qtdesignstudio.lts",
+  "DisplayName": "Qt Design Studio 4.1.0 LTS",
+  "Description": "Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.",
+  "Version": "4.1.0-0-202306291837",
+  "ReleaseDate": "2023-06-29",
+  "Script": "installscript.qs",
+  "Default": "false",
+  "SortingPriority": "80",
+  "CompressedSize": "637.8M",
+  "UncompressedSize": "1.8G",
+  "DownloadableArchives": "design_studio_extra_qt_docs.7z,designstudio_base.7z,plugin-telemetry.7z,qt5_design_studio_reduced_version.7z,qt5_qmlpuppet.7z,qt6_design_studio_reduced_version.7z,qt6_qmlpuppet.7z,qtcreator.7z,qtcreator_sdktool.7z,qtdesignviewer_arm64-v8a.zip,qtdesignviewer_armeabi-v7a.zip,qtdesignviewer_x86.zip,qtdesignviewer_x86_64.zip",
+  "UserInterfaces": "associatecommonfiletypesform.ui,launchqtdesignstudiocheckboxform.ui,readmecheckboxform.ui",
+  "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
+  "SHA1": "23c8490bd975a02b23e02ed9ee3e8817bd25e827",
+  "ArchiveSizes": {
+   "qtcreator_sdktool.7z": "1.8M",
+   "qtcreator.7z": "152M",
+   "qt6_qmlpuppet.7z": "748K",
+   "qt6_design_studio_reduced_version.7z": "172M",
+   "qt5_qmlpuppet.7z": "617K",
+   "qt5_design_studio_reduced_version.7z": "127M",
+   "plugin-telemetry.7z": "4.0M",
+   "designstudio_base.7z": "13M",
+   "design_studio_extra_qt_docs.7z": "47M"
+  }
+ }
+}
