@@ -1404,6 +1404,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2023-37369-qtbase-6.5.diff": "5.9K",
    "CVE-2023-34410-qtbase-6.5.diff": "2.6K",
    "CVE-2023-33285-qtbase-6.5.diff": "2.8K",
    "CVE-2023-32763-qtbase-6.5.diff": "2.0K",
@@ -2332,6 +2333,7 @@
     "OFFLINE_README.txt": "357"
    },
    "qprocess6-2.diff": "968",
+   "CVE-2023-37369-qtbase-6.2.diff": "5.9K",
    "CVE-2023-34410-qtbase-6.2.diff": "2.6K",
    "CVE-2023-33285-qtbase-6.2.diff": "2.8K",
    "CVE-2023-32763-qtbase-6.2.diff": "1.8K",
@@ -3464,6 +3466,7 @@
     "OFFLINE_README.txt": "357"
    },
    "qprocess5-15.diff": "2.4K",
+   "CVE-2023-37369-qtbase-5.15.diff": "6.1K",
    "CVE-2023-34410-qtbase-5.15.diff": "2.7K",
    "CVE-2023-33285-qtbase-5.15.diff": "2.8K",
    "CVE-2023-32763-qtbase-5.15.diff": "1.7K",
