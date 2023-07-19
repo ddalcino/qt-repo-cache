@@ -4719,6 +4719,10 @@
    }
   },
   "shiboken6/": {
+   "Pyside6-6.2.5-src/": {
+    "pyside-setup-opensource-src-6.2.5.zip": "11M",
+    "pyside-setup-opensource-src-6.2.5.tar.xz": "7.3M"
+   },
    "PySide6-6.5.1.1-src/": {
     "pyside-setup-everywhere-src-6.5.1.1.zip": "17M",
     "pyside-setup-everywhere-src-6.5.1.1.tar.xz": "13M"
@@ -5743,6 +5747,10 @@
    "shiboken2_generator-5.12.0-5.12.0-cp27-cp27m-macosx_10_12_intel.whl": "25M"
   },
   "pyside6/": {
+   "Pyside6-6.2.5-src/": {
+    "pyside-setup-opensource-src-6.2.5.zip": "11M",
+    "pyside-setup-opensource-src-6.2.5.tar.xz": "7.3M"
+   },
    "PySide6-6.5.1.1-src/": {
     "pyside-setup-everywhere-src-6.5.1.1.zip": "17M",
     "pyside-setup-everywhere-src-6.5.1.1.tar.xz": "13M"
