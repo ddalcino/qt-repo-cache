@@ -1,10 +1,10 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 11.0.0",
+  "DisplayName": "Qt Creator 11.0.1",
   "Description": "IDE for Qt application development",
-  "Version": "11.0.0-0-202307190349",
-  "ReleaseDate": "2023-07-19",
+  "Version": "11.0.1-0-202308030637",
+  "ReleaseDate": "2023-08-03",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
@@ -14,30 +14,30 @@
   "UncompressedSize": "720.6M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "b819d38a71a812e8c729f4ce8ab91ee32b17be72"
+  "SHA1": "ef35aeba06c2be83228c64e743aa791e1ff3b314"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 11.0.0 Debug Symbols",
+  "DisplayName": "Qt Creator 11.0.1 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "11.0.0-0-202307190349",
-  "ReleaseDate": "2023-07-19",
+  "Version": "11.0.1-0-202308030637",
+  "ReleaseDate": "2023-08-03",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
   "CompressedSize": "567.4M",
   "UncompressedSize": "3.5G",
-  "SHA1": "4ef5d2c8964520cddf0ff885d48cdf58e08925ac"
+  "SHA1": "8d205719a023ad37754ab8e6ab8ea2c7c95b8caf"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 11.0.0 Plugin Development",
+  "DisplayName": "Qt Creator 11.0.1 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "11.0.0-0-202307190349",
-  "ReleaseDate": "2023-07-19",
+  "Version": "11.0.1-0-202308030637",
+  "ReleaseDate": "2023-08-03",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "24.6M",
   "UncompressedSize": "178.3M",
-  "SHA1": "84f65d5e874ef6b3e42cb46dc90209bc70ee783b"
+  "SHA1": "30d869d09074b14bb5a77305e739e8c95c1da5b6"
  }
 }
