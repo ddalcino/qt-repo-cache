@@ -3,8 +3,8 @@
   "Name": "qt.tools.maintenance",
   "DisplayName": "Qt Maintenance Tool",
   "Description": "The tool to maintain and update the existing installation, located in the root directory of the installation.",
-  "Version": "4.6.0-0-202305220951",
-  "ReleaseDate": "2023-05-22",
+  "Version": "4.6.1-0-202308231236",
+  "ReleaseDate": "2023-08-23",
   "Script": "installscript.qs",
   "Essential": "true",
   "ForcedInstallation": "true",
@@ -13,11 +13,11 @@
   "DownloadableArchives": "tqtc-installer-framework-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-QtInstaller.7z, installer-changelog.7z, installer-resource.7z",
   "CompressedSize": "12.0M",
   "UncompressedSize": "38.6M",
-  "SHA1": "5a49278d005aac94eaade3eb1c956988a14f25a8",
+  "SHA1": "6aab3f4a521f1aadd7effbb6f124bd6e5cbc04fc",
   "ArchiveSizes": {
    "tqtc-installer-framework-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-QtInstaller.7z": "12M",
    "installer-resource.7z": "11K",
-   "installer-changelog.7z": "2.9K",
+   "installer-changelog.7z": "3.0K",
    "content.7z": "10K"
   }
  }

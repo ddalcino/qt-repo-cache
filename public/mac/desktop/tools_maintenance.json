@@ -3,8 +3,8 @@
   "Name": "qt.tools.maintenance",
   "DisplayName": "Qt Maintenance Tool",
   "Description": "The tool to maintain and update the existing installation, located in the root directory of the installation.",
-  "Version": "4.6.0-0-202305220951",
-  "ReleaseDate": "2023-05-22",
+  "Version": "4.6.1-0-202308231236",
+  "ReleaseDate": "2023-08-23",
   "Script": "installscript.qs",
   "Essential": "true",
   "ForcedInstallation": "true",
@@ -13,11 +13,11 @@
   "DownloadableArchives": "tqtc-installer-framework-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64-QtInstaller.7z, MaintenanceTool.app.7z, installer-changelog.7z, installer-resource.7z",
   "CompressedSize": "22.2M",
   "UncompressedSize": "80.9M",
-  "SHA1": "adc635bac0af51ddad370dae9b3aaffd3a5a48de",
+  "SHA1": "3410a501b62188c8dcc9615de865f4d84a7c4a62",
   "ArchiveSizes": {
    "tqtc-installer-framework-MacOS-MacOS_10_13-Clang-MacOS-MacOS_10_13-X86_64-QtInstaller.7z": "10M",
    "installer-resource.7z": "11K",
-   "installer-changelog.7z": "2.9K",
+   "installer-changelog.7z": "3.0K",
    "content.7z": "10K",
    "MaintenanceTool.app.7z": "12M"
   }
