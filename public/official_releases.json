@@ -1684,6 +1684,80 @@
    "CVE-2018-25032-qtbase-6.3.diff": "763K"
   },
   "6.2/": {
+   "6.2.6/": {
+    "submodules/": {
+     "tqtc-qt5-everywhere-opensource-src-6.2.6.zip": "1.1M",
+     "tqtc-qt5-everywhere-opensource-src-6.2.6.tar.xz": "185K",
+     "qtwebview-everywhere-opensource-src-6.2.6.zip": "264K",
+     "qtwebview-everywhere-opensource-src-6.2.6.tar.xz": "135K",
+     "qtwebsockets-everywhere-opensource-src-6.2.6.zip": "607K",
+     "qtwebsockets-everywhere-opensource-src-6.2.6.tar.xz": "261K",
+     "qtwebengine-everywhere-opensource-src-6.2.6.zip": "689M",
+     "qtwebengine-everywhere-opensource-src-6.2.6.tar.xz": "380M",
+     "qtwebchannel-everywhere-opensource-src-6.2.6.zip": "507K",
+     "qtwebchannel-everywhere-opensource-src-6.2.6.tar.xz": "210K",
+     "qtwayland-everywhere-opensource-src-6.2.6.zip": "1.9M",
+     "qtwayland-everywhere-opensource-src-6.2.6.tar.xz": "777K",
+     "qtvirtualkeyboard-everywhere-opensource-src-6.2.6.zip": "5.7M",
+     "qtvirtualkeyboard-everywhere-opensource-src-6.2.6.tar.xz": "3.6M",
+     "qttranslations-everywhere-opensource-src-6.2.6.zip": "2.8M",
+     "qttranslations-everywhere-opensource-src-6.2.6.tar.xz": "1.4M",
+     "qttools-everywhere-opensource-src-6.2.6.zip": "12M",
+     "qttools-everywhere-opensource-src-6.2.6.tar.xz": "8.3M",
+     "qtsvg-everywhere-opensource-src-6.2.6.zip": "2.1M",
+     "qtsvg-everywhere-opensource-src-6.2.6.tar.xz": "1.6M",
+     "qtshadertools-everywhere-opensource-src-6.2.6.zip": "1.6M",
+     "qtshadertools-everywhere-opensource-src-6.2.6.tar.xz": "966K",
+     "qtserialport-everywhere-opensource-src-6.2.6.zip": "651K",
+     "qtserialport-everywhere-opensource-src-6.2.6.tar.xz": "314K",
+     "qtserialbus-everywhere-opensource-src-6.2.6.zip": "955K",
+     "qtserialbus-everywhere-opensource-src-6.2.6.tar.xz": "372K",
+     "qtsensors-everywhere-opensource-src-6.2.6.zip": "2.9M",
+     "qtsensors-everywhere-opensource-src-6.2.6.tar.xz": "2.0M",
+     "qtscxml-everywhere-opensource-src-6.2.6.zip": "2.8M",
+     "qtscxml-everywhere-opensource-src-6.2.6.tar.xz": "1.7M",
+     "qtremoteobjects-everywhere-opensource-src-6.2.6.zip": "863K",
+     "qtremoteobjects-everywhere-opensource-src-6.2.6.tar.xz": "360K",
+     "qtquicktimeline-everywhere-opensource-src-6.2.6.zip": "186K",
+     "qtquicktimeline-everywhere-opensource-src-6.2.6.tar.xz": "112K",
+     "qtquick3d-everywhere-opensource-src-6.2.6.zip": "66M",
+     "qtquick3d-everywhere-opensource-src-6.2.6.tar.xz": "52M",
+     "qtpositioning-everywhere-opensource-src-6.2.6.zip": "2.2M",
+     "qtpositioning-everywhere-opensource-src-6.2.6.tar.xz": "1.4M",
+     "qtnetworkauth-everywhere-opensource-src-6.2.6.zip": "259K",
+     "qtnetworkauth-everywhere-opensource-src-6.2.6.tar.xz": "144K",
+     "qtmultimedia-everywhere-opensource-src-6.2.6.zip": "5.7M",
+     "qtmultimedia-everywhere-opensource-src-6.2.6.tar.xz": "3.6M",
+     "qtlottie-everywhere-opensource-src-6.2.6.zip": "289K",
+     "qtlottie-everywhere-opensource-src-6.2.6.tar.xz": "92K",
+     "qtimageformats-everywhere-opensource-src-6.2.6.zip": "2.7M",
+     "qtimageformats-everywhere-opensource-src-6.2.6.tar.xz": "1.8M",
+     "qtdoc-everywhere-opensource-src-6.2.6.zip": "8.5M",
+     "qtdoc-everywhere-opensource-src-6.2.6.tar.xz": "7.0M",
+     "qtdeclarative-everywhere-opensource-src-6.2.6.zip": "72M",
+     "qtdeclarative-everywhere-opensource-src-6.2.6.tar.xz": "28M",
+     "qtdatavis3d-everywhere-opensource-src-6.2.6.zip": "5.9M",
+     "qtdatavis3d-everywhere-opensource-src-6.2.6.tar.xz": "4.9M",
+     "qtconnectivity-everywhere-opensource-src-6.2.6.zip": "2.2M",
+     "qtconnectivity-everywhere-opensource-src-6.2.6.tar.xz": "1.0M",
+     "qtcharts-everywhere-opensource-src-6.2.6.zip": "5.8M",
+     "qtcharts-everywhere-opensource-src-6.2.6.tar.xz": "4.2M",
+     "qtbase-everywhere-opensource-src-6.2.6.zip": "71M",
+     "qtbase-everywhere-opensource-src-6.2.6.tar.xz": "45M",
+     "qtactiveqt-everywhere-opensource-src-6.2.6.zip": "617K",
+     "qtactiveqt-everywhere-opensource-src-6.2.6.tar.xz": "271K",
+     "qt5compat-everywhere-opensource-src-6.2.6.zip": "9.9M",
+     "qt5compat-everywhere-opensource-src-6.2.6.tar.xz": "7.8M",
+     "qt3d-everywhere-opensource-src-6.2.6.zip": "114M",
+     "qt3d-everywhere-opensource-src-6.2.6.tar.xz": "99M",
+     "md5sums.txt": "5.2K"
+    },
+    "single/": {
+     "qt-everywhere-opensource-src-6.2.6.zip": "1.1G",
+     "qt-everywhere-opensource-src-6.2.6.tar.xz": "659M",
+     "md5sums.txt": "149"
+    }
+   },
    "6.2.5/": {
     "submodules/": {
      "tqtc-qt5-everywhere-opensource-src-6.2.5.zip": "1.0M",
@@ -4519,6 +4593,10 @@
     "pyside-setup-opensource-src-6.3.0.zip": "11M",
     "pyside-setup-opensource-src-6.3.0.tar.xz": "7.3M"
    },
+   "PySide6-6.2.6-src/": {
+    "pyside-setup-opensource-src-6.2.6.zip": "11M",
+    "pyside-setup-opensource-src-6.2.6.tar.xz": "7.4M"
+   },
    "PySide6-6.2.4-src/": {
     "pyside-setup-opensource-src-6.2.4.zip": "11M",
     "pyside-setup-opensource-src-6.2.4.tar.xz": "7.3M"
@@ -5580,6 +5658,10 @@
    "PySide6-6.3.0-src/": {
     "pyside-setup-opensource-src-6.3.0.zip": "11M",
     "pyside-setup-opensource-src-6.3.0.tar.xz": "7.3M"
+   },
+   "PySide6-6.2.6-src/": {
+    "pyside-setup-opensource-src-6.2.6.zip": "11M",
+    "pyside-setup-opensource-src-6.2.6.tar.xz": "7.4M"
    },
    "PySide6-6.2.4-src/": {
     "pyside-setup-opensource-src-6.2.4.zip": "11M",
