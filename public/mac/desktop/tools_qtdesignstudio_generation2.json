@@ -1,22 +1,22 @@
 {
  "qt.tools.qtdesignstudio": {
   "Name": "qt.tools.qtdesignstudio",
-  "DisplayName": "Qt Design Studio 4.2.0",
+  "DisplayName": "Qt Design Studio 4.3.0",
   "Description": "Qt Design Studio is a UI design and development environment for creating animated UIs and previewing them on the desktop or on Android and embedded Linux devices. It provides you with tools for accomplishing your tasks throughout the whole process, from design to production.",
-  "Version": "4.2.0-0-202306191955",
-  "ReleaseDate": "2023-06-19",
+  "Version": "4.3.0-0-202309291633",
+  "ReleaseDate": "2023-09-29",
   "Script": "installscript.qs",
   "TreeName": "qtdesignstudio.release",
   "Default": "true",
   "SortingPriority": "100",
-  "CompressedSize": "672.8M",
-  "UncompressedSize": "2.1G",
+  "CompressedSize": "681.9M",
+  "UncompressedSize": "2.2G",
   "DownloadableArchives": "opensource.7z,content.7z",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtdesignstudiocheckboxform.ui,readmecheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "a57d3f8d7646df59c8884cdb427338a236111010",
+  "SHA1": "063eaa5c660a5638676e3a241d32bcd28f4a1daf",
   "ArchiveSizes": {
-   "opensource.7z": "673M",
+   "opensource.7z": "682M",
    "content.7z": "1.2K"
   }
  }
