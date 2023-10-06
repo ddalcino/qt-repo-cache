@@ -5341,6 +5341,10 @@
    "shiboken6_generator-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "22M"
   },
   "shiboken2/": {
+   "PySide2-5.15.11-src/": {
+    "pyside-setup-opensource-src-5.15.11.zip": "7.5M",
+    "pyside-setup-opensource-src-5.15.11.tar.xz": "3.4M"
+   },
    "PySide2-5.15.10-src/": {
     "pyside-setup-opensource-src-5.15.10.zip": "7.5M",
     "pyside-setup-opensource-src-5.15.10.tar.xz": "3.4M"
@@ -6293,6 +6297,10 @@
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "43M"
   },
   "pyside2/": {
+   "PySide2-5.15.11-src/": {
+    "pyside-setup-opensource-src-5.15.11.zip": "7.5M",
+    "pyside-setup-opensource-src-5.15.11.tar.xz": "3.4M"
+   },
    "PySide2-5.15.10-src/": {
     "pyside-setup-opensource-src-5.15.10.zip": "7.5M",
     "pyside-setup-opensource-src-5.15.10.tar.xz": "3.4M"
