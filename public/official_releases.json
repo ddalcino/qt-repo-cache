@@ -984,7 +984,8 @@
      "md5sums.txt": "127"
     },
     "OFFLINE_README.txt": "357"
-   }
+   },
+   "CVE-2023-45872-qtsvg-6.6.0.diff": "419"
   },
   "6.5/": {
    "6.5.3/": {
@@ -1858,6 +1859,7 @@
     "OFFLINE_README.txt": "357"
    },
    "qprocess6-2.diff": "968",
+   "CVE-2023-45872-qtsvg-6.2.10.diff": "419",
    "CVE-2023-43114-6.2.patch": "5.2K",
    "CVE-2023-38197-qtbase-6.2.diff": "13K",
    "CVE-2023-37369-qtbase-6.2.diff": "5.9K",
