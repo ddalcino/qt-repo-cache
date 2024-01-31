@@ -1,0 +1,17 @@
+{
+ "qt.tools.win64_mingw1310": {
+  "Name": "qt.tools.win64_mingw1310",
+  "DisplayName": "MinGW 13.1.0 64-bit",
+  "Description": "MinGW-builds 13.1.0 64-bit toolchain",
+  "Version": "13.1.0-202401290621",
+  "ReleaseDate": "2024-01-29",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "910",
+  "DownloadableArchives": "mingw1310.7z",
+  "CompressedSize": "106.9M",
+  "UncompressedSize": "619.0M",
+  "SHA1": "22526f4bf84b2e32979d9ed2ea2595aa41764706"
+ }
+}
