@@ -1,20 +1,20 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 12.0.1",
+  "DisplayName": "Qt Creator 12.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "12.0.1-0-202312110314",
-  "ReleaseDate": "2023-12-11",
+  "Version": "12.0.2-0-202402061323",
+  "ReleaseDate": "2024-02-06",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z, wininterrupt32.7z, wininterrupt64.7z, wininterruptArm64.7z, jom.7z",
   "CompressedSize": "126.1M",
-  "UncompressedSize": "520.6M",
+  "UncompressedSize": "520.7M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "e5b84e415282b28f941596f65be0ed6a4a914e6f",
+  "SHA1": "3b621b1b2590c7e145725273889310f59065a864",
   "ArchiveSizes": {
    "wininterruptArm64.7z": "4.8K",
    "wininterrupt64.7z": "14K",
@@ -25,17 +25,17 @@
  },
  "qt.tools.qtcreatorcdbext": {
   "Name": "qt.tools.qtcreatorcdbext",
-  "DisplayName": "Qt Creator 12.0.1 CDB Debugger Support",
+  "DisplayName": "Qt Creator 12.0.2 CDB Debugger Support",
   "Description": "CDB Debugger support for Qt Creator",
-  "Version": "12.0.1-0-202312110314",
-  "ReleaseDate": "2023-12-11",
+  "Version": "12.0.2-0-202402061323",
+  "ReleaseDate": "2024-02-06",
   "Dependencies": "qt.tools.qtcreator_gui,qt.license.python",
   "SortingPriority": "999",
   "Default": "true",
   "DownloadableArchives": "qtcreatorcdbext32.7z, qtcreatorcdbext64.7z, qtcreatorcdbextArm64.7z",
   "CompressedSize": "7.6M",
   "UncompressedSize": "22.1M",
-  "SHA1": "517d0933b2f36cdfb82558a51ff2233f60a85b57",
+  "SHA1": "a85f3dab780040b085eb4e7227b46c5d2f17e615",
   "ArchiveSizes": {
    "qtcreatorcdbextArm64.7z": "3.0M",
    "qtcreatorcdbext64.7z": "2.5M",
@@ -44,26 +44,26 @@
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 12.0.1 Debug Symbols",
+  "DisplayName": "Qt Creator 12.0.2 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "12.0.1-0-202312110314",
-  "ReleaseDate": "2023-12-11",
+  "Version": "12.0.2-0-202402061323",
+  "ReleaseDate": "2024-02-06",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "291.8M",
+  "CompressedSize": "292.1M",
   "UncompressedSize": "1.9G",
-  "SHA1": "bf639894ea59d2c82e62727e3dcfce55084d282f"
+  "SHA1": "df8404674671d6920b85bf7a6581d339a0693f38"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 12.0.1 Plugin Development",
+  "DisplayName": "Qt Creator 12.0.2 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "12.0.1-0-202312110314",
-  "ReleaseDate": "2023-12-11",
+  "Version": "12.0.2-0-202402061323",
+  "ReleaseDate": "2024-02-06",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "11.9M",
   "UncompressedSize": "127.9M",
-  "SHA1": "e4480c58a76a4d4c7782c032b3acd6015f926fe1"
+  "SHA1": "115440f1a000ea59f607a7636cd5b253433da243"
  }
 }
