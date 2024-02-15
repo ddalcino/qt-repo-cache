@@ -193,6 +193,10 @@
   "qt6_661_src_doc_examples",
   "qt6_661_wasm_multithread",
   "qt6_661_wasm_singlethread",
+  "qt6_662",
+  "qt6_662_src_doc_examples",
+  "qt6_662_wasm_multithread",
+  "qt6_662_wasm_singlethread",
   "qt6_670"
  ]
 }
