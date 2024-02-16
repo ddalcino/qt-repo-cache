@@ -623,361 +623,6 @@
     "qt-creator-opensource-linux-x86_64-11.0.0.run": "191M",
     "md5sums.txt": "547"
    }
-  },
-  "10.0/": {
-   "10.0.2/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "13K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "12M",
-      "qtcreator.7z": "109M",
-      "qtcreator-debug.7z": "249M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "27M",
-      "qtcreator.7z": "152M",
-      "qtcreator-debug.7z": "524M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "115M",
-      "qtcreator-debug.7z": "531M",
-      "md5sums.txt": "151"
-     }
-    },
-    "cpack_experimental/": {
-     "qtcreator-opensource-linux-x86_64-10.0.2.deb": "108M",
-     "md5sums.txt": "79"
-    },
-    "qt-creator-opensource-windows-x86_64-10.0.2.exe": "273M",
-    "qt-creator-opensource-src-10.0.2.zip": "65M",
-    "qt-creator-opensource-src-10.0.2.tar.xz": "47M",
-    "qt-creator-opensource-src-10.0.2.tar.gz": "56M",
-    "qt-creator-opensource-mac-x86_64-10.0.2_installer.dmg": "201M",
-    "qt-creator-opensource-mac-x86_64-10.0.2.dmg": "250M",
-    "qt-creator-opensource-linux-x86_64-10.0.2.run": "192M",
-    "md5sums.txt": "547"
-   },
-   "10.0.1/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "13K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "12M",
-      "qtcreator.7z": "109M",
-      "qtcreator-debug.7z": "248M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "27M",
-      "qtcreator.7z": "152M",
-      "qtcreator-debug.7z": "523M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "115M",
-      "qtcreator-debug.7z": "531M",
-      "md5sums.txt": "151"
-     }
-    },
-    "cpack_experimental/": {
-     "qtcreator-opensource-linux-x86_64-10.0.1.deb": "108M",
-     "md5sums.txt": "79"
-    },
-    "qt-creator-opensource-windows-x86_64-10.0.1.exe": "276M",
-    "qt-creator-opensource-src-10.0.1.zip": "65M",
-    "qt-creator-opensource-src-10.0.1.tar.xz": "46M",
-    "qt-creator-opensource-src-10.0.1.tar.gz": "56M",
-    "qt-creator-opensource-mac-x86_64-10.0.1_installer.dmg": "204M",
-    "qt-creator-opensource-mac-x86_64-10.0.1.dmg": "251M",
-    "qt-creator-opensource-linux-x86_64-10.0.1.run": "194M",
-    "md5sums.txt": "547"
-   },
-   "10.0.0/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "12M",
-      "qtcreator.7z": "109M",
-      "qtcreator-debug.7z": "248M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "27M",
-      "qtcreator.7z": "152M",
-      "qtcreator-debug.7z": "523M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "115M",
-      "qtcreator-debug.7z": "531M",
-      "md5sums.txt": "151"
-     }
-    },
-    "cpack_experimental/": {
-     "qtcreator-opensource-linux-x86_64-10.0.0.deb": "108M",
-     "md5sums.txt": "79"
-    },
-    "qt-creator-opensource-windows-x86_64-10.0.0.exe": "275M",
-    "qt-creator-opensource-src-10.0.0.zip": "65M",
-    "qt-creator-opensource-src-10.0.0.tar.xz": "47M",
-    "qt-creator-opensource-src-10.0.0.tar.gz": "56M",
-    "qt-creator-opensource-mac-x86_64-10.0.0_installer.dmg": "204M",
-    "qt-creator-opensource-mac-x86_64-10.0.0.dmg": "255M",
-    "qt-creator-opensource-linux-x86_64-10.0.0.run": "194M",
-    "md5sums.txt": "547"
-   }
-  },
-  "9.0/": {
-   "9.0.2/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "11M",
-      "qtcreator.7z": "111M",
-      "qtcreator-debug.7z": "240M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "148M",
-      "qtcreator-debug.7z": "502M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "25M",
-      "qtcreator.7z": "112M",
-      "qtcreator-debug.7z": "517M",
-      "md5sums.txt": "151"
-     }
-    },
-    "cpack_experimental/": {
-     "qtcreator-opensource-linux-x86_64-9.0.2.deb": "106M",
-     "md5sums.txt": "78"
-    },
-    "qt-creator-opensource-windows-x86_64-9.0.2.exe": "270M",
-    "qt-creator-opensource-src-9.0.2.zip": "70M",
-    "qt-creator-opensource-src-9.0.2.tar.xz": "47M",
-    "qt-creator-opensource-src-9.0.2.tar.gz": "58M",
-    "qt-creator-opensource-mac-x86_64-9.0.2_installer.dmg": "198M",
-    "qt-creator-opensource-mac-x86_64-9.0.2.dmg": "244M",
-    "qt-creator-opensource-linux-x86_64-9.0.2.run": "184M",
-    "md5sums.txt": "540"
-   },
-   "9.0.1/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "11M",
-      "qtcreator.7z": "110M",
-      "qtcreator-debug.7z": "240M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "148M",
-      "qtcreator-debug.7z": "502M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "25M",
-      "qtcreator.7z": "112M",
-      "qtcreator-debug.7z": "517M",
-      "md5sums.txt": "151"
-     }
-    },
-    "qt-creator-opensource-windows-x86_64-9.0.1.exe": "276M",
-    "qt-creator-opensource-src-9.0.1.zip": "70M",
-    "qt-creator-opensource-src-9.0.1.tar.xz": "47M",
-    "qt-creator-opensource-src-9.0.1.tar.gz": "58M",
-    "qt-creator-opensource-mac-x86_64-9.0.1_installer.dmg": "198M",
-    "qt-creator-opensource-mac-x86_64-9.0.1.dmg": "251M",
-    "qt-creator-opensource-linux-x86_64-9.0.1.run": "184M",
-    "md5sums.txt": "540"
-   },
-   "9.0.0/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "11M",
-      "qtcreator.7z": "111M",
-      "qtcreator-debug.7z": "240M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "26M",
-      "qtcreator.7z": "148M",
-      "qtcreator-debug.7z": "502M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "25M",
-      "qtcreator.7z": "112M",
-      "qtcreator-debug.7z": "517M",
-      "md5sums.txt": "151"
-     }
-    },
-    "qt-creator-opensource-windows-x86_64-9.0.0.exe": "276M",
-    "qt-creator-opensource-src-9.0.0.zip": "70M",
-    "qt-creator-opensource-src-9.0.0.tar.xz": "47M",
-    "qt-creator-opensource-src-9.0.0.tar.gz": "58M",
-    "qt-creator-opensource-mac-x86_64-9.0.0_installer.dmg": "197M",
-    "qt-creator-opensource-mac-x86_64-9.0.0.dmg": "252M",
-    "qt-creator-opensource-linux-x86_64-9.0.0.run": "184M",
-    "md5sums.txt": "540"
-   }
-  },
-  "8.0/": {
-   "8.0.2/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "9.8M",
-      "qtcreator.7z": "107M",
-      "qtcreator-debug.7z": "233M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "21M",
-      "qtcreator.7z": "142M",
-      "qtcreator-debug.7z": "491M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "22M",
-      "qtcreator.7z": "109M",
-      "qtcreator-debug.7z": "491M",
-      "md5sums.txt": "151"
-     }
-    },
-    "qt-creator-opensource-windows-x86_64-8.0.2.exe": "270M",
-    "qt-creator-opensource-src-8.0.2.zip": "73M",
-    "qt-creator-opensource-src-8.0.2.tar.xz": "47M",
-    "qt-creator-opensource-src-8.0.2.tar.gz": "59M",
-    "qt-creator-opensource-mac-x86_64-8.0.2_installer.dmg": "186M",
-    "qt-creator-opensource-mac-x86_64-8.0.2.dmg": "236M",
-    "qt-creator-opensource-linux-x86_64-8.0.2.run": "177M",
-    "md5sums.txt": "540"
-   },
-   "8.0.1/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "149"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "9.8M",
-      "qtcreator.7z": "106M",
-      "qtcreator-debug.7z": "232M",
-      "md5sums.txt": "300"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "21M",
-      "qtcreator.7z": "142M",
-      "qtcreator-debug.7z": "488M",
-      "md5sums.txt": "197"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "22M",
-      "qtcreator.7z": "108M",
-      "qtcreator-debug.7z": "489M",
-      "md5sums.txt": "197"
-     }
-    },
-    "qt-creator-opensource-windows-x86_64-8.0.1.exe": "270M",
-    "qt-creator-opensource-src-8.0.1.zip": "71M",
-    "qt-creator-opensource-src-8.0.1.tar.xz": "45M",
-    "qt-creator-opensource-src-8.0.1.tar.gz": "57M",
-    "qt-creator-opensource-mac-x86_64-8.0.1_installer.dmg": "186M",
-    "qt-creator-opensource-mac-x86_64-8.0.1.dmg": "240M",
-    "qt-creator-opensource-linux-x86_64-8.0.1.run": "177M",
-    "md5sums.txt": "586"
-   },
-   "8.0.0/": {
-    "installer_source/": {
-     "windows_x86/": {
-      "wininterrupt.7z": "5.3K",
-      "qtcreatorcdbext.7z": "2.1M",
-      "md5sums.txt": "103"
-     },
-     "windows_x64/": {
-      "wininterrupt.7z": "5.4K",
-      "qtcreatorcdbext.7z": "2.3M",
-      "qtcreator_dev.7z": "9.8M",
-      "qtcreator.7z": "106M",
-      "qtcreator-debug.7z": "233M",
-      "md5sums.txt": "254"
-     },
-     "mac_x64/": {
-      "qtcreator_dev.7z": "21M",
-      "qtcreator.7z": "142M",
-      "qtcreator-debug.7z": "488M",
-      "md5sums.txt": "151"
-     },
-     "linux_x64/": {
-      "qtcreator_dev.7z": "22M",
-      "qtcreator.7z": "108M",
-      "qtcreator-debug.7z": "489M",
-      "md5sums.txt": "151"
-     }
-    },
-    "qt-creator-opensource-windows-x86_64-8.0.0.exe": "270M",
-    "qt-creator-opensource-src-8.0.0.zip": "71M",
-    "qt-creator-opensource-src-8.0.0.tar.xz": "45M",
-    "qt-creator-opensource-src-8.0.0.tar.gz": "56M",
-    "qt-creator-opensource-mac-x86_64-8.0.0_installer.dmg": "186M",
-    "qt-creator-opensource-mac-x86_64-8.0.0.dmg": "239M",
-    "qt-creator-opensource-linux-x86_64-8.0.0.run": "177M",
-    "md5sums.txt": "540"
-   }
   }
  },
  "qtchooser/": {
@@ -4876,6 +4521,10 @@
     "pyside-setup-opensource-src-6.2.5.zip": "11M",
     "pyside-setup-opensource-src-6.2.5.tar.xz": "7.3M"
    },
+   "PySide6-6.6.2-src/": {
+    "pyside-setup-everywhere-src-6.6.2.zip": "17M",
+    "pyside-setup-everywhere-src-6.6.2.tar.xz": "13M"
+   },
    "PySide6-6.6.1-src/": {
     "pyside-setup-everywhere-src-6.6.1.zip": "17M",
     "pyside-setup-everywhere-src-6.6.1.tar.xz": "13M"
@@ -5000,6 +4649,10 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "shiboken6-6.6.2-cp38-abi3-win_amd64.whl": "1.0M",
+   "shiboken6-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "158K",
+   "shiboken6-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "167K",
+   "shiboken6-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "337K",
    "shiboken6-6.6.1-cp38-abi3-win_amd64.whl": "1.1M",
    "shiboken6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "231K",
    "shiboken6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "239K",
@@ -5124,10 +4777,18 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-none-win_amd64.whl": "2.2M",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-manylinux1_x86_64.whl": "942K",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K",
+   "PySide6_Examples-6.6.2-cp38-abi3-win_amd64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-win_amd64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-macosx_11_0_universal2.whl": "11M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-win_amd64.whl": "74M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "64M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "79M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "140M",
    "PySide6_Essentials-6.6.1-cp38-abi3-win_amd64.whl": "73M",
    "PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "63M",
    "PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "78M",
@@ -5194,6 +4855,10 @@
    "PySide6_Essentials-6.4.0-cp36-abi3-win_amd64.whl": "71M",
    "PySide6_Essentials-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "76M",
    "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M",
+   "PySide6_Addons-6.6.2-cp38-abi3-win_amd64.whl": "106M",
+   "PySide6_Addons-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "106M",
+   "PySide6_Addons-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "120M",
+   "PySide6_Addons-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "238M",
    "PySide6_Addons-6.6.1-cp38-abi3-win_amd64.whl": "105M",
    "PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "106M",
    "PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "119M",
@@ -5260,6 +4925,10 @@
    "PySide6_Addons-6.4.0-cp36-abi3-win_amd64.whl": "91M",
    "PySide6_Addons-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "106M",
    "PySide6_Addons-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "208M",
+   "PySide6-6.6.2-cp38-abi3-win_amd64.whl": "507K",
+   "PySide6-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "500K",
+   "PySide6-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "500K",
+   "PySide6-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "499K",
    "PySide6-6.6.1-cp38-abi3-win_amd64.whl": "65K",
    "PySide6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "76K",
    "PySide6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "76K",
@@ -5386,6 +5055,10 @@
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "43M"
   },
   "shiboken6-generator/": {
+   "shiboken6_generator-6.6.2-cp38-abi3-win_amd64.whl": "22M",
+   "shiboken6_generator-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "25M",
+   "shiboken6_generator-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "37M",
+   "shiboken6_generator-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "50M",
    "shiboken6_generator-6.6.1-cp38-abi3-win_amd64.whl": "22M",
    "shiboken6_generator-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "12M",
    "shiboken6_generator-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "26M",
@@ -6030,6 +5703,10 @@
     "pyside-setup-opensource-src-6.2.5.zip": "11M",
     "pyside-setup-opensource-src-6.2.5.tar.xz": "7.3M"
    },
+   "PySide6-6.6.2-src/": {
+    "pyside-setup-everywhere-src-6.6.2.zip": "17M",
+    "pyside-setup-everywhere-src-6.6.2.tar.xz": "13M"
+   },
    "PySide6-6.6.1-src/": {
     "pyside-setup-everywhere-src-6.6.1.zip": "17M",
     "pyside-setup-everywhere-src-6.6.1.tar.xz": "13M"
@@ -6154,6 +5831,10 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "shiboken6-6.6.2-cp38-abi3-win_amd64.whl": "1.0M",
+   "shiboken6-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "158K",
+   "shiboken6-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "167K",
+   "shiboken6-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "337K",
    "shiboken6-6.6.1-cp38-abi3-win_amd64.whl": "1.1M",
    "shiboken6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "231K",
    "shiboken6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "239K",
@@ -6278,10 +5959,18 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-none-win_amd64.whl": "2.2M",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-manylinux1_x86_64.whl": "942K",
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K",
+   "PySide6_Examples-6.6.2-cp38-abi3-win_amd64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "11M",
+   "PySide6_Examples-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-win_amd64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "11M",
    "PySide6_Examples-6.6.1-cp38-abi3-macosx_11_0_universal2.whl": "11M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-win_amd64.whl": "74M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "64M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "79M",
+   "PySide6_Essentials-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "140M",
    "PySide6_Essentials-6.6.1-cp38-abi3-win_amd64.whl": "73M",
    "PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "63M",
    "PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "78M",
@@ -6348,6 +6037,10 @@
    "PySide6_Essentials-6.4.0-cp36-abi3-win_amd64.whl": "71M",
    "PySide6_Essentials-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "76M",
    "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M",
+   "PySide6_Addons-6.6.2-cp38-abi3-win_amd64.whl": "106M",
+   "PySide6_Addons-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "106M",
+   "PySide6_Addons-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "120M",
+   "PySide6_Addons-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "238M",
    "PySide6_Addons-6.6.1-cp38-abi3-win_amd64.whl": "105M",
    "PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "106M",
    "PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "119M",
@@ -6414,6 +6107,10 @@
    "PySide6_Addons-6.4.0-cp36-abi3-win_amd64.whl": "91M",
    "PySide6_Addons-6.4.0-cp36-abi3-manylinux_2_28_x86_64.whl": "106M",
    "PySide6_Addons-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "208M",
+   "PySide6-6.6.2-cp38-abi3-win_amd64.whl": "507K",
+   "PySide6-6.6.2-cp38-abi3-manylinux_2_31_aarch64.whl": "500K",
+   "PySide6-6.6.2-cp38-abi3-manylinux_2_28_x86_64.whl": "500K",
+   "PySide6-6.6.2-cp38-abi3-macosx_11_0_universal2.whl": "499K",
    "PySide6-6.6.1-cp38-abi3-win_amd64.whl": "65K",
    "PySide6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl": "76K",
    "PySide6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl": "76K",
