@@ -1,15 +1,15 @@
 {
- "qt.tools.ifw.46": {
-  "Name": "qt.tools.ifw.46",
-  "DisplayName": "Qt Installer Framework 4.6",
+ "qt.tools.ifw.47": {
+  "Name": "qt.tools.ifw.47",
+  "DisplayName": "Qt Installer Framework 4.7",
   "Description": "The Qt Installer Framework provides a set of tools and utilities to create installers for the supported desktop Qt platforms: Linux, Microsoft Windows, and macOS.",
-  "Version": "4.6.1-0-202308291018",
-  "ReleaseDate": "2023-08-29",
+  "Version": "4.7.0-0-202402150941",
+  "ReleaseDate": "2024-02-15",
   "Default": "false",
-  "SortingPriority": "461",
+  "SortingPriority": "470",
   "DownloadableArchives": "ifw-mac-x64.7z",
-  "CompressedSize": "34.1M",
-  "UncompressedSize": "109.6M",
-  "SHA1": "9047303ab2db7a9a23f9c65b3af73544e2b47f3f"
+  "CompressedSize": "47.8M",
+  "UncompressedSize": "173.3M",
+  "SHA1": "6034fb22a45bdf6dec7abaa81a56e80a75181442"
  }
 }
