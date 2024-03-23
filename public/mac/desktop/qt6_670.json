@@ -3,8 +3,8 @@
   "Name": "qt.qt6.670.addons.qt3d.clang_64",
   "DisplayName": "Qt 3D Module for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qt3d, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -13,14 +13,14 @@
   "DownloadableArchives": "qt3d-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "72.0M",
   "UncompressedSize": "457.2M",
-  "SHA1": "40a4b80a4cd22632875352529b6cff76e34ad5e8"
+  "SHA1": "a3bcd3cbc8fbcd45da7782012ad65fb41bc4d912"
  },
  "qt.qt6.670.addons.qtcharts.clang_64": {
   "Name": "qt.qt6.670.addons.qtcharts.clang_64",
   "DisplayName": "Qt Charts for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtcharts, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -29,14 +29,14 @@
   "DownloadableArchives": "qtcharts-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "13.2M",
   "UncompressedSize": "84.7M",
-  "SHA1": "af7838ac516e0f9270335f38c7e0e59ca24b03c7"
+  "SHA1": "c9b758c43da01baba471e7c1a49beec5f195464a"
  },
  "qt.qt6.670.addons.qtconnectivity.clang_64": {
   "Name": "qt.qt6.670.addons.qtconnectivity.clang_64",
   "DisplayName": "Qt Connectivity for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtconnectivity, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -45,14 +45,14 @@
   "DownloadableArchives": "qtconnectivity-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "4.8M",
   "UncompressedSize": "26.2M",
-  "SHA1": "1d9c3f00d0fabaf6ba9b70a1947cc7d9374c662b"
+  "SHA1": "208beb3e2ab17ee9c9a151d4fad8c6b98abfc6df"
  },
  "qt.qt6.670.addons.qtdatavis3d.clang_64": {
   "Name": "qt.qt6.670.addons.qtdatavis3d.clang_64",
   "DisplayName": "Qt Data Visualization for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtdatavis3d, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -61,14 +61,14 @@
   "DownloadableArchives": "qtdatavis3d-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "7.6M",
   "UncompressedSize": "45.0M",
-  "SHA1": "43fda07d658b011893e03016a512a0a7dac76d3b"
+  "SHA1": "aacdccccdc21315324f26259f03f84b594dd1151"
  },
  "qt.qt6.670.addons.qtgraphs.clang_64": {
   "Name": "qt.qt6.670.addons.qtgraphs.clang_64",
   "DisplayName": "Qt Graphs for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtgraphs, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -77,30 +77,30 @@
   "DownloadableArchives": "qtgraphs-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "12.5M",
   "UncompressedSize": "76.7M",
-  "SHA1": "9133b7ebda0d9b2e7d519540ed46e0b8b8ca34df"
+  "SHA1": "63803f8629012ccc8a968b91902bd2b2e030f2da"
  },
  "qt.qt6.670.addons.qtgrpc.clang_64": {
   "Name": "qt.qt6.670.addons.qtgrpc.clang_64",
   "DisplayName": "Qt Protobuf and Qt GRPC for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtgrpc, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtgrpc-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
-  "CompressedSize": "24.7M",
+  "CompressedSize": "24.8M",
   "UncompressedSize": "176.9M",
-  "SHA1": "5bf175fbf75b1b059c258dc5cd03643232f085b2"
+  "SHA1": "e20dde7fc331edaa28557be803901c3bfb161e15"
  },
  "qt.qt6.670.addons.qthttpserver.clang_64": {
   "Name": "qt.qt6.670.addons.qthttpserver.clang_64",
   "DisplayName": "Qt HTTP Server for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qthttpserver, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -109,14 +109,14 @@
   "DownloadableArchives": "qthttpserver-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "1.2M",
   "UncompressedSize": "6.9M",
-  "SHA1": "e9d8a133479718e690b54af6bae1d623fa54d5c1"
+  "SHA1": "b15e5c4596c905a5c96cd0370f7e3233d24ca315"
  },
  "qt.qt6.670.addons.qtimageformats.clang_64": {
   "Name": "qt.qt6.670.addons.qtimageformats.clang_64",
   "DisplayName": "Qt Image Formats for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtimageformats, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -125,14 +125,14 @@
   "DownloadableArchives": "qtimageformats-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "3.2M",
   "UncompressedSize": "21.3M",
-  "SHA1": "210d0f42d1c8c28f62a984b0568265f6f3c88ae5"
+  "SHA1": "6b9e08435f819320dca86e4837a7bfbe5b78cec0"
  },
  "qt.qt6.670.addons.qtlanguageserver.clang_64": {
   "Name": "qt.qt6.670.addons.qtlanguageserver.clang_64",
   "DisplayName": "Qt language Server for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtlanguageserver, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -141,14 +141,14 @@
   "DownloadableArchives": "qtlanguageserver-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "9.2M",
   "UncompressedSize": "75.0M",
-  "SHA1": "2e6a4d7367e60a44e5e2ec9153021e11d3eb91ce"
+  "SHA1": "32307e51df0296aef550827e14f5c66fc0c13b32"
  },
  "qt.qt6.670.addons.qtlocation.clang_64": {
   "Name": "qt.qt6.670.addons.qtlocation.clang_64",
   "DisplayName": "Qt Location",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtlocation, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -157,14 +157,14 @@
   "DownloadableArchives": "qtlocation-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "13.0M",
   "UncompressedSize": "77.3M",
-  "SHA1": "b667c8155eac8aa4eb34c7e7690aa194a4811102"
+  "SHA1": "031ea36435b247972289fe9a5d6811454ff36b52"
  },
  "qt.qt6.670.addons.qtlottie.clang_64": {
   "Name": "qt.qt6.670.addons.qtlottie.clang_64",
   "DisplayName": "Qt Lottie Animation for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtlottie, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -173,14 +173,14 @@
   "DownloadableArchives": "qtlottie-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "2.6M",
   "UncompressedSize": "16.6M",
-  "SHA1": "e75bda6c1399036b8913c3564467b3da3ec1a254"
+  "SHA1": "654ae636e526e3b7dc41e8d4a9b17c92d45c2439"
  },
  "qt.qt6.670.addons.qtmultimedia.clang_64": {
   "Name": "qt.qt6.670.addons.qtmultimedia.clang_64",
   "DisplayName": "Qt Multimedia for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtmultimedia, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -189,14 +189,14 @@
   "DownloadableArchives": "qtmultimedia-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "40.7M",
   "UncompressedSize": "248.4M",
-  "SHA1": "b76be0a772823cd184de7daa523c71cac32cd321"
+  "SHA1": "9b685cab94b3da2aba9837e63f405071859eb24e"
  },
  "qt.qt6.670.addons.qtnetworkauth.clang_64": {
   "Name": "qt.qt6.670.addons.qtnetworkauth.clang_64",
   "DisplayName": "Qt Network Authorization for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtnetworkauth, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -205,14 +205,14 @@
   "DownloadableArchives": "qtnetworkauth-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "1.2M",
   "UncompressedSize": "7.3M",
-  "SHA1": "ce835810a2957e1b469edabdb3f2483cc0235657"
+  "SHA1": "b689220afb3731d4f976cd99d520b4412daa8f1a"
  },
  "qt.qt6.670.addons.qtpdf.clang_64": {
   "Name": "qt.qt6.670.addons.qtpdf.clang_64",
   "DisplayName": "Qt PDF for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtpdf, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -221,14 +221,14 @@
   "DownloadableArchives": "qtpdf-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "7.0M",
   "UncompressedSize": "22.4M",
-  "SHA1": "a2636311158859263e4de40799eec59c8dbe3371"
+  "SHA1": "ed7cc547aca80721808e5e793962ff7be5710f39"
  },
  "qt.qt6.670.addons.qtpositioning.clang_64": {
   "Name": "qt.qt6.670.addons.qtpositioning.clang_64",
   "DisplayName": "Qt Positioning for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtpositioning, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -237,14 +237,14 @@
   "DownloadableArchives": "qtpositioning-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "7.0M",
   "UncompressedSize": "46.5M",
-  "SHA1": "37a37dbbf1820c056f6ff816e6fc876e8720ca0d"
+  "SHA1": "15582309fa6a08fb9fb9c7da029c72c31daa1955"
  },
  "qt.qt6.670.addons.qtquick3dphysics.clang_64": {
   "Name": "qt.qt6.670.addons.qtquick3dphysics.clang_64",
   "DisplayName": "Qt Quick 3D Physics for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtquick3dphysics, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -253,14 +253,14 @@
   "DownloadableArchives": "qtquick3dphysics-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "57.7M",
   "UncompressedSize": "365.0M",
-  "SHA1": "dab5a9d80eb68ad04a9bf4c8fa0ea4c8cfdc35ab"
+  "SHA1": "58818a4813d6f318869dd510d3c0c5c513341550"
  },
  "qt.qt6.670.addons.qtquickeffectmaker.clang_64": {
   "Name": "qt.qt6.670.addons.qtquickeffectmaker.clang_64",
   "DisplayName": "Qt Quick Effect Maker",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtquickeffectmaker, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -269,14 +269,14 @@
   "DownloadableArchives": "qtquickeffectmaker-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "11.6M",
   "UncompressedSize": "50.9M",
-  "SHA1": "f0b703afe312d35825e0b3dbbba6fcf62a2f8b9a"
+  "SHA1": "8255c7a50d27d3c49e9d5058e5279cb2c6e10387"
  },
  "qt.qt6.670.addons.qtremoteobjects.clang_64": {
   "Name": "qt.qt6.670.addons.qtremoteobjects.clang_64",
   "DisplayName": "Qt Remote Objects for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtremoteobjects, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -285,14 +285,14 @@
   "DownloadableArchives": "qtremoteobjects-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "7.0M",
   "UncompressedSize": "39.5M",
-  "SHA1": "03ad83c41d1f3dc38430d542de5debe976367ce2"
+  "SHA1": "41e05075d20116dfcfc99f9dc50494917314d180"
  },
  "qt.qt6.670.addons.qtscxml.clang_64": {
   "Name": "qt.qt6.670.addons.qtscxml.clang_64",
   "DisplayName": "Qt State Machine for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtscxml, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -301,14 +301,14 @@
   "DownloadableArchives": "qtscxml-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "9.5M",
   "UncompressedSize": "62.6M",
-  "SHA1": "49a7c84417b04c20f3ea393ceaad2c4a03b4a627"
+  "SHA1": "39d5187c9ada1c8b40ad1c5e9c03de615f14f6e8"
  },
  "qt.qt6.670.addons.qtsensors.clang_64": {
   "Name": "qt.qt6.670.addons.qtsensors.clang_64",
   "DisplayName": "Qt Sensors for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtsensors, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -317,14 +317,14 @@
   "DownloadableArchives": "qtsensors-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "2.4M",
   "UncompressedSize": "17.5M",
-  "SHA1": "d99ef3668f6dca16b9347a0bc4702cf8385df465"
+  "SHA1": "10f3e963ec2dc7abad23b66301898854fcfc249a"
  },
  "qt.qt6.670.addons.qtserialbus.clang_64": {
   "Name": "qt.qt6.670.addons.qtserialbus.clang_64",
   "DisplayName": "Qt SerialBus for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtserialbus, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -333,30 +333,30 @@
   "DownloadableArchives": "qtserialbus-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "3.9M",
   "UncompressedSize": "24.6M",
-  "SHA1": "36bb6bf2e9753e995a351b350802d5606bb25915"
+  "SHA1": "f3db88b0d3ccc53f90d8e05ea0b13004e431e2e0"
  },
  "qt.qt6.670.addons.qtserialport.clang_64": {
   "Name": "qt.qt6.670.addons.qtserialport.clang_64",
   "DisplayName": "Qt SerialPort for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtserialport, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtserialport-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
-  "CompressedSize": "667.0K",
+  "CompressedSize": "666.3K",
   "UncompressedSize": "3.9M",
-  "SHA1": "b4bb778d91b5272dc714180ed07c2c308e66df55"
+  "SHA1": "e3a886ce3e3724e28e18cab965be442bee306179"
  },
  "qt.qt6.670.addons.qtspeech.clang_64": {
   "Name": "qt.qt6.670.addons.qtspeech.clang_64",
   "DisplayName": "Qt Speech for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtspeech, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -365,14 +365,14 @@
   "DownloadableArchives": "qtspeech-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "2.2M",
   "UncompressedSize": "14.8M",
-  "SHA1": "165c6c73354c6b17469e13b3473082cdadc27124"
+  "SHA1": "72d22b7ae78bf40d91e53b775932fdb6b43cba87"
  },
  "qt.qt6.670.addons.qtvirtualkeyboard.clang_64": {
   "Name": "qt.qt6.670.addons.qtvirtualkeyboard.clang_64",
   "DisplayName": "Qt Virtual Keyboard for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtvirtualkeyboard, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -380,15 +380,15 @@
   "SortingPriority": null,
   "DownloadableArchives": "qtvirtualkeyboard-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "10.5M",
-  "UncompressedSize": "67.7M",
-  "SHA1": "49e7c79c666c652c3ec62b10dc5c80217dc470fd"
+  "UncompressedSize": "67.8M",
+  "SHA1": "a9dbd4e5bfd4da24f065b238a2fd3a24b51f18ce"
  },
  "qt.qt6.670.addons.qtwebchannel.clang_64": {
   "Name": "qt.qt6.670.addons.qtwebchannel.clang_64",
   "DisplayName": "Qt WebChannel for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtwebchannel, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -397,30 +397,30 @@
   "DownloadableArchives": "qtwebchannel-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "1.8M",
   "UncompressedSize": "12.1M",
-  "SHA1": "db9bff5e1a34e66c4d66560c48b4032b6c78219b"
+  "SHA1": "074cda5c1c778c7b6148f662927722faf205c593"
  },
  "qt.qt6.670.addons.qtwebengine.clang_64": {
   "Name": "qt.qt6.670.addons.qtwebengine.clang_64",
   "DisplayName": "Qt WebEngine for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtwebengine, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtwebengine-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
-  "CompressedSize": "381.4M",
+  "CompressedSize": "381.3M",
   "UncompressedSize": "1.9G",
-  "SHA1": "1fb0550627cc9af8b1fb10d6ee8fd150fb27923b"
+  "SHA1": "f9fe38ee6dacaa7cb661ac1ea505914dd88ce697"
  },
  "qt.qt6.670.addons.qtwebsockets.clang_64": {
   "Name": "qt.qt6.670.addons.qtwebsockets.clang_64",
   "DisplayName": "Qt WebSockets for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtwebsockets, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -429,14 +429,14 @@
   "DownloadableArchives": "qtwebsockets-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "1.6M",
   "UncompressedSize": "9.6M",
-  "SHA1": "cd9999151441ba7439e0f6b4191ca0936f272349"
+  "SHA1": "83bda4a0dcc55c72777c4b7aa874e5aece1875a9"
  },
  "qt.qt6.670.addons.qtwebview.clang_64": {
   "Name": "qt.qt6.670.addons.qtwebview.clang_64",
   "DisplayName": "Qt WebView for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.addons.qtwebview, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -445,23 +445,23 @@
   "DownloadableArchives": "qtwebview-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "2.7M",
   "UncompressedSize": "19.1M",
-  "SHA1": "4180053ae5da4ffbf4e25faebfc381ff106d4189"
+  "SHA1": "9764aa33a686930a9c6bd5294224e7e530362bbb"
  },
  "qt.qt6.670.clang_64": {
   "Name": "qt.qt6.670.clang_64",
   "DisplayName": "Desktop",
   "Description": "Qt 6.7.0 Prebuilt Components for macOS (Universal, x86_64/arm64)",
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "Dependencies": "qt.tools.qtcreator, qt.qt6.670.doc, qt.qt6.670.examples",
   "AutoDependOn": null,
   "Default": "false",
   "Script": "installscript.qs",
   "SortingPriority": "700",
   "DownloadableArchives": "qtbase-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z, qtdeclarative-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z, qtsvg-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z, qttools-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z, qttranslations-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
-  "CompressedSize": "693.9M",
+  "CompressedSize": "693.8M",
   "UncompressedSize": "4.3G",
-  "SHA1": "74869969848faea9a26551d6181060f5c628373f",
+  "SHA1": "493cbd7ed53d2ec58eab5c01f5c28d28b1443604",
   "ArchiveSizes": {
    "qttranslations-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z": "1.6M",
    "qttools-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z": "153M",
@@ -474,8 +474,8 @@
   "Name": "qt.qt6.670.qt5compat.clang_64",
   "DisplayName": "Qt 5 Compatibility Module for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.qt5compat, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -484,30 +484,30 @@
   "DownloadableArchives": "qt5compat-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "5.1M",
   "UncompressedSize": "32.7M",
-  "SHA1": "533b2fb3dee6549047daf626d8dba133f5728d66"
+  "SHA1": "da0bf1cbd6775cd98b3c82952469527ad6813703"
  },
  "qt.qt6.670.qtquick3d.clang_64": {
   "Name": "qt.qt6.670.qtquick3d.clang_64",
   "DisplayName": "Qt Quick 3D for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.qtquick3d, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtquick3d-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
-  "CompressedSize": "82.1M",
+  "CompressedSize": "82.2M",
   "UncompressedSize": "508.5M",
-  "SHA1": "5a5b8a09978073828f2d693076e2524e6727054e"
+  "SHA1": "c59f45cad8908422604350627f3ff1ea0ce736e0"
  },
  "qt.qt6.670.qtquicktimeline.clang_64": {
   "Name": "qt.qt6.670.qtquicktimeline.clang_64",
   "DisplayName": "Qt Quick Timeline for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.qtquicktimeline, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -516,14 +516,14 @@
   "DownloadableArchives": "qtquicktimeline-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "2.2M",
   "UncompressedSize": "17.3M",
-  "SHA1": "d36952475a9e8eebb249f8cd4e74254a9557703d"
+  "SHA1": "507cc1d7bf8c47f86db2686c02a89ff5f6bcc27a"
  },
  "qt.qt6.670.qtshadertools.clang_64": {
   "Name": "qt.qt6.670.qtshadertools.clang_64",
   "DisplayName": "Qt Shader Tools for macOS",
   "Description": null,
-  "Version": "6.7.0-0-202403101343",
-  "ReleaseDate": "2024-03-10",
+  "Version": "6.7.0-0-202403200721",
+  "ReleaseDate": "2024-03-20",
   "AutoDependOn": "qt.qt6.670.qtshadertools, qt.qt6.670.clang_64",
   "Dependencies": "qt.qt6.670.clang_64",
   "Virtual": "true",
@@ -532,6 +532,6 @@
   "DownloadableArchives": "qtshadertools-MacOS-MacOS_13-Clang-MacOS-MacOS_13-X86_64-ARM64.7z",
   "CompressedSize": "20.4M",
   "UncompressedSize": "127.6M",
-  "SHA1": "8e051bb8c89b905b6a17d3b877325fbf8cafe038"
+  "SHA1": "1cc45968e2248a053731877f56bebb8be750dd05"
  }
 }
