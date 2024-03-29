@@ -3,8 +3,8 @@
   "Name": "qt.qt6.670.addons.qt3d.debug_information.linux_gcc_64",
   "DisplayName": "Qt 3D Module debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qt3d",
   "AutoDependOn": "qt.qt6.670.addons.qt3d, qt.qt6.670.addons.qt3d.debug_information, qt.qt6.670.linux_gcc_64",
@@ -12,14 +12,14 @@
   "DownloadableArchives": "qt3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "102.0M",
   "UncompressedSize": "498.7M",
-  "SHA1": "29c65f6b7104399e21a530942d9c10acf22aaa4b"
+  "SHA1": "5dee88e30aceaa5f4d6842bbffe83a8c586b5304"
  },
  "qt.qt6.670.addons.qt3d.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qt3d.linux_gcc_64",
   "DisplayName": "Qt 3D Module for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qt3d, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -28,14 +28,14 @@
   "DownloadableArchives": "qt3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "2.8M",
   "UncompressedSize": "15.6M",
-  "SHA1": "8d36ef477982681546cb8cc69c8c6f1093ff8ae6"
+  "SHA1": "1bcecabbe2a87f848bd280b5d592156ef0388220"
  },
  "qt.qt6.670.addons.qtcharts.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtcharts.debug_information.linux_gcc_64",
   "DisplayName": "Qt Charts debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtcharts",
   "AutoDependOn": "qt.qt6.670.addons.qtcharts, qt.qt6.670.addons.qtcharts.debug_information, qt.qt6.670.linux_gcc_64",
@@ -43,30 +43,30 @@
   "DownloadableArchives": "qtcharts-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "16.2M",
   "UncompressedSize": "81.6M",
-  "SHA1": "a6e15c5608ef522bd58d032335a3950290ef2d88"
+  "SHA1": "0edaa7bbb6d90f31a481ac824216586dee4f1642"
  },
  "qt.qt6.670.addons.qtcharts.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtcharts.linux_gcc_64",
   "DisplayName": "Qt Charts for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtcharts, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtcharts-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "662.4K",
+  "CompressedSize": "662.8K",
   "UncompressedSize": "4.2M",
-  "SHA1": "cf0f0c409038f49fd0cc2f4666bfe4d2694f1f3c"
+  "SHA1": "25cea331038090b6d9bb6a663c924b8038d95b5e"
  },
  "qt.qt6.670.addons.qtconnectivity.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtconnectivity.debug_information.linux_gcc_64",
   "DisplayName": "Qt Connectivity debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtconnectivity",
   "AutoDependOn": "qt.qt6.670.addons.qtconnectivity, qt.qt6.670.addons.qtconnectivity.debug_information, qt.qt6.670.linux_gcc_64",
@@ -74,14 +74,14 @@
   "DownloadableArchives": "qtconnectivity-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "11.8M",
   "UncompressedSize": "57.0M",
-  "SHA1": "5120bb87204e10ba01a42c3fe7685d8f8651d632"
+  "SHA1": "d64188e99b7271f5fb7d3c07373bf002781f37e6"
  },
  "qt.qt6.670.addons.qtconnectivity.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtconnectivity.linux_gcc_64",
   "DisplayName": "Qt Connectivity for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtconnectivity, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -90,14 +90,14 @@
   "DownloadableArchives": "qtconnectivity-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "463.1K",
   "UncompressedSize": "2.0M",
-  "SHA1": "f9eeaa581dfd4f5558b4093eca50c534d00b085c"
+  "SHA1": "bc94885c8779eb1a5a02250e4e2455209894549a"
  },
  "qt.qt6.670.addons.qtdatavis3d.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtdatavis3d.debug_information.linux_gcc_64",
   "DisplayName": "Qt Data Visualization debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtdatavis3d",
   "AutoDependOn": "qt.qt6.670.addons.qtdatavis3d, qt.qt6.670.addons.qtdatavis3d.debug_information, qt.qt6.670.linux_gcc_64",
@@ -105,30 +105,30 @@
   "DownloadableArchives": "qtdatavis3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "9.4M",
   "UncompressedSize": "45.5M",
-  "SHA1": "9c52e62426c4c3ad11c0f4927fbd8a6f12338407"
+  "SHA1": "f524efdbd25c00959e63efe8b732e3d66d63c3f7"
  },
  "qt.qt6.670.addons.qtdatavis3d.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtdatavis3d.linux_gcc_64",
   "DisplayName": "Qt Data Visualization for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtdatavis3d, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtdatavis3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "542.7K",
+  "CompressedSize": "542.4K",
   "UncompressedSize": "3.0M",
-  "SHA1": "0f0b486ced010a0876657d272d791d61da207732"
+  "SHA1": "1a8738c26fc80b4a2b30130f1e2835234677701b"
  },
  "qt.qt6.670.addons.qtgraphs.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtgraphs.debug_information.linux_gcc_64",
   "DisplayName": "Qt Graphs debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtgraphs",
   "AutoDependOn": "qt.qt6.670.addons.qtgraphs, qt.qt6.670.addons.qtgraphs.debug_information, qt.qt6.670.linux_gcc_64",
@@ -136,30 +136,30 @@
   "DownloadableArchives": "qtgraphs-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "13.5M",
   "UncompressedSize": "61.3M",
-  "SHA1": "a5fe8159633b73232038f37a69bf05f6e2ab5938"
+  "SHA1": "69e211b6ea5bd0a858fbda46b44262461a01a689"
  },
  "qt.qt6.670.addons.qtgraphs.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtgraphs.linux_gcc_64",
   "DisplayName": "Qt Graphs for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtgraphs, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtgraphs-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "596.3K",
+  "CompressedSize": "596.5K",
   "UncompressedSize": "3.3M",
-  "SHA1": "f0353bb03dd1066e1ac14d9803e889c6e807b4a9"
+  "SHA1": "6123d5e4ace13006ab3f89657a6dcbd16c281a5f"
  },
  "qt.qt6.670.addons.qtgrpc.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtgrpc.debug_information.linux_gcc_64",
   "DisplayName": "Qt Protobuf and Qt GRPC debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtgrpc",
   "AutoDependOn": "qt.qt6.670.addons.qtgrpc, qt.qt6.670.addons.qtgrpc.debug_information, qt.qt6.670.linux_gcc_64",
@@ -167,14 +167,14 @@
   "DownloadableArchives": "qtgrpc-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "21.0M",
   "UncompressedSize": "116.1M",
-  "SHA1": "476b0e375f03bf80344e1717dbbd9b5dfb9f89e3"
+  "SHA1": "4182a1a4f0ae12e9dc146ef13ecfc6a6242a3933"
  },
  "qt.qt6.670.addons.qtgrpc.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtgrpc.linux_gcc_64",
   "DisplayName": "Qt Protobuf and Qt GRPC for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtgrpc, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -183,14 +183,14 @@
   "DownloadableArchives": "qtgrpc-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "1.1M",
   "UncompressedSize": "8.0M",
-  "SHA1": "a84511bcc584bae2b83311f37736295608385504"
+  "SHA1": "d9723012e0f97393e9cf5271e7606362b798744f"
  },
  "qt.qt6.670.addons.qthttpserver.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qthttpserver.debug_information.linux_gcc_64",
   "DisplayName": "Qt HTTP Server debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qthttpserver",
   "AutoDependOn": "qt.qt6.670.addons.qthttpserver, qt.qt6.670.addons.qthttpserver.debug_information, qt.qt6.670.linux_gcc_64",
@@ -198,14 +198,14 @@
   "DownloadableArchives": "qthttpserver-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "1.3M",
   "UncompressedSize": "5.6M",
-  "SHA1": "2557a7729a1b2ce55fe6fd8c38e452740ace9502"
+  "SHA1": "27a1a894a4b904786bc94313430045f671fdc5dc"
  },
  "qt.qt6.670.addons.qthttpserver.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qthttpserver.linux_gcc_64",
   "DisplayName": "Qt HTTP Server for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qthttpserver, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -214,14 +214,14 @@
   "DownloadableArchives": "qthttpserver-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "61.7K",
   "UncompressedSize": "244.1K",
-  "SHA1": "495b520a35fa523f548731f4fd7bda6d747088cb"
+  "SHA1": "4efae23fba0e4facc1520db55ea159fbb1788947"
  },
  "qt.qt6.670.addons.qtimageformats.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtimageformats.debug_information.linux_gcc_64",
   "DisplayName": "Qt Image Formats debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtimageformats",
   "AutoDependOn": "qt.qt6.670.addons.qtimageformats, qt.qt6.670.addons.qtimageformats.debug_information, qt.qt6.670.linux_gcc_64",
@@ -229,14 +229,14 @@
   "DownloadableArchives": "qtimageformats-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "2.2M",
   "UncompressedSize": "11.1M",
-  "SHA1": "65e9271a64bd231e8bbb6d5d3120c55a0e473f18"
+  "SHA1": "07efba8292945780812640e1f61381bd0e3eb1e2"
  },
  "qt.qt6.670.addons.qtimageformats.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtimageformats.linux_gcc_64",
   "DisplayName": "Qt Image Formats for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtimageformats, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -245,14 +245,14 @@
   "DownloadableArchives": "qtimageformats-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "362.5K",
   "UncompressedSize": "1.1M",
-  "SHA1": "5bfb453faae06b22f700d71abee65dc71047b2d0"
+  "SHA1": "fdfc5013bdec2d2bc5e9b0eeb40ebdb14ad16c92"
  },
  "qt.qt6.670.addons.qtlanguageserver.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlanguageserver.debug_information.linux_gcc_64",
   "DisplayName": "Qt Language Server Module debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtlanguageserver",
   "AutoDependOn": "qt.qt6.670.addons.qtlanguageserver, qt.qt6.670.addons.qtlanguageserver.debug_information, qt.qt6.670.linux_gcc_64",
@@ -260,14 +260,14 @@
   "DownloadableArchives": "qtlanguageserver-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "6.8M",
   "UncompressedSize": "46.4M",
-  "SHA1": "342584bb651f1acafbd9dbb06233a5b1b7009192"
+  "SHA1": "133dc8c2a6da66b4f51caf9bf396c5d4525f0dab"
  },
  "qt.qt6.670.addons.qtlanguageserver.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlanguageserver.linux_gcc_64",
   "DisplayName": "Qt Language Server for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtlanguageserver, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -276,45 +276,45 @@
   "DownloadableArchives": "qtlanguageserver-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "308.1K",
   "UncompressedSize": "1.6M",
-  "SHA1": "9a784ad61680d60980f5fe9e44c243d156ceed4f"
+  "SHA1": "c2c897506c229f056946100b07a977395642d85d"
  },
  "qt.qt6.670.addons.qtlocation.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlocation.debug_information.linux_gcc_64",
   "DisplayName": "Qt Location debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtlocation",
   "AutoDependOn": "qt.qt6.670.addons.qtlocation, qt.qt6.670.addons.qtlocation.debug_information, qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "DownloadableArchives": "qtlocation-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
-  "CompressedSize": "17.3M",
+  "CompressedSize": "17.2M",
   "UncompressedSize": "78.7M",
-  "SHA1": "a79addeb709ac6ff58bedf33210f5a425b0d8677"
+  "SHA1": "e4b0be7c376d505b54c696d45ade0a8fe35327cf"
  },
  "qt.qt6.670.addons.qtlocation.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlocation.linux_gcc_64",
   "DisplayName": "Qt Location for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtlocation, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtlocation-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "588.4K",
+  "CompressedSize": "588.8K",
   "UncompressedSize": "3.1M",
-  "SHA1": "b5eef8e997132d949bbb861fd8b8414f02ec4c77"
+  "SHA1": "37fbde5e399d0d28c8feab9f4657ef7da6e66ebc"
  },
  "qt.qt6.670.addons.qtlottie.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlottie.debug_information.linux_gcc_64",
   "DisplayName": "Qt Lottie Animation debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtlottie",
   "AutoDependOn": "qt.qt6.670.addons.qtlottie, qt.qt6.670.addons.qtlottie.debug_information, qt.qt6.670.linux_gcc_64",
@@ -322,30 +322,30 @@
   "DownloadableArchives": "qtlottie-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "3.8M",
   "UncompressedSize": "18.6M",
-  "SHA1": "556ed1dab799c7dd464f4913a563706067eafc47"
+  "SHA1": "08d1afb1e15b724256f12699a5f165ca8ba52fb8"
  },
  "qt.qt6.670.addons.qtlottie.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtlottie.linux_gcc_64",
   "DisplayName": "Qt Lottie Animation for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtlottie, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtlottie-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "124.2K",
+  "CompressedSize": "124.4K",
   "UncompressedSize": "523.5K",
-  "SHA1": "511d6c912c5fcc6f8fd3465b9295cff0130c3810"
+  "SHA1": "b9ab9e966da26f55718cb0cd9d3ac141def74ebc"
  },
  "qt.qt6.670.addons.qtmultimedia.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtmultimedia.debug_information.linux_gcc_64",
   "DisplayName": "Qt Multimedia debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtmultimedia",
   "AutoDependOn": "qt.qt6.670.addons.qtmultimedia, qt.qt6.670.addons.qtmultimedia.debug_information, qt.qt6.670.linux_gcc_64",
@@ -353,14 +353,14 @@
   "DownloadableArchives": "qtmultimedia-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "25.0M",
   "UncompressedSize": "115.2M",
-  "SHA1": "c6f1f414dff2ccef0ef9a5a28d7c226c89588a53"
+  "SHA1": "a419b5035614a2a157d519cb1a30dd632602618a"
  },
  "qt.qt6.670.addons.qtmultimedia.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtmultimedia.linux_gcc_64",
   "DisplayName": "Qt Multimedia for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtmultimedia, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -369,14 +369,14 @@
   "DownloadableArchives": "qtmultimedia-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "17.5M",
   "UncompressedSize": "131.4M",
-  "SHA1": "c347c85c6b80f533c8107fd0a840ef89d32035cb"
+  "SHA1": "9ff00a9866e96662b14fc3e32771fd5f7dbd842b"
  },
  "qt.qt6.670.addons.qtnetworkauth.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtnetworkauth.debug_information.linux_gcc_64",
   "DisplayName": "Qt Network Authorization debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtnetworkauth",
   "AutoDependOn": "qt.qt6.670.addons.qtnetworkauth, qt.qt6.670.addons.qtnetworkauth.debug_information, qt.qt6.670.linux_gcc_64",
@@ -384,14 +384,14 @@
   "DownloadableArchives": "qtnetworkauth-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "1.4M",
   "UncompressedSize": "6.4M",
-  "SHA1": "d98715a528b088f356e57118b66e145a1a650f90"
+  "SHA1": "7841fba140e87172f74fcda72dcd9152ae12033a"
  },
  "qt.qt6.670.addons.qtnetworkauth.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtnetworkauth.linux_gcc_64",
   "DisplayName": "Qt Network Authorization for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtnetworkauth, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -400,14 +400,14 @@
   "DownloadableArchives": "qtnetworkauth-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "71.1K",
   "UncompressedSize": "317.3K",
-  "SHA1": "3779a55e80b8194a1d9a43dbc29dd868cd4b2588"
+  "SHA1": "d2ccab25d5053fc002b7e68ebceed2dfbbf9dc1d"
  },
  "qt.qt6.670.addons.qtpdf.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtpdf.linux_gcc_64",
   "DisplayName": "Qt PDF for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtpdf, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -416,14 +416,14 @@
   "DownloadableArchives": "qtpdf-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "2.3M",
   "UncompressedSize": "6.2M",
-  "SHA1": "799d59c3d2f0afda72b19edcd1558275f935253c"
+  "SHA1": "922354a57631c64cd36bef0d6f2a57650eb29273"
  },
  "qt.qt6.670.addons.qtpositioning.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtpositioning.debug_information.linux_gcc_64",
   "DisplayName": "Qt Positioning debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtpositioning",
   "AutoDependOn": "qt.qt6.670.addons.qtpositioning, qt.qt6.670.addons.qtpositioning.debug_information, qt.qt6.670.linux_gcc_64",
@@ -431,30 +431,30 @@
   "DownloadableArchives": "qtpositioning-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "7.6M",
   "UncompressedSize": "35.9M",
-  "SHA1": "01f0ed4a7be85eae8e7276167b39aff5e864f203"
+  "SHA1": "309f83ac0c7b8ac3ec833604e28c1682bd79e07f"
  },
  "qt.qt6.670.addons.qtpositioning.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtpositioning.linux_gcc_64",
   "DisplayName": "Qt Positioning for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtpositioning, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtpositioning-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "341.9K",
+  "CompressedSize": "341.8K",
   "UncompressedSize": "1.7M",
-  "SHA1": "a08649cb66a15e8f6ddb54ddb87d40d4b46a2cb4"
+  "SHA1": "dfcf4f4a5586474a961208b367dd8f693f0ca5d1"
  },
  "qt.qt6.670.addons.qtquick3dphysics.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtquick3dphysics.debug_information.linux_gcc_64",
   "DisplayName": "Quick 3D Physics debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtquick3dphysics",
   "AutoDependOn": "qt.qt6.670.addons.qtquick3dphysics, qt.qt6.670.addons.qtquick3dphysics.debug_information, qt.qt6.670.linux_gcc_64",
@@ -462,14 +462,14 @@
   "DownloadableArchives": "qtquick3dphysics-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "26.3M",
   "UncompressedSize": "131.7M",
-  "SHA1": "e1c78f2b589ef22bd2afb439ef4199f5fb2af311"
+  "SHA1": "a73e10f32a06f2614975e1ef84f3bc6dc96b2f8d"
  },
  "qt.qt6.670.addons.qtquick3dphysics.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtquick3dphysics.linux_gcc_64",
   "DisplayName": "Qt Quick 3D Physics for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtquick3dphysics, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -478,14 +478,14 @@
   "DownloadableArchives": "qtquick3dphysics-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "40.5M",
   "UncompressedSize": "369.7M",
-  "SHA1": "6e238a4eb37a1ea9c756ee69a6b5a774647bbef5"
+  "SHA1": "4af2bd03506a107c30d35ada24d3c5a5ca1d32e1"
  },
  "qt.qt6.670.addons.qtquickeffectmaker.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtquickeffectmaker.debug_information.linux_gcc_64",
   "DisplayName": "Qt Effect Makers debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtquickeffectmaker",
   "AutoDependOn": "qt.qt6.670.addons.qtquickeffectmaker, qt.qt6.670.addons.qtquickeffectmaker.debug_information, qt.qt6.670.linux_gcc_64",
@@ -493,14 +493,14 @@
   "DownloadableArchives": "qtquickeffectmaker-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "4.6M",
   "UncompressedSize": "20.6M",
-  "SHA1": "d2088ee755e995229311b124d8840fe65d506db8"
+  "SHA1": "d90a6e15f96d9e193aee0b1c9d66ea0712311cb8"
  },
  "qt.qt6.670.addons.qtquickeffectmaker.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtquickeffectmaker.linux_gcc_64",
   "DisplayName": "Qt Quick Effect Maker for 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtquickeffectmaker, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -509,14 +509,14 @@
   "DownloadableArchives": "qtquickeffectmaker-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "3.7M",
   "UncompressedSize": "4.7M",
-  "SHA1": "cab85587519dd067071057c7fca08b91f8a2ca8d"
+  "SHA1": "8ec7a8b553f55440ea8a51f3c90ef21835b0d064"
  },
  "qt.qt6.670.addons.qtremoteobjects.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtremoteobjects.debug_information.linux_gcc_64",
   "DisplayName": "Qt Remote Objects debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtremoteobjects",
   "AutoDependOn": "qt.qt6.670.addons.qtremoteobjects, qt.qt6.670.addons.qtremoteobjects.debug_information, qt.qt6.670.linux_gcc_64",
@@ -524,14 +524,14 @@
   "DownloadableArchives": "qtremoteobjects-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "7.0M",
   "UncompressedSize": "35.2M",
-  "SHA1": "beeb153a2f830e3cabd560422ad6982e57e6158c"
+  "SHA1": "ca75679f03af1b7776a2b81d4fa3a5187f1b33b7"
  },
  "qt.qt6.670.addons.qtremoteobjects.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtremoteobjects.linux_gcc_64",
   "DisplayName": "Qt Remote Objects for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtremoteobjects, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -540,14 +540,14 @@
   "DownloadableArchives": "qtremoteobjects-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "407.3K",
   "UncompressedSize": "1.7M",
-  "SHA1": "3f2e94cf73aa9c57929d0e9329f0d6316d2e8ce7"
+  "SHA1": "719c832b520bfeb7fbb5a2620b5c2c6f6ebc3fe0"
  },
  "qt.qt6.670.addons.qtscxml.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtscxml.debug_information.linux_gcc_64",
   "DisplayName": "Qt State Machine debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtscxml",
   "AutoDependOn": "qt.qt6.670.addons.qtscxml, qt.qt6.670.addons.qtscxml.debug_information, qt.qt6.670.linux_gcc_64",
@@ -555,14 +555,14 @@
   "DownloadableArchives": "qtscxml-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "10.3M",
   "UncompressedSize": "48.8M",
-  "SHA1": "d4b428fa23cfa35da237f1dd724095ccbb7df0f5"
+  "SHA1": "a570204977803e293fc719455de31e5b1246c1f5"
  },
  "qt.qt6.670.addons.qtscxml.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtscxml.linux_gcc_64",
   "DisplayName": "Qt State Machine for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtscxml, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -571,14 +571,14 @@
   "DownloadableArchives": "qtscxml-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "427.2K",
   "UncompressedSize": "2.2M",
-  "SHA1": "10185ccbbee08442c6637c913c7f4ea961e81181"
+  "SHA1": "628ebb3e8510bbfd30eb72183272e2107f7460a2"
  },
  "qt.qt6.670.addons.qtsensors.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtsensors.debug_information.linux_gcc_64",
   "DisplayName": "Qt Sensors debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtsensors",
   "AutoDependOn": "qt.qt6.670.addons.qtsensors, qt.qt6.670.addons.qtsensors.debug_information, qt.qt6.670.linux_gcc_64",
@@ -586,30 +586,30 @@
   "DownloadableArchives": "qtsensors-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "4.5M",
   "UncompressedSize": "25.5M",
-  "SHA1": "5add2ae01f1277f31a033769c5cffcb79ea379e9"
+  "SHA1": "fe3215147b3b570683e913959943422a35ce1203"
  },
  "qt.qt6.670.addons.qtsensors.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtsensors.linux_gcc_64",
   "DisplayName": "Qt Sensors for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtsensors, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtsensors-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "162.1K",
+  "CompressedSize": "162.0K",
   "UncompressedSize": "1.1M",
-  "SHA1": "6838553ba0478e37da8794b6c6e4566645285fbc"
+  "SHA1": "9a0fead6530625a74937b5898080b93078954b04"
  },
  "qt.qt6.670.addons.qtserialbus.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtserialbus.debug_information.linux_gcc_64",
   "DisplayName": "Qt Serial Bus debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtserialbus",
   "AutoDependOn": "qt.qt6.670.addons.qtserialbus, qt.qt6.670.addons.qtserialbus.debug_information, qt.qt6.670.linux_gcc_64",
@@ -617,30 +617,30 @@
   "DownloadableArchives": "qtserialbus-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "5.2M",
   "UncompressedSize": "24.7M",
-  "SHA1": "4676752ad1fd63ac6ea4f7ed40b638d87b23080d"
+  "SHA1": "f50e66ae2a3a9fb8b62516f40c7c1c83a2007dca"
  },
  "qt.qt6.670.addons.qtserialbus.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtserialbus.linux_gcc_64",
   "DisplayName": "Qt SerialBus for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtserialbus, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtserialbus-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "240.4K",
+  "CompressedSize": "240.3K",
   "UncompressedSize": "1.1M",
-  "SHA1": "95787b4f14b69a5f3ee4e4bc6f0b979c4a013a0d"
+  "SHA1": "67e3f132d627399dae654f2247d129b3a3d2c323"
  },
  "qt.qt6.670.addons.qtserialport.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtserialport.debug_information.linux_gcc_64",
   "DisplayName": "Qt Serial Port debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtserialport",
   "AutoDependOn": "qt.qt6.670.addons.qtserialport, qt.qt6.670.addons.qtserialport.debug_information, qt.qt6.670.linux_gcc_64",
@@ -648,14 +648,14 @@
   "DownloadableArchives": "qtserialport-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "791.8K",
   "UncompressedSize": "3.4M",
-  "SHA1": "ace939cb789d0d8ba8a76387d2e7e1686e26299e"
+  "SHA1": "cda366a2d6a877568b91f9638870f4f20f33d9e0"
  },
  "qt.qt6.670.addons.qtserialport.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtserialport.linux_gcc_64",
   "DisplayName": "Qt SerialPort for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtserialport, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -664,14 +664,14 @@
   "DownloadableArchives": "qtserialport-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "47.2K",
   "UncompressedSize": "191.9K",
-  "SHA1": "9a6663781a007762afd1db04a4168c02a7cb4cc1"
+  "SHA1": "86870c782bae1897c86d42c733f43a87e4efeff6"
  },
  "qt.qt6.670.addons.qtspeech.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtspeech.debug_information.linux_gcc_64",
   "DisplayName": "Qt Speech debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtspeech",
   "AutoDependOn": "qt.qt6.670.addons.qtspeech, qt.qt6.670.addons.qtspeech.debug_information, qt.qt6.670.linux_gcc_64",
@@ -679,30 +679,30 @@
   "DownloadableArchives": "qtspeech-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "2.1M",
   "UncompressedSize": "9.8M",
-  "SHA1": "d86a5d41a74f316250ba06aee7e9aaadd74aba6d"
+  "SHA1": "5896e9171f5caed9c0c9fece18c7979c12987669"
  },
  "qt.qt6.670.addons.qtspeech.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtspeech.linux_gcc_64",
   "DisplayName": "Qt Speech for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtspeech, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtspeech-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "86.0K",
+  "CompressedSize": "85.6K",
   "UncompressedSize": "449.7K",
-  "SHA1": "93e3b2d043ca2b388e2b5a7f706bc4ba2d4393e3"
+  "SHA1": "d7dad86c65e775e885f319466982f4c4a3b6f4ce"
  },
  "qt.qt6.670.addons.qtvirtualkeyboard.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtvirtualkeyboard.debug_information.linux_gcc_64",
   "DisplayName": "Qt Virtual Keyboard debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtvirtualkeyboard",
   "AutoDependOn": "qt.qt6.670.addons.qtvirtualkeyboard, qt.qt6.670.addons.qtvirtualkeyboard.debug_information, qt.qt6.670.linux_gcc_64",
@@ -710,14 +710,14 @@
   "DownloadableArchives": "qtvirtualkeyboard-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "10.6M",
   "UncompressedSize": "58.5M",
-  "SHA1": "300f46cd06e0183dc145b9acef3abaddd3e7d8ff"
+  "SHA1": "9d9ea7cbbab5db70d762e7d7bebcf765fd789915"
  },
  "qt.qt6.670.addons.qtvirtualkeyboard.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtvirtualkeyboard.linux_gcc_64",
   "DisplayName": "Qt Virtual Keyboard for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtvirtualkeyboard, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -726,14 +726,14 @@
   "DownloadableArchives": "qtvirtualkeyboard-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "2.1M",
   "UncompressedSize": "5.6M",
-  "SHA1": "537bd76cde2b4a86b954b8a0a3b222e08c9038b9"
+  "SHA1": "af475566a75ed55a6ce977b56c2d90b34d75d369"
  },
  "qt.qt6.670.addons.qtwebchannel.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebchannel.debug_information.linux_gcc_64",
   "DisplayName": "Qt WebChannel debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtwebchannel",
   "AutoDependOn": "qt.qt6.670.addons.qtwebchannel, qt.qt6.670.addons.qtwebchannel.debug_information, qt.qt6.670.linux_gcc_64",
@@ -741,14 +741,14 @@
   "DownloadableArchives": "qtwebchannel-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "1.5M",
   "UncompressedSize": "7.1M",
-  "SHA1": "50678bbacd71cbca9ae01272103900117afd6785"
+  "SHA1": "419dc5061816f101e24ca49ce6bcb759832fd5d5"
  },
  "qt.qt6.670.addons.qtwebchannel.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebchannel.linux_gcc_64",
   "DisplayName": "Qt WebChannel for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtwebchannel, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -757,14 +757,14 @@
   "DownloadableArchives": "qtwebchannel-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "104.4K",
   "UncompressedSize": "446.8K",
-  "SHA1": "2cf8d16746c1c9f80233c6991350798b50943520"
+  "SHA1": "7fdd832ed0846ff5a66acbcb7398be437903fca8"
  },
  "qt.qt6.670.addons.qtwebengine.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebengine.debug_information.linux_gcc_64",
   "DisplayName": "Qt WebEngine debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtwebengine",
   "AutoDependOn": "qt.qt6.670.addons.qtwebengine, qt.qt6.670.addons.qtwebengine.debug_information, qt.qt6.670.linux_gcc_64",
@@ -772,14 +772,14 @@
   "DownloadableArchives": "qtwebengine-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "186.7M",
   "UncompressedSize": "1.2G",
-  "SHA1": "03d792fa48a4fee375b266a3cbfbe6107ca8e84e"
+  "SHA1": "eb8759a8ef92eb884fe91179f93e48b1c4450341"
  },
  "qt.qt6.670.addons.qtwebengine.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebengine.linux_gcc_64",
   "DisplayName": "Qt WebEngine for Desktop 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtwebengine, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -788,14 +788,14 @@
   "DownloadableArchives": "qtwebengine-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "108.2M",
   "UncompressedSize": "448.2M",
-  "SHA1": "6b02135f5d31dd7187b41b252dfe7c300e25724e"
+  "SHA1": "b2de04b3c7c3145b53c2a6d33929c0ab76f2e964"
  },
  "qt.qt6.670.addons.qtwebsockets.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebsockets.debug_information.linux_gcc_64",
   "DisplayName": "Qt WebSockets debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtwebsockets",
   "AutoDependOn": "qt.qt6.670.addons.qtwebsockets, qt.qt6.670.addons.qtwebsockets.debug_information, qt.qt6.670.linux_gcc_64",
@@ -803,30 +803,30 @@
   "DownloadableArchives": "qtwebsockets-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "2.0M",
   "UncompressedSize": "8.8M",
-  "SHA1": "bce8516dc4627d7bbb00990f9a8f6af831588315"
+  "SHA1": "36c30ef10aa2af80991366c2215530f27860ddf0"
  },
  "qt.qt6.670.addons.qtwebsockets.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebsockets.linux_gcc_64",
   "DisplayName": "Qt WebSockets for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtwebsockets, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtwebsockets-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "86.3K",
+  "CompressedSize": "86.5K",
   "UncompressedSize": "396.5K",
-  "SHA1": "3f1d4641cf098f0e85c78c1afea27884eabb3fa1"
+  "SHA1": "48181d7ce83f70837cfca06606ab7badb5c0c3b4"
  },
  "qt.qt6.670.addons.qtwebview.debug_information.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebview.debug_information.linux_gcc_64",
   "DisplayName": "Qt WebView debug information for GCC 64-bit",
   "Description": null,
-  "Version": "6.7.0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "SortingPriority": null,
   "Dependencies": "qt.qt6.670.addons.qtwebview",
   "AutoDependOn": "qt.qt6.670.addons.qtwebview, qt.qt6.670.addons.qtwebview.debug_information, qt.qt6.670.linux_gcc_64",
@@ -834,14 +834,14 @@
   "DownloadableArchives": "qtwebview-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
   "CompressedSize": "1.8M",
   "UncompressedSize": "8.2M",
-  "SHA1": "f68ca5f064feefb0b994bd19d72f135e17af3afd"
+  "SHA1": "fc4ce1f6d6c85c2a43ce8856df88076d8e73a2d2"
  },
  "qt.qt6.670.addons.qtwebview.linux_gcc_64": {
   "Name": "qt.qt6.670.addons.qtwebview.linux_gcc_64",
   "DisplayName": "Qt WebView for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.addons.qtwebview, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -850,40 +850,35 @@
   "DownloadableArchives": "qtwebview-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "64.4K",
   "UncompressedSize": "430.8K",
-  "SHA1": "a8c35d807c0839cd2c850ab912de066b6d4cb706"
+  "SHA1": "322256bc9db073faa2947636730da371a37b0553"
  },
  "qt.qt6.670.debug_info.linux_gcc_64": {
   "Name": "qt.qt6.670.debug_info.linux_gcc_64",
   "DisplayName": "Desktop 64 Debug Information Files",
   "Description": "Qt 6.7.0 Desktop 64 Debug Information Files",
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.debug_info, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "SortingPriority": "2",
-  "DownloadableArchives": "qtbase-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtsvg-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtdeclarative-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qttools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qt5compat-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtwayland-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtshadertools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtquick3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtquicktimeline-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
-  "CompressedSize": "836.9M",
-  "UncompressedSize": "4.0G",
-  "SHA1": "c0f44ca5f8b0cfb04ceb9b253df46cc71de91de1",
+  "DownloadableArchives": "qtbase-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtsvg-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qtdeclarative-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z, qttools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "707.8M",
+  "UncompressedSize": "3.3G",
+  "SHA1": "e473b1fd365eecf5d8e5bd7732048d06a1f479d5",
   "ArchiveSizes": {
-   "qtwayland-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "26M",
    "qttools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "103M",
    "qtsvg-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "3.9M",
-   "qtshadertools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "17M",
-   "qtquicktimeline-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "3.1M",
-   "qtquick3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "78M",
    "qtdeclarative-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "367M",
-   "qtbase-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "234M",
-   "qt5compat-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "4.9M"
+   "qtbase-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z": "234M"
   }
  },
  "qt.qt6.670.linux_gcc_64": {
   "Name": "qt.qt6.670.linux_gcc_64",
   "DisplayName": "Desktop",
   "Description": "Qt 6.7.0 Prebuilt Components for Desktop 64",
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "Dependencies": "qt.tools.qtcreator, qt.qt6.670.doc, qt.qt6.670.examples",
   "AutoDependOn": null,
   "Default": "false",
@@ -892,7 +887,7 @@
   "DownloadableArchives": "qtbase-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, qtsvg-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, qtdeclarative-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, qttools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, qttranslations-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, qtwayland-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z, icu-linux-Rhel8.6-x86_64.7z",
   "CompressedSize": "161.7M",
   "UncompressedSize": "1.2G",
-  "SHA1": "26b4e39f4211d9cf648c91e22b676fa10bc44f0e",
+  "SHA1": "8b91d1912fb48d6833a1a5af4af71960a22bfb0e",
   "ArchiveSizes": {
    "qtwayland-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z": "486K",
    "qttranslations-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z": "1.6M",
@@ -903,60 +898,120 @@
    "icu-linux-Rhel8.6-x86_64.7z": "9.2M"
   }
  },
+ "qt.qt6.670.qt5compat.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.670.qt5compat.debug_information.linux_gcc_64",
+  "DisplayName": "Qt 5 Compatibility Module debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.670.qt5compat",
+  "AutoDependOn": "qt.qt6.670.qt5compat, qt.qt6.670.qt5compat.debug_information, qt.qt6.670.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qt5compat-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "4.9M",
+  "UncompressedSize": "25.2M",
+  "SHA1": "932be73ff1850bb9008572f9c9dba1dc26dea4f5"
+ },
  "qt.qt6.670.qt5compat.linux_gcc_64": {
   "Name": "qt.qt6.670.qt5compat.linux_gcc_64",
   "DisplayName": "Qt 5 Compatibility Module for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.qt5compat, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qt5compat-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "415.0K",
+  "CompressedSize": "414.9K",
   "UncompressedSize": "1.7M",
-  "SHA1": "be9b77695105f11b5f5a6359d8a19b41f2d8b5f8"
+  "SHA1": "5c31001906509a60af968517343d10e5f112353d"
+ },
+ "qt.qt6.670.qtquick3d.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.670.qtquick3d.debug_information.linux_gcc_64",
+  "DisplayName": "Qt Quick 3D debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.670.qtquick3d",
+  "AutoDependOn": "qt.qt6.670.qtquick3d, qt.qt6.670.qtquick3d.debug_information, qt.qt6.670.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtquick3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "77.8M",
+  "UncompressedSize": "374.1M",
+  "SHA1": "7a4daca06a17c99a721b3e6c595c88564bedbbe7"
  },
  "qt.qt6.670.qtquick3d.linux_gcc_64": {
   "Name": "qt.qt6.670.qtquick3d.linux_gcc_64",
   "DisplayName": "Qt Quick 3D for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.qtquick3d, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtquick3d-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "15.3M",
+  "CompressedSize": "15.4M",
   "UncompressedSize": "136.0M",
-  "SHA1": "e22243eae8886e586e6e265e9359f0c91b69c296"
+  "SHA1": "8b9fcd2c93dd25aa633aff5cf5cda5724e9979f3"
+ },
+ "qt.qt6.670.qtquicktimeline.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.670.qtquicktimeline.debug_information.linux_gcc_64",
+  "DisplayName": "Qt Quick Timeline debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.670.qtquicktimeline",
+  "AutoDependOn": "qt.qt6.670.qtquicktimeline, qt.qt6.670.qtquicktimeline.debug_information, qt.qt6.670.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtquicktimeline-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "3.1M",
+  "UncompressedSize": "13.7M",
+  "SHA1": "cd27a85739194eab9e11bc7f700cf6090641e14b"
  },
  "qt.qt6.670.qtquicktimeline.linux_gcc_64": {
   "Name": "qt.qt6.670.qtquicktimeline.linux_gcc_64",
   "DisplayName": "Qt Quick Timeline for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.qtquicktimeline, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtquicktimeline-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "63.7K",
+  "CompressedSize": "63.6K",
   "UncompressedSize": "401.5K",
-  "SHA1": "6932ed179d3115527e8c76cfeb67a12488cee737"
+  "SHA1": "36ef5921cc23ba14f330ef8435017093a2fbd037"
+ },
+ "qt.qt6.670.qtshadertools.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.670.qtshadertools.debug_information.linux_gcc_64",
+  "DisplayName": "Qt Shader Tools debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.670.qtshadertools",
+  "AutoDependOn": "qt.qt6.670.qtshadertools, qt.qt6.670.qtshadertools.debug_information, qt.qt6.670.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtshadertools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "16.8M",
+  "UncompressedSize": "92.7M",
+  "SHA1": "19056bdf081022ca777f6cc16c1d619fbdc545b8"
  },
  "qt.qt6.670.qtshadertools.linux_gcc_64": {
   "Name": "qt.qt6.670.qtshadertools.linux_gcc_64",
   "DisplayName": "Qt Shader Tools for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.qtshadertools, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
@@ -965,22 +1020,37 @@
   "DownloadableArchives": "qtshadertools-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
   "CompressedSize": "1.4M",
   "UncompressedSize": "4.8M",
-  "SHA1": "5bd5e43f084f91c8f6014eeb10035d7773538b30"
+  "SHA1": "3951cdbe23eb311f9ec6a5c6be4ebaf86a415caa"
+ },
+ "qt.qt6.670.qtwaylandcompositor.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.670.qtwaylandcompositor.debug_information.linux_gcc_64",
+  "DisplayName": "Qt Wayland debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.7.0-202403252230",
+  "ReleaseDate": "2024-03-25",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.670.qtwaylandcompositor",
+  "AutoDependOn": "qt.qt6.670.qtwaylandcompositor, qt.qt6.670.qtwaylandcompositor.debug_information, qt.qt6.670.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtwayland-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64-debug-symbols.7z",
+  "CompressedSize": "26.5M",
+  "UncompressedSize": "131.1M",
+  "SHA1": "303feffcee1007f87538ff634d5d69c0e3158722"
  },
  "qt.qt6.670.qtwaylandcompositor.linux_gcc_64": {
   "Name": "qt.qt6.670.qtwaylandcompositor.linux_gcc_64",
   "DisplayName": "Qt Wayland Compositor for Linux 64",
   "Description": null,
-  "Version": "6.7.0-0-202403200724",
-  "ReleaseDate": "2024-03-20",
+  "Version": "6.7.0-0-202403252230",
+  "ReleaseDate": "2024-03-25",
   "AutoDependOn": "qt.qt6.670.qtwaylandcompositor, qt.qt6.670.linux_gcc_64",
   "Dependencies": "qt.qt6.670.linux_gcc_64",
   "Virtual": "true",
   "Script": "installscript.qs",
   "SortingPriority": null,
   "DownloadableArchives": "qtwayland-compositor-Linux-RHEL_8_8-GCC-Linux-RHEL_8_8-X86_64.7z",
-  "CompressedSize": "608.7K",
+  "CompressedSize": "609.6K",
   "UncompressedSize": "4.1M",
-  "SHA1": "39da2ee42c048d41d439cbfc355a215f1c00267f"
+  "SHA1": "2bab8e72342b81736f1cf82929295317c82d2bf0"
  }
 }
