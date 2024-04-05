@@ -3,19 +3,19 @@
   "Name": "qt.tools.windows_kits_debuggers",
   "DisplayName": "Debugging Tools for Windows",
   "Description": "Debugger and Tools Redistributable Packages for MSVC binaries",
-  "Version": "2019-11-07-0-202402061323",
-  "ReleaseDate": "2024-02-06",
+  "Version": "2024-02-26-0-202404021438",
+  "ReleaseDate": "2024-04-02",
   "Script": "installscript.qs",
   "Default": "true",
   "Dependencies": "qt.tools.qtcreator_gui,qt.license.win10sdk",
   "SortingPriority": "998",
-  "DownloadableArchives": "X64_Debuggers_And_Tools-x64_en-us.7z, x86_Debuggers_And_Tools-x86_en-us.7z",
-  "CompressedSize": "56.3M",
-  "UncompressedSize": "56.8M",
-  "SHA1": "06827db9e45db7328344e4e6411201c69b379709",
+  "DownloadableArchives": "X64_Debuggers_And_Tools-x64_en-us-10.0.22621.755.7z, x86_Debuggers_And_Tools-x86_en-us-10.0.22621.755.7z",
+  "CompressedSize": "68.0M",
+  "UncompressedSize": "68.5M",
+  "SHA1": "d47b2513ffaa7df060854ce839d623a2fd52f9de",
   "ArchiveSizes": {
-   "x86_Debuggers_And_Tools-x86_en-us.7z": "26M",
-   "X64_Debuggers_And_Tools-x64_en-us.7z": "30M"
+   "x86_Debuggers_And_Tools-x86_en-us-10.0.22621.755.7z": "32M",
+   "X64_Debuggers_And_Tools-x64_en-us-10.0.22621.755.7z": "36M"
   }
  }
 }
