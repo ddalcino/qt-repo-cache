@@ -3656,6 +3656,15 @@
   }
  },
  "qbs/": {
+  "2.3.0/": {
+   "sha256sums.txt": "444",
+   "qbs.2.3.0.nupkg": "20K",
+   "qbs-windows-x86_64-2.3.0.zip": "16M",
+   "qbs-src-2.3.0.zip": "7.9M",
+   "qbs-src-2.3.0.tar.gz": "5.4M",
+   "qbs-linux-x86_64-2.3.0.tar.gz": "28M",
+   "md5sums.txt": "284"
+  },
   "2.2.2/": {
    "sha256sums.txt": "527",
    "qbs.2.2.2.nupkg": "20K",
