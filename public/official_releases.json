@@ -1209,6 +1209,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2024-30161-qtbase-6.6.diff": "1.4K",
    "CVE-2024-25580-qtbase-6.6.diff": "13K",
    "CVE-2023-45872-qtsvg-6.6.0.diff": "419",
    "0002-CVE-2023-51714-qtbase-6.6.diff": "1.8K",
@@ -1562,6 +1563,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2024-30161-qtbase-6.5.diff": "1.4K",
    "CVE-2024-25580-qtbase-6.5.diff": "13K",
    "CVE-2023-43114-6.5.patch": "5.2K",
    "CVE-2023-38197-qtbase-6.5.diff": "13K",
