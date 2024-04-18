@@ -4100,6 +4100,10 @@
     "pyside-setup-opensource-src-6.3.0.zip": "11M",
     "pyside-setup-opensource-src-6.3.0.tar.xz": "7.3M"
    },
+   "PySide6-6.2.8-src/": {
+    "pyside-setup-opensource-src-6.2.8.zip": "12M",
+    "pyside-setup-opensource-src-6.2.8.tar.xz": "7.6M"
+   },
    "PySide6-6.2.7-src/": {
     "pyside-setup-opensource-src-6.2.7.zip": "12M",
     "pyside-setup-opensource-src-6.2.7.tar.xz": "7.6M"
@@ -5310,6 +5314,10 @@
    "PySide6-6.3.0-src/": {
     "pyside-setup-opensource-src-6.3.0.zip": "11M",
     "pyside-setup-opensource-src-6.3.0.tar.xz": "7.3M"
+   },
+   "PySide6-6.2.8-src/": {
+    "pyside-setup-opensource-src-6.2.8.zip": "12M",
+    "pyside-setup-opensource-src-6.2.8.tar.xz": "7.6M"
    },
    "PySide6-6.2.7-src/": {
     "pyside-setup-opensource-src-6.2.7.zip": "12M",
