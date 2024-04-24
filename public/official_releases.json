@@ -2,7 +2,7 @@
  "vsaddin/": {
   "3.2.0/": {
    "qt-vsaddin-msvc2022-x64-3.2.0-rev.38.vsix": "19M",
-   "qt-vsaddin-msvc2022-arm64-3.2.0-rev.38.vsix": "16M",
+   "qt-vsaddin-msvc2022-arm64-3.2.0-rev.39.vsix": "16M",
    "qt-vsaddin-msvc2019-x86-3.2.0-rev.38.vsix": "17M",
    "qt-vsaddin-msbuild-3.2.0-rev.38.zip": "148K",
    "md5sums.txt": "230"
