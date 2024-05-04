@@ -1,11 +1,14 @@
 {
  "vsaddin/": {
   "3.2.0/": {
+   "qt-vsaddin-msvc2022-x64-3.2.0-rev.43.vsix": "19M",
    "qt-vsaddin-msvc2022-x64-3.2.0-rev.38.vsix": "19M",
    "qt-vsaddin-msvc2022-arm64-3.2.0-rev.39.vsix": "16M",
+   "qt-vsaddin-msvc2019-x86-3.2.0-rev.43.vsix": "17M",
    "qt-vsaddin-msvc2019-x86-3.2.0-rev.38.vsix": "17M",
+   "qt-vsaddin-msbuild-3.2.0-rev.43.zip": "148K",
    "qt-vsaddin-msbuild-3.2.0-rev.38.zip": "148K",
-   "md5sums.txt": "230"
+   "md5sums.txt": "522"
   },
   "3.0.2/": {
    "qt-vsaddin-msvc2022-3.0.2.vsix": "20M",
@@ -857,7 +860,8 @@
      "qt-everywhere-src-6.7.0.tar.xz": "891M",
      "md5sums.txt": "127"
     }
-   }
+   },
+   "CVE-2024-33861-qtbase-6.7.diff": "1.2K"
   },
   "6.6/": {
    "6.6.3/": {
@@ -1216,6 +1220,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2024-33861-qtbase-6.6.diff": "1.2K",
    "CVE-2024-30161-qtbase-6.6.diff": "1.4K",
    "CVE-2024-25580-qtbase-6.6.diff": "13K",
    "CVE-2023-45872-qtsvg-6.6.0.diff": "419",
@@ -1570,6 +1575,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2024-33861-qtbase-6.5.diff": "1.2K",
    "CVE-2024-30161-qtbase-6.5.diff": "1.4K",
    "CVE-2024-25580-qtbase-6.5.diff": "13K",
    "CVE-2023-43114-6.5.patch": "5.2K",

@@ -3,16 +3,17 @@
   "Name": "qt.tools.ninja",
   "DisplayName": "Ninja 1.10.2",
   "Description": "Ninja 1.10.2",
-  "Version": "1.10.2-202108061017",
-  "ReleaseDate": "2021-08-06",
+  "Version": "1.10.2-202404251103",
+  "ReleaseDate": "2024-04-25",
   "Dependencies": "qt.tools.qtcreator",
   "Script": "installscript.qs",
   "DownloadableArchives": "macos64_ninja.7z",
   "Default": "true",
-  "CompressedSize": "173.1K",
+  "CompressedSize": "173.2K",
   "UncompressedSize": "614.1K",
   "UserInterfaces": "licensedialog.ui",
+  "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
   "Licenses": "\n   ",
-  "SHA1": "b9e117a04426b7515beb1b539b6d9725a554e48f"
+  "SHA1": "c842488cf34643f004d3510be3b7e1b18c3c4a87"
  }
 }
