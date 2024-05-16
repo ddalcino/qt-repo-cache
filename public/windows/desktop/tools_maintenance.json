@@ -3,21 +3,23 @@
   "Name": "qt.tools.maintenance",
   "DisplayName": "Qt Maintenance Tool",
   "Description": "The tool to maintain and update the existing installation, located in the root directory of the installation.",
-  "Version": "4.7.0-0-202402190825",
-  "ReleaseDate": "2024-02-19",
+  "Version": "4.8.0-202405141156",
+  "ReleaseDate": "2024-05-14",
   "Script": "installscript.qs",
+  "Essential": "true",
   "ForcedInstallation": "true",
   "Virtual": "false",
   "SortingPriority": "0",
-  "DownloadableArchives": "tqtc-installer-framework-Windows-Windows_10_22H2-MSVC2019-Windows-Windows_10_22H2-X86_64-QtInstaller.7z, installer-changelog.7z, installer-resource.7z",
-  "CompressedSize": "14.9M",
-  "UncompressedSize": "47.1M",
-  "SHA1": "09a4ff702bc0ea64ba2c698590ecc3f3351cba9b",
+  "DownloadableArchives": "tqtc-installer-framework-Windows-Windows_11_22H2-MSVC2019-Windows-Windows_11_22H2-X86_64-QtInstaller.7z, installer-changelog.7z, installer-resource.7z",
+  "CompressedSize": "15.0M",
+  "UncompressedSize": "47.4M",
+  "Operations": "\n   ",
+  "SHA1": "3bfa8af3ed0eeca98bdc53cc0faddab1038e3f79",
   "ArchiveSizes": {
-   "tqtc-installer-framework-Windows-Windows_10_22H2-MSVC2019-Windows-Windows_10_22H2-X86_64-QtInstaller.7z": "15M",
+   "tqtc-installer-framework-Windows-Windows_11_22H2-MSVC2019-Windows-Windows_11_22H2-X86_64-QtInstaller.7z": "15M",
    "installer-resource.7z": "11K",
-   "installer-changelog.7z": "3.2K",
-   "content.7z": "10K"
+   "installer-changelog.7z": "3.3K",
+   "content.7z": "11K"
   }
  }
 }

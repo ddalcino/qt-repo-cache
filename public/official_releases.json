@@ -3101,6 +3101,14 @@
   }
  },
  "qt-installer-framework/": {
+  "4.8.0/": {
+   "installer-framework-everywhere-src-4.8.0.zip": "5.9M",
+   "installer-framework-everywhere-src-4.8.0.tar.xz": "3.2M",
+   "QtInstallerFramework-windows-x64-4.8.0.exe": "84M",
+   "QtInstallerFramework-macOS-x64-4.8.0.dmg": "64M",
+   "QtInstallerFramework-linux-x64-4.8.0.run": "102M",
+   "QtInstallerFramework-linux-arm64-4.8.0.run": "98M"
+  },
   "4.7.0/": {
    "md5sums.txt": "465",
    "installer-framework-everywhere-src-4.7.0.zip": "5.9M",
@@ -3839,8 +3847,8 @@
  "online_installers/": {
   "qt-unified-windows-x64-online.exe": "47M",
   "qt-unified-mac-x64-online.dmg": "20M",
-  "qt-unified-linux-x64-online.run": "65M",
-  "qt-unified-linux-arm64-online.run": "67M"
+  "qt-unified-linux-x64-online.run": "66M",
+  "qt-unified-linux-arm64-online.run": "68M"
  },
  "jom/": {
   "unstable-jom.zip": "1.6M",
