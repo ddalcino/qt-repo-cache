@@ -2,7 +2,6 @@
  "tools": [
   "tools_cmake",
   "tools_conan",
-  "tools_generic",
   "tools_ifw",
   "tools_llvm_mingw1706",
   "tools_maintenance",
