@@ -1,10 +1,10 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 13.0.1",
+  "DisplayName": "Qt Creator 13.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "13.0.1-0-202405060319",
-  "ReleaseDate": "2024-05-06",
+  "Version": "13.0.2-0-202406051201",
+  "ReleaseDate": "2024-06-05",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
@@ -14,30 +14,30 @@
   "UncompressedSize": "769.1M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "99ed6b1110124d691d9cda2b77ca0d57d929e85e"
+  "SHA1": "e614d2fe1f0eda7b0d8f5c18aa1dc366683ffd27"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 13.0.1 Debug Symbols",
+  "DisplayName": "Qt Creator 13.0.2 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "13.0.1-0-202405060319",
-  "ReleaseDate": "2024-05-06",
+  "Version": "13.0.2-0-202406051201",
+  "ReleaseDate": "2024-06-05",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
   "CompressedSize": "627.9M",
   "UncompressedSize": "4.0G",
-  "SHA1": "4b7d3fa07f55b9f299f28a7b3885259e19b51df1"
+  "SHA1": "ce10be6fa53f99171c6f32ae26c418af143ab2dd"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 13.0.1 Plugin Development",
+  "DisplayName": "Qt Creator 13.0.2 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "13.0.1-0-202405060319",
-  "ReleaseDate": "2024-05-06",
+  "Version": "13.0.2-0-202406051201",
+  "ReleaseDate": "2024-06-05",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "26.0M",
   "UncompressedSize": "187.9M",
-  "SHA1": "6952e37d753d77dba51fc60f47f75032ec1f4e42"
+  "SHA1": "dedc5d2a0224a091c937bb6170490d1ffa07ea2a"
  }
 }
