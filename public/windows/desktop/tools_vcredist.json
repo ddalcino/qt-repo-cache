@@ -4,129 +4,142 @@
   "DisplayName": "VCRedist for MSVC 32bit",
   "Description": "Needed by all included Qt applications.",
   "Version": "2022-06-07",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_x86.7z",
   "CompressedSize": "8.6M",
   "UncompressedSize": "8.6M",
-  "SHA1": "938fd39f13d038eaa0b2b297d8e1946d831dcef1"
+  "SHA1": "f00436d7624f502341487436c77205491a27c07c"
  },
  "qt.tools.vcredist_64": {
   "Name": "qt.tools.vcredist_64",
   "DisplayName": "VCRedist for MSVC 64bit",
   "Description": "Needed by all included Qt applications.",
   "Version": "2022-06-07",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_x64.7z",
   "CompressedSize": "9.9M",
   "UncompressedSize": "9.8M",
-  "SHA1": "f7a86d298c0f876c198e35b7198d916b3059b75b"
+  "SHA1": "5c76c8ffd8028f60834e6cb936d815f2c7efa228"
  },
  "qt.tools.vcredist_msvc2013_x64": {
   "Name": "qt.tools.vcredist_msvc2013_x64",
   "DisplayName": "VCRedist for MSVC 2013 64bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2013 64 bit",
   "Version": "2017-03-22-0",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2013_x64.7z",
   "CompressedSize": "6.7M",
   "UncompressedSize": "6.9M",
-  "SHA1": "9bec8dfdd70b0ee0607a1d96c7ee44b8b76bb4ab"
+  "SHA1": "e26f0ea135ae661c6bfe80950350160055777ade"
  },
  "qt.tools.vcredist_msvc2013_x86": {
   "Name": "qt.tools.vcredist_msvc2013_x86",
   "DisplayName": "VCRedist for MSVC 2013 32bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2013 32 bit",
   "Version": "2014-30-12-1",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2013_x86.7z",
   "CompressedSize": "6.0M",
   "UncompressedSize": "6.2M",
-  "SHA1": "52fd4043307adcd165e5f4ffac8c39c6758aa756"
+  "SHA1": "249f001d1c8ac3a133ba3a98996f32908a786384"
  },
  "qt.tools.vcredist_msvc2015_x64": {
   "Name": "qt.tools.vcredist_msvc2015_x64",
   "DisplayName": "VCRedist for MSVC 2015 64bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2015 64 bit",
   "Version": "2017-03-22-0",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2015_x64.7z",
   "CompressedSize": "13.0M",
   "UncompressedSize": "13.9M",
-  "SHA1": "f54bea33255af844007f8f7cc21441aeb946f008"
+  "SHA1": "b74d55f935247c7d024350ce6ddfcdd2866654c1"
  },
  "qt.tools.vcredist_msvc2015_x86": {
   "Name": "qt.tools.vcredist_msvc2015_x86",
   "DisplayName": "VCRedist for MSVC 2015 32bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2015 32 bit",
   "Version": "2017-02-01-0",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2015_x86.7z",
   "CompressedSize": "12.2M",
   "UncompressedSize": "13.8M",
-  "SHA1": "17e17c17ff9c376b07a4672428b6f0214c296631"
+  "SHA1": "4a416d27088e95c316bd6b274c8a3926b66910c5"
  },
  "qt.tools.vcredist_msvc2017_x64": {
   "Name": "qt.tools.vcredist_msvc2017_x64",
   "DisplayName": "VCRedist for MSVC 2017 64bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2017 64 bit",
   "Version": "2019-02-13-1",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2017_x64.7z",
   "CompressedSize": "13.0M",
   "UncompressedSize": "14.6M",
-  "SHA1": "90be6ece659a33d0b07f6f238af63b5caaf86272"
+  "SHA1": "be0420c698c8b0cb0f8d36c30c2a60329f559ec4"
  },
  "qt.tools.vcredist_msvc2017_x86": {
   "Name": "qt.tools.vcredist_msvc2017_x86",
   "DisplayName": "VCRedist for MSVC 2017 32bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2017 32 bit",
   "Version": "2019-02-13-1",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2017_x86.7z",
   "CompressedSize": "12.3M",
   "UncompressedSize": "14.0M",
-  "SHA1": "e739395f1625b3e0dd3124d9a22b643d2f0598e2"
+  "SHA1": "9b2b321e8d7dde326fa0fb90cf6a018fee145f69"
  },
  "qt.tools.vcredist_msvc2019_x64": {
   "Name": "qt.tools.vcredist_msvc2019_x64",
   "DisplayName": "VCRedist for MSVC 2019 64bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2019 64 bit",
   "Version": "2022-06-07",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2019_x64.7z",
   "CompressedSize": "12.7M",
   "UncompressedSize": "14.4M",
-  "SHA1": "da891aab9697f86af4734b5d1372c750280bb8ea"
+  "SHA1": "d35dc71cc0d952c527575785e62cf5077b29c638"
  },
  "qt.tools.vcredist_msvc2019_x86": {
   "Name": "qt.tools.vcredist_msvc2019_x86",
   "DisplayName": "VCRedist for MSVC 2019 32bit",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2019 32 bit",
   "Version": "2022-06-07",
-  "ReleaseDate": "2022-06-10",
+  "ReleaseDate": "2024-06-04",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2019_x86.7z",
   "CompressedSize": "12.1M",
   "UncompressedSize": "13.7M",
-  "SHA1": "3994694b307508f0b0656f4d4ef4d06ab81df573"
+  "SHA1": "971f0b22cc3646b416aea53e5b444034c0dd1465"
+ },
+ "qt.tools.vcredist_msvc2022_x64": {
+  "Name": "qt.tools.vcredist_msvc2022_x64",
+  "DisplayName": "VCRedist for MSVC 2022 64bit",
+  "Description": "Visual C++ Redistributable Packages for Visual Studio 2022 64 bit",
+  "Version": "2024-04-09",
+  "ReleaseDate": "2024-06-04",
+  "Script": "installscript.qs",
+  "Virtual": "true",
+  "DownloadableArchives": "vcredist_msvc2022_x64.7z",
+  "CompressedSize": "22.7M",
+  "UncompressedSize": "24.2M",
+  "SHA1": "90d3249c3805389a9d34c8c12c9362058ea3b654"
  }
 }

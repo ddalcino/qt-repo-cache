@@ -1,19 +1,19 @@
 {
  "qt.tools.ninja": {
   "Name": "qt.tools.ninja",
-  "DisplayName": "Ninja 1.10.2",
-  "Description": "Ninja 1.10.2",
-  "Version": "1.10.2-202404251103",
-  "ReleaseDate": "2024-04-25",
+  "DisplayName": "Ninja 1.12.0",
+  "Description": "Ninja 1.12.0",
+  "Version": "1.12.0-202405151040",
+  "ReleaseDate": "2024-05-15",
   "Dependencies": "qt.tools.qtcreator",
   "Script": "installscript.qs",
   "DownloadableArchives": "ninja_win64.7z",
   "Default": "true",
-  "CompressedSize": "216.3K",
-  "UncompressedSize": "525.5K",
+  "CompressedSize": "228.0K",
+  "UncompressedSize": "555.5K",
   "UserInterfaces": "licensedialog.ui",
   "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
   "Licenses": "\n   ",
-  "SHA1": "24e994b87dd9e13600f5e893eb64a8ccfb6d497d"
+  "SHA1": "e6e727befea3aa3e42fb18e39a5d4ebb5088b1b5"
  }
 }

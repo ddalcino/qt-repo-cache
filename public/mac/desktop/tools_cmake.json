@@ -1,19 +1,19 @@
 {
  "qt.tools.cmake": {
   "Name": "qt.tools.cmake",
-  "DisplayName": "CMake 3.27.7",
-  "Description": "CMake tools 3.27.7",
-  "Version": "3.27.7-202311030804",
-  "ReleaseDate": "2023-11-03",
+  "DisplayName": "CMake 3.29.3",
+  "Description": "CMake tools 3.29.3",
+  "Version": "3.29.3-202405151154",
+  "ReleaseDate": "2024-05-15",
   "Dependencies": "qt.tools.qtcreator",
   "Script": "installscript.qs",
   "DownloadableArchives": "macos64_x86_cmake_tools.7z",
   "Default": "true",
-  "CompressedSize": "51.7M",
-  "UncompressedSize": "214.4M",
+  "CompressedSize": "54.3M",
+  "UncompressedSize": "225.7M",
   "UserInterfaces": "licensedialog.ui",
-  "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
+  "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
   "Licenses": "\n   ",
-  "SHA1": "f937bae19322e915f61d0cda10e65c776f2476dd"
+  "SHA1": "9a80bf2d6f3f2e5a6b30ecd939fd88ce48f5d7b9"
  }
 }
