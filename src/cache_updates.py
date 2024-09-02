@@ -179,7 +179,7 @@ def update_xml_files(last_update: datetime) -> datetime:
                 (tools if folder.startswith("tools") else qts).add(folder)
                 continue
             try:
-                if match := re.match(r"^qt6_(?P<ver_no_dots>\d{3}\d*)(_(?P<ext>.+))?", folder):
+                if (host != 'all_os') and (match := re.match(r"^qt6_(?P<ver_no_dots>\d{3}\d*)(_(?P<ext>.+))?", folder)):
                     qt_version = get_semantic_version(match.group("ver_no_dots"), False)
                     xml_folder = archive_id.to_folder(qt_version, match.group("ver_no_dots"), match.group("ext"))
                 else:
