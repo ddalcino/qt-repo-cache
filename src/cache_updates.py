@@ -8,7 +8,7 @@ from typing import Callable, Dict, Generator, Set, Tuple, Union
 import aqt.metadata
 import bs4
 from aqt.helper import Settings
-from aqt.metadata import ArchiveId, MetadataFactory
+from aqt.metadata import ArchiveId, MetadataFactory, get_semantic_version
 
 fetch_http = aqt.metadata.MetadataFactory.fetch_http
 logging.basicConfig()
@@ -33,10 +33,15 @@ def iterate_hosts_targets() -> Generator[Tuple[str, str], None, None]:
             yield host, target
 
 
+UNSUPPORTED_FOLDER_REGEX = re.compile(r"^qt6_(\d{1,2})_(\d{1,2})")
 def is_qt_or_tools(folder: str) -> bool:
     if DEV_REGEX.match(folder) is not None:
         return False
     if "backup" in folder or "preview" in folder:
+        return False
+    # TODO: when aqtinstall works with folders that look like `qt6_7_3`, remove this!
+    # Depends on aqtinstall/issues/817
+    if UNSUPPORTED_FOLDER_REGEX.match(folder) is not None:
         return False
     return folder.startswith("tools_") or folder.startswith("qt")
 
@@ -173,11 +178,20 @@ def update_xml_files(last_update: datetime) -> datetime:
             if date <= last_update:
                 (tools if folder.startswith("tools") else qts).add(folder)
                 continue
-            LOGGER.info(f"Update for {html_path}{folder}")
-            content = meta._fetch_module_metadata(folder)
+            try:
+                if match := re.match(r"^qt6_(?P<ver_no_dots>\d{3}\d*)(_(?P<ext>.+))?", folder):
+                    qt_version = get_semantic_version(match.group("ver_no_dots"), False)
+                    xml_folder = archive_id.to_folder(qt_version, match.group("ver_no_dots"), match.group("ext"))
+                else:
+                    xml_folder = folder
+            except ValueError as e:
+                LOGGER.error(f"Failed to parse version from folder {folder}: {e}")
+                continue
+            LOGGER.info(f"Update for {html_path}{xml_folder}")
+            content = meta._fetch_module_metadata(xml_folder)
             if not content:
                 continue
-            insert_archive_sizes(content, html_path + folder, meta)
+            insert_archive_sizes(content, html_path + xml_folder, meta)
             json_file = cache_dir / f"{folder}.json"
             json_file.write_text(json.dumps(content, indent=INDENT_SIZE))
             if date > most_recent:
