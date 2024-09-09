@@ -1,5 +1,6 @@
 import json
 import logging
+import posixpath
 import re
 from datetime import datetime
 from pathlib import Path
@@ -8,7 +9,8 @@ from typing import Callable, Dict, Generator, Set, Tuple, Union
 import aqt.metadata
 import bs4
 from aqt.helper import Settings
-from aqt.metadata import ArchiveId, MetadataFactory
+from aqt.metadata import ArchiveId, MetadataFactory, get_semantic_version
+from cached_directory import CachedDirectory
 
 fetch_http = aqt.metadata.MetadataFactory.fetch_http
 logging.basicConfig()
@@ -19,6 +21,9 @@ PUBLIC_ROOT = Path(__file__).parent.parent / "public"
 LAST_UPDATED_JSON_FILE = PUBLIC_ROOT / "last_updated.json"
 INDENT_SIZE = 1
 REQUIRED_FETCH_DEPTH = 1
+
+# Allowed tools that don't start with 'tools_' (see aqtinstall#677)
+HARDCODED_ALLOWED_TOOLS = ('sdktool',)
 
 
 def banner_message(msg: str):
@@ -33,12 +38,17 @@ def iterate_hosts_targets() -> Generator[Tuple[str, str], None, None]:
             yield host, target
 
 
+UNSUPPORTED_FOLDER_REGEX = re.compile(r"^qt6_(\d{1,2})_(\d{1,2})")
 def is_qt_or_tools(folder: str) -> bool:
     if DEV_REGEX.match(folder) is not None:
         return False
     if "backup" in folder or "preview" in folder:
         return False
-    return folder.startswith("tools_") or folder.startswith("qt")
+    # TODO: when aqtinstall works with folders that look like `qt6_7_3`, remove this!
+    # Depends on aqtinstall/issues/817
+    if UNSUPPORTED_FOLDER_REGEX.match(folder) is not None:
+        return False
+    return folder.startswith("tools_") or folder.startswith("qt") or folder in HARDCODED_ALLOWED_TOOLS
 
 
 def iter_folders(
@@ -145,24 +155,32 @@ def save_last_update_dates(dates: Dict[str, datetime]):
 
     if not LAST_UPDATED_JSON_FILE.parent.is_dir():
         LAST_UPDATED_JSON_FILE.parent.mkdir(parents=True)
-    dates_dict = {key: timestamp_or_zero(value) for key, value in dates.items()}
+    dates_dict: Dict[str, Union[float, str]] = {key: timestamp_or_zero(value) for key, value in dates.items()}
+    for key, value in dates.items():
+        dates_dict[f"{key}_utc_pretty"] = f'{value:%Y-%m-%d %H:%M:%S}'
     LAST_UPDATED_JSON_FILE.write_text(json.dumps(dates_dict, indent=INDENT_SIZE))
 
 
 def get_last_update_dates() -> Dict[str, datetime]:
     timestamps = json.loads(LAST_UPDATED_JSON_FILE.read_text())
-    return {key: datetime.fromtimestamp(timestamp) for key, timestamp in timestamps.items()}
+    return {key: datetime.fromtimestamp(timestamps[key]) for key in timestamps.keys() if not key.endswith("_utc_pretty")}
+
+
+def spider_folder(meta: MetadataFactory, path_to_folder: str) -> Generator[str, None, None]:
+    """Returns a list of all folders that contain Updates.xml files."""
+    html_doc = meta.fetch_http(posixpath.join(meta.archive_id.to_url(), path_to_folder), is_check_hash=False)
+    if '<a href="Updates.xml">Updates.xml</a>' in html_doc:
+        yield path_to_folder
+    else:
+        for folder, _, _ in iter_folders(html_doc):
+            yield from spider_folder(meta, f"{path_to_folder}/{folder}")
 
 
 def update_xml_files(last_update: datetime) -> datetime:
     most_recent = last_update
     for host, target in iterate_hosts_targets():
         LOGGER.info(banner_message(f"Entering {host}/{target}"))
-        cache_dir = PUBLIC_ROOT / host / target
-        if not cache_dir.exists():
-            cache_dir.mkdir(parents=True)
-        tools: Set[str] = set()
-        qts: Set[str] = set()
+        cache_dir = CachedDirectory(PUBLIC_ROOT / host / target, indent=INDENT_SIZE)
         # Download html file:
         archive_id = ArchiveId("qt", host, target)
         html_path = archive_id.to_url()
@@ -170,37 +188,35 @@ def update_xml_files(last_update: datetime) -> datetime:
         html_doc = meta.fetch_http(html_path, is_check_hash=False)
         for folder, date, _ in iter_folders(html_doc):
             # Skip files that have not changed since the last update
-            if date <= last_update:
-                (tools if folder.startswith("tools") else qts).add(folder)
+            if date <= last_update and folder in cache_dir:
+                cache_dir.use_cached_folder(folder)
                 continue
-            LOGGER.info(f"Update for {html_path}{folder}")
-            content = meta._fetch_module_metadata(folder)
-            if not content:
-                continue
-            insert_archive_sizes(content, html_path + folder, meta)
-            json_file = cache_dir / f"{folder}.json"
-            json_file.write_text(json.dumps(content, indent=INDENT_SIZE))
-            if date > most_recent:
-                most_recent = date
-            (tools if folder.startswith("tools") else qts).add(folder)
+            for xml_folder in spider_folder(meta, folder):
+                content = meta._fetch_module_metadata(xml_folder)
+                if not content:
+                    continue
+                LOGGER.info(f"Update for {html_path}{xml_folder}")
+                insert_archive_sizes(content, html_path + xml_folder, meta)
+                cache_dir.add_folder(xml_folder)
+                json_file = cache_dir.cached_dir_path / f"{xml_folder}.json"
+                if not json_file.parent.exists():
+                    json_file.parent.mkdir(parents=True)
+                json_file.write_text(json.dumps(content, indent=INDENT_SIZE))
+                if date > most_recent:
+                    most_recent = date
+                cache_dir.add_folder(xml_folder)
 
         # Record the new directory listing
-        dir_file = cache_dir / "directory.json"
-        dir_file.write_text(
-            json.dumps({"tools": sorted(tools), "qt": sorted(qts)}, indent=INDENT_SIZE)
-        )
+        cache_dir.save()
 
         # Prune cache of files that no longer exist in the qt repo
-        all_files = tools.union(qts)
-        for json_file in cache_dir.glob("*.json"):
-            filename = json_file.with_suffix("").name
-            if filename != "directory" and filename not in all_files:
-                LOGGER.info(f"Removing {json_file}")
-                json_file.unlink()
+        cache_dir.prune_removed_files(LOGGER)
     return most_recent
 
 
 if __name__ == "__main__":
+    # TODO: remove patch for TARGETS_FOR_HOST when fixed upstream
+    ArchiveId.TARGETS_FOR_HOST.update({"all_os": ["android", "qt", "wasm"]})
     Settings.load_settings()
     last_updates: Dict[str, datetime] = get_last_update_dates()
     new_dates: Dict[str, datetime] = {key: val for key, val in last_updates.items()}
