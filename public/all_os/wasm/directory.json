@@ -1,0 +1,13 @@
+{
+ "qt": [
+  "qt6_670_wasm_multithread",
+  "qt6_670_wasm_singlethread",
+  "qt6_671_wasm_multithread",
+  "qt6_671_wasm_singlethread",
+  "qt6_672_wasm_multithread",
+  "qt6_672_wasm_singlethread",
+  "qt6_680/qt6_680_wasm_multithread",
+  "qt6_680/qt6_680_wasm_singlethread"
+ ],
+ "tools": []
+}

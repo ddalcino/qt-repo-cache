@@ -3,17 +3,17 @@
   "Name": "qt.tools.qtcreator_gui.telemetry",
   "DisplayName": "Qt Telemetry plugin",
   "Description": "Collects pseudonymous data from Qt Creator",
-  "Version": "13.0.2-0-202406051214",
-  "ReleaseDate": "2024-06-05",
+  "Version": "14.0.1-0-202408060329",
+  "ReleaseDate": "2024-08-06",
   "Script": "installscript.qs",
   "Virtual": "true",
   "Replaces": "qt.tools.qtcreator.telemetry_evaluator,qt.tools.qtcreator.telemetry",
   "AutoDependOn": null,
-  "CompressedSize": "197.4K",
+  "CompressedSize": "200.3K",
   "UncompressedSize": "1.3M",
   "DownloadableArchives": "telemetry.7z",
   "UserInterfaces": "telemetrypluginform.ui",
   "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
-  "SHA1": "8db7296708248449935d1bd9a8fe510cb86830a5"
+  "SHA1": "c206ded72e31dec9491bcd4442d8031c2fe4a673"
  }
 }

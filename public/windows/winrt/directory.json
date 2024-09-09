@@ -1,11 +1,4 @@
 {
- "tools": [
-  "tools_qt3dstudio_runtime",
-  "tools_qt3dstudio_runtime_210",
-  "tools_qt3dstudio_runtime_220",
-  "tools_qt3dstudio_runtime_230",
-  "tools_qt3dstudio_runtime_240"
- ],
  "qt": [
   "qt5_5100",
   "qt5_5101",
@@ -45,5 +38,12 @@
   "qt5_597",
   "qt5_598",
   "qt5_599"
+ ],
+ "tools": [
+  "tools_qt3dstudio_runtime",
+  "tools_qt3dstudio_runtime_210",
+  "tools_qt3dstudio_runtime_220",
+  "tools_qt3dstudio_runtime_230",
+  "tools_qt3dstudio_runtime_240"
  ]
 }

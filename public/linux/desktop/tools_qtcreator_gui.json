@@ -1,57 +1,57 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 13.0.2",
+  "DisplayName": "Qt Creator 14.0.1",
   "Description": "IDE for Qt application development",
-  "Version": "13.0.2-0-202406051201",
-  "ReleaseDate": "2024-06-05",
+  "Version": "14.0.1-0-202408060330",
+  "ReleaseDate": "2024-08-06",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "131.6M",
-  "UncompressedSize": "510.8M",
+  "CompressedSize": "137.7M",
+  "UncompressedSize": "540.4M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "65e1b7732e32b91f99762c1006669dda361086a4"
+  "SHA1": "19b4d2e8051dd8d6a4ba16eac48f74ab845e2fbe"
  },
  "qt.tools.qtcreator_gui.src": {
   "Name": "qt.tools.qtcreator_gui.src",
-  "DisplayName": "Qt Creator 13.0.2 Src",
-  "Description": "Qt Creator 13.0.2 Src",
-  "Version": "13.0.2-0-202406051201",
-  "ReleaseDate": "2024-06-05",
+  "DisplayName": "Qt Creator 14.0.1 Src",
+  "Description": "Qt Creator 14.0.1 Src",
+  "Version": "14.0.1-0-202408060330",
+  "ReleaseDate": "2024-08-06",
   "Virtual": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator_src.7z",
   "Replaces": "qt.tools.qtcreator.src",
-  "CompressedSize": "49.2M",
-  "UncompressedSize": "167.2M",
-  "SHA1": "11cad3bf7be4148df2b9098de77a919b064be652"
+  "CompressedSize": "49.8M",
+  "UncompressedSize": "170.9M",
+  "SHA1": "5a32dcd92fe1669c3aa4dd42129a3d5c8fc300a5"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 13.0.2 Debug Symbols",
+  "DisplayName": "Qt Creator 14.0.1 Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "13.0.2-0-202406051201",
-  "ReleaseDate": "2024-06-05",
+  "Version": "14.0.1-0-202408060330",
+  "ReleaseDate": "2024-08-06",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "630.0M",
-  "UncompressedSize": "2.9G",
-  "SHA1": "98ae0c7405d81166ac9ee198d173fe1ba82d7bd4"
+  "CompressedSize": "690.9M",
+  "UncompressedSize": "3.2G",
+  "SHA1": "1fe623f72a994d60ceb0e4968704d238d0437ed6"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 13.0.2 Plugin Development",
+  "DisplayName": "Qt Creator 14.0.1 Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "13.0.2-0-202406051201",
-  "ReleaseDate": "2024-06-05",
+  "Version": "14.0.1-0-202408060330",
+  "ReleaseDate": "2024-08-06",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "26.7M",
-  "UncompressedSize": "225.4M",
-  "SHA1": "e731eb7efb36e1ac196a6a84439c49ac598ca4f0"
+  "CompressedSize": "28.9M",
+  "UncompressedSize": "243.3M",
+  "SHA1": "70362cd835bb913b696779df8a85e715252ecd29"
  }
 }

@@ -1,0 +1,17 @@
+{
+ "qt": [
+  "qt6_670",
+  "qt6_671",
+  "qt6_672",
+  "qt6_680/qt6_680"
+ ],
+ "tools": [
+  "sdktool",
+  "tools_cmake",
+  "tools_ifw",
+  "tools_maintenance",
+  "tools_ninja",
+  "tools_qtcreator_gui",
+  "tools_telemetry_gui"
+ ]
+}

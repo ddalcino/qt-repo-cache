@@ -1,0 +1,10 @@
+{
+ "qt": [
+  "qt6_680/qt6_680"
+ ],
+ "tools": [
+  "tools_cmake",
+  "tools_ninja",
+  "tools_vcredist"
+ ]
+}
