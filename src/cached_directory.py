@@ -44,6 +44,10 @@ class CachedDirectory:
         return self._new_qt if folder.startswith("qt") else self._new_tools
 
     def __contains__(self, folder: str) -> bool:
+        """
+        :param folder: The folder path as a string to check for existence within the previous set of folders.
+        :return: Boolean value indicating whether the specified folder or any of its subfolders exist in the previous set.
+        """
         for f in self._previous_set(folder):
             if f == folder or f.startswith(folder + "/"):
                 return True
