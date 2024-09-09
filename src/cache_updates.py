@@ -155,13 +155,15 @@ def save_last_update_dates(dates: Dict[str, datetime]):
 
     if not LAST_UPDATED_JSON_FILE.parent.is_dir():
         LAST_UPDATED_JSON_FILE.parent.mkdir(parents=True)
-    dates_dict = {key: timestamp_or_zero(value) for key, value in dates.items()}
+    dates_dict: Dict[str, Union[float, str]] = {key: timestamp_or_zero(value) for key, value in dates.items()}
+    for key, value in dates.items():
+        dates_dict[f"{key}_utc_pretty"] = f'{value:%Y-%m-%d %H:%M:%S}'
     LAST_UPDATED_JSON_FILE.write_text(json.dumps(dates_dict, indent=INDENT_SIZE))
 
 
 def get_last_update_dates() -> Dict[str, datetime]:
     timestamps = json.loads(LAST_UPDATED_JSON_FILE.read_text())
-    return {key: datetime.fromtimestamp(timestamp) for key, timestamp in timestamps.items()}
+    return {key: datetime.fromtimestamp(timestamps[key]) for key in timestamps.keys() if not key.endswith("_utc_pretty")}
 
 
 def spider_folder(meta: MetadataFactory, path_to_folder: str) -> Generator[str, None, None]:
