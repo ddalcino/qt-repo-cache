@@ -60,5 +60,7 @@ class CachedDirectory:
             for previous_folder in previous_folder_set:
                 if previous_folder not in new_folder_set:
                     json_file = self.cached_dir_path / f"{previous_folder}.json"
+                    if not json_file.exists():
+                        continue
                     logger.info(f"Removing {json_file}")
                     json_file.unlink()
