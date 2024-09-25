@@ -3,8 +3,8 @@
   "Name": "qt.tools.win64_llvm_mingw1706",
   "DisplayName": "LLVM-MinGW 17.0.6 64-bit",
   "Description": "LLVM-MinGW-builds 17.0.6 64-bit toolchain",
-  "Version": "17.0.6-202401290621",
-  "ReleaseDate": "2024-01-29",
+  "Version": "17.0.6-202409091150",
+  "ReleaseDate": "2024-09-09",
   "Dependencies": "qt.tools.qtcreator",
   "Default": "false",
   "Script": "installscript.qs",
@@ -12,6 +12,6 @@
   "DownloadableArchives": "llvm_mingw1706.7z",
   "CompressedSize": "77.3M",
   "UncompressedSize": "500.8M",
-  "SHA1": "440cb60331ffe975fb80bccfcd3ce894eee0b02d"
+  "SHA1": "08b0a52f93654decf6c400c2381eaec3405a3dc5"
  }
 }

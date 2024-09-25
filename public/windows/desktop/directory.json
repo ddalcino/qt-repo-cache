@@ -182,6 +182,9 @@
   "qt6_671_src_doc_examples",
   "qt6_672",
   "qt6_672_src_doc_examples",
+  "qt6_673",
+  "qt6_673_msvc2022",
+  "qt6_673_src_doc_examples",
   "qt6_680/qt6_680",
   "qt6_680/qt6_680_src_doc_examples"
  ],
