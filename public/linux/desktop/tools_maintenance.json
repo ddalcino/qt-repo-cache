@@ -3,8 +3,8 @@
   "Name": "qt.tools.maintenance",
   "DisplayName": "Qt Maintenance Tool",
   "Description": "The tool to maintain and update the existing installation, located in the root directory of the installation.",
-  "Version": "4.8.0-202405141156",
-  "ReleaseDate": "2024-05-14",
+  "Version": "4.8.1-202409230636",
+  "ReleaseDate": "2024-09-23",
   "Script": "installscript.qs",
   "ForcedInstallation": "true",
   "Virtual": "false",
@@ -12,14 +12,13 @@
   "DownloadableArchives": "tqtc-installer-framework-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64-QtInstaller.7z, QtIcon.7z, installer-changelog.7z, installer-resource.7z",
   "CompressedSize": "15.7M",
   "UncompressedSize": "51.7M",
-  "Operations": "\n   ",
-  "SHA1": "cae5ba49960a1e01fc7dddb821e3a761d9db24ea",
+  "SHA1": "f07725281f795bacb18a9d74cf0353d20e01c81d",
   "ArchiveSizes": {
    "tqtc-installer-framework-Linux-RHEL_8_6-GCC-Linux-RHEL_8_6-X86_64-QtInstaller.7z": "16M",
    "installer-resource.7z": "9.0K",
-   "installer-changelog.7z": "3.3K",
+   "installer-changelog.7z": "3.6K",
    "content.7z": "11K",
-   "QtIcon.7z": "7.3K"
+   "QtIcon.7z": "7.4K"
   }
  }
 }
