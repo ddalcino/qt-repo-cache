@@ -3,14 +3,14 @@
   "Name": "qt.tools.qtcreator",
   "DisplayName": "SDKTool",
   "Description": "SDKTool",
-  "Version": "14.0.1-0-202408060252",
-  "ReleaseDate": "2024-08-06",
+  "Version": "14.0.2-0-202409270342",
+  "ReleaseDate": "2024-09-27",
   "Script": "installscript.qs",
   "Virtual": "true",
   "ForcedInstallation": "true",
   "DownloadableArchives": "qtcreator_sdktool.7z",
   "CompressedSize": "1.2M",
   "UncompressedSize": "4.1M",
-  "SHA1": "37cb85008e42e1a84f4118e870affd98a9dfe170"
+  "SHA1": "0014f7f0f5b8147babf5ee5df635027ce8a67896"
  }
 }

@@ -1,67 +1,66 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 14.0.1",
+  "DisplayName": "Qt Creator 14.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "14.0.1-0-202408060330",
-  "ReleaseDate": "2024-08-06",
+  "Version": "14.0.2-0-202409270455",
+  "ReleaseDate": "2024-09-27",
   "Script": "installscript.qs",
   "Dependencies": "qt.tools.qtcreator->=9.0.1",
   "Default": "true",
+  "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
-  "DownloadableArchives": "qtcreator.7z, wininterrupt64.7z, wininterruptArm64.7z, jom.7z",
-  "CompressedSize": "132.7M",
-  "UncompressedSize": "560.2M",
+  "DownloadableArchives": "qtcreator.7z, wininterrupt64.7z, jom.7z",
+  "CompressedSize": "131.0M",
+  "UncompressedSize": "559.0M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "d6926072a08fa504bb8a2504dc7f96750be2c2a1",
+  "SHA1": "2ea71ddbbc9d06f86c801d5a3fea3c94f6256399",
   "ArchiveSizes": {
-   "wininterruptArm64.7z": "4.8K",
-   "wininterrupt64.7z": "14K",
-   "qtcreator.7z": "131M",
+   "wininterrupt64.7z": "24K",
+   "qtcreator.7z": "130M",
    "jom.7z": "1.3M"
   }
  },
  "qt.tools.qtcreatorcdbext": {
   "Name": "qt.tools.qtcreatorcdbext",
-  "DisplayName": "Qt Creator 14.0.1 CDB Debugger Support",
+  "DisplayName": "CDB Debugger Support",
   "Description": "CDB Debugger support for Qt Creator",
-  "Version": "14.0.1-0-202408060330",
-  "ReleaseDate": "2024-08-06",
+  "Version": "14.0.2-0-202409270455",
+  "ReleaseDate": "2024-09-27",
   "Dependencies": "qt.tools.qtcreator_gui,qt.license.python",
   "SortingPriority": "999",
   "Default": "true",
-  "DownloadableArchives": "qtcreatorcdbext64.7z, qtcreatorcdbextArm64.7z",
-  "CompressedSize": "28.9M",
-  "UncompressedSize": "103.0M",
-  "SHA1": "c66f637825fc290283805c87795dbdf4d7d5ff60",
-  "ArchiveSizes": {
-   "qtcreatorcdbextArm64.7z": "3.0M",
-   "qtcreatorcdbext64.7z": "26M"
-  }
+  "TreeName": "qtcreator.cdb",
+  "DownloadableArchives": "qtcreatorcdbext64.7z",
+  "CompressedSize": "31.3M",
+  "UncompressedSize": "111.7M",
+  "SHA1": "23be2a3d0cdf40f131df652975df48555e6ddf6b"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
-  "DisplayName": "Qt Creator 14.0.1 Debug Symbols",
+  "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "14.0.1-0-202408060330",
-  "ReleaseDate": "2024-08-06",
+  "Version": "14.0.2-0-202409270455",
+  "ReleaseDate": "2024-09-27",
+  "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "366.5M",
+  "CompressedSize": "367.3M",
   "UncompressedSize": "2.6G",
-  "SHA1": "5e22b72c8b1e6166fcb117b4f72c93ed218261c3"
+  "SHA1": "7b328c56c7bdc2b27cb50e5bce9e5cf73b074064"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
-  "DisplayName": "Qt Creator 14.0.1 Plugin Development",
+  "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "14.0.1-0-202408060330",
-  "ReleaseDate": "2024-08-06",
+  "Version": "14.0.2-0-202409270455",
+  "ReleaseDate": "2024-09-27",
+  "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "13.6M",
-  "UncompressedSize": "149.8M",
-  "SHA1": "75419f1ff6801a7fb31ad15b5ed47f2fd06a79eb"
+  "UncompressedSize": "149.9M",
+  "SHA1": "1e42720e99f7dfb46b642c2f4506dc402dbd9ef8"
  }
 }
