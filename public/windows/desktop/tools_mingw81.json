@@ -1,0 +1,34 @@
+{
+ "qt.tools.win32_mingw810": {
+  "Name": "qt.tools.win32_mingw810",
+  "DisplayName": "MinGW 8.1.0 32-bit",
+  "Description": "MinGW-builds 8.1.0 32-bit toolchain.",
+  "Version": "8.1.0-1-202411201005",
+  "ReleaseDate": "2024-11-20",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "810",
+  "DownloadableArchives": "i686-8.1.0-gdb-11.2.0-release-posix-dwarf-rt_v6-rev0.7z",
+  "CompressedSize": "80.4M",
+  "UncompressedSize": "446.7M",
+  "Operations": "\n   ",
+  "SHA1": "5097b4d60a61db73822b0065eff5bd1117155609"
+ },
+ "qt.tools.win64_mingw810": {
+  "Name": "qt.tools.win64_mingw810",
+  "DisplayName": "MinGW 8.1.0 64-bit",
+  "Description": "MinGW-builds 8.1.0 64-bit toolchain.",
+  "Version": "8.1.0-1-202411201005",
+  "ReleaseDate": "2024-11-20",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "810",
+  "DownloadableArchives": "x86_64-8.1.0-gdb-11.2.0-release-posix-seh-rt_v6-rev0.7z",
+  "CompressedSize": "82.2M",
+  "UncompressedSize": "474.1M",
+  "Operations": "\n   ",
+  "SHA1": "e962c2ed6bbea2aa0d357f0741922955ff5212c1"
+ }
+}
