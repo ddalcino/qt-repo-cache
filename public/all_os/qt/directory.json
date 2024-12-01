@@ -6,7 +6,9 @@
   "qt6_673_src_doc_examples",
   "qt6_680_src_doc_examples",
   "qt6_680_unix_line_endings_src",
-  "qt6_680_windows_line_endings_src"
+  "qt6_680_windows_line_endings_src",
+  "qt6_681_unix_line_endings_src",
+  "qt6_681_windows_line_endings_src"
  ],
  "tools": []
 }

@@ -9,7 +9,9 @@
   "qt6_673_wasm_multithread",
   "qt6_673_wasm_singlethread",
   "qt6_680/qt6_680_wasm_multithread",
-  "qt6_680/qt6_680_wasm_singlethread"
+  "qt6_680/qt6_680_wasm_singlethread",
+  "qt6_681/qt6_681_wasm_multithread",
+  "qt6_681/qt6_681_wasm_singlethread"
  ],
  "tools": []
 }

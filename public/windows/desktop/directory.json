@@ -186,7 +186,8 @@
   "qt6_673_msvc2022",
   "qt6_673_src_doc_examples",
   "qt6_680/qt6_680",
-  "qt6_680/qt6_680_src_doc_examples"
+  "qt6_680/qt6_680_src_doc_examples",
+  "qt6_681/qt6_681"
  ],
  "tools": [
   "sdktool",
