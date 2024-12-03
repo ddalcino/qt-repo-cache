@@ -9,12 +9,12 @@
   "Virtual": "true",
   "Replaces": "qt.tools.qtcreator.telemetry_evaluator,qt.tools.qtcreator.telemetry",
   "AutoDependOn": null,
-  "CompressedSize": "82.8K",
-  "UncompressedSize": "391.3K",
+  "CompressedSize": "92.9K",
+  "UncompressedSize": "481.3K",
   "DownloadableArchives": "telemetry.7z",
   "UserInterfaces": "telemetrypluginform.ui",
   "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
   "Operations": "\n   ",
-  "SHA1": "f7cb97105bd66a37851d2f23711c1084d7a7ca71"
+  "SHA1": "d5e68a6f093758f4265746708bd412eeeed334c0"
  }
 }

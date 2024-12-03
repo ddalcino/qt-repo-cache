@@ -1,46 +1,46 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 14.0.2",
+  "DisplayName": "Qt Creator 15.0.0",
   "Description": "IDE for Qt application development",
-  "Version": "14.0.2-0-202409270455",
-  "ReleaseDate": "2024-09-27",
+  "Version": "15.0.0-0-202411271056",
+  "ReleaseDate": "2024-11-27",
   "Script": "installscript.qs",
-  "Dependencies": "qt.tools.qtcreator->=9.0.1",
+  "Dependencies": null,
   "Default": "true",
   "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "176.5M",
-  "UncompressedSize": "819.9M",
+  "CompressedSize": "201.8M",
+  "UncompressedSize": "934.7M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "857b80fb343d150777c4af340fc331584421d038"
+  "SHA1": "fe76b533eaae7ae67607c07d5bb49975246efc76"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
   "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "14.0.2-0-202409270455",
-  "ReleaseDate": "2024-09-27",
+  "Version": "15.0.0-0-202411271056",
+  "ReleaseDate": "2024-11-27",
   "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "659.5M",
-  "UncompressedSize": "4.1G",
-  "SHA1": "acc0175d5667a28d877185e294a00ad217fc8d41"
+  "CompressedSize": "668.7M",
+  "UncompressedSize": "4.2G",
+  "SHA1": "b79c50ae63b48e53af06f6e2050888e1c62b7b6b"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
   "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "14.0.2-0-202409270455",
-  "ReleaseDate": "2024-09-27",
+  "Version": "15.0.0-0-202411271056",
+  "ReleaseDate": "2024-11-27",
   "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "28.2M",
-  "UncompressedSize": "203.0M",
-  "SHA1": "0ef45cc55819426298ecbfe2c7c32d94196c2710"
+  "CompressedSize": "29.2M",
+  "UncompressedSize": "215.4M",
+  "SHA1": "7c6f7ed6368af37836460d0898d445346d8a6d72"
  }
 }

@@ -10,28 +10,33 @@
   "Default": "true",
   "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
-  "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "155.5M",
-  "UncompressedSize": "773.0M",
+  "DownloadableArchives": "qtcreator.7z, wininterrupt64.7z",
+  "CompressedSize": "124.9M",
+  "UncompressedSize": "644.0M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,ar.qm,ja.qm,fr.qm,ru.qm,es.qm",
   "Operations": "\n   ",
-  "SHA1": "4338d16e8fde5b8431de396eba9ef6bb2c8cd2a0"
+  "SHA1": "7c758cbdd57d10e6f08196b98f559ed2a10c6ec4",
+  "ArchiveSizes": {
+   "wininterrupt64.7z": "24K",
+   "qtcreator.7z": "125M"
+  }
  },
- "qt.tools.qtcreator_gui.src": {
-  "Name": "qt.tools.qtcreator_gui.src",
-  "DisplayName": "Qt Creator 15.0.0 Src",
-  "Description": "Qt Creator 15.0.0 Src",
+ "qt.tools.qtcreatorcdbext": {
+  "Name": "qt.tools.qtcreatorcdbext",
+  "DisplayName": "CDB Debugger Support",
+  "Description": "CDB Debugger support for Qt Creator",
   "Version": "15.0.0-0-202411271056",
   "ReleaseDate": "2024-11-27",
-  "Virtual": "true",
-  "SortingPriority": "1000",
-  "DownloadableArchives": "qtcreator_src.7z",
-  "Replaces": "qt.tools.qtcreator.src",
-  "CompressedSize": "50.5M",
-  "UncompressedSize": "171.9M",
+  "Dependencies": "qt.tools.qtcreator_gui,qt.license.python",
+  "SortingPriority": "999",
+  "Default": "true",
+  "TreeName": "qtcreator.cdb",
+  "DownloadableArchives": "qtcreatorcdbext64.7z",
+  "CompressedSize": "45.8M",
+  "UncompressedSize": "189.3M",
   "Operations": "\n   ",
-  "SHA1": "306f00f45e123626aaa979fa747f3e39db63cf12"
+  "SHA1": "2dd4e898a620aef47c67c59942ce89fc20108e96"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
@@ -42,10 +47,10 @@
   "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "693.8M",
-  "UncompressedSize": "2.8G",
+  "CompressedSize": "364.6M",
+  "UncompressedSize": "2.6G",
   "Operations": "\n   ",
-  "SHA1": "524e23d0b1d39df886e82d12d301f8b4f597805a"
+  "SHA1": "c9767cd373f789c5ff843586a8340b5402b8fe57"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
@@ -56,9 +61,9 @@
   "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "27.9M",
-  "UncompressedSize": "202.3M",
+  "CompressedSize": "12.6M",
+  "UncompressedSize": "142.9M",
   "Operations": "\n   ",
-  "SHA1": "ee969f643295190f741cfe48ea2545f76cf8a328"
+  "SHA1": "0f4f7f010733aff8e0b029315cedf0ceb2ce3612"
  }
 }

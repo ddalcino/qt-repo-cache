@@ -7,6 +7,9 @@
   "tools_cmake",
   "tools_maintenance",
   "tools_ninja",
+  "tools_qtcreator_gui",
+  "tools_qtcreator_kits_and_debuggers",
+  "tools_telemetry_gui",
   "tools_vcredist"
  ]
 }
