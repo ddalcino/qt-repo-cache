@@ -3,13 +3,14 @@
   "Name": "qt.tools.vcredist_msvc2022_arm64",
   "DisplayName": "VCRedist for MSVC 2022 ARM64",
   "Description": "Visual C++ Redistributable Packages for Visual Studio 2022 ARM64",
-  "Version": "2024-04-09",
-  "ReleaseDate": "2024-06-04",
+  "Version": "2024-11-28",
+  "ReleaseDate": "2024-11-28",
   "Script": "installscript.qs",
   "Virtual": "true",
   "DownloadableArchives": "vcredist_msvc2022_arm64.7z",
-  "CompressedSize": "10.8M",
-  "UncompressedSize": "11.0M",
-  "SHA1": "69a63f5b82e08fdfb09638fe8c4162a32ecde220"
+  "CompressedSize": "11.0M",
+  "UncompressedSize": "11.2M",
+  "Operations": "\n   ",
+  "SHA1": "9ef11c92d7145f303f7a89c77e411ba13cc8089b"
  }
 }
