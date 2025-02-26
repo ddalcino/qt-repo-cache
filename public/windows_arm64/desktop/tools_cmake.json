@@ -1,19 +1,19 @@
 {
  "qt.tools.cmake": {
   "Name": "qt.tools.cmake",
-  "DisplayName": "CMake 3.29.3",
-  "Description": "CMake tools 3.29.3",
-  "Version": "3.29.3-202405151154",
-  "ReleaseDate": "2024-05-15",
+  "DisplayName": "CMake 3.30.5",
+  "Description": "CMake tools 3.30.5",
+  "Version": "3.30.5-202502251255",
+  "ReleaseDate": "2025-02-25",
   "Dependencies": "qt.tools.qtcreator",
   "Script": "installscript.qs",
   "DownloadableArchives": "windows_arm64_cmake_tools.7z",
-  "Default": "true",
-  "CompressedSize": "24.5M",
-  "UncompressedSize": "111.3M",
+  "CompressedSize": "24.3M",
+  "UncompressedSize": "109.7M",
   "UserInterfaces": "licensedialog.ui",
   "Translations": "de.qm,ar.qm,es.qm,fr.qm,ru.qm,pt.qm,ja.qm",
   "Licenses": "\n   ",
-  "SHA1": "fab13cc8040d900c766d570a93fc9442f105c48e"
+  "Operations": "\n   ",
+  "SHA1": "f61ebb897e12370a9e0e1167cd8b58912a2ff444"
  }
 }
