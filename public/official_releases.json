@@ -4943,11 +4943,11 @@
   "PySide-1.1.1qt474.win-amd64-py2.7.exe": "41M"
  },
  "online_installers/": {
-  "qt-unified-windows-x64-online.exe": "50M",
-  "qt-unified-windows-arm64-online.exe": "29M",
-  "qt-unified-mac-x64-online.dmg": "22M",
-  "qt-unified-linux-x64-online.run": "70M",
-  "qt-unified-linux-arm64-online.run": "72M"
+  "qt-online-installer-windows-x64-online.exe": "50M",
+  "qt-online-installer-windows-arm64-online.exe": "29M",
+  "qt-online-installer-mac-x64-online.dmg": "22M",
+  "qt-online-installer-linux-x64-online.run": "70M",
+  "qt-online-installer-linux-arm64-online.run": "72M"
  },
  "jom/": {
   "unstable-jom.zip": "1.6M",
