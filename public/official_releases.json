@@ -4131,6 +4131,10 @@
   "CVE-2025-23050-qtconnectivity-5.15.diff": "7.8K"
  },
  "qt-installer-framework/": {
+  "4.9.0/": {
+   "installer-framework-everywhere-src-4.9.0.zip": "6.1M",
+   "installer-framework-everywhere-src-4.9.0.tar.xz": "3.3M"
+  },
   "4.8.1/": {
    "installer-framework-everywhere-src-4.8.1.zip": "6.0M",
    "installer-framework-everywhere-src-4.8.1.tar.xz": "3.2M",
