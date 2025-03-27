@@ -14,6 +14,8 @@
   "qt6_681/qt6_681_wasm_singlethread",
   "qt6_682/qt6_682_wasm_multithread",
   "qt6_682/qt6_682_wasm_singlethread",
+  "qt6_683/qt6_683_wasm_multithread",
+  "qt6_683/qt6_683_wasm_singlethread",
   "qt6_690/qt6_690_wasm_multithread",
   "qt6_690/qt6_690_wasm_singlethread"
  ],
