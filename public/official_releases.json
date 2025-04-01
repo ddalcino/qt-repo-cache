@@ -2430,6 +2430,7 @@
     },
     "OFFLINE_README.txt": "357"
    },
+   "CVE-2025-30348-qtbase-6.5.diff": "4.5K",
    "CVE-2025-23050-qtconnectivity-6.5.diff": "8.0K",
    "CVE-2024-39936-qtbase-6.5.patch": "5.3K",
    "CVE-2024-36048-qtnetworkauth-6.5.diff": "1.8K",
@@ -4191,6 +4192,7 @@
     "OFFLINE_README.txt": "357"
    },
    "qprocess5-15.diff": "2.4K",
+   "CVE-2025-30348-qtbase-5.15.diff": "6.0K",
    "CVE-2025-23050-qtconnectivity-5.15.diff": "7.8K",
    "CVE-2024-39936-qtbase-5.15.patch": "5.3K",
    "CVE-2024-36048-qtnetworkauth-5.15.diff": "1.8K",
