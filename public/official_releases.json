@@ -1191,6 +1191,96 @@
   }
  },
  "qt/": {
+  "6.9/": {
+   "6.9.0/": {
+    "submodules/": {
+     "qtwebview-everywhere-src-6.9.0.zip": "237K",
+     "qtwebview-everywhere-src-6.9.0.tar.xz": "138K",
+     "qtwebsockets-everywhere-src-6.9.0.zip": "721K",
+     "qtwebsockets-everywhere-src-6.9.0.tar.xz": "451K",
+     "qtwebengine-everywhere-src-6.9.0.zip": "1.0G",
+     "qtwebengine-everywhere-src-6.9.0.tar.xz": "641M",
+     "qtwebchannel-everywhere-src-6.9.0.zip": "445K",
+     "qtwebchannel-everywhere-src-6.9.0.tar.xz": "205K",
+     "qtwayland-everywhere-src-6.9.0.zip": "2.1M",
+     "qtwayland-everywhere-src-6.9.0.tar.xz": "1.1M",
+     "qtvirtualkeyboard-everywhere-src-6.9.0.zip": "4.9M",
+     "qtvirtualkeyboard-everywhere-src-6.9.0.tar.xz": "3.1M",
+     "qttranslations-everywhere-src-6.9.0.zip": "3.0M",
+     "qttranslations-everywhere-src-6.9.0.tar.xz": "1.5M",
+     "qttools-everywhere-src-6.9.0.zip": "15M",
+     "qttools-everywhere-src-6.9.0.tar.xz": "9.8M",
+     "qtsvg-everywhere-src-6.9.0.zip": "2.6M",
+     "qtsvg-everywhere-src-6.9.0.tar.xz": "1.9M",
+     "qtspeech-everywhere-src-6.9.0.zip": "364K",
+     "qtspeech-everywhere-src-6.9.0.tar.xz": "257K",
+     "qtshadertools-everywhere-src-6.9.0.zip": "1.9M",
+     "qtshadertools-everywhere-src-6.9.0.tar.xz": "1.1M",
+     "qtserialport-everywhere-src-6.9.0.zip": "529K",
+     "qtserialport-everywhere-src-6.9.0.tar.xz": "272K",
+     "qtserialbus-everywhere-src-6.9.0.zip": "1.0M",
+     "qtserialbus-everywhere-src-6.9.0.tar.xz": "538K",
+     "qtsensors-everywhere-src-6.9.0.zip": "1.9M",
+     "qtsensors-everywhere-src-6.9.0.tar.xz": "1.4M",
+     "qtscxml-everywhere-src-6.9.0.zip": "1.2M",
+     "qtscxml-everywhere-src-6.9.0.tar.xz": "547K",
+     "qtremoteobjects-everywhere-src-6.9.0.zip": "912K",
+     "qtremoteobjects-everywhere-src-6.9.0.tar.xz": "531K",
+     "qtquicktimeline-everywhere-src-6.9.0.zip": "164K",
+     "qtquicktimeline-everywhere-src-6.9.0.tar.xz": "110K",
+     "qtquickeffectmaker-everywhere-src-6.9.0.zip": "4.4M",
+     "qtquickeffectmaker-everywhere-src-6.9.0.tar.xz": "4.2M",
+     "qtquick3dphysics-everywhere-src-6.9.0.zip": "7.3M",
+     "qtquick3dphysics-everywhere-src-6.9.0.tar.xz": "4.5M",
+     "qtquick3d-everywhere-src-6.9.0.zip": "88M",
+     "qtquick3d-everywhere-src-6.9.0.tar.xz": "72M",
+     "qtpositioning-everywhere-src-6.9.0.zip": "1.2M",
+     "qtpositioning-everywhere-src-6.9.0.tar.xz": "648K",
+     "qtnetworkauth-everywhere-src-6.9.0.zip": "549K",
+     "qtnetworkauth-everywhere-src-6.9.0.tar.xz": "437K",
+     "qtmultimedia-everywhere-src-6.9.0.zip": "24M",
+     "qtmultimedia-everywhere-src-6.9.0.tar.xz": "9.3M",
+     "qtlottie-everywhere-src-6.9.0.zip": "286K",
+     "qtlottie-everywhere-src-6.9.0.tar.xz": "97K",
+     "qtlocation-everywhere-src-6.9.0.zip": "4.2M",
+     "qtlocation-everywhere-src-6.9.0.tar.xz": "3.0M",
+     "qtlanguageserver-everywhere-src-6.9.0.zip": "220K",
+     "qtlanguageserver-everywhere-src-6.9.0.tar.xz": "149K",
+     "qtimageformats-everywhere-src-6.9.0.zip": "2.9M",
+     "qtimageformats-everywhere-src-6.9.0.tar.xz": "1.9M",
+     "qthttpserver-everywhere-src-6.9.0.zip": "286K",
+     "qthttpserver-everywhere-src-6.9.0.tar.xz": "185K",
+     "qtgrpc-everywhere-src-6.9.0.zip": "1.3M",
+     "qtgrpc-everywhere-src-6.9.0.tar.xz": "594K",
+     "qtgraphs-everywhere-src-6.9.0.zip": "5.9M",
+     "qtgraphs-everywhere-src-6.9.0.tar.xz": "5.0M",
+     "qtdoc-everywhere-src-6.9.0.zip": "48M",
+     "qtdoc-everywhere-src-6.9.0.tar.xz": "44M",
+     "qtdeclarative-everywhere-src-6.9.0.zip": "80M",
+     "qtdeclarative-everywhere-src-6.9.0.tar.xz": "35M",
+     "qtdatavis3d-everywhere-src-6.9.0.zip": "4.4M",
+     "qtdatavis3d-everywhere-src-6.9.0.tar.xz": "3.8M",
+     "qtconnectivity-everywhere-src-6.9.0.zip": "1.9M",
+     "qtconnectivity-everywhere-src-6.9.0.tar.xz": "1.0M",
+     "qtcharts-everywhere-src-6.9.0.zip": "5.6M",
+     "qtcharts-everywhere-src-6.9.0.tar.xz": "4.4M",
+     "qtbase-everywhere-src-6.9.0.zip": "73M",
+     "qtbase-everywhere-src-6.9.0.tar.xz": "47M",
+     "qtactiveqt-everywhere-src-6.9.0.zip": "482K",
+     "qtactiveqt-everywhere-src-6.9.0.tar.xz": "260K",
+     "qt5compat-everywhere-src-6.9.0.zip": "17M",
+     "qt5compat-everywhere-src-6.9.0.tar.xz": "14M",
+     "qt3d-everywhere-src-6.9.0.zip": "143M",
+     "qt3d-everywhere-src-6.9.0.tar.xz": "135M",
+     "md5sums.txt": "5.5K"
+    },
+    "single/": {
+     "qt-everywhere-src-6.9.0.zip": "1.6G",
+     "qt-everywhere-src-6.9.0.tar.xz": "1.0G",
+     "md5sums.txt": "127"
+    }
+   }
+  },
   "6.8/": {
    "6.8.3/": {
     "submodules/": {
@@ -4842,6 +4932,13 @@
  },
  "QtForPython/": {
   "shiboken6/": {
+   "shiboken6-6.9.0-cp39-abi3-win_arm64.whl": "1.7M",
+   "shiboken6-6.9.0-cp39-abi3-win_amd64.whl": "1.1M",
+   "shiboken6-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "198K",
+   "shiboken6-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "202K",
+   "shiboken6-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "398K",
+   "shiboken6-6.9.0-6.9.0-cp311-cp311-android_x86_64.whl": "212K",
+   "shiboken6-6.9.0-6.9.0-cp311-cp311-android_aarch64.whl": "202K",
    "shiboken6-6.8.3-cp39-abi3-win_amd64.whl": "1.1M",
    "shiboken6-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "196K",
    "shiboken6-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "200K",
@@ -5030,6 +5127,11 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K"
   },
   "shiboken6-generator/": {
+   "shiboken6_generator-6.9.0-cp39-abi3-win_arm64.whl": "25M",
+   "shiboken6_generator-6.9.0-cp39-abi3-win_amd64.whl": "24M",
+   "shiboken6_generator-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "47M",
+   "shiboken6_generator-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "50M",
+   "shiboken6_generator-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "104M",
    "shiboken6_generator-6.8.3-cp39-abi3-win_amd64.whl": "23M",
    "shiboken6_generator-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "47M",
    "shiboken6_generator-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "50M",
@@ -5734,6 +5836,10 @@
    "shiboken2_generator-5.12.0-5.12.0-cp27-cp27m-macosx_10_12_intel.whl": "25M"
   },
   "pyside6/": {
+   "PySide6-6.9.0-src/": {
+    "pyside-setup-everywhere-src-6.9.0.zip": "20M",
+    "pyside-setup-everywhere-src-6.9.0.tar.xz": "16M"
+   },
    "PySide6-6.8.3-src/": {
     "pyside-setup-everywhere-src-6.8.3.zip": "20M",
     "pyside-setup-everywhere-src-6.8.3.tar.xz": "16M"
@@ -5935,6 +6041,13 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "PySide6-6.9.0-cp39-abi3-win_arm64.whl": "392K",
+   "PySide6-6.9.0-cp39-abi3-win_amd64.whl": "551K",
+   "PySide6-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "545K",
+   "PySide6-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "545K",
+   "PySide6-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "545K",
+   "PySide6-6.9.0-6.9.0-cp311-cp311-android_x86_64.whl": "76M",
+   "PySide6-6.9.0-6.9.0-cp311-cp311-android_aarch64.whl": "75M",
    "PySide6-6.8.3-cp39-abi3-win_amd64.whl": "548K",
    "PySide6-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "542K",
    "PySide6-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "542K",
@@ -6123,6 +6236,11 @@
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "43M"
   },
   "pyside6-examples/": {
+   "PySide6_Examples-6.9.0-cp39-abi3-win_arm64.whl": "12M",
+   "PySide6_Examples-6.9.0-cp39-abi3-win_amd64.whl": "12M",
+   "PySide6_Examples-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "12M",
+   "PySide6_Examples-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "12M",
+   "PySide6_Examples-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "12M",
    "PySide6_Examples-6.8.3-cp39-abi3-win_amd64.whl": "12M",
    "PySide6_Examples-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "12M",
    "PySide6_Examples-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "12M",
@@ -6177,6 +6295,11 @@
    "PySide6_Examples-6.6.1-cp38-abi3-macosx_11_0_universal2.whl": "11M"
   },
   "pyside6-essentials/": {
+   "PySide6_Essentials-6.9.0-cp39-abi3-win_arm64.whl": "47M",
+   "PySide6_Essentials-6.9.0-cp39-abi3-win_amd64.whl": "69M",
+   "PySide6_Essentials-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "88M",
+   "PySide6_Essentials-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "90M",
+   "PySide6_Essentials-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "126M",
    "PySide6_Essentials-6.8.3-cp39-abi3-win_amd64.whl": "69M",
    "PySide6_Essentials-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "89M",
    "PySide6_Essentials-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "91M",
@@ -6293,6 +6416,11 @@
    "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M"
   },
   "pyside6-addons/": {
+   "PySide6_Addons-6.9.0-cp39-abi3-win_arm64.whl": "26M",
+   "PySide6_Addons-6.9.0-cp39-abi3-win_amd64.whl": "136M",
+   "PySide6_Addons-6.9.0-cp39-abi3-manylinux_2_39_aarch64.whl": "154M",
+   "PySide6_Addons-6.9.0-cp39-abi3-manylinux_2_28_x86_64.whl": "159M",
+   "PySide6_Addons-6.9.0-cp39-abi3-macosx_12_0_universal2.whl": "301M",
    "PySide6_Addons-6.8.3-cp39-abi3-win_amd64.whl": "122M",
    "PySide6_Addons-6.8.3-cp39-abi3-manylinux_2_39_aarch64.whl": "149M",
    "PySide6_Addons-6.8.3-cp39-abi3-manylinux_2_28_x86_64.whl": "153M",
