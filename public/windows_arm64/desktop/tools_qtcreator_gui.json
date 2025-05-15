@@ -1,21 +1,21 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 16.0.1",
+  "DisplayName": "Qt Creator 16.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "16.0.1-0-202504101029",
-  "ReleaseDate": "2025-04-10",
+  "Version": "16.0.2-0-202505121116",
+  "ReleaseDate": "2025-05-12",
   "Script": "installscript.qs",
   "Dependencies": null,
   "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z, wininterrupt64.7z",
   "CompressedSize": "118.4M",
-  "UncompressedSize": "647.8M",
+  "UncompressedSize": "648.1M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,zh.qm,ar.qm,ja.qm,ko.qm,fr.qm,ru.qm,es.qm",
   "Operations": "\n   ",
-  "SHA1": "ed39d4a146b71b032036d87cb291368bed49b318",
+  "SHA1": "00d8cc965889e1914ed798d25458b7d67e87816d",
   "ArchiveSizes": {
    "wininterrupt64.7z": "24K",
    "qtcreator.7z": "118M"
@@ -25,8 +25,8 @@
   "Name": "qt.tools.qtcreatorcdbext",
   "DisplayName": "CDB Debugger Support",
   "Description": "CDB Debugger support for Qt Creator",
-  "Version": "16.0.1-0-202504101029",
-  "ReleaseDate": "2025-04-10",
+  "Version": "16.0.2-0-202505121116",
+  "ReleaseDate": "2025-05-12",
   "Dependencies": "qt.tools.qtcreator_gui,qt.license.python",
   "SortingPriority": "999",
   "Script": "installscript.qs",
@@ -35,34 +35,34 @@
   "CompressedSize": "29.3M",
   "UncompressedSize": "113.3M",
   "Operations": "\n   ",
-  "SHA1": "d4120654359da93e553e6a5593b9c4c4bf4f3b69"
+  "SHA1": "2518c35a787e58b17154eb6153abc1e55ae0e82f"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
   "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "16.0.1-0-202504101029",
-  "ReleaseDate": "2025-04-10",
+  "Version": "16.0.2-0-202505121116",
+  "ReleaseDate": "2025-05-12",
   "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "368.6M",
+  "CompressedSize": "369.3M",
   "UncompressedSize": "2.6G",
   "Operations": "\n   ",
-  "SHA1": "7bce1dc8b95fa632572d0ee26ff36b915d96ef25"
+  "SHA1": "83a8fb360081e19b53aacc214d05172787246960"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
   "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "16.0.1-0-202504101029",
-  "ReleaseDate": "2025-04-10",
+  "Version": "16.0.2-0-202505121116",
+  "ReleaseDate": "2025-05-12",
   "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
   "CompressedSize": "13.2M",
   "UncompressedSize": "150.8M",
   "Operations": "\n   ",
-  "SHA1": "b77ca42fb1921fa6c1e20afc9bd0823d31e7073e"
+  "SHA1": "4d4abce31d43a929648eb11d2c548f57b0e57955"
  }
 }
