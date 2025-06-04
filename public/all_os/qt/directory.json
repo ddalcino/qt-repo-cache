@@ -14,7 +14,9 @@
   "qt6_683_unix_line_endings_src",
   "qt6_683_windows_line_endings_src",
   "qt6_690_unix_line_endings_src",
-  "qt6_690_windows_line_endings_src"
+  "qt6_690_windows_line_endings_src",
+  "qt6_691_unix_line_endings_src",
+  "qt6_691_windows_line_endings_src"
  ],
  "tools": []
 }
