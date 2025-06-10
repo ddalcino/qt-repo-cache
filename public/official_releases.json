@@ -4362,6 +4362,10 @@
   "CVE-2025-23050-qtconnectivity-5.15.diff": "7.8K"
  },
  "qt-installer-framework/": {
+  "4.10.0/": {
+   "installer-framework-everywhere-src-4.10.0.zip": "4.5M",
+   "installer-framework-everywhere-src-4.10.0.tar.xz": "2.4M"
+  },
   "4.9.0/": {
    "installer-framework-everywhere-src-4.9.0.zip": "6.1M",
    "installer-framework-everywhere-src-4.9.0.tar.xz": "3.3M"
@@ -5188,8 +5192,8 @@
   "PySide-1.1.1qt474.win-amd64-py2.7.exe": "41M"
  },
  "online_installers/": {
-  "qt-online-installer-windows-x64-online.exe": "50M",
-  "qt-online-installer-windows-arm64-online.exe": "29M",
+  "qt-online-installer-windows-x64-online.exe": "52M",
+  "qt-online-installer-windows-arm64-online.exe": "31M",
   "qt-online-installer-mac-x64-online.dmg": "22M",
   "qt-online-installer-linux-x64-online.run": "70M",
   "qt-online-installer-linux-arm64-online.run": "72M"
