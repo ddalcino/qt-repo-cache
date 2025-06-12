@@ -1491,6 +1491,7 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2025-5991-qtbase-6.9.patch": "4.6K",
    "CVE-2025-5683-qtimageformats-6.9.patch": "1.5K",
    "CVE-2025-5455-qtbase-6.9.patch": "822"
   },
