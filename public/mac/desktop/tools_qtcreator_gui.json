@@ -1,45 +1,45 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 16.0.2",
+  "DisplayName": "Qt Creator 17.0.0",
   "Description": "IDE for Qt application development",
-  "Version": "16.0.2-0-202505121116",
-  "ReleaseDate": "2025-05-12",
+  "Version": "17.0.0-0-202506171858",
+  "ReleaseDate": "2025-06-17",
   "Script": "installscript.qs",
   "Dependencies": null,
   "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "202.2M",
-  "UncompressedSize": "936.0M",
+  "CompressedSize": "204.8M",
+  "UncompressedSize": "934.5M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,zh.qm,ar.qm,ja.qm,ko.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "4c38b948bf6cd04091bcf917f123522c99da6865"
+  "SHA1": "4e3af95df9ccc783a984e55ae92ce2cd299e0424"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
   "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "16.0.2-0-202505121116",
-  "ReleaseDate": "2025-05-12",
+  "Version": "17.0.0-0-202506171858",
+  "ReleaseDate": "2025-06-17",
   "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "678.7M",
-  "UncompressedSize": "4.2G",
-  "SHA1": "88c63b2a43039f6bce9feda672c3126442d2404e"
+  "CompressedSize": "709.6M",
+  "UncompressedSize": "4.4G",
+  "SHA1": "c0b14a04df03b50a6e31fa252ea6556b9fc37ab6"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
   "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "16.0.2-0-202505121116",
-  "ReleaseDate": "2025-05-12",
+  "Version": "17.0.0-0-202506171858",
+  "ReleaseDate": "2025-06-17",
   "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "31.5M",
-  "UncompressedSize": "231.4M",
-  "SHA1": "f12cbb4c565df2cb5853deba4cdf3f1f4f2527d6"
+  "CompressedSize": "34.0M",
+  "UncompressedSize": "244.4M",
+  "SHA1": "d16304ead5dfa3316b1aa3b27d2347ed19c73523"
  }
 }
