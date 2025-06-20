@@ -1551,6 +1551,7 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2025-6338-qtbase-6.9.patch": "12K",
    "CVE-2025-5991-qtbase-6.9.patch": "4.6K",
    "CVE-2025-5683-qtimageformats-6.9.patch": "1.5K",
    "CVE-2025-5455-qtbase-6.9.patch": "822"
@@ -1908,6 +1909,7 @@
     }
    },
    "CVE-2025-23050-qtconnectivity-6.8.diff": "8.0K",
+   "CVE-2025-6338-qtbase-6.8.patch": "12K",
    "CVE-2025-5683-qtimageformats-6.8.patch": "1.5K",
    "CVE-2025-5455-qtbase-6.8.patch": "824",
    "CVE-2025-4211-qtbase-6.8.diff": "2.9K",
