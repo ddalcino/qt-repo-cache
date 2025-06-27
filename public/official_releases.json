@@ -2535,6 +2535,7 @@
    },
    "CVE-2025-30348-qtbase-6.5.diff": "4.5K",
    "CVE-2025-23050-qtconnectivity-6.5.diff": "8.0K",
+   "CVE-2025-6338-qtbase-6.5.patch": "12K",
    "CVE-2025-5683-qtimageformats-6.5.patch": "1.5K",
    "CVE-2025-5455-qtbase-6.5.patch": "863",
    "CVE-2025-4211-qtbase-6.5.diff": "3.0K",
