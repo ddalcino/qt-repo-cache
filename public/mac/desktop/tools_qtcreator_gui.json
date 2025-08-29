@@ -1,45 +1,45 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 17.0.0",
+  "DisplayName": "Qt Creator 17.0.1",
   "Description": "IDE for Qt application development",
-  "Version": "17.0.0-0-202506171858",
-  "ReleaseDate": "2025-06-17",
+  "Version": "17.0.1-0-202508260248",
+  "ReleaseDate": "2025-08-26",
   "Script": "installscript.qs",
   "Dependencies": null,
   "TreeName": "qtcreator.release_node",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "204.8M",
-  "UncompressedSize": "934.5M",
+  "CompressedSize": "205.0M",
+  "UncompressedSize": "936.0M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,zh.qm,ar.qm,ja.qm,ko.qm,fr.qm,ru.qm,es.qm",
-  "SHA1": "4e3af95df9ccc783a984e55ae92ce2cd299e0424"
+  "SHA1": "bd3449fc64a6bc0d993efd182bb80dd9890dbc9c"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
   "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "17.0.0-0-202506171858",
-  "ReleaseDate": "2025-06-17",
+  "Version": "17.0.1-0-202508260248",
+  "ReleaseDate": "2025-08-26",
   "TreeName": "qtcreator.debug_symbols",
   "SortingPriority": "994",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "709.6M",
+  "CompressedSize": "709.9M",
   "UncompressedSize": "4.4G",
-  "SHA1": "c0b14a04df03b50a6e31fa252ea6556b9fc37ab6"
+  "SHA1": "307993f33c3547b62a7f764b2949748ed07dc611"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
   "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "17.0.0-0-202506171858",
-  "ReleaseDate": "2025-06-17",
+  "Version": "17.0.1-0-202508260248",
+  "ReleaseDate": "2025-08-26",
   "TreeName": "qtcreator.plugin_development",
   "SortingPriority": "990",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "34.0M",
-  "UncompressedSize": "244.4M",
-  "SHA1": "d16304ead5dfa3316b1aa3b27d2347ed19c73523"
+  "CompressedSize": "28.8M",
+  "UncompressedSize": "205.0M",
+  "SHA1": "e494617643d62046b4ba5c6486fdc91082a0b411"
  }
 }

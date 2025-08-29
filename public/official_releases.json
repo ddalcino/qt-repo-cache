@@ -291,6 +291,64 @@
    "md5sums.txt": "707"
   },
   "17.0/": {
+   "17.0.1/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "24K",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "15M",
+      "qtcreator.7z": "145M",
+      "qtcreator-debug.7z": "384M",
+      "md5sums.txt": "254"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "24K",
+      "qtcreatorcdbext.7z": "26M",
+      "qtcreator_dev.7z": "13M",
+      "qtcreator.7z": "119M",
+      "qtcreator-debug.7z": "374M",
+      "md5sums.txt": "254"
+     },
+     "mac_x64/": {
+      "qtcreator_dev.7z": "28M",
+      "qtcreator.7z": "198M",
+      "qtcreator-signed.7z": "203M",
+      "qtcreator-debug.7z": "699M",
+      "md5sums.txt": "205"
+     },
+     "linux_x64/": {
+      "qtcreator_dev.7z": "29M",
+      "qtcreator.7z": "160M",
+      "qtcreator-debug.7z": "768M",
+      "md5sums.txt": "151"
+     },
+     "linux_arm64/": {
+      "qtcreator_dev.7z": "27M",
+      "qtcreator.7z": "153M",
+      "qtcreator-debug.7z": "737M",
+      "md5sums.txt": "151"
+     },
+     "jsonschemas/": {
+      "project.json": "4.3K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-17.0.1.deb": "147M",
+     "qtcreator-opensource-linux-arm64-17.0.1.deb": "137M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-17.0.1.exe": "363M",
+    "qt-creator-opensource-windows-arm64-17.0.1.exe": "278M",
+    "qt-creator-opensource-src-17.0.1.zip": "77M",
+    "qt-creator-opensource-src-17.0.1.tar.xz": "53M",
+    "qt-creator-opensource-src-17.0.1.tar.gz": "65M",
+    "qt-creator-opensource-mac-x86_64-17.0.1_installer.dmg": "292M",
+    "qt-creator-opensource-mac-x86_64-17.0.1.dmg": "277M",
+    "qt-creator-opensource-linux-x86_64-17.0.1.run": "248M",
+    "qt-creator-opensource-linux-arm64-17.0.1.run": "236M",
+    "md5sums.txt": "707"
+   },
    "17.0.0/": {
     "installer_source/": {
      "windows_x64/": {
