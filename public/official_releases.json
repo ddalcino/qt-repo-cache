@@ -4625,6 +4625,18 @@
   }
  },
  "qbs/": {
+  "3.0.3/": {
+   "sha256sums.txt": "718",
+   "qbs.3.0.3.nupkg": "23K",
+   "qbs-windows-x86_64-3.0.3.zip": "16M",
+   "qbs-src-3.0.3.zip": "8.2M",
+   "qbs-src-3.0.3.tar.gz": "5.5M",
+   "qbs-macos-x86_64-3.0.3.tar.gz": "27M",
+   "qbs-macos-arm64-3.0.3.tar.gz": "27M",
+   "qbs-linux-x86_64-3.0.3.tar.gz": "32M",
+   "md5sums.txt": "462",
+   "changes-3.0.3.md": "589"
+  },
   "3.0.1/": {
    "sha256sums.txt": "444",
    "qbs.3.0.1.nupkg": "22K",
