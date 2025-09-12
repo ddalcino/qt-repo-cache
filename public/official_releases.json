@@ -6655,6 +6655,10 @@
     "pyside-setup-opensource-src-6.3.0.zip": "11M",
     "pyside-setup-opensource-src-6.3.0.tar.xz": "7.3M"
    },
+   "PySide6-6.2.13-src/": {
+    "pyside-setup-opensource-src-6.2.13.zip": "12M",
+    "pyside-setup-opensource-src-6.2.13.tar.xz": "7.6M"
+   },
    "PySide6-6.2.12-src/": {
     "pyside-setup-opensource-src-6.2.12.zip": "12M",
     "pyside-setup-opensource-src-6.2.12.tar.xz": "7.8M"
