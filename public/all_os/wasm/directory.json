@@ -23,7 +23,9 @@
   "qt6_691/qt6_691_wasm_multithread",
   "qt6_691/qt6_691_wasm_singlethread",
   "qt6_692/qt6_692_wasm_multithread",
-  "qt6_692/qt6_692_wasm_singlethread"
+  "qt6_692/qt6_692_wasm_singlethread",
+  "qt6_693/qt6_693_wasm_multithread",
+  "qt6_693/qt6_693_wasm_singlethread"
  ],
  "tools": []
 }
