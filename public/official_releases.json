@@ -291,6 +291,64 @@
    "md5sums.txt": "707"
   },
   "17.0/": {
+   "17.0.2/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "25K",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "15M",
+      "qtcreator.7z": "145M",
+      "qtcreator-debug.7z": "383M",
+      "md5sums.txt": "254"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "28K",
+      "qtcreatorcdbext.7z": "26M",
+      "qtcreator_dev.7z": "13M",
+      "qtcreator.7z": "120M",
+      "qtcreator-debug.7z": "378M",
+      "md5sums.txt": "254"
+     },
+     "mac_x64/": {
+      "qtcreator_dev.7z": "28M",
+      "qtcreator.7z": "198M",
+      "qtcreator-signed.7z": "204M",
+      "qtcreator-debug.7z": "699M",
+      "md5sums.txt": "205"
+     },
+     "linux_x64/": {
+      "qtcreator_dev.7z": "29M",
+      "qtcreator.7z": "160M",
+      "qtcreator-debug.7z": "768M",
+      "md5sums.txt": "151"
+     },
+     "linux_arm64/": {
+      "qtcreator_dev.7z": "27M",
+      "qtcreator.7z": "153M",
+      "qtcreator-debug.7z": "737M",
+      "md5sums.txt": "151"
+     },
+     "jsonschemas/": {
+      "project.json": "4.3K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-17.0.2.deb": "147M",
+     "qtcreator-opensource-linux-arm64-17.0.2.deb": "137M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-17.0.2.exe": "363M",
+    "qt-creator-opensource-windows-arm64-17.0.2.exe": "280M",
+    "qt-creator-opensource-src-17.0.2.zip": "77M",
+    "qt-creator-opensource-src-17.0.2.tar.xz": "53M",
+    "qt-creator-opensource-src-17.0.2.tar.gz": "65M",
+    "qt-creator-opensource-mac-x86_64-17.0.2_installer.dmg": "293M",
+    "qt-creator-opensource-mac-x86_64-17.0.2.dmg": "277M",
+    "qt-creator-opensource-linux-x86_64-17.0.2.run": "248M",
+    "qt-creator-opensource-linux-arm64-17.0.2.run": "236M",
+    "md5sums.txt": "707"
+   },
    "17.0.1/": {
     "installer_source/": {
      "windows_x64/": {
@@ -1792,6 +1850,8 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2025-10729-qtsvg-6.9.diff": "5.6K",
+   "CVE-2025-10728-qtsvg-6.9.diff": "4.0K",
    "CVE-2025-6338-qtbase-6.9.patch": "12K",
    "CVE-2025-5992-qtbase-6.9.patch": "1.3K",
    "CVE-2025-5991-qtbase-6.9.patch": "4.6K",
@@ -2151,6 +2211,8 @@
     }
    },
    "CVE-2025-23050-qtconnectivity-6.8.diff": "8.0K",
+   "CVE-2025-10729-qtsvg-6.8.diff": "5.7K",
+   "CVE-2025-10728-qtsvg-6.8.diff": "4.3K",
    "CVE-2025-6338-qtbase-6.8.patch": "12K",
    "CVE-2025-5992-qtbase-6.8.patch": "1.3K",
    "CVE-2025-5683-qtimageformats-6.8.patch": "1.5K",
