@@ -290,6 +290,7 @@
    "qt-creator-opensource-linux-arm64-17.0.0.run": "240M",
    "md5sums.txt": "707"
   },
+  "18.0/": {},
   "17.0/": {
    "17.0.2/": {
     "installer_source/": {
