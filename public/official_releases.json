@@ -1650,7 +1650,9 @@
      "qt-everywhere-src-6.10.0.tar.xz": "1.2G",
      "md5sums.txt": "129"
     }
-   }
+   },
+   "CVE-2025-12385-qtdeclarative-6.10-0002.diff": "6.9K",
+   "CVE-2025-12385-qtdeclarative-6.10-0001.diff": "5.8K"
   },
   "6.9/": {
    "6.9.3/": {
@@ -2366,6 +2368,8 @@
     }
    },
    "CVE-2025-23050-qtconnectivity-6.8.diff": "8.0K",
+   "CVE-2025-12385-qtdeclarative-6.8-0002.diff": "6.8K",
+   "CVE-2025-12385-qtdeclarative-6.8-0001.diff": "5.9K",
    "CVE-2025-10729-qtsvg-6.8.diff": "5.7K",
    "CVE-2025-10728-qtsvg-6.8.diff": "4.3K",
    "CVE-2025-6338-qtbase-6.8.patch": "12K",
@@ -3085,6 +3089,8 @@
    },
    "CVE-2025-30348-qtbase-6.5.diff": "4.5K",
    "CVE-2025-23050-qtconnectivity-6.5.diff": "8.0K",
+   "CVE-2025-12385-qtdeclarative-6.5-0002.diff": "6.9K",
+   "CVE-2025-12385-qtdeclarative-6.5-0001.diff": "5.8K",
    "CVE-2025-6338-qtbase-6.5.patch": "12K",
    "CVE-2025-5683-qtimageformats-6.5.patch": "1.5K",
    "CVE-2025-5455-qtbase-6.5.patch": "863",
