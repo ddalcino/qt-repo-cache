@@ -2,6 +2,8 @@
  "qt": [
   "qt6_6100/qt6_6100_wasm_multithread",
   "qt6_6100/qt6_6100_wasm_singlethread",
+  "qt6_6101/qt6_6101_wasm_multithread",
+  "qt6_6101/qt6_6101_wasm_singlethread",
   "qt6_670_wasm_multithread",
   "qt6_670_wasm_singlethread",
   "qt6_671_wasm_multithread",
