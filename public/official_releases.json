@@ -2095,6 +2095,8 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2025-12385-qtdeclarative-6.9-0002.diff": "5.9K",
+   "CVE-2025-12385-qtdeclarative-6.9-0001.diff": "7.0K",
    "CVE-2025-10729-qtsvg-6.9.diff": "5.6K",
    "CVE-2025-10728-qtsvg-6.9.diff": "4.0K",
    "CVE-2025-6338-qtbase-6.9.patch": "12K",
