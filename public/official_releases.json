@@ -291,6 +291,69 @@
    "md5sums.txt": "707"
   },
   "18.0/": {
+   "18.0.1/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "26K",
+      "sdktool.7z": "1.1M",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "14M",
+      "qtcreator.7z": "144M",
+      "qtcreator-debug.7z": "392M",
+      "md5sums.txt": "299"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "29K",
+      "sdktool.7z": "867K",
+      "qtcreatorcdbext.7z": "27M",
+      "qtcreator_dev.7z": "12M",
+      "qtcreator.7z": "118M",
+      "qtcreator-debug.7z": "387M",
+      "md5sums.txt": "299"
+     },
+     "mac_x64/": {
+      "sdktool.7z": "1.6M",
+      "qtcreator_dev.7z": "26M",
+      "qtcreator.7z": "190M",
+      "qtcreator-signed.7z": "195M",
+      "qtcreator-debug.7z": "725M",
+      "md5sums.txt": "250"
+     },
+     "linux_x64/": {
+      "sdktool.7z": "1.2M",
+      "qtcreator_dev.7z": "27M",
+      "qtcreator.7z": "154M",
+      "qtcreator-debug.7z": "791M",
+      "md5sums.txt": "196"
+     },
+     "linux_arm64/": {
+      "sdktool.7z": "1.1M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "147M",
+      "qtcreator-debug.7z": "759M",
+      "md5sums.txt": "196"
+     },
+     "jsonschemas/": {
+      "project.json": "4.3K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-18.0.1.deb": "141M",
+     "qtcreator-opensource-linux-arm64-18.0.1.deb": "132M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-18.0.1.exe": "360M",
+    "qt-creator-opensource-windows-arm64-18.0.1.exe": "279M",
+    "qt-creator-opensource-src-18.0.1.zip": "78M",
+    "qt-creator-opensource-src-18.0.1.tar.xz": "54M",
+    "qt-creator-opensource-src-18.0.1.tar.gz": "65M",
+    "qt-creator-opensource-mac-universal-18.0.1_installer.dmg": "283M",
+    "qt-creator-opensource-mac-universal-18.0.1.dmg": "265M",
+    "qt-creator-opensource-linux-x86_64-18.0.1.run": "240M",
+    "qt-creator-opensource-linux-arm64-18.0.1.run": "229M",
+    "md5sums.txt": "801"
+   },
    "18.0.0/": {
     "installer_source/": {
      "windows_x64/": {
@@ -3251,6 +3314,18 @@
   }
  },
  "qbs/": {
+  "3.1.2/": {
+   "sha256sums.txt": "718",
+   "qbs.3.1.2.nupkg": "23K",
+   "qbs-windows-x86_64-3.1.2.zip": "16M",
+   "qbs-src-3.1.2.zip": "8.3M",
+   "qbs-src-3.1.2.tar.gz": "5.5M",
+   "qbs-macos-x86_64-3.1.2.tar.gz": "27M",
+   "qbs-macos-arm64-3.1.2.tar.gz": "27M",
+   "qbs-linux-x86_64-3.1.2.tar.gz": "32M",
+   "md5sums.txt": "462",
+   "changes-3.1.2.md": "102"
+  },
   "3.1.1/": {
    "sha256sums.txt": "718",
    "qbs.3.1.1.nupkg": "23K",
