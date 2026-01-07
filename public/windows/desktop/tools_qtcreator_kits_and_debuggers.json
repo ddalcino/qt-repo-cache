@@ -7,7 +7,7 @@
   "ReleaseDate": "2025-12-10",
   "Script": "installscript.qs",
   "Dependencies": "qt.license.win10sdk",
-  "TreeName": "developertools.qtcreator.windows_debugging_tools",
+  "TreeName": "qtcreator.windows_debugging_tools",
   "SortingPriority": "998",
   "DownloadableArchives": "X64_Debuggers_And_Tools-x64_en-us-10.0.22621.755.7z, x86_Debuggers_And_Tools-x86_en-us-10.0.22621.755.7z",
   "CompressedSize": "68.0M",
