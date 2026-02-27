@@ -6,7 +6,7 @@
   "Version": "2.3.1-0-202112170944",
   "ReleaseDate": "2021-12-17",
   "Script": "installscript.qs",
-  "Default": "true",
+  "Default": "false",
   "SortingPriority": "950",
   "CompressedSize": "486.9M",
   "UncompressedSize": "1.4G",
