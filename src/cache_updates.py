@@ -2,6 +2,7 @@ import json
 import logging
 import posixpath
 import re
+import requests_cache
 from datetime import datetime
 from pathlib import Path
 from typing import Callable, Dict, Generator, Set, Tuple, Union
@@ -10,8 +11,11 @@ import aqt.metadata
 import bs4
 from aqt.helper import Settings
 from aqt.metadata import ArchiveId, MetadataFactory, get_semantic_version
-from cached_directory import CachedDirectory
 
+from cached_directory import CachedDirectory
+from cache_aqt_list_output import cache_aqt_list_qt
+
+requests_cache.install_cache("aqt_list_http_cache")
 fetch_http = aqt.metadata.MetadataFactory.fetch_http
 logging.basicConfig()
 LOGGER = logging.getLogger()
@@ -216,8 +220,12 @@ def update_xml_files(last_update: datetime) -> datetime:
 
 if __name__ == "__main__":
     # TODO: remove patch for TARGETS_FOR_HOST when fixed upstream
-    ArchiveId.TARGETS_FOR_HOST.update({"all_os": ["android", "qt", "wasm"]})
     Settings.load_settings()
+
+    try:
+        cache_aqt_list_qt()
+    except Exception:
+        LOGGER.exception("cache_aqt_list_qt failed")
     last_updates: Dict[str, datetime] = get_last_update_dates()
     new_dates: Dict[str, datetime] = {key: val for key, val in last_updates.items()}
     for root_folder in [
