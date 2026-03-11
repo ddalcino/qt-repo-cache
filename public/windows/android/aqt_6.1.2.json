@@ -1,0 +1,102 @@
+{
+  "android_arm64_v8a": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  },
+  "android_armv7": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  },
+  "android_x86": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  },
+  "android_x86_64": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  }
+}

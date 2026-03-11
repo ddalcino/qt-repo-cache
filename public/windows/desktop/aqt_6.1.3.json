@@ -1,0 +1,59 @@
+{
+  "win64_mingw81": {
+    "archives": [
+      "d3dcompiler_47",
+      "opengl32sw",
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "debug_info",
+      "qt3d",
+      "qt5compat",
+      "qtactiveqt",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  },
+  "win64_msvc2019_64": {
+    "archives": [
+      "d3dcompiler_47",
+      "opengl32sw",
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "debug_info",
+      "qt3d",
+      "qt5compat",
+      "qtactiveqt",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  }
+}

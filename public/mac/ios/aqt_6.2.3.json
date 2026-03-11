@@ -1,0 +1,34 @@
+{
+  "ios": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtshadertools",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  }
+}

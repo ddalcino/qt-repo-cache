@@ -1,0 +1,44 @@
+{
+  "clang_64": {
+    "archives": [
+      "qt",
+      "qt3d",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmacextras",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "debug_info",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtscript",
+      "qtvirtualkeyboard",
+      "qtwebengine",
+      "qtwebglplugin"
+    ]
+  }
+}

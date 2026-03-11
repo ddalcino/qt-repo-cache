@@ -1,0 +1,76 @@
+{
+  "android_armv7": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtremoteobjects",
+      "qtscript",
+      "qtspeech"
+    ]
+  },
+  "android_x86": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtremoteobjects",
+      "qtscript",
+      "qtspeech"
+    ]
+  }
+}

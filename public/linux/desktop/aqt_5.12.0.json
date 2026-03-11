@@ -1,0 +1,45 @@
+{
+  "gcc_64": {
+    "archives": [
+      "icu",
+      "qt3d",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwayland",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtx11extras",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "debug_info",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtscript",
+      "qtvirtualkeyboard",
+      "qtwebengine",
+      "qtwebglplugin"
+    ]
+  }
+}

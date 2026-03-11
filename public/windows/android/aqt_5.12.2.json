@@ -1,0 +1,110 @@
+{
+  "android_arm64_v8a": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns",
+      "x86_64"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtscript"
+    ]
+  },
+  "android_armv7": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns",
+      "x86_64"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtscript"
+    ]
+  },
+  "android_x86": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns",
+      "x86_64"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtscript"
+    ]
+  }
+}

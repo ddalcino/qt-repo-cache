@@ -1,0 +1,37 @@
+{
+  "ios": {
+    "archives": [
+      "qt3d",
+      "qtbase",
+      "qtcanvas3d",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmacextras",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtscxml",
+      "qtsensors",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtremoteobjects",
+      "qtscript",
+      "qtspeech"
+    ]
+  }
+}

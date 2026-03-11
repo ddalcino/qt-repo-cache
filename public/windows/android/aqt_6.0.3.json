@@ -1,0 +1,70 @@
+{
+  "android_arm64_v8a": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools"
+    ]
+  },
+  "android_armv7": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools"
+    ]
+  },
+  "android_x86": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools"
+    ]
+  },
+  "android_x86_64": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "x86_64"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools"
+    ]
+  }
+}

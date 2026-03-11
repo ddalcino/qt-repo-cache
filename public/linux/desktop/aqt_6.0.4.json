@@ -1,0 +1,22 @@
+{
+  "gcc_64": {
+    "archives": [
+      "icu",
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwayland"
+    ],
+    "modules": [
+      "debug_info",
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools",
+      "qtwaylandcompositor"
+    ]
+  }
+}

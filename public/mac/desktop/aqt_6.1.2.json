@@ -1,0 +1,27 @@
+{
+  "clang_64": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "debug_info",
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtvirtualkeyboard"
+    ]
+  }
+}

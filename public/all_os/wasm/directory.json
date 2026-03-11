@@ -6,6 +6,8 @@
   "qt6_6101/qt6_6101_wasm_singlethread",
   "qt6_6102/qt6_6102_wasm_multithread",
   "qt6_6102/qt6_6102_wasm_singlethread",
+  "qt6_6103/qt6_6103_wasm_multithread",
+  "qt6_6103/qt6_6103_wasm_singlethread",
   "qt6_6110/qt6_6110_wasm_multithread",
   "qt6_6110/qt6_6110_wasm_singlethread",
   "qt6_670_wasm_multithread",

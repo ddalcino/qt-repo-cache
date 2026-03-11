@@ -1,0 +1,39 @@
+{
+  "android": {
+    "archives": [
+      "qt3d",
+      "qtandroidextras",
+      "qtbase",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialport",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtquicktimeline",
+      "qtscript"
+    ]
+  }
+}

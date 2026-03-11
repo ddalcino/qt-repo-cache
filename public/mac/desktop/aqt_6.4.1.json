@@ -1,0 +1,69 @@
+{
+  "clang_64": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "debug_info",
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qthttpserver",
+      "qtimageformats",
+      "qtlanguageserver",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpdf",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquick3dphysics",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtshadertools",
+      "qtspeech",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebengine",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  },
+  "wasm_32": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtcharts",
+      "qtdatavis3d",
+      "qthttpserver",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtquick3d",
+      "qtquick3dphysics",
+      "qtquicktimeline",
+      "qtscxml",
+      "qtshadertools",
+      "qtspeech",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets"
+    ]
+  }
+}

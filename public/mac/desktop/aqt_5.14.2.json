@@ -1,0 +1,80 @@
+{
+  "clang_64": {
+    "archives": [
+      "qt",
+      "qt3d",
+      "qtbase",
+      "qtconnectivity",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtlocation",
+      "qtmacextras",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "debug_info",
+      "qtcharts",
+      "qtdatavis3d",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtscript",
+      "qtvirtualkeyboard",
+      "qtwebengine",
+      "qtwebglplugin"
+    ]
+  },
+  "wasm_32": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtgamepad",
+      "qtgraphicaleffects",
+      "qtimageformats",
+      "qtmultimedia",
+      "qtquickcontrols",
+      "qtquickcontrols2",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtspeech",
+      "qtsvg",
+      "qttools",
+      "qttranslations",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview",
+      "qtxmlpatterns"
+    ],
+    "modules": [
+      "qtcharts",
+      "qtdatavis3d",
+      "qtlottie",
+      "qtnetworkauth",
+      "qtpurchasing",
+      "qtquicktimeline",
+      "qtscript",
+      "qtvirtualkeyboard",
+      "qtwebglplugin"
+    ]
+  }
+}

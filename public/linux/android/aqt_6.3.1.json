@@ -1,0 +1,134 @@
+{
+  "android_arm64_v8a": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtshadertools",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  },
+  "android_armv7": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtshadertools",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  },
+  "android_x86": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtshadertools",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  },
+  "android_x86_64": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt3d",
+      "qt5compat",
+      "qtcharts",
+      "qtconnectivity",
+      "qtdatavis3d",
+      "qtimageformats",
+      "qtlottie",
+      "qtmultimedia",
+      "qtnetworkauth",
+      "qtpositioning",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtremoteobjects",
+      "qtscxml",
+      "qtsensors",
+      "qtserialbus",
+      "qtserialport",
+      "qtshadertools",
+      "qtvirtualkeyboard",
+      "qtwebchannel",
+      "qtwebsockets",
+      "qtwebview"
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ios": {
+    "archives": [
+      "qtbase",
+      "qtdeclarative",
+      "qtquickcontrols2",
+      "qtsvg",
+      "qttools",
+      "qttranslations"
+    ],
+    "modules": [
+      "qt5compat",
+      "qtquick3d",
+      "qtquicktimeline",
+      "qtshadertools"
+    ]
+  }
+}
