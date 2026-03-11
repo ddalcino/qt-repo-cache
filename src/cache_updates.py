@@ -9,6 +9,7 @@ from typing import Callable, Dict, Generator, Set, Tuple, Union
 
 import aqt.metadata
 import bs4
+from aqt.exceptions import ChecksumDownloadFailure
 from aqt.helper import Settings
 from aqt.metadata import ArchiveId, MetadataFactory, get_semantic_version
 
@@ -180,6 +181,10 @@ def spider_folder(meta: MetadataFactory, path_to_folder: str) -> Generator[str, 
             yield from spider_folder(meta, f"{path_to_folder}/{folder}")
 
 
+def is_folder_a_new_minor_version(folder: str, cache_dir: CachedDirectory) -> bool:
+    pass
+
+
 def update_xml_files(last_update: datetime) -> datetime:
     most_recent = last_update
     for host, target in iterate_hosts_targets():
@@ -191,12 +196,16 @@ def update_xml_files(last_update: datetime) -> datetime:
         meta = MetadataFactory(archive_id)
         html_doc = meta.fetch_http(html_path, is_check_hash=False)
         for folder, date, _ in iter_folders(html_doc):
-            # Skip files that have not changed since the last update
+            # Skip files that have not changed since the last update, unless it's the latest patch=0 release
             if date <= last_update and folder in cache_dir:
                 cache_dir.use_cached_folder(folder)
                 continue
             for xml_folder in spider_folder(meta, folder):
-                content = meta._fetch_module_metadata(xml_folder)
+                try:
+                    content = meta._fetch_module_metadata(xml_folder)
+                except ChecksumDownloadFailure:
+                    # Skip it and wait for the next update
+                    continue
                 if not content:
                     continue
                 LOGGER.info(f"Update for {html_path}{xml_folder}")
