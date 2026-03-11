@@ -1,11 +1,25 @@
 {
  "qt": [
-  "qt6_680/qt6_680"
+  "qt6_6100/qt6_6100",
+  "qt6_6101/qt6_6101",
+  "qt6_6102/qt6_6102",
+  "qt6_6110/qt6_6110",
+  "qt6_680/qt6_680",
+  "qt6_681/qt6_681",
+  "qt6_682/qt6_682",
+  "qt6_683/qt6_683",
+  "qt6_690/qt6_690",
+  "qt6_691/qt6_691",
+  "qt6_692/qt6_692",
+  "qt6_693/qt6_693"
  ],
  "tools": [
   "tools_cmake",
   "tools_maintenance",
   "tools_ninja",
+  "tools_qtcreator_gui",
+  "tools_qtcreator_kits_and_debuggers",
+  "tools_telemetry_gui",
   "tools_vcredist"
  ]
 }

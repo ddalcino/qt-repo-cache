@@ -1,12 +1,34 @@
 {
  "qt": [
+  "qt6_6100_unix_line_endings_src",
+  "qt6_6100_windows_line_endings_src",
+  "qt6_6101_unix_line_endings_src",
+  "qt6_6101_windows_line_endings_src",
+  "qt6_6102_unix_line_endings_src",
+  "qt6_6102_windows_line_endings_src",
+  "qt6_6110_unix_line_endings_src",
+  "qt6_6110_windows_line_endings_src",
   "qt6_670_src_doc_examples",
   "qt6_671_src_doc_examples",
   "qt6_672_src_doc_examples",
   "qt6_673_src_doc_examples",
   "qt6_680_src_doc_examples",
   "qt6_680_unix_line_endings_src",
-  "qt6_680_windows_line_endings_src"
+  "qt6_680_windows_line_endings_src",
+  "qt6_681_unix_line_endings_src",
+  "qt6_681_windows_line_endings_src",
+  "qt6_682_unix_line_endings_src",
+  "qt6_682_windows_line_endings_src",
+  "qt6_683_unix_line_endings_src",
+  "qt6_683_windows_line_endings_src",
+  "qt6_690_unix_line_endings_src",
+  "qt6_690_windows_line_endings_src",
+  "qt6_691_unix_line_endings_src",
+  "qt6_691_windows_line_endings_src",
+  "qt6_692_unix_line_endings_src",
+  "qt6_692_windows_line_endings_src",
+  "qt6_693_unix_line_endings_src",
+  "qt6_693_windows_line_endings_src"
  ],
  "tools": []
 }
