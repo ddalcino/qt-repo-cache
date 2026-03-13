@@ -191,7 +191,7 @@ if __name__ == "__main__":
     Settings.load_settings()
 
     try:
-        cache_aqt_list_qt()
+        cache_aqt_list_qt(is_force_refresh=True)
     except Exception:
         LOGGER.exception("cache_aqt_list_qt failed")
     last_updates: Dict[str, datetime] = get_last_update_dates()
