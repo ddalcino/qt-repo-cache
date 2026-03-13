@@ -1,19 +1,93 @@
 {
   "clang_64": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "debug_info",
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "14M",
+      "qtdeclarative": "9.9M",
+      "qtquickcontrols2": "1.5M",
+      "qtsvg": "129K",
+      "qttools": "22M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "debug_info": {
+        "AutoDependOn": "qt.qt6.600.debug_info, qt.qt6.600.clang_64",
+        "CompressedSize": "204.0M",
+        "Dependencies": "qt.qt6.600.clang_64",
+        "Description": "Qt 6.0.0 Desktop Clang 64-bit Debug Information Files",
+        "DisplayName": "Desktop Clang 64-bit Debug Information Files",
+        "DownloadableArchives": "qtbase-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtsvg-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtdeclarative-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qttools-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtquickcontrols2-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qt5compat-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtshadertools-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtquick3d-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z, qtquicktimeline-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64-debug-symbols.7z",
+        "Name": "qt.qt6.600.debug_info.clang_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "1bdc154089b47fe44420cbf7e240e10dfe07b7c4",
+        "SortingPriority": "2",
+        "UncompressedSize": "1.3G",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.600.qt5compat, qt.qt6.600.clang_64",
+        "CompressedSize": "389.2K",
+        "Dependencies": "qt.qt6.600.clang_64",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for macOS",
+        "DownloadableArchives": "qt5compat-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64.7z",
+        "Name": "qt.qt6.600.qt5compat.clang_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "5a7b7d1e6393fbce0e96f08f5e91f77d0c8e2217",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "1.1M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.600.qtquick3d, qt.qt6.600.clang_64",
+        "CompressedSize": "1.5M",
+        "Dependencies": "qt.qt6.600.clang_64",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for macOS",
+        "DownloadableArchives": "qtquick3d-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64.7z",
+        "Name": "qt.qt6.600.qtquick3d.clang_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "8241eaf27e4b7028ef747f59973ce3ad4dabf532",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "6.9M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.600.qtquicktimeline, qt.qt6.600.clang_64",
+        "CompressedSize": "25.0K",
+        "Dependencies": "qt.qt6.600.clang_64",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for macOS",
+        "DownloadableArchives": "qtquicktimeline-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64.7z",
+        "Name": "qt.qt6.600.qtquicktimeline.clang_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "35c074fc7efda697e1e3905bb11098d70b436441",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "111.0K",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.600.qtshadertools, qt.qt6.600.clang_64",
+        "CompressedSize": "927.8K",
+        "Dependencies": "qt.qt6.600.clang_64",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for macOS",
+        "DownloadableArchives": "qtshadertools-MacOS-MacOS_10_14-Clang-MacOS-MacOS_10_14-X86_64.7z",
+        "Name": "qt.qt6.600.qtshadertools.clang_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "173650d854edfc329841b039faddb15dfb357cb0",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.7M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      }
+    }
   }
 }

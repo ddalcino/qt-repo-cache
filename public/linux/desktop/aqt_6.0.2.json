@@ -1,22 +1,111 @@
 {
   "gcc_64": {
-    "archives": [
-      "icu",
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations",
-      "qtwayland"
-    ],
-    "modules": [
-      "debug_info",
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools",
-      "qtwaylandcompositor"
-    ]
+    "archives": {
+      "icu": "7.5M",
+      "qtbase": "19M",
+      "qtdeclarative": "18M",
+      "qtquickcontrols2": "1.6M",
+      "qtsvg": "154K",
+      "qttools": "26M",
+      "qttranslations": "1.6M",
+      "qtwayland": "384K"
+    },
+    "modules": {
+      "debug_info": {
+        "AutoDependOn": "qt.qt6.602.debug_info, qt.qt6.602.gcc_64",
+        "CompressedSize": "663.6M",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": "Qt 6.0.2 Desktop gcc 64-bit Debug Information Files",
+        "DisplayName": "Desktop gcc 64-bit Debug Information Files",
+        "DownloadableArchives": "qtbase-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtsvg-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtdeclarative-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qttools-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtquickcontrols2-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qt5compat-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtwayland-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtshadertools-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtquick3d-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z, qtquicktimeline-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64-debug-symbols.7z",
+        "Name": "qt.qt6.602.debug_info.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "545a6db91576955cc7388c93142fa2bf822b1046",
+        "SortingPriority": "2",
+        "UncompressedSize": "3.3G",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      },
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.602.qt5compat, qt.qt6.602.gcc_64",
+        "CompressedSize": "151.2K",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for gcc 64-bit",
+        "DownloadableArchives": "qt5compat-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64.7z",
+        "Name": "qt.qt6.602.qt5compat.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "dd0e7d00eb674268bac669eb52abd24894c421da",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "638.6K",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.602.qtquick3d, qt.qt6.602.gcc_64",
+        "CompressedSize": "1.8M",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for gcc 64-bit",
+        "DownloadableArchives": "qtquick3d-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64.7z",
+        "Name": "qt.qt6.602.qtquick3d.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "cf734003c330c28cb7456b5ee9243eba04353eea",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "7.3M",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.602.qtquicktimeline, qt.qt6.602.gcc_64",
+        "CompressedSize": "31.2K",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for gcc 64-bit",
+        "DownloadableArchives": "qtquicktimeline-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64.7z",
+        "Name": "qt.qt6.602.qtquicktimeline.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "d1e6c9ec3aef96546ceb026b8aaa0c61f9950630",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "124.9K",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.602.qtshadertools, qt.qt6.602.gcc_64",
+        "CompressedSize": "1.1M",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for gcc 64-bit",
+        "DownloadableArchives": "qtshadertools-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64.7z",
+        "Name": "qt.qt6.602.qtshadertools.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "9b10df816af8a2140ef99d0330fa132fb05b9ed5",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.6M",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      },
+      "qtwaylandcompositor": {
+        "AutoDependOn": "qt.qt6.602.qtwaylandcompositor, qt.qt6.602.gcc_64",
+        "CompressedSize": "534.2K",
+        "Dependencies": "qt.qt6.602.gcc_64",
+        "Description": null,
+        "DisplayName": "Qt Wayland Compositor for gcc 64-bit",
+        "DownloadableArchives": "qtwayland-compositor-Linux-CentOS_8_1-GCC-Linux-CentOS_8_1-X86_64.7z",
+        "Name": "qt.qt6.602.qtwaylandcompositor.gcc_64",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "29b84d66dedefda83d09b7b0d3bae9231847ea46",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.6M",
+        "Version": "6.0.2-0-202102251313",
+        "Virtual": "true"
+      }
+    }
   }
 }

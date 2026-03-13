@@ -1,41 +1,189 @@
 {
   "win64_mingw81": {
-    "archives": [
-      "d3dcompiler_47",
-      "opengl32sw",
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations",
-      "x86_64"
-    ],
-    "modules": [
-      "debug_info",
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "d3dcompiler_47": "1.3M",
+      "opengl32sw": "5.2M",
+      "qtbase": "17M",
+      "qtdeclarative": "16M",
+      "qtquickcontrols2": "1.6M",
+      "qtsvg": "171K",
+      "qttools": "24M",
+      "qttranslations": "1.6M",
+      "x86_64": "355K"
+    },
+    "modules": {
+      "debug_info": {
+        "AutoDependOn": "qt.qt6.600.debug_info, qt.qt6.600.win64_mingw81",
+        "CompressedSize": "766.7M",
+        "Dependencies": "qt.qt6.600.win64_mingw81",
+        "Description": "Qt 6.0.0 debug information files for Desktop MinGW 8.1.0 64-bit",
+        "DisplayName": "Desktop MinGW 8.1.0 64-bit debug information files",
+        "DownloadableArchives": "qtbase-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtsvg-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtdeclarative-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qttools-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtquickcontrols2-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qt5compat-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtshadertools-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtquick3d-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z, qtquicktimeline-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64-debug-symbols.7z",
+        "Name": "qt.qt6.600.debug_info.win64_mingw81",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "4d8643d5e6ebda4467126541ab5bd1673fac21cf",
+        "SortingPriority": "2",
+        "UncompressedSize": "5.0G",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.600.qt5compat, qt.qt6.600.win64_mingw81",
+        "CompressedSize": "410.3K",
+        "Dependencies": "qt.qt6.600.win64_mingw81",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for MinGW 8.1.0 64-bit",
+        "DownloadableArchives": "qt5compat-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qt5compat.win64_mingw81",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "beb085a042c5dee8238ebcdc8036ac93959fc0c1",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "1.3M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.600.qtquick3d, qt.qt6.600.win64_mingw81",
+        "CompressedSize": "1.8M",
+        "Dependencies": "qt.qt6.600.win64_mingw81",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for MinGW 8.1.0 64-bit",
+        "DownloadableArchives": "qtquick3d-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtquick3d.win64_mingw81",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "a3425acaf4d13f0beb26e630185b4e5c1fb2993c",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "8.7M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.600.qtquicktimeline, qt.qt6.600.win64_mingw81",
+        "CompressedSize": "35.9K",
+        "Dependencies": "qt.qt6.600.win64_mingw81",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for MinGW 8.1.0 64-bit",
+        "DownloadableArchives": "qtquicktimeline-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtquicktimeline.win64_mingw81",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "2d291b08bccbe272c9c2b1fe4611820215e072be",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "117.3K",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.600.qtshadertools, qt.qt6.600.win64_mingw81",
+        "CompressedSize": "1.0M",
+        "Dependencies": "qt.qt6.600.win64_mingw81",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for MinGW 8.1.0 64-bit",
+        "DownloadableArchives": "qtshadertools-Windows-Windows_10-Mingw-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtshadertools.win64_mingw81",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "59dc1a54dd0caa659c57fec2adf44f46e1c17f7d",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.4M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      }
+    }
   },
   "win64_msvc2019_64": {
-    "archives": [
-      "d3dcompiler_47",
-      "opengl32sw",
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "debug_info",
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "d3dcompiler_47": "1.3M",
+      "opengl32sw": "5.2M",
+      "qtbase": "32M",
+      "qtdeclarative": "21M",
+      "qtquickcontrols2": "2.8M",
+      "qtsvg": "396K",
+      "qttools": "25M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "debug_info": {
+        "AutoDependOn": "qt.qt6.600.debug_info, qt.qt6.600.win64_msvc2019_64",
+        "CompressedSize": "316.8M",
+        "Dependencies": "qt.qt6.600.win64_msvc2019_64",
+        "Description": "Qt 6.0.0 debug information files for Desktop MSVC 2019 64-bit",
+        "DisplayName": "Desktop MSVC 2019 64-bit debug information files",
+        "DownloadableArchives": "qtbase-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtsvg-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtdeclarative-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qttools-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtquickcontrols2-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qt5compat-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtshadertools-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtquick3d-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z, qtquicktimeline-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64-debug-symbols.7z",
+        "Name": "qt.qt6.600.debug_info.win64_msvc2019_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "082e172c8cf8c867b01af93397bee20e98094f11",
+        "SortingPriority": "2",
+        "UncompressedSize": "2.3G",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.600.qt5compat, qt.qt6.600.win64_msvc2019_64",
+        "CompressedSize": "621.7K",
+        "Dependencies": "qt.qt6.600.win64_msvc2019_64",
+        "Description": null,
+        "DisplayName": " Qt 5 Compatibility Module for MSVC 2019 64-bit",
+        "DownloadableArchives": "qt5compat-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qt5compat.win64_msvc2019_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "924c60c882ff61d549ca35442805e7c4969e3245",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.1M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.600.qtquick3d, qt.qt6.600.win64_msvc2019_64",
+        "CompressedSize": "3.6M",
+        "Dependencies": "qt.qt6.600.win64_msvc2019_64",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for MSVC 2019 64-bit",
+        "DownloadableArchives": "qtquick3d-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtquick3d.win64_msvc2019_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "9821f65c151b55bcb1973386fcc6bcdfc4729bff",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "24.0M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.600.qtquicktimeline, qt.qt6.600.win64_msvc2019_64",
+        "CompressedSize": "85.3K",
+        "Dependencies": "qt.qt6.600.win64_msvc2019_64",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for MSVC 2019 64-bit",
+        "DownloadableArchives": "qtquicktimeline-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtquicktimeline.win64_msvc2019_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "856d5689c40df9a53eb292385345a4500361db67",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "505.2K",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.600.qtshadertools, qt.qt6.600.win64_msvc2019_64",
+        "CompressedSize": "2.2M",
+        "Dependencies": "qt.qt6.600.win64_msvc2019_64",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for MSVC 2019 64-bit",
+        "DownloadableArchives": "qtshadertools-Windows-Windows_10-MSVC2019-Windows-Windows_10-X86_64.7z",
+        "Name": "qt.qt6.600.qtshadertools.win64_msvc2019_64",
+        "ReleaseDate": "2020-12-05",
+        "SHA1": "978580a0dea79dc13d942fcf9d0ede97dc3a91eb",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "12.7M",
+        "Version": "6.0.0-0-202012051252",
+        "Virtual": "true"
+      }
+    }
   }
 }

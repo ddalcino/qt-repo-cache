@@ -1,18 +1,78 @@
 {
   "ios": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "384M",
+      "qtdeclarative": "337M",
+      "qtquickcontrols2": "116M",
+      "qtsvg": "6.5M",
+      "qttools": "6.1M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.602.qt5compat, qt.qt6.602.ios",
+        "CompressedSize": "4.4M",
+        "Dependencies": "qt.qt6.602.ios",
+        "Description": null,
+        "DisplayName": " Qt 5 Compatibility Modulefor iOS",
+        "DownloadableArchives": "qt5compat-MacOS-MacOS_10_14-Clang-IOS-IOS_ANY-ARM64.7z",
+        "Name": "qt.qt6.602.qt5compat.ios",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "e6841dd38043b3a34ea04bc8e89513d5e7c13f90",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "30.5M",
+        "Version": "6.0.2-0-202102251322",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.602.qtquick3d, qt.qt6.602.ios",
+        "CompressedSize": "88.5M",
+        "Dependencies": "qt.qt6.602.ios",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for iOS",
+        "DownloadableArchives": "qtquick3d-MacOS-MacOS_10_14-Clang-IOS-IOS_ANY-ARM64.7z",
+        "Name": "qt.qt6.602.qtquick3d.ios",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "ec67b148fc8f5a7a04e1d6be16fd9bbc30c8fd88",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "694.5M",
+        "Version": "6.0.2-0-202102251322",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.602.qtquicktimeline, qt.qt6.602.ios",
+        "CompressedSize": "2.3M",
+        "Dependencies": "qt.qt6.602.ios",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for iOS",
+        "DownloadableArchives": "qtquicktimeline-MacOS-MacOS_10_14-Clang-IOS-IOS_ANY-ARM64.7z",
+        "Name": "qt.qt6.602.qtquicktimeline.ios",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "c648c4ff538c418977172eb9b233f4e48a59f5f4",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "19.1M",
+        "Version": "6.0.2-0-202102251322",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.602.qtshadertools, qt.qt6.602.ios",
+        "CompressedSize": "36.1M",
+        "Dependencies": "qt.qt6.602.ios",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for iOS",
+        "DownloadableArchives": "qtshadertools-MacOS-MacOS_10_14-Clang-IOS-IOS_ANY-ARM64.7z",
+        "Name": "qt.qt6.602.qtshadertools.ios",
+        "ReleaseDate": "2021-02-25",
+        "SHA1": "12802cd79aea02f10d0088a5730b942605b3903b",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "286.9M",
+        "Version": "6.0.2-0-202102251322",
+        "Virtual": "true"
+      }
+    }
   }
 }

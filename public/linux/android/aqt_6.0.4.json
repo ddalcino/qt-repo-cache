@@ -1,66 +1,306 @@
 {
   "android_arm64_v8a": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "11M",
+      "qtdeclarative": "7.8M",
+      "qtquickcontrols2": "1.4M",
+      "qtsvg": "136K",
+      "qttools": "3.2M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.604.qt5compat, qt.qt6.604.android_arm64_v8a",
+        "CompressedSize": "368.6K",
+        "Dependencies": "qt.qt6.604.android_arm64_v8a",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for Android ARM64-v8a",
+        "DownloadableArchives": "qt5compat-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARM64.7z",
+        "Name": "qt.qt6.604.qt5compat.android_arm64_v8a",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "e648ec64719248313c32e5817ce9a3c1d97e6cea",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "1.1M",
+        "Version": "6.0.4-0-202104290628",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.604.qtquick3d, qt.qt6.604.android_arm64_v8a",
+        "CompressedSize": "813.8K",
+        "Dependencies": "qt.qt6.604.android_arm64_v8a",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for Android ARM64-v8a",
+        "DownloadableArchives": "qtquick3d-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARM64.7z",
+        "Name": "qt.qt6.604.qtquick3d.android_arm64_v8a",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "53f9e3bc00ce6e96a348616f747ef5f6d4f7374b",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "4.2M",
+        "Version": "6.0.4-0-202104290628",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.604.qtquicktimeline, qt.qt6.604.android_arm64_v8a",
+        "CompressedSize": "26.1K",
+        "Dependencies": "qt.qt6.604.android_arm64_v8a",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for Android ARM64-v8a",
+        "DownloadableArchives": "qtquicktimeline-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARM64.7z",
+        "Name": "qt.qt6.604.qtquicktimeline.android_arm64_v8a",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "dbfcc393cd639cae6f1ee2134f8ea98435129d34",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "114.8K",
+        "Version": "6.0.4-0-202104290628",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.604.qtshadertools, qt.qt6.604.android_arm64_v8a",
+        "CompressedSize": "739.4K",
+        "Dependencies": "qt.qt6.604.android_arm64_v8a",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for Android ARM64-v8a",
+        "DownloadableArchives": "qtshadertools-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARM64.7z",
+        "Name": "qt.qt6.604.qtshadertools.android_arm64_v8a",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "9f47a3fac789e86079db28c5ab40735889664568",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.0M",
+        "Version": "6.0.4-0-202104290628",
+        "Virtual": "true"
+      }
+    }
   },
   "android_armv7": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "10M",
+      "qtdeclarative": "7.7M",
+      "qtquickcontrols2": "1.4M",
+      "qtsvg": "135K",
+      "qttools": "3.1M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.604.qt5compat, qt.qt6.604.android_armv7",
+        "CompressedSize": "362.5K",
+        "Dependencies": "qt.qt6.604.android_armv7",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for Android ARMv7",
+        "DownloadableArchives": "qt5compat-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARMv7.7z",
+        "Name": "qt.qt6.604.qt5compat.android_armv7",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "2eece356a90f3b16dae28a40784c21883bc1264e",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "963.3K",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.604.qtquick3d, qt.qt6.604.android_armv7",
+        "CompressedSize": "787.6K",
+        "Dependencies": "qt.qt6.604.android_armv7",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for Android ARMv7",
+        "DownloadableArchives": "qtquick3d-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARMv7.7z",
+        "Name": "qt.qt6.604.qtquick3d.android_armv7",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "5d9057a0650abf767d340e1e8856a34e71a275ad",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.6M",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.604.qtquicktimeline, qt.qt6.604.android_armv7",
+        "CompressedSize": "26.2K",
+        "Dependencies": "qt.qt6.604.android_armv7",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for Android ARMv7",
+        "DownloadableArchives": "qtquicktimeline-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARMv7.7z",
+        "Name": "qt.qt6.604.qtquicktimeline.android_armv7",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "2b1685f260b0f2d98436b404458ee0a67c635262",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "81.5K",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.604.qtshadertools, qt.qt6.604.android_armv7",
+        "CompressedSize": "675.0K",
+        "Dependencies": "qt.qt6.604.android_armv7",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for Android ARMv7",
+        "DownloadableArchives": "qtshadertools-Linux-CentOS_8_1-Clang-Android-Android_ANY-ARMv7.7z",
+        "Name": "qt.qt6.604.qtshadertools.android_armv7",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "d7e7c814afe5789503135af29d17d51a0a97aa41",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "2.0M",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      }
+    }
   },
   "android_x86": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "12M",
+      "qtdeclarative": "8.0M",
+      "qtquickcontrols2": "1.5M",
+      "qtsvg": "155K",
+      "qttools": "3.5M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.604.qt5compat, qt.qt6.604.android_x86",
+        "CompressedSize": "384.9K",
+        "Dependencies": "qt.qt6.604.android_x86",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for Android x86",
+        "DownloadableArchives": "qt5compat-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86.7z",
+        "Name": "qt.qt6.604.qt5compat.android_x86",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "a97a159a01cb9af709dee3d4d268b4221002489a",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "1.1M",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.604.qtquick3d, qt.qt6.604.android_x86",
+        "CompressedSize": "873.8K",
+        "Dependencies": "qt.qt6.604.android_x86",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for Android x86",
+        "DownloadableArchives": "qtquick3d-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86.7z",
+        "Name": "qt.qt6.604.qtquick3d.android_x86",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "9640607617f8fc4bc1b14e42c7ee8a6744681dd1",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "4.2M",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.604.qtquicktimeline, qt.qt6.604.android_x86",
+        "CompressedSize": "28.9K",
+        "Dependencies": "qt.qt6.604.android_x86",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for Android x86",
+        "DownloadableArchives": "qtquicktimeline-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86.7z",
+        "Name": "qt.qt6.604.qtquicktimeline.android_x86",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "f3a342a3168654289b982f5c2d1a594708aa385d",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "109.4K",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.604.qtshadertools, qt.qt6.604.android_x86",
+        "CompressedSize": "845.2K",
+        "Dependencies": "qt.qt6.604.android_x86",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for Android x86",
+        "DownloadableArchives": "qtshadertools-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86.7z",
+        "Name": "qt.qt6.604.qtshadertools.android_x86",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "cddbfbb8ef3aff3ce303a1d598049af225300c36",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.2M",
+        "Version": "6.0.4-0-202104290629",
+        "Virtual": "true"
+      }
+    }
   },
   "android_x86_64": {
-    "archives": [
-      "qtbase",
-      "qtdeclarative",
-      "qtquickcontrols2",
-      "qtsvg",
-      "qttools",
-      "qttranslations"
-    ],
-    "modules": [
-      "qt5compat",
-      "qtquick3d",
-      "qtquicktimeline",
-      "qtshadertools"
-    ]
+    "archives": {
+      "qtbase": "12M",
+      "qtdeclarative": "8.2M",
+      "qtquickcontrols2": "1.5M",
+      "qtsvg": "151K",
+      "qttools": "3.4M",
+      "qttranslations": "1.6M"
+    },
+    "modules": {
+      "qt5compat": {
+        "AutoDependOn": "qt.qt6.604.qt5compat, qt.qt6.604.android_x86_64",
+        "CompressedSize": "378.2K",
+        "Dependencies": "qt.qt6.604.android_x86_64",
+        "Description": null,
+        "DisplayName": "Qt 5 Compatibility Module for Android x86_64",
+        "DownloadableArchives": "qt5compat-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86_64.7z",
+        "Name": "qt.qt6.604.qt5compat.android_x86_64",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "acf765a4bb0634e07a6d5b7d9a268a07cc5b4f23",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "1.1M",
+        "Version": "6.0.4-0-202104290630",
+        "Virtual": "true"
+      },
+      "qtquick3d": {
+        "AutoDependOn": "qt.qt6.604.qtquick3d, qt.qt6.604.android_x86_64",
+        "CompressedSize": "852.2K",
+        "Dependencies": "qt.qt6.604.android_x86_64",
+        "Description": null,
+        "DisplayName": "Qt Quick 3D for Android x86_64",
+        "DownloadableArchives": "qtquick3d-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86_64.7z",
+        "Name": "qt.qt6.604.qtquick3d.android_x86_64",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "a56221985a86d1053348df9dd5d99969e0425f32",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "4.2M",
+        "Version": "6.0.4-0-202104290630",
+        "Virtual": "true"
+      },
+      "qtquicktimeline": {
+        "AutoDependOn": "qt.qt6.604.qtquicktimeline, qt.qt6.604.android_x86_64",
+        "CompressedSize": "27.8K",
+        "Dependencies": "qt.qt6.604.android_x86_64",
+        "Description": null,
+        "DisplayName": "Qt Quick Timeline for Android x86_64",
+        "DownloadableArchives": "qtquicktimeline-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86_64.7z",
+        "Name": "qt.qt6.604.qtquicktimeline.android_x86_64",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "6f66d881cbdc6adf24463d3890c3d9f7599e8309",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "111.1K",
+        "Version": "6.0.4-0-202104290630",
+        "Virtual": "true"
+      },
+      "qtshadertools": {
+        "AutoDependOn": "qt.qt6.604.qtshadertools, qt.qt6.604.android_x86_64",
+        "CompressedSize": "819.3K",
+        "Dependencies": "qt.qt6.604.android_x86_64",
+        "Description": null,
+        "DisplayName": "Qt Shader Tools for Android x86_64",
+        "DownloadableArchives": "qtshadertools-Linux-CentOS_8_1-Clang-Android-Android_ANY-X86_64.7z",
+        "Name": "qt.qt6.604.qtshadertools.android_x86_64",
+        "ReleaseDate": "2021-04-29",
+        "SHA1": "d545c2a5290af485fde1616c322b2ff401d82c0c",
+        "Script": "installscript.qs",
+        "SortingPriority": null,
+        "UncompressedSize": "3.1M",
+        "Version": "6.0.4-0-202104290630",
+        "Virtual": "true"
+      }
+    }
   }
 }
