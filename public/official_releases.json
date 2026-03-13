@@ -290,7 +290,71 @@
    "qt-creator-opensource-linux-arm64-17.0.0.run": "240M",
    "md5sums.txt": "707"
   },
-  "19.0/": {},
+  "19.0/": {
+   "19.0.0/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "26K",
+      "sdktool.7z": "1.1M",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "14M",
+      "qtcreator.7z": "150M",
+      "qtcreator-debug.7z": "393M",
+      "md5sums.txt": "299"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "29K",
+      "sdktool.7z": "867K",
+      "qtcreatorcdbext.7z": "27M",
+      "qtcreator_dev.7z": "12M",
+      "qtcreator.7z": "124M",
+      "qtcreator-debug.7z": "390M",
+      "md5sums.txt": "299"
+     },
+     "mac_x64/": {
+      "sdktool.7z": "1.6M",
+      "qtcreator_dev.7z": "26M",
+      "qtcreator.7z": "197M",
+      "qtcreator-signed.7z": "200M",
+      "qtcreator-debug.7z": "687M",
+      "md5sums.txt": "250"
+     },
+     "linux_x64/": {
+      "sdktool.7z": "1.2M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "161M",
+      "qtcreator-debug.7z": "777M",
+      "md5sums.txt": "196"
+     },
+     "linux_arm64/": {
+      "sdktool.7z": "1.1M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "155M",
+      "qtcreator-debug.7z": "757M",
+      "md5sums.txt": "196"
+     },
+     "jsonschemas/": {
+      "project.json": "6.0K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-19.0.0.deb": "142M",
+     "qtcreator-opensource-linux-arm64-19.0.0.deb": "133M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-19.0.0.exe": "367M",
+    "qt-creator-opensource-windows-arm64-19.0.0.exe": "286M",
+    "qt-creator-opensource-src-19.0.0.zip": "62M",
+    "qt-creator-opensource-src-19.0.0.tar.xz": "38M",
+    "qt-creator-opensource-src-19.0.0.tar.gz": "49M",
+    "qt-creator-opensource-mac-universal-19.0.0_installer.dmg": "288M",
+    "qt-creator-opensource-mac-universal-19.0.0.dmg": "278M",
+    "qt-creator-opensource-linux-x86_64-19.0.0.run": "245M",
+    "qt-creator-opensource-linux-arm64-19.0.0.run": "236M",
+    "md5sums.txt": "713"
+   }
+  },
   "18.0/": {
    "18.0.2/": {
     "installer_source/": {
@@ -3557,6 +3621,18 @@
   }
  },
  "qbs/": {
+  "3.2.0/": {
+   "sha256sums.txt": "718",
+   "qbs.3.2.0.nupkg": "24K",
+   "qbs-windows-x86_64-3.2.0.zip": "16M",
+   "qbs-src-3.2.0.zip": "8.3M",
+   "qbs-src-3.2.0.tar.gz": "5.6M",
+   "qbs-macos-x86_64-3.2.0.tar.gz": "28M",
+   "qbs-macos-arm64-3.2.0.tar.gz": "27M",
+   "qbs-linux-x86_64-3.2.0.tar.gz": "32M",
+   "md5sums.txt": "462",
+   "changes-3.2.0.md": "1.0K"
+  },
   "3.1.2/": {
    "sha256sums.txt": "718",
    "qbs.3.1.2.nupkg": "23K",
