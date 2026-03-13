@@ -28,7 +28,7 @@ def log_and_reraise_exceptions(fn: Callable[[], T], msg: str, *args) -> T:
 
 class CachedMetadata:
     class CacheForArch(TypedDict):
-        modules: List[str]
+        modules: Dict[str, Dict[str, str]]
         archives: List[str]
 
     def __init__(self, archive_id: ArchiveId):
@@ -75,7 +75,7 @@ class CachedMetadata:
             cache: Dict[str, CachedMetadata.CacheForArch] = {}
             for arch in arches:
                 modules = log_and_reraise_exceptions(
-                    lambda: self.meta.fetch_modules(version, arch),
+                    lambda: self.meta.fetch_long_modules(version, arch),
                     f"Failed fetching modules for %s version=%s arch=%s",
                     self.meta.archive_id, version, arch,
                 )
@@ -84,7 +84,7 @@ class CachedMetadata:
                     f"Failed fetching qt archives for %s version=%s arch=%s",
                     self.meta.archive_id, version, arch,
                 )
-                cache[arch] = {'modules': modules, 'archives': archives}
+                cache[arch] = {'modules': modules.table_data, 'archives': archives}
             return cache
         except Exception:
             return None
