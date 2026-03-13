@@ -1,10 +1,14 @@
 import logging
 import json
+import posixpath
+import re
 from collections.abc import Iterator
 from pathlib import Path
-from typing import Dict, List, Optional, TypedDict, TypeVar, Callable, Set
+from typing import Dict, Optional, TypedDict, TypeVar, Callable, Set
 
-from aqt.metadata import ArchiveId, MetadataFactory, Version
+from aqt.metadata import ArchiveId, MetadataFactory, Version, QtRepoProperty
+
+from html_util import iter_folders
 
 logger = logging.getLogger(__name__)
 PUBLIC_ROOT = Path(__file__).parent.parent / "public"
@@ -27,9 +31,12 @@ def log_and_reraise_exceptions(fn: Callable[[], T], msg: str, *args) -> T:
         raise
 
 class CachedMetadata:
+    # matches '5.9.4-0-201801211432qtbase-Windows-Windows_7-Mingw53-Android-Android_ANY-ARMv7.7z'
+    archive_name_pattern = re.compile(r"^\d+(?:\.\d+){2}-\d+-\d{12}(?P<archive>\w+)-")
+
     class CacheForArch(TypedDict):
-        modules: List[str]
-        archives: List[str]
+        modules: Dict[str, Dict[str, str]]
+        archives: Dict[str, str]
 
     def __init__(self, archive_id: ArchiveId):
         self.meta = MetadataFactory(archive_id)
@@ -75,19 +82,44 @@ class CachedMetadata:
             cache: Dict[str, CachedMetadata.CacheForArch] = {}
             for arch in arches:
                 modules = log_and_reraise_exceptions(
-                    lambda: self.meta.fetch_modules(version, arch),
+                    lambda: self.meta.fetch_long_modules(version, arch),
                     f"Failed fetching modules for %s version=%s arch=%s",
                     self.meta.archive_id, version, arch,
                 )
-                archives = log_and_reraise_exceptions(
+                archive_names = log_and_reraise_exceptions(
                     lambda: self.meta.fetch_archives(version, arch, []),
                     f"Failed fetching qt archives for %s version=%s arch=%s",
                     self.meta.archive_id, version, arch,
                 )
-                cache[arch] = {'modules': modules, 'archives': archives}
+                # version_date = modules.table_data[next(iter(modules.table_data))]['Version']
+                all_archives = self.fetch_archive_sizes(version, arch)
+                # archives = {archive: all_archives.get(archive, None) for archive in archive_names}
+                archives = {archive: all_archives[archive] for archive in archive_names}
+                cache[arch] = {'modules': modules.table_data, 'archives': archives}
             return cache
         except Exception:
             return None
+
+    def fetch_archive_sizes(self, version: Version, arch: str) -> Dict[str, str]:
+        def should_use_7z(filename: str) -> bool:
+            return filename.endswith(".7z") and not filename.endswith("meta.7z")
+
+        archive_sizes: Dict[str, str] = {}
+        qt_version_str = self.meta._get_qt_version_str(version)
+        module_name = f"qt.qt{version.major}.{qt_version_str}.{arch}" # Not true for all: should come from xml metadata
+        if version < Version("5.9.7"):
+            module_name = f"qt.{qt_version_str}.{arch}"
+
+        # Get the path to the updates.xml file
+        extension = QtRepoProperty.extension_for_arch(arch, version >= Version("6.0.0"))
+        folder = self.meta.archive_id.to_folder(version, qt_version_str, extension)
+        # updates_xml_rest_of_url = posixpath.join(self.meta.archive_id.to_url(), folder, "Updates.xml")
+        rest_of_url = posixpath.join(self.meta.archive_id.to_url(), folder, module_name) + '/'
+        html_doc = self.meta.fetch_http(rest_of_url, is_check_hash=False)
+        for filename_7z, _, archive_size in iter_folders(html_doc, should_use_7z):
+            if match := CachedMetadata.archive_name_pattern.match(filename_7z):
+                archive_sizes[match.group("archive")] = archive_size
+        return archive_sizes
 
     def has_cache_entry_for(self, version: Version) -> bool:
         return self.path(version).exists()
@@ -112,24 +144,24 @@ class CachedMetadata:
 
         tmp_path.replace(path)
 
-    def refresh_all_cache(self):
+    def refresh_all_cache(self, is_force_refresh: bool) -> None:
         cached_versions: Set[Version] = set()
         versions = self.meta.fetch_versions()
         last_version = versions.latest()
         for version in versions.flattened():
             if self.has_cache_entry_for(version):
                 cached_versions.add(version)
-            if self.should_update_cache(version, last_version):
+            if is_force_refresh or self.should_update_cache(version, last_version):
                 made_update = self.update_cache_for(version)
                 if made_update:
                     cached_versions.add(version)
         self.write_cache_directory(cached_versions)
 
 
-def cache_aqt_list_qt() -> None:
+def cache_aqt_list_qt(is_force_refresh: bool = False) -> None:
     for archive_id in iter_archive_ids():
         cached_data = CachedMetadata(archive_id)
-        cached_data.refresh_all_cache()
+        cached_data.refresh_all_cache(is_force_refresh)
 
 
 
