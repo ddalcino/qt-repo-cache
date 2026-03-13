@@ -112,24 +112,24 @@ class CachedMetadata:
 
         tmp_path.replace(path)
 
-    def refresh_all_cache(self):
+    def refresh_all_cache(self, is_force_refresh: bool) -> None:
         cached_versions: Set[Version] = set()
         versions = self.meta.fetch_versions()
         last_version = versions.latest()
         for version in versions.flattened():
             if self.has_cache_entry_for(version):
                 cached_versions.add(version)
-            if self.should_update_cache(version, last_version):
+            if is_force_refresh or self.should_update_cache(version, last_version):
                 made_update = self.update_cache_for(version)
                 if made_update:
                     cached_versions.add(version)
         self.write_cache_directory(cached_versions)
 
 
-def cache_aqt_list_qt() -> None:
+def cache_aqt_list_qt(is_force_refresh: bool = False) -> None:
     for archive_id in iter_archive_ids():
         cached_data = CachedMetadata(archive_id)
-        cached_data.refresh_all_cache()
+        cached_data.refresh_all_cache(is_force_refresh)
 
 
 
