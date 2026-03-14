@@ -1,17 +1,16 @@
 import json
 import logging
 import posixpath
-import re
+import argparse
 import requests_cache
 from datetime import datetime
 from pathlib import Path
-from typing import Callable, Dict, Generator, Set, Tuple, Union
+from typing import Dict, Generator, Tuple, Union
 
 import aqt.metadata
-import bs4
 from aqt.exceptions import ChecksumDownloadFailure
 from aqt.helper import Settings
-from aqt.metadata import ArchiveId, MetadataFactory, get_semantic_version
+from aqt.metadata import ArchiveId, MetadataFactory
 
 from cached_directory import CachedDirectory
 from cache_aqt_list_output import cache_aqt_list_qt
@@ -187,11 +186,20 @@ def update_xml_files(last_update: datetime) -> datetime:
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--force-refresh",
+        action="store_true",
+        help="Force refresh of cached data",
+    )
+    args = parser.parse_args()
+
+    force_refresh = args.force_refresh
     # TODO: remove patch for TARGETS_FOR_HOST when fixed upstream
     Settings.load_settings()
 
     try:
-        cache_aqt_list_qt(is_force_refresh=True)
+        cache_aqt_list_qt(is_force_refresh=force_refresh)
     except Exception:
         LOGGER.exception("cache_aqt_list_qt failed")
     last_updates: Dict[str, datetime] = get_last_update_dates()
