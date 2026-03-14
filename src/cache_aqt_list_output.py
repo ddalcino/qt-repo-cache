@@ -6,6 +6,7 @@ from collections.abc import Iterator
 from pathlib import Path
 from typing import Dict, Optional, TypedDict, TypeVar, Callable, Set
 
+from aqt.exceptions import AqtException
 from aqt.metadata import ArchiveId, MetadataFactory, Version, QtRepoProperty
 
 from html_util import iter_folders
@@ -74,6 +75,12 @@ class CachedMetadata:
 
         tmp_path.replace(path)
 
+    def delete_cache_for(self, version: Version) -> None:
+        """If there's a cache here, and there shouldn't be, delete it."""
+        path = self.path(version)
+        if path.exists() and path.is_file():
+            path.unlink()
+
     def fetch_qt_data(self, version: Version) -> Optional[Dict[str, CacheForArch]]:
         try:
             arches = log_and_reraise_exceptions(lambda: self.meta.fetch_arches(version),
@@ -91,10 +98,13 @@ class CachedMetadata:
                     f"Failed fetching qt archives for %s version=%s arch=%s",
                     self.meta.archive_id, version, arch,
                 )
-                # version_date = modules.table_data[next(iter(modules.table_data))]['Version']
-                all_archives = self.fetch_archive_sizes(version, arch)
-                # archives = {archive: all_archives.get(archive, None) for archive in archive_names}
-                archives = {archive: all_archives[archive] for archive in archive_names}
+                archives = {archive: '' for archive in archive_names}
+                try:
+                    # version_date = modules.table_data[next(iter(modules.table_data))]['Version']
+                    all_archives = self.fetch_archive_sizes(version, arch)
+                    archives = {archive: all_archives[archive] for archive in archive_names}
+                except AqtException:
+                    pass
                 cache[arch] = {'modules': modules.table_data, 'archives': archives}
             return cache
         except Exception:
@@ -149,12 +159,14 @@ class CachedMetadata:
         versions = self.meta.fetch_versions()
         last_version = versions.latest()
         for version in versions.flattened():
-            if self.has_cache_entry_for(version):
+            if not is_force_refresh and self.has_cache_entry_for(version):
                 cached_versions.add(version)
             if is_force_refresh or self.should_update_cache(version, last_version):
                 made_update = self.update_cache_for(version)
                 if made_update:
                     cached_versions.add(version)
+                else:
+                    self.delete_cache_for(version)
         self.write_cache_directory(cached_versions)
 
 
