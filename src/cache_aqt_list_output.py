@@ -74,6 +74,12 @@ class CachedMetadata:
 
         tmp_path.replace(path)
 
+    def delete_cache_for(self, version: Version) -> None:
+        """If there's a cache here, and there shouldn't be, delete it."""
+        path = self.path(version)
+        if path.exists() and path.is_file():
+            path.unlink()
+
     def fetch_qt_data(self, version: Version) -> Optional[Dict[str, CacheForArch]]:
         try:
             arches = log_and_reraise_exceptions(lambda: self.meta.fetch_arches(version),
@@ -149,12 +155,14 @@ class CachedMetadata:
         versions = self.meta.fetch_versions()
         last_version = versions.latest()
         for version in versions.flattened():
-            if self.has_cache_entry_for(version):
+            if not is_force_refresh and self.has_cache_entry_for(version):
                 cached_versions.add(version)
             if is_force_refresh or self.should_update_cache(version, last_version):
                 made_update = self.update_cache_for(version)
                 if made_update:
                     cached_versions.add(version)
+                else:
+                    self.delete_cache_for(version)
         self.write_cache_directory(cached_versions)
 
 
