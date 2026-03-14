@@ -20,19 +20,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v6
         with:
           ref: gh-pages
-      - name: Set up Python 3.9
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v6
         with:
-          python-version: 3.9
+          python-version: 3.13
       - name: Install deps
         run: python -m pip install -r requirements.txt
       - name: Generate and/or update caches
         run: python ./src/cache_updates.py
       - name: Commit cache updates
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: Automated Cache Update
           branch: gh-pages
