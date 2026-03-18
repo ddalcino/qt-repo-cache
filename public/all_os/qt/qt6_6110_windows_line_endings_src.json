@@ -1,8 +1,8 @@
 {
  "qt.qt6.6110": {
   "Name": "qt.qt6.6110",
-  "DisplayName": "Qt 6.11.0",
-  "Description": "Qt 6.11.0 <br><br>sha1: 3dbc5f0aca27b3fd14d0a46e4e3e34e244203608",
+  "DisplayName": "Qt 6.11.0-rc2",
+  "Description": "Qt 6.11.0-rc2 <br><br>sha1: 3dbc5f0aca27b3fd14d0a46e4e3e34e244203608",
   "Version": "6.11.0-0-202603120904",
   "ReleaseDate": "2026-03-12",
   "Script": "installscript.qs",
