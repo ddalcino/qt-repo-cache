@@ -33,7 +33,8 @@ def log_and_reraise_exceptions(fn: Callable[[], T], msg: str, *args) -> T:
 
 class CachedMetadata:
     # matches '5.9.4-0-201801211432qtbase-Windows-Windows_7-Mingw53-Android-Android_ANY-ARMv7.7z'
-    archive_name_pattern = re.compile(r"^\d+(?:\.\d+){2}-\d+-\d{12}(?P<archive>\w+)-")
+    # matches '6.9.3-202509261208qttranslations-Windows-Windows_11_23H2-Clang-Windows-Windows_11_23H2-X86_64.7z'
+    archive_name_pattern = re.compile(r"^\d+(?:\.\d+){2}(?:-\d+)?-\d{12}(?P<archive>\w+)-")
 
     class CacheForArch(TypedDict):
         modules: Dict[str, Dict[str, str]]
@@ -102,7 +103,7 @@ class CachedMetadata:
                 try:
                     # version_date = modules.table_data[next(iter(modules.table_data))]['Version']
                     all_archives = self.fetch_archive_sizes(version, arch)
-                    archives = {archive: all_archives[archive] for archive in archive_names}
+                    archives = {archive: all_archives.get(archive, '') for archive in archive_names}
                 except AqtException:
                     pass
                 cache[arch] = {'modules': modules.table_data, 'archives': archives}
