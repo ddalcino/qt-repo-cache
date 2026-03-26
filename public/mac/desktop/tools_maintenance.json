@@ -3,24 +3,25 @@
   "Name": "qt.tools.maintenance",
   "DisplayName": "Qt Maintenance Tool",
   "Description": "The tool to maintain and update the existing installation, located in the root directory of the installation.",
-  "Version": "4.10.0-202506090627",
-  "ReleaseDate": "2025-06-09",
+  "Version": "4.11.0-202603250633",
+  "ReleaseDate": "2026-03-25",
   "Script": "installscript.qs",
   "Essential": "true",
   "ForcedInstallation": "true",
   "Virtual": "false",
   "SortingPriority": "0",
-  "DownloadableArchives": "maintenancetool_macOS_universal.7z, MaintenanceTool.app.7z, installer-changelog.7z, installer-resource.7z",
-  "CompressedSize": "29.9M",
-  "UncompressedSize": "108.3M",
+  "DownloadableArchives": "maintenancetool_macOS_universal.7z, MaintenanceTool.app.7z, maintenanceToolUpdater.7z, installer-changelog.7z, installer-resource.7z",
+  "CompressedSize": "75.5M",
+  "UncompressedSize": "293.1M",
   "Operations": "\n   ",
-  "SHA1": "5e0eee2c842bb966a23850e67a5e7de121a365a3",
+  "SHA1": "39bc80afc62faa799be665ebb8bcf498a11197a7",
   "ArchiveSizes": {
-   "maintenancetool_macOS_universal.7z": "14M",
+   "maintenancetool_macOS_universal.7z": "27M",
+   "maintenanceToolUpdater.7z": "17M",
    "installer-resource.7z": "104K",
-   "installer-changelog.7z": "3.8K",
+   "installer-changelog.7z": "3.9K",
    "content.7z": "11K",
-   "MaintenanceTool.app.7z": "16M"
+   "MaintenanceTool.app.7z": "31M"
   }
  }
 }
