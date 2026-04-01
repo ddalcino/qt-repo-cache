@@ -4590,8 +4590,9 @@
   "qt-online-installer-linux-arm64-online.run": "82M"
  },
  "jom/": {
-  "unstable-jom.zip": "1.6M",
-  "md5sums.txt": "1.9K",
+  "unstable-jom.zip": "1.7M",
+  "md5sums.txt": "2.0K",
+  "jom_1_1_7.zip": "1.7M",
   "jom_1_1_6.zip": "1.6M",
   "jom_1_1_5.zip": "1.7M",
   "jom_1_1_4.zip": "1.6M",
@@ -4630,8 +4631,8 @@
   "jom_0_8_02.zip": "513K",
   "jom_0_8_01.zip": "522K",
   "jom_0_6_08.zip": "481K",
-  "jom.zip": "1.6M",
-  "changelog.txt": "9.5K"
+  "jom.zip": "1.7M",
+  "changelog.txt": "9.8K"
  },
  "gdb/": {
   "windows-7/": {
