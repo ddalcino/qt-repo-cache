@@ -10,7 +10,7 @@
   "CompressedSize": "508.9M",
   "UncompressedSize": "1.4G",
   "DownloadableArchives": "android-qt-ui-viewer.7z,designstudio_base.7z,docs.7z,effect_bundle.7z,plugin-telemetry.7z,qt6_design_studio_reduced_version.7z,qt6_qmlpuppet.7z,qtcreator.7z,qtcreator_sdktool.7z,content.7z",
-  "TreeName": "qtdesignstudio.release",
+  "TreeName": "visualcreationtools.qtdesignstudio.release",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtdesignstudiocheckboxform.ui,readmecheckboxform.ui",
   "Translations": "de.qm,ar.qm,es.qm,zh.qm,fr.qm,ru.qm,pt.qm,ko.qm,ja.qm",
   "Operations": "\n   ",
