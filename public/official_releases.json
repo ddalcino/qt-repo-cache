@@ -298,6 +298,69 @@
    "md5sums.txt": "707"
   },
   "19.0/": {
+   "19.0.1/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "29K",
+      "sdktool.7z": "1.1M",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "14M",
+      "qtcreator.7z": "150M",
+      "qtcreator-debug.7z": "396M",
+      "md5sums.txt": "299"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "32K",
+      "sdktool.7z": "867K",
+      "qtcreatorcdbext.7z": "27M",
+      "qtcreator_dev.7z": "12M",
+      "qtcreator.7z": "125M",
+      "qtcreator-debug.7z": "390M",
+      "md5sums.txt": "299"
+     },
+     "mac_x64/": {
+      "sdktool.7z": "1.6M",
+      "qtcreator_dev.7z": "26M",
+      "qtcreator.7z": "197M",
+      "qtcreator-signed.7z": "202M",
+      "qtcreator-debug.7z": "687M",
+      "md5sums.txt": "250"
+     },
+     "linux_x64/": {
+      "sdktool.7z": "1.2M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "161M",
+      "qtcreator-debug.7z": "777M",
+      "md5sums.txt": "196"
+     },
+     "linux_arm64/": {
+      "sdktool.7z": "1.1M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "155M",
+      "qtcreator-debug.7z": "757M",
+      "md5sums.txt": "196"
+     },
+     "jsonschemas/": {
+      "project.json": "6.0K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-19.0.1.deb": "142M",
+     "qtcreator-opensource-linux-arm64-19.0.1.deb": "133M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-19.0.1.exe": "371M",
+    "qt-creator-opensource-windows-arm64-19.0.1.exe": "291M",
+    "qt-creator-opensource-src-19.0.1.zip": "62M",
+    "qt-creator-opensource-src-19.0.1.tar.xz": "38M",
+    "qt-creator-opensource-src-19.0.1.tar.gz": "49M",
+    "qt-creator-opensource-mac-universal-19.0.1_installer.dmg": "291M",
+    "qt-creator-opensource-mac-universal-19.0.1.dmg": "337M",
+    "qt-creator-opensource-linux-x86_64-19.0.1.run": "252M",
+    "qt-creator-opensource-linux-arm64-19.0.1.run": "246M",
+    "md5sums.txt": "713"
+   },
    "19.0.0/": {
     "installer_source/": {
      "windows_x64/": {
