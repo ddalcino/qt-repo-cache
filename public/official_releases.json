@@ -2273,6 +2273,7 @@
     }
    },
    "dr_wav-qtmultimedia-6.10.patch": "8.0K",
+   "CVE-2025-14576-qtdeclarative-6.10.diff": "2.0K",
    "CVE-2025-12385-qtdeclarative-6.10-0002.diff": "6.9K",
    "CVE-2025-12385-qtdeclarative-6.10-0001.diff": "5.8K"
   },
@@ -2992,6 +2993,7 @@
     }
    },
    "CVE-2025-23050-qtconnectivity-6.8.diff": "8.0K",
+   "CVE-2025-14576-qtdeclarative-6.8.diff": "2.0K",
    "CVE-2025-12385-qtdeclarative-6.8-0002.diff": "6.8K",
    "CVE-2025-12385-qtdeclarative-6.8-0001.diff": "5.9K",
    "CVE-2025-10729-qtsvg-6.8.diff": "5.7K",
