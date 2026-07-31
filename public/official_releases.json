@@ -242,13 +242,13 @@
   "latest/": {
    "installer_source/": {
     "windows_x64/": {
-     "wininterrupt.7z": "29K",
+     "wininterrupt.7z": "32K",
      "sdktool.7z": "1.1M",
      "qtcreatorcdbext.7z": "35M",
      "qtcreator_dev.7z": "14M",
-     "qtcreator.7z": "155M",
-     "qtcreator-debug.7z": "427M",
-     "qmltraceviewer.zip": "52M",
+     "qtcreator.7z": "154M",
+     "qtcreator-debug.7z": "431M",
+     "qmltraceviewer.zip": "53M",
      "md5sums.txt": "352"
     },
     "windows_arm64/": {
@@ -257,7 +257,7 @@
      "qtcreatorcdbext.7z": "32M",
      "qtcreator_dev.7z": "12M",
      "qtcreator.7z": "132M",
-     "qtcreator-debug.7z": "420M",
+     "qtcreator-debug.7z": "418M",
      "qmltraceviewer.zip": "49M",
      "md5sums.txt": "352"
     },
@@ -266,49 +266,118 @@
      "qtcreator_dev.7z": "26M",
      "qtcreator.7z": "212M",
      "qtcreator-signed.7z": "218M",
-     "qtcreator-debug.7z": "702M",
+     "qtcreator-debug.7z": "701M",
      "qmltraceviewer.zip": "69M",
-     "qmltraceviewer-signed.zip": "70M",
+     "qmltraceviewer-signed.zip": "71M",
      "md5sums.txt": "363"
     },
     "linux_x64/": {
      "sdktool.7z": "1.2M",
      "qtcreator_dev.7z": "25M",
-     "qtcreator.7z": "164M",
-     "qtcreator-debug.7z": "825M",
+     "qtcreator.7z": "162M",
+     "qtcreator-debug.7z": "824M",
      "qmltraceviewer.zip": "58M",
      "md5sums.txt": "249"
     },
     "linux_arm64/": {
      "sdktool.7z": "1.1M",
      "qtcreator_dev.7z": "25M",
-     "qtcreator.7z": "155M",
-     "qtcreator-debug.7z": "804M",
+     "qtcreator.7z": "153M",
+     "qtcreator-debug.7z": "803M",
      "qmltraceviewer.zip": "57M",
      "md5sums.txt": "249"
     },
     "jsonschemas/": {
-     "project.json": "6.0K",
+     "project.json": "6.1K",
      "md5sums.txt": "47"
     }
    },
    "cpack_experimental/": {
-    "qtcreator-opensource-linux-x86_64-20.0.0.deb": "147M",
-    "qtcreator-opensource-linux-arm64-20.0.0.deb": "135M",
+    "qtcreator-opensource-linux-x86_64-20.0.1.deb": "146M",
+    "qtcreator-opensource-linux-arm64-20.0.1.deb": "133M",
     "md5sums.txt": "157"
    },
-   "qt-creator-opensource-windows-x86_64-20.0.0.exe": "382M",
-   "qt-creator-opensource-windows-arm64-20.0.0.exe": "303M",
-   "qt-creator-opensource-src-20.0.0.zip": "62M",
-   "qt-creator-opensource-src-20.0.0.tar.xz": "38M",
-   "qt-creator-opensource-src-20.0.0.tar.gz": "50M",
-   "qt-creator-opensource-mac-universal-20.0.0_installer.dmg": "360M",
-   "qt-creator-opensource-mac-universal-20.0.0.dmg": "378M",
-   "qt-creator-opensource-linux-x86_64-20.0.0.run": "257M",
-   "qt-creator-opensource-linux-arm64-20.0.0.run": "246M",
+   "qt-creator-opensource-windows-x86_64-20.0.1.exe": "381M",
+   "qt-creator-opensource-windows-arm64-20.0.1.exe": "303M",
+   "qt-creator-opensource-src-20.0.1.zip": "62M",
+   "qt-creator-opensource-src-20.0.1.tar.xz": "38M",
+   "qt-creator-opensource-src-20.0.1.tar.gz": "50M",
+   "qt-creator-opensource-mac-universal-20.0.1_installer.dmg": "322M",
+   "qt-creator-opensource-mac-universal-20.0.1.dmg": "383M",
+   "qt-creator-opensource-linux-x86_64-20.0.1.run": "256M",
+   "qt-creator-opensource-linux-arm64-20.0.1.run": "245M",
    "md5sums.txt": "713"
   },
   "20.0/": {
+   "20.0.1/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "32K",
+      "sdktool.7z": "1.1M",
+      "qtcreatorcdbext.7z": "35M",
+      "qtcreator_dev.7z": "14M",
+      "qtcreator.7z": "154M",
+      "qtcreator-debug.7z": "431M",
+      "qmltraceviewer.zip": "53M",
+      "md5sums.txt": "352"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "32K",
+      "sdktool.7z": "876K",
+      "qtcreatorcdbext.7z": "32M",
+      "qtcreator_dev.7z": "12M",
+      "qtcreator.7z": "132M",
+      "qtcreator-debug.7z": "418M",
+      "qmltraceviewer.zip": "49M",
+      "md5sums.txt": "352"
+     },
+     "mac_x64/": {
+      "sdktool.7z": "1.6M",
+      "qtcreator_dev.7z": "26M",
+      "qtcreator.7z": "212M",
+      "qtcreator-signed.7z": "218M",
+      "qtcreator-debug.7z": "701M",
+      "qmltraceviewer.zip": "69M",
+      "qmltraceviewer-signed.zip": "71M",
+      "md5sums.txt": "363"
+     },
+     "linux_x64/": {
+      "sdktool.7z": "1.2M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "162M",
+      "qtcreator-debug.7z": "824M",
+      "qmltraceviewer.zip": "58M",
+      "md5sums.txt": "249"
+     },
+     "linux_arm64/": {
+      "sdktool.7z": "1.1M",
+      "qtcreator_dev.7z": "25M",
+      "qtcreator.7z": "153M",
+      "qtcreator-debug.7z": "803M",
+      "qmltraceviewer.zip": "57M",
+      "md5sums.txt": "249"
+     },
+     "jsonschemas/": {
+      "project.json": "6.1K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-20.0.1.deb": "146M",
+     "qtcreator-opensource-linux-arm64-20.0.1.deb": "133M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-20.0.1.exe": "381M",
+    "qt-creator-opensource-windows-arm64-20.0.1.exe": "303M",
+    "qt-creator-opensource-src-20.0.1.zip": "62M",
+    "qt-creator-opensource-src-20.0.1.tar.xz": "38M",
+    "qt-creator-opensource-src-20.0.1.tar.gz": "50M",
+    "qt-creator-opensource-mac-universal-20.0.1_installer.dmg": "322M",
+    "qt-creator-opensource-mac-universal-20.0.1.dmg": "383M",
+    "qt-creator-opensource-linux-x86_64-20.0.1.run": "256M",
+    "qt-creator-opensource-linux-arm64-20.0.1.run": "245M",
+    "md5sums.txt": "713"
+   },
    "20.0.0/": {
     "installer_source/": {
      "windows_x64/": {
@@ -4324,6 +4393,18 @@
   }
  },
  "qbs/": {
+  "3.3.1/": {
+   "sha256sums.txt": "718",
+   "qbs.3.3.1.nupkg": "24K",
+   "qbs-windows-x86_64-3.3.1.zip": "16M",
+   "qbs-src-3.3.1.zip": "8.4M",
+   "qbs-src-3.3.1.tar.gz": "5.6M",
+   "qbs-macos-x86_64-3.3.1.tar.gz": "27M",
+   "qbs-macos-arm64-3.3.1.tar.gz": "27M",
+   "qbs-linux-x86_64-3.3.1.tar.gz": "32M",
+   "md5sums.txt": "462",
+   "changes-3.3.1.md": "325"
+  },
   "3.3.0/": {
    "sha256sums.txt": "718",
    "qbs.3.3.0.nupkg": "24K",

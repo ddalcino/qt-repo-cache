@@ -3,8 +3,8 @@
   "Name": "qt.tools.qtcreator",
   "DisplayName": "SDKTool",
   "Description": "SDKTool",
-  "Version": "20.0.0-0-202606170248",
-  "ReleaseDate": "2026-06-17",
+  "Version": "20.0.1-0-202607300249",
+  "ReleaseDate": "2026-07-30",
   "Script": "installscript.qs",
   "Virtual": "true",
   "ForcedInstallation": "true",
@@ -12,6 +12,6 @@
   "CompressedSize": "1.7M",
   "UncompressedSize": "7.2M",
   "Operations": "\n   ",
-  "SHA1": "7158fed0d754c4944bb3e2ebd8a14ae6deae429c"
+  "SHA1": "73e667df22ec3f524961be7d192a451b57b5543a"
  }
 }
