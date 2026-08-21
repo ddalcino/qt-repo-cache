@@ -1,0 +1,18 @@
+{
+ "qt.tools.win64_llvm_mingw2217": {
+  "Name": "qt.tools.win64_llvm_mingw2217",
+  "DisplayName": "LLVM-MinGW 22.1.7 64-bit",
+  "Description": "LLVM-MinGW-builds 22.1.7 64-bit toolchain",
+  "Version": "22.1.7-202608200704",
+  "ReleaseDate": "2026-08-20",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "2217",
+  "DownloadableArchives": "llvm_mingw2217.7z",
+  "CompressedSize": "99.4M",
+  "UncompressedSize": "704.9M",
+  "Operations": "\n   ",
+  "SHA1": "bd6d282785ab6ba3e10e18bf14c2bb70b454d006"
+ }
+}
