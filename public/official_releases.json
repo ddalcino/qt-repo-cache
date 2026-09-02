@@ -2844,6 +2844,7 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2026-11573-qtbase-6.8.diff": "29K",
    "CVE-2026-9499-qt5compat-6.8.diff": "3.7K",
    "CVE-2026-8168-qtsvg-6.8-0004.diff": "5.1K",
    "CVE-2026-8168-qtsvg-6.8-0003.diff": "3.6K",
