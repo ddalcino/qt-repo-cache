@@ -1665,6 +1665,8 @@
      "md5sums.txt": "129"
     }
    },
+   "CVE-2026-79616-qtdeclarative-6.11.diff": "9.7K",
+   "CVE-2026-78253-qtbase-6.11.diff": "3.7K",
    "CVE-2026-76151-qtbase-6.11.diff": "6.1K",
    "CVE-2026-19248-qtbase-6.11.diff": "5.9K",
    "CVE-2026-13326-qtconnectivity-6.11.diff": "3.4K",
@@ -2030,6 +2032,8 @@
     }
    },
    "dr_wav-qtmultimedia-6.10.patch": "8.0K",
+   "CVE-2026-79616-qtdeclarative-6.10.diff": "11K",
+   "CVE-2026-78253-qtbase-6.10.diff": "3.8K",
    "CVE-2026-76151-qtbase-6.10.diff": "6.3K",
    "CVE-2026-19248-qtbase-6.10.diff": "6.1K",
    "CVE-2026-13326-qtconnectivity-6.10.diff": "3.5K",
@@ -2850,6 +2854,8 @@
      "md5sums.txt": "127"
     }
    },
+   "CVE-2026-79616-qtdeclarative-6.8.diff": "11K",
+   "CVE-2026-78253-qtbase-6.8.diff": "3.7K",
    "CVE-2026-76151-qtbase-6.8.diff": "6.7K",
    "CVE-2026-19248-qtbase-6.8.diff": "6.0K",
    "CVE-2026-13326-qtconnectivity-6.8.diff": "3.5K",
