@@ -1,28 +1,28 @@
 {
  "qt.tools.qtcreator_gui": {
   "Name": "qt.tools.qtcreator_gui",
-  "DisplayName": "Qt Creator 20.0.1",
+  "DisplayName": "Qt Creator 20.0.2",
   "Description": "IDE for Qt application development",
-  "Version": "20.0.1-0-202607280258",
-  "ReleaseDate": "2026-07-28",
+  "Version": "20.0.2-0-202609230308",
+  "ReleaseDate": "2026-09-23",
   "Script": "installscript.qs",
   "Dependencies": null,
   "SortingPriority": "1000",
   "TreeName": "developertools.qtcreator.release_node",
   "DownloadableArchives": "qtcreator.7z",
-  "CompressedSize": "167.0M",
-  "UncompressedSize": "657.6M",
+  "CompressedSize": "167.1M",
+  "UncompressedSize": "658.1M",
   "UserInterfaces": "associatecommonfiletypesform.ui,launchqtcreatorcheckboxform.ui",
   "Translations": "de.qm,pt.qm,zh.qm,ar.qm,ja.qm,ko.qm,fr.qm,ru.qm,es.qm",
   "Operations": "\n   ",
-  "SHA1": "17dbab9e1e4e57b8068b82ea3cb80cfefada9ee4"
+  "SHA1": "ab860ea68aa17f34d0380ddf25c5bea67c2bf371"
  },
  "qt.tools.qtcreator_gui.src": {
   "Name": "qt.tools.qtcreator_gui.src",
-  "DisplayName": "Qt Creator 20.0.1 Src",
-  "Description": "Qt Creator 20.0.1 Src",
-  "Version": "20.0.1-0-202607280258",
-  "ReleaseDate": "2026-07-28",
+  "DisplayName": "Qt Creator 20.0.2 Src",
+  "Description": "Qt Creator 20.0.2 Src",
+  "Version": "20.0.2-0-202609230308",
+  "ReleaseDate": "2026-09-23",
   "Virtual": "true",
   "SortingPriority": "1000",
   "DownloadableArchives": "qtcreator_src.7z",
@@ -30,48 +30,48 @@
   "CompressedSize": "38.0M",
   "UncompressedSize": "174.1M",
   "Operations": "\n   ",
-  "SHA1": "de3a22fc3c0db07fddf22a28e36bfe0ae19fdd81"
+  "SHA1": "279b729db90959389302c4232135c6e0298cf671"
  },
  "qt.tools.qtcreator_gui.telemetry": {
   "Name": "qt.tools.qtcreator_gui.telemetry",
   "DisplayName": "Qt Telemetry plugin",
   "Description": "Collects pseudonymous data from Qt Creator",
-  "Version": "20.0.1-0-202607280258",
-  "ReleaseDate": "2026-07-28",
+  "Version": "20.0.2-0-202609230308",
+  "ReleaseDate": "2026-09-23",
   "Virtual": "true",
   "AutoDependOn": "qt.tools.qtcreator_gui",
-  "CompressedSize": "142.0K",
-  "UncompressedSize": "525.9K",
+  "CompressedSize": "142.3K",
+  "UncompressedSize": "524.7K",
   "DownloadableArchives": "pluging-telemetry.7z",
   "Operations": "\n   ",
-  "SHA1": "085450caefd0862d4203002cf96b23fa90b0c716"
+  "SHA1": "a18cad0909b18e0499fa812a67f1ed42d507da1a"
  },
  "qt.tools.qtcreatordbg": {
   "Name": "qt.tools.qtcreatordbg",
   "DisplayName": "Debug Symbols",
   "Description": "Additional symbol files required to debug Qt Creator",
-  "Version": "20.0.1-0-202607280258",
-  "ReleaseDate": "2026-07-28",
+  "Version": "20.0.2-0-202609230308",
+  "ReleaseDate": "2026-09-23",
   "SortingPriority": "994",
   "TreeName": "developertools.qtcreator.debug_symbols",
   "DownloadableArchives": "qtcreator-debug.7z",
-  "CompressedSize": "826.6M",
+  "CompressedSize": "833.9M",
   "UncompressedSize": "3.4G",
   "Operations": "\n   ",
-  "SHA1": "bcc693e132b8b844709736f4cd6dc1b905a8d0ec"
+  "SHA1": "4b15b04b680742cd0c4e4f88441b48e70130db01"
  },
  "qt.tools.qtcreatordev": {
   "Name": "qt.tools.qtcreatordev",
   "DisplayName": "Plugin Development",
   "Description": "Headers and libs required to develop additional plugins",
-  "Version": "20.0.1-0-202607280258",
-  "ReleaseDate": "2026-07-28",
+  "Version": "20.0.2-0-202609230308",
+  "ReleaseDate": "2026-09-23",
   "SortingPriority": "990",
   "TreeName": "developertools.qtcreator.plugin_development",
   "DownloadableArchives": "qtcreator_dev.7z",
-  "CompressedSize": "25.3M",
-  "UncompressedSize": "178.4M",
+  "CompressedSize": "25.4M",
+  "UncompressedSize": "180.2M",
   "Operations": "\n   ",
-  "SHA1": "59b90193e0b1ed252cc6e614444563cdf2c34657"
+  "SHA1": "973c795c01c9744b48a37cdad51bb565230c9b87"
  }
 }
