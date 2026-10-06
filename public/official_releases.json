@@ -1828,6 +1828,7 @@
      "md5sums.txt": "129"
     }
    },
+   "CVE-2026-82292-qtbase-6.11.diff": "4.7K",
    "CVE-2026-79616-qtdeclarative-6.11.diff": "9.7K",
    "CVE-2026-78253-qtbase-6.11.diff": "3.7K",
    "CVE-2026-76151-qtbase-6.11.diff": "6.1K",
@@ -2195,6 +2196,7 @@
     }
    },
    "dr_wav-qtmultimedia-6.10.patch": "8.0K",
+   "CVE-2026-82292-qtbase-6.10.diff": "4.8K",
    "CVE-2026-79616-qtdeclarative-6.10.diff": "11K",
    "CVE-2026-78253-qtbase-6.10.diff": "3.8K",
    "CVE-2026-76151-qtbase-6.10.diff": "6.3K",
