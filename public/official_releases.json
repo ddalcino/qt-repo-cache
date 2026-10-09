@@ -1833,6 +1833,8 @@
    "CVE-2026-78253-qtbase-6.11.diff": "3.7K",
    "CVE-2026-76151-qtbase-6.11.diff": "6.1K",
    "CVE-2026-19248-qtbase-6.11.diff": "5.9K",
+   "CVE-2026-16762-qtbase-6.11-0002.diff": "3.0K",
+   "CVE-2026-16762-qtbase-6.11-0001.diff": "7.9K",
    "CVE-2026-13326-qtconnectivity-6.11.diff": "3.4K",
    "CVE-2026-9499-qt5compat-6.11.diff": "2.8K",
    "CVE-2026-8168-qtsvg-6.11-0004.diff": "5.1K",
@@ -2201,6 +2203,8 @@
    "CVE-2026-78253-qtbase-6.10.diff": "3.8K",
    "CVE-2026-76151-qtbase-6.10.diff": "6.3K",
    "CVE-2026-19248-qtbase-6.10.diff": "6.1K",
+   "CVE-2026-16762-qtbase-6.10-0002.diff": "3.1K",
+   "CVE-2026-16762-qtbase-6.10-0001.diff": "8.0K",
    "CVE-2026-13326-qtconnectivity-6.10.diff": "3.5K",
    "CVE-2026-9499-qt5compat-6.10.diff": "3.6K",
    "CVE-2026-8168-qtsvg-6.10-0004.diff": "5.1K",
@@ -3311,6 +3315,16 @@
  },
  "QtForPython/": {
   "shiboken6/": {
+   "shiboken6-6.12.0-cp310-abi3-win_arm64.whl": "1.8M",
+   "shiboken6-6.12.0-cp310-abi3-win_amd64.whl": "1.2M",
+   "shiboken6-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "270K",
+   "shiboken6-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "273K",
+   "shiboken6-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "468K",
+   "shiboken6-6.12.0-6.12.0-cp315-cp315-ios_x86_64_simulator.whl": "290K",
+   "shiboken6-6.12.0-6.12.0-cp315-cp315-ios_arm64_simulator.whl": "308K",
+   "shiboken6-6.12.0-6.12.0-cp315-cp315-ios_arm64.whl": "308K",
+   "shiboken6-6.12.0-6.12.0-cp310-abi3-android_x86_64.whl": "285K",
+   "shiboken6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl": "276K",
    "shiboken6-6.11.2-cp310-abi3-win_arm64.whl": "1.7M",
    "shiboken6-6.11.2-cp310-abi3-win_amd64.whl": "1.2M",
    "shiboken6-6.11.2-cp310-abi3-manylinux_2_39_aarch64.whl": "264K",
@@ -3577,6 +3591,11 @@
    "shiboken6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "924K"
   },
   "shiboken6-generator/": {
+   "shiboken6_generator-6.12.0-cp310-abi3-win_arm64.whl": "26M",
+   "shiboken6_generator-6.12.0-cp310-abi3-win_amd64.whl": "27M",
+   "shiboken6_generator-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "47M",
+   "shiboken6_generator-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "53M",
+   "shiboken6_generator-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "114M",
    "shiboken6_generator-6.11.2-cp310-abi3-win_arm64.whl": "25M",
    "shiboken6_generator-6.11.2-cp310-abi3-win_amd64.whl": "26M",
    "shiboken6_generator-6.11.2-cp310-abi3-manylinux_2_39_aarch64.whl": "47M",
@@ -4349,6 +4368,10 @@
    "shiboken2_generator-5.12.0-5.12.0-cp27-cp27m-macosx_10_12_intel.whl": "25M"
   },
   "pyside6/": {
+   "PySide6-6.12.0-src/": {
+    "pyside-setup-everywhere-src-6.12.0.zip": "22M",
+    "pyside-setup-everywhere-src-6.12.0.tar.xz": "17M"
+   },
    "PySide6-6.11.2-src/": {
     "pyside-setup-everywhere-src-6.11.2.zip": "22M",
     "pyside-setup-everywhere-src-6.11.2.tar.xz": "17M"
@@ -4622,6 +4645,16 @@
     "pyside-setup-opensource-src-6.0.0.zip": "7.3M",
     "pyside-setup-opensource-src-6.0.0.tar.xz": "3.2M"
    },
+   "pyside6-6.12.0-cp310-abi3-win_arm64.whl": "550K",
+   "pyside6-6.12.0-cp310-abi3-win_amd64.whl": "565K",
+   "pyside6-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "564K",
+   "pyside6-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "564K",
+   "pyside6-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "564K",
+   "pyside6-6.12.0-6.12.0-cp315-cp315-ios_x86_64_simulator.whl": "157M",
+   "pyside6-6.12.0-6.12.0-cp315-cp315-ios_arm64_simulator.whl": "161M",
+   "pyside6-6.12.0-6.12.0-cp315-cp315-ios_arm64.whl": "160M",
+   "pyside6-6.12.0-6.12.0-cp310-abi3-android_x86_64.whl": "86M",
+   "pyside6-6.12.0-6.12.0-cp310-abi3-android_aarch64.whl": "86M",
    "pyside6-6.11.2-cp310-abi3-win_arm64.whl": "549K",
    "pyside6-6.11.2-cp310-abi3-win_amd64.whl": "565K",
    "pyside6-6.11.2-cp310-abi3-manylinux_2_39_aarch64.whl": "559K",
@@ -4887,7 +4920,20 @@
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-manylinux1_x86_64.whl": "163M",
    "PySide6-6.0.0-6.0.0-cp36.cp37.cp38.cp39-abi3-macosx_10_14_x86_64.whl": "43M"
   },
+  "pyside6-webengine/": {},
+  "pyside6-pdf/": {
+   "pyside6_pdf-6.12.0.140-cp310-abi3-win_arm64.whl": "2.6M",
+   "pyside6_pdf-6.12.0.140-cp310-abi3-win_amd64.whl": "2.8M",
+   "pyside6_pdf-6.12.0.140-cp310-abi3-manylinux_2_39_aarch64.whl": "2.7M",
+   "pyside6_pdf-6.12.0.140-cp310-abi3-manylinux_2_34_x86_64.whl": "2.7M",
+   "pyside6_pdf-6.12.0.140-cp310-abi3-macosx_14_0_universal2.whl": "8.2M"
+  },
   "pyside6-examples/": {
+   "pyside6_examples-6.12.0-cp310-abi3-win_arm64.whl": "13M",
+   "pyside6_examples-6.12.0-cp310-abi3-win_amd64.whl": "13M",
+   "pyside6_examples-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "13M",
+   "pyside6_examples-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "13M",
+   "pyside6_examples-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "13M",
    "pyside6_examples-6.11.1-cp310-abi3-win_arm64.whl": "13M",
    "pyside6_examples-6.11.1-cp310-abi3-win_amd64.whl": "13M",
    "pyside6_examples-6.11.1-cp310-abi3-manylinux_2_39_aarch64.whl": "13M",
@@ -4993,6 +5039,11 @@
    "PySide6_Examples-6.6.1-cp38-abi3-macosx_11_0_universal2.whl": "11M"
   },
   "pyside6-essentials/": {
+   "pyside6_essentials-6.12.0-cp310-abi3-win_arm64.whl": "59M",
+   "pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl": "78M",
+   "pyside6_essentials-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "80M",
+   "pyside6_essentials-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "80M",
+   "pyside6_essentials-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "111M",
    "pyside6_essentials-6.11.2-cp310-abi3-win_arm64.whl": "55M",
    "pyside6_essentials-6.11.2-cp310-abi3-win_amd64.whl": "73M",
    "pyside6_essentials-6.11.2-cp310-abi3-manylinux_2_39_aarch64.whl": "76M",
@@ -5165,6 +5216,11 @@
    "PySide6_Essentials-6.4.0-cp36-abi3-macosx_10_9_universal2.whl": "133M"
   },
   "pyside6-addons/": {
+   "pyside6_addons-6.12.0-cp310-abi3-win_arm64.whl": "34M",
+   "pyside6_addons-6.12.0-cp310-abi3-win_amd64.whl": "39M",
+   "pyside6_addons-6.12.0-cp310-abi3-manylinux_2_39_aarch64.whl": "61M",
+   "pyside6_addons-6.12.0-cp310-abi3-manylinux_2_34_x86_64.whl": "56M",
+   "pyside6_addons-6.12.0-cp310-abi3-macosx_14_0_universal2.whl": "86M",
    "pyside6_addons-6.11.2-cp310-abi3-win_arm64.whl": "34M",
    "pyside6_addons-6.11.2-cp310-abi3-win_amd64.whl": "160M",
    "pyside6_addons-6.11.2-cp310-abi3-manylinux_2_39_aarch64.whl": "163M",
