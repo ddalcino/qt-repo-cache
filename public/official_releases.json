@@ -4423,6 +4423,10 @@
     "pyside-setup-everywhere-src-6.9.0.zip": "20M",
     "pyside-setup-everywhere-src-6.9.0.tar.xz": "16M"
    },
+   "PySide6-6.8.5-src/": {
+    "pyside-setup-opensource-src-6.8.5.zip": "20M",
+    "pyside-setup-opensource-src-6.8.5.tar.xz": "16M"
+   },
    "PySide6-6.8.4-src/": {
     "pyside-setup-opensource-src-6.8.4.zip": "20M",
     "pyside-setup-opensource-src-6.8.4.tar.xz": "16M"
