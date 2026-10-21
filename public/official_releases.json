@@ -1830,8 +1830,10 @@
      "md5sums.txt": "129"
     }
    },
+   "CVE-2026-105923-qtbase-6.11-0001.diff": "11K",
    "CVE-2026-101201-qtqt5compat-6.11-0002.diff": "1.8K",
    "CVE-2026-101201-qtqt5compat-6.11-0001.diff": "9.4K",
+   "CVE-2026-96432-qtbase-6.11.diff": "6.4K",
    "CVE-2026-82292-qtbase-6.11.diff": "4.7K",
    "CVE-2026-79616-qtdeclarative-6.11.diff": "9.7K",
    "CVE-2026-78253-qtbase-6.11.diff": "3.7K",
