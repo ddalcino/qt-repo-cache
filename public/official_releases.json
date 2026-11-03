@@ -1939,6 +1939,8 @@
    "CVE-2026-105946-qtbase-6.11-0001.diff": "2.1K",
    "CVE-2026-105924-qtbase-6.11.diff": "5.0K",
    "CVE-2026-105923-qtbase-6.11-0001.diff": "11K",
+   "CVE-2026-103653-qtcoap-6.11-0002.diff": "5.7K",
+   "CVE-2026-103653-qtcoap-6.11-0001.diff": "4.2K",
    "CVE-2026-101201-qtqt5compat-6.11-0002.diff": "1.8K",
    "CVE-2026-101201-qtqt5compat-6.11-0001.diff": "9.4K",
    "CVE-2026-100140-qt5compat-6.11.zip": "11K",
