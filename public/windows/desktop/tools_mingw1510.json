@@ -1,0 +1,18 @@
+{
+ "qt.tools.win64_mingw1510": {
+  "Name": "qt.tools.win64_mingw1510",
+  "DisplayName": "MinGW 15.1.0 64-bit",
+  "Description": "MinGW-builds 15.1.0 64-bit toolchain",
+  "Version": "15.1.0-202610271023",
+  "ReleaseDate": "2026-10-27",
+  "Dependencies": "qt.tools.qtcreator",
+  "Default": "false",
+  "Script": "installscript.qs",
+  "SortingPriority": "920",
+  "DownloadableArchives": "mingw1510.7z",
+  "CompressedSize": "123.4M",
+  "UncompressedSize": "702.3M",
+  "Operations": "\n   ",
+  "SHA1": "9770588e021fbfe36fd37eb5795d227e53f08316"
+ }
+}

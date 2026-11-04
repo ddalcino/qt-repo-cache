@@ -1548,6 +1548,7 @@
    "CVE-2026-111487-qt3d-6.12-0001.diff": "13K",
    "CVE-2026-110944-qthttpserver-6.12-0002.diff": "4.9K",
    "CVE-2026-110944-qthttpserver-6.12-0001.diff": "5.8K",
+   "CVE-2026-107479-qt5compat-6.12.diff": "6.4K",
    "CVE-2026-105924-qtbase-6.12.diff": "4.9K",
    "CVE-2026-101201-qtqt5compat-6.12-0002.diff": "1.7K",
    "CVE-2026-101201-qtqt5compat-6.12-0001.diff": "9.4K",
@@ -1931,6 +1932,7 @@
     }
    },
    "CVE-2026-107590-qt5compat-6.11.diff": "4.0K",
+   "CVE-2026-107479-qt5compat-6.11.diff": "6.5K",
    "CVE-2026-107472-qt5compat-6.11.diff": "5.9K",
    "CVE-2026-107457-qtmqtt-6.11.diff": "4.1K",
    "CVE-2026-107157-qtbase-6.11.diff": "3.4K",
