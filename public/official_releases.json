@@ -1544,6 +1544,8 @@
      "md5sums.txt": "129"
     }
    },
+   "CVE-2026-116337-qtbase-6.12-0002.diff": "5.1K",
+   "CVE-2026-116337-qtbase-6.12-0001.diff": "3.2K",
    "CVE-2026-114366-qtwebsockets-6.12-0001.diff": "9.3K",
    "CVE-2026-111487-qt3d-6.12-0001.diff": "13K",
    "CVE-2026-110944-qthttpserver-6.12-0002.diff": "4.9K",
@@ -1931,6 +1933,8 @@
      "md5sums.txt": "129"
     }
    },
+   "CVE-2026-116337-qtbase-6.11-0002.diff": "3.3K",
+   "CVE-2026-116337-qtbase-6.11-0001.diff": "5.2K",
    "CVE-2026-107590-qt5compat-6.11.diff": "4.0K",
    "CVE-2026-107479-qt5compat-6.11.diff": "6.5K",
    "CVE-2026-107472-qt5compat-6.11.diff": "5.9K",
