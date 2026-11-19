@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qt3d.android_armv7": {
+  "Name": "qt.qt6.6121.addons.qt3d.android_armv7",
+  "DisplayName": "Qt 3D for Android ARMv7",
+  "Description": null,
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.android_armv7",
+  "Dependencies": "qt.qt6.6121.android_armv7",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qt3d-Windows-Windows_11_24H2-Clang-Android-Android_ANY-ARMv7.7z",
+  "CompressedSize": "2.2M",
+  "UncompressedSize": "15.1M",
+  "Operations": "\n   ",
+  "SHA1": "c9f61f75b9bf60b12499a89f92402372b90d473e"
+ }
+}

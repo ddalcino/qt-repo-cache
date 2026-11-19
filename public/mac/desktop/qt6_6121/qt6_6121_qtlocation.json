@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qtlocation.clang_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.clang_64",
+  "DisplayName": "Qt Location",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.clang_64",
+  "Dependencies": "qt.qt6.6121.clang_64",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-MacOS-MacOS_26-Clang-MacOS-MacOS_26-X86_64-ARM64.7z",
+  "CompressedSize": "888.1K",
+  "UncompressedSize": "5.8M",
+  "Operations": "\n   ",
+  "SHA1": "f7f4a0e18cb7961ce262b6323ce08a8d6f3d04f1"
+ },
+ "qt.qt6.6121.addons.qtlocation.debug_information.clang_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.debug_information.clang_64",
+  "DisplayName": "Qt Location debug information for Clang 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qtlocation",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.addons.qtlocation.debug_information, qt.qt6.6121.clang_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtlocation-MacOS-MacOS_26-Clang-MacOS-MacOS_26-X86_64-ARM64-debug-symbols.7z",
+  "CompressedSize": "12.6M",
+  "UncompressedSize": "75.4M",
+  "Operations": "\n   ",
+  "SHA1": "6e1484bcabaf9f44e6461b67ce9d19126b3bb652"
+ }
+}

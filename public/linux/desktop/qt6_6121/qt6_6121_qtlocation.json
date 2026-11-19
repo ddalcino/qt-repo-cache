@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qtlocation.debug_information.linux_gcc_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.debug_information.linux_gcc_64",
+  "DisplayName": "Qt Location debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qtlocation",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.addons.qtlocation.debug_information, qt.qt6.6121.linux_gcc_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qtlocation-Linux-RHEL_9_6-GCC-Linux-RHEL_9_6-X86_64-debug-symbols.7z",
+  "CompressedSize": "22.1M",
+  "UncompressedSize": "89.8M",
+  "Operations": "\n   ",
+  "SHA1": "b919dcaea565cf1fd1f17397654313367e1a6511"
+ },
+ "qt.qt6.6121.addons.qtlocation.linux_gcc_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.linux_gcc_64",
+  "DisplayName": "Qt Location for Linux 64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.linux_gcc_64",
+  "Dependencies": "qt.qt6.6121.linux_gcc_64",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Linux-RHEL_9_6-GCC-Linux-RHEL_9_6-X86_64.7z",
+  "CompressedSize": "674.9K",
+  "UncompressedSize": "4.1M",
+  "Operations": "\n   ",
+  "SHA1": "0618fa9a06428282b52dcb43ffad54c400b7797d"
+ }
+}

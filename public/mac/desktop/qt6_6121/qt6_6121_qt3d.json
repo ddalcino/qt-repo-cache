@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qt3d.clang_64": {
+  "Name": "qt.qt6.6121.addons.qt3d.clang_64",
+  "DisplayName": "Qt 3D module for macOS",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.clang_64",
+  "Dependencies": "qt.qt6.6121.clang_64",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qt3d-MacOS-MacOS_26-Clang-MacOS-MacOS_26-X86_64-ARM64.7z",
+  "CompressedSize": "4.7M",
+  "UncompressedSize": "31.4M",
+  "Operations": "\n   ",
+  "SHA1": "115bf36dc4f71d587564908c850bc23f70985be3"
+ },
+ "qt.qt6.6121.addons.qt3d.debug_information.clang_64": {
+  "Name": "qt.qt6.6121.addons.qt3d.debug_information.clang_64",
+  "DisplayName": "Qt 3D module debug information for Clang 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qt3d",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.addons.qt3d.debug_information, qt.qt6.6121.clang_64",
+  "Virtual": "true",
+  "DownloadableArchives": "qt3d-MacOS-MacOS_26-Clang-MacOS-MacOS_26-X86_64-ARM64-debug-symbols.7z",
+  "CompressedSize": "69.8M",
+  "UncompressedSize": "443.9M",
+  "Operations": "\n   ",
+  "SHA1": "cb0ebf86286995c9e7d3bd02bd9a4e3551e6392d"
+ }
+}

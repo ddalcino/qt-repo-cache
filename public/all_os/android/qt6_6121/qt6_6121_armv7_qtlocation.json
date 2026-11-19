@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qtlocation.android_armv7": {
+  "Name": "qt.qt6.6121.addons.qtlocation.android_armv7",
+  "DisplayName": "Qt Location",
+  "Description": null,
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.android_armv7",
+  "Dependencies": "qt.qt6.6121.android_armv7",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-Clang-Android-Android_ANY-ARMv7.7z",
+  "CompressedSize": "516.5K",
+  "UncompressedSize": "3.2M",
+  "Operations": "\n   ",
+  "SHA1": "b7d055b854fecca9949fbd3cba67c108fdc32ca9"
+ }
+}

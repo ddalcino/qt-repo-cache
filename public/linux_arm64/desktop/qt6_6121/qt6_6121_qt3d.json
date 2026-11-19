@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qt3d.debug_information.linux_gcc_arm64": {
+  "Name": "qt.qt6.6121.addons.qt3d.debug_information.linux_gcc_arm64",
+  "DisplayName": "Qt 3D module debug information for GCC 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qt3d",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.addons.qt3d.debug_information, qt.qt6.6121.linux_gcc_arm64",
+  "Virtual": "true",
+  "DownloadableArchives": "qt3d-Linux-RHEL_9_6-GCC-Linux-RHEL_9_6-X86_64-debug-symbols.7z",
+  "CompressedSize": "113.4M",
+  "UncompressedSize": "495.2M",
+  "Operations": "\n   ",
+  "SHA1": "591e53e3c43399a0c1eb5d961fcc54355486cb6a"
+ },
+ "qt.qt6.6121.addons.qt3d.linux_gcc_arm64": {
+  "Name": "qt.qt6.6121.addons.qt3d.linux_gcc_arm64",
+  "DisplayName": "Qt 3D module for Linux arm64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.linux_gcc_arm64",
+  "Dependencies": "qt.qt6.6121.linux_gcc_arm64",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qt3d-Linux-Ubuntu_24_04-GCC-Linux-Ubuntu_24_04-AARCH64.7z",
+  "CompressedSize": "3.2M",
+  "UncompressedSize": "21.2M",
+  "Operations": "\n   ",
+  "SHA1": "c29f2e2949f05218b94d0eff765393d56207a9e6"
+ }
+}

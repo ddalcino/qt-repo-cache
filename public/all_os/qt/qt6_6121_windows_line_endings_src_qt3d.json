@@ -1,0 +1,30 @@
+{
+ "qt.qt6.6121.doc.qt3d": {
+  "Name": "qt.qt6.6121.doc.qt3d",
+  "DisplayName": "Documentation for Qt 6.12.1 Qt 3D",
+  "Description": "Documentation for Qt 6.12.1 Qt 3D",
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "Virtual": "true",
+  "SortingPriority": "1",
+  "DownloadableArchives": "qt3d-documentation.zip",
+  "CompressedSize": "7.5M",
+  "UncompressedSize": "20.0M",
+  "Operations": "\n   ",
+  "SHA1": "33918b851dcac8b5269008007b46ce08c5326589"
+ },
+ "qt.qt6.6121.examples.qt3d": {
+  "Name": "qt.qt6.6121.examples.qt3d",
+  "DisplayName": "Examples for Qt 6.12.1 3D",
+  "Description": "Examples for Qt 6.12.1 3D",
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "Virtual": "true",
+  "SortingPriority": "1",
+  "DownloadableArchives": "qt3d-examples-6.12.1.7z",
+  "CompressedSize": "57.5M",
+  "UncompressedSize": "65.0M",
+  "Operations": "\n   ",
+  "SHA1": "69ea792742beca9b37edee90bdcbab43545370fa"
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qtlocation.android_arm64_v8a": {
+  "Name": "qt.qt6.6121.addons.qtlocation.android_arm64_v8a",
+  "DisplayName": "Qt Location",
+  "Description": null,
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.android_arm64_v8a",
+  "Dependencies": "qt.qt6.6121.android_arm64_v8a",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-MacOS-MacOS_15-Clang-Android-Android_ANY-ARM64.7z",
+  "CompressedSize": "550.6K",
+  "UncompressedSize": "3.8M",
+  "Operations": "\n   ",
+  "SHA1": "3cccbbd580b7cddd53e0e36b7009156c3b93635e"
+ }
+}

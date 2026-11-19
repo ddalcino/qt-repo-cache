@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qtlocation.android_x86_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.android_x86_64",
+  "DisplayName": "Qt Location",
+  "Description": null,
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.android_x86_64",
+  "Dependencies": "qt.qt6.6121.android_x86_64",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Linux-RHEL_9_6-Clang-Android-Android_ANY-X86_64.7z",
+  "CompressedSize": "572.4K",
+  "UncompressedSize": "3.7M",
+  "Operations": "\n   ",
+  "SHA1": "b368d223a41c261fba616f9fa14a04f9547cfa1d"
+ }
+}

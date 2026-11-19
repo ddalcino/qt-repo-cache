@@ -1,0 +1,30 @@
+{
+ "qt.qt6.6121.doc.qtlocation": {
+  "Name": "qt.qt6.6121.doc.qtlocation",
+  "DisplayName": "Documentation for Qt 6.12.1 Location",
+  "Description": "Documentation for Qt 6.12.1 Location",
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "Virtual": "true",
+  "SortingPriority": "1",
+  "DownloadableArchives": "qtlocation-documentation.tar.xz",
+  "CompressedSize": "2.8M",
+  "UncompressedSize": "6.9M",
+  "Operations": "\n   ",
+  "SHA1": "e1fe5dce4387bc1c781cd1c90359f4bd445b1a5b"
+ },
+ "qt.qt6.6121.examples.qtlocation": {
+  "Name": "qt.qt6.6121.examples.qtlocation",
+  "DisplayName": "Examples for Qt 6.12.1 Location",
+  "Description": "Examples for Qt 6.12.1 Location",
+  "Version": "6.12.1-0-202611180426",
+  "ReleaseDate": "2026-11-18",
+  "Virtual": "true",
+  "SortingPriority": "1",
+  "DownloadableArchives": "qtlocation-examples-6.12.1.7z",
+  "CompressedSize": "1.5M",
+  "UncompressedSize": "3.8M",
+  "Operations": "\n   ",
+  "SHA1": "d78face5ab5d3b79fafe472392baaa08b69ec349"
+ }
+}
