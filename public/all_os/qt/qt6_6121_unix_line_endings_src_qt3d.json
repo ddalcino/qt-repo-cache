@@ -3,28 +3,43 @@
   "Name": "qt.qt6.6121.doc.qt3d",
   "DisplayName": "Documentation for Qt 6.12.1 Qt 3D",
   "Description": "Documentation for Qt 6.12.1 Qt 3D",
-  "Version": "6.12.1-0-202611180426",
-  "ReleaseDate": "2026-11-18",
+  "Version": "6.12.1-0-202611191124",
+  "ReleaseDate": "2026-11-19",
   "Virtual": "true",
   "SortingPriority": "1",
   "DownloadableArchives": "qt3d-documentation.tar.xz",
   "CompressedSize": "4.7M",
   "UncompressedSize": "20.0M",
   "Operations": "\n   ",
-  "SHA1": "31f274b125c620a8ee055ff7358aae22a6ae8900"
+  "SHA1": "3e427339f6c3a15ba0ba74d5d8441351c810ea03"
  },
  "qt.qt6.6121.examples.qt3d": {
   "Name": "qt.qt6.6121.examples.qt3d",
   "DisplayName": "Examples for Qt 6.12.1 3D",
   "Description": "Examples for Qt 6.12.1 3D",
-  "Version": "6.12.1-0-202611180426",
-  "ReleaseDate": "2026-11-18",
+  "Version": "6.12.1-0-202611191124",
+  "ReleaseDate": "2026-11-19",
   "Virtual": "true",
   "SortingPriority": "1",
   "DownloadableArchives": "qt3d-examples-6.12.1.7z",
   "CompressedSize": "57.5M",
   "UncompressedSize": "65.0M",
   "Operations": "\n   ",
-  "SHA1": "4b7276c36f178a79b66d8f4f4d814c8915aab237"
+  "SHA1": "6b2f1f4a816f5fd6f4245517bc08d9be9bdee096"
+ },
+ "qt.qt6.6121.src.qt3d": {
+  "Name": "qt.qt6.6121.src.qt3d",
+  "DisplayName": "Sources for Qt 3D (Deprecated)",
+  "Description": "Qt 3D Source Package for Qt 6.12.1.<br><br>Qt 3D in Qt 6.12 is deprecated.",
+  "Version": "6.12.1-0-202611191124",
+  "ReleaseDate": "2026-11-19",
+  "Virtual": "true",
+  "AutoDependOn": "qt.qt6.6121.src",
+  "SortingPriority": "10",
+  "DownloadableArchives": "qt3d-everywhere-src-6.12.1.tar.xz",
+  "CompressedSize": "135.3M",
+  "UncompressedSize": "177.5M",
+  "Operations": "\n   ",
+  "SHA1": "ed6e960b7d09540f778f4571fee9350fc407b9e0"
  }
 }

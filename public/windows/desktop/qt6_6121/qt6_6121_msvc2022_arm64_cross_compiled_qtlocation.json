@@ -1,0 +1,34 @@
+{
+ "qt.qt6.6121.addons.qtlocation.debug_information.win64_msvc2022_arm64_cross_compiled": {
+  "Name": "qt.qt6.6121.addons.qtlocation.debug_information.win64_msvc2022_arm64_cross_compiled",
+  "DisplayName": "Qt Location debug information for MSVC 2022 ARM64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qtlocation",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.addons.qtlocation.debug_information, qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Virtual": "true",
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-ARM64-debug-symbols.7z",
+  "CompressedSize": "14.2M",
+  "UncompressedSize": "103.1M",
+  "Operations": "\n   ",
+  "SHA1": "d6ba5897832e83b86726f276b2d3cf2950136069"
+ },
+ "qt.qt6.6121.addons.qtlocation.win64_msvc2022_arm64_cross_compiled": {
+  "Name": "qt.qt6.6121.addons.qtlocation.win64_msvc2022_arm64_cross_compiled",
+  "DisplayName": "Qt Location for MSVC 2022 ARM64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Dependencies": "qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-ARM64.7z",
+  "CompressedSize": "1.5M",
+  "UncompressedSize": "16.8M",
+  "Operations": "\n   ",
+  "SHA1": "8ca96397e24925d418ba0c987f5be8057ff60465"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qtlocation.debug_information.win64_mingw": {
+  "Name": "qt.qt6.6121.addons.qtlocation.debug_information.win64_mingw",
+  "DisplayName": "Qt Location debug information for MinGW 15.1.0 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qtlocation",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.addons.qtlocation.debug_information, qt.qt6.6121.win64_mingw",
+  "Virtual": "true",
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-Mingw-Windows-Windows_11_24H2-X86_64-debug-symbols.7z",
+  "CompressedSize": "26.8M",
+  "UncompressedSize": "159.8M",
+  "Operations": "\n   ",
+  "SHA1": "7d721a1be07ad43bd050a4b11fbf6555782c3321"
+ },
+ "qt.qt6.6121.addons.qtlocation.win64_mingw": {
+  "Name": "qt.qt6.6121.addons.qtlocation.win64_mingw",
+  "DisplayName": "Qt Location for MinGW 15.1.0 64-bit",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.win64_mingw",
+  "Dependencies": "qt.qt6.6121.win64_mingw",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-Mingw-Windows-Windows_11_24H2-X86_64.7z",
+  "CompressedSize": "772.1K",
+  "UncompressedSize": "6.2M",
+  "Operations": "\n   ",
+  "SHA1": "69c1205a6738c0911ac6ee8d8ff9debd47865683"
+ }
+}

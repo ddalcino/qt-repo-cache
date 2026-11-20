@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qtlocation.ios_simulator_x86_64": {
+  "Name": "qt.qt6.6121.addons.qtlocation.ios_simulator_x86_64",
+  "DisplayName": "Qt Location for iOS Simulator (Intel)",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.qtforios.simulator_x86_64",
+  "Dependencies": "qt.qt6.6121.qtforios.simulator_x86_64",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-MacOS-MacOS_26-Clang-IOS-IOS_ANY-X86_64-Simulator.7z",
+  "CompressedSize": "31.5M",
+  "UncompressedSize": "242.6M",
+  "Operations": "\n   ",
+  "SHA1": "c10028dee7bc4e8f5b5d7320c8293511a40f2313"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "qt.qt6.6121.addons.qtlocation.debug_information.win64_llvm_mingw": {
+  "Name": "qt.qt6.6121.addons.qtlocation.debug_information.win64_llvm_mingw",
+  "DisplayName": "Qt Location debug information for llvm-mingw 22.1.7 64-bit with clang compiler",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qtlocation",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.addons.qtlocation.debug_information, qt.qt6.6121.win64_llvm_mingw",
+  "Virtual": "true",
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-Clang-Windows-Windows_11_24H2-X86_64-debug-symbols.7z",
+  "CompressedSize": "16.1M",
+  "UncompressedSize": "134.5M",
+  "Operations": "\n   ",
+  "SHA1": "22c84fb37d80ee00fb711c3fe09e669bdc8bf65f"
+ },
+ "qt.qt6.6121.addons.qtlocation.win64_llvm_mingw": {
+  "Name": "qt.qt6.6121.addons.qtlocation.win64_llvm_mingw",
+  "DisplayName": "Qt Location for llvm-mingw 22.1.7 64-bit with clang compiler",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.win64_llvm_mingw",
+  "Dependencies": "qt.qt6.6121.win64_llvm_mingw",
+  "Virtual": "true",
+  "Script": "installscript.qs",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-Windows-Windows_11_24H2-Clang-Windows-Windows_11_24H2-X86_64.7z",
+  "CompressedSize": "628.4K",
+  "UncompressedSize": "4.7M",
+  "Operations": "\n   ",
+  "SHA1": "d721a9933756d437891983761cb2de40c210a560"
+ }
+}

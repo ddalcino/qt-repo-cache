@@ -1,0 +1,18 @@
+{
+ "qt.qt6.6121.addons.qtlocation.ios_device": {
+  "Name": "qt.qt6.6121.addons.qtlocation.ios_device",
+  "DisplayName": "Qt Location for iOS Device",
+  "Description": null,
+  "Version": "6.12.1-0-202611180803",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qtlocation, qt.qt6.6121.qtforios.device",
+  "Dependencies": "qt.qt6.6121.qtforios.device",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qtlocation-MacOS-MacOS_26-Clang-IOS-IOS_ANY-ARM64-Device.7z",
+  "CompressedSize": "31.6M",
+  "UncompressedSize": "243.4M",
+  "Operations": "\n   ",
+  "SHA1": "4fe783c5011bfa4b7e05cc1d30fb852dfabdf390"
+ }
+}

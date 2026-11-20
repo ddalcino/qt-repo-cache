@@ -1,0 +1,34 @@
+{
+ "qt.qt6.6121.addons.qt3d.debug_information.win64_msvc2022_arm64_cross_compiled": {
+  "Name": "qt.qt6.6121.addons.qt3d.debug_information.win64_msvc2022_arm64_cross_compiled",
+  "DisplayName": "Qt 3D module debug information for MSVC 2022 ARM64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "SortingPriority": null,
+  "Dependencies": "qt.qt6.6121.addons.qt3d",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.addons.qt3d.debug_information, qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Virtual": "true",
+  "DownloadableArchives": "qt3d-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-ARM64-debug-symbols.7z",
+  "CompressedSize": "79.0M",
+  "UncompressedSize": "627.7M",
+  "Operations": "\n   ",
+  "SHA1": "74c3ad6261fe0053277441299f33aa4ca2555a8a"
+ },
+ "qt.qt6.6121.addons.qt3d.win64_msvc2022_arm64_cross_compiled": {
+  "Name": "qt.qt6.6121.addons.qt3d.win64_msvc2022_arm64_cross_compiled",
+  "DisplayName": "Qt 3D module for MSVC 2022 ARM64",
+  "Description": null,
+  "Version": "6.12.1-0-202611180427",
+  "ReleaseDate": "2026-11-18",
+  "AutoDependOn": "qt.qt6.6121.addons.qt3d, qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Dependencies": "qt.qt6.6121.win64_msvc2022_arm64_cross_compiled",
+  "Virtual": "true",
+  "SortingPriority": null,
+  "DownloadableArchives": "qt3d-Windows-Windows_11_24H2-MSVC2022-Windows-Windows_11_24H2-ARM64.7z",
+  "CompressedSize": "7.6M",
+  "UncompressedSize": "90.0M",
+  "Operations": "\n   ",
+  "SHA1": "954c7b4630c8135aa7660e6a6a992f9c8618568d"
+ }
+}
