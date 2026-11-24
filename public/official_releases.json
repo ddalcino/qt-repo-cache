@@ -319,7 +319,71 @@
    "qt-creator-opensource-linux-arm64-20.0.2.run": "245M",
    "md5sums.txt": "713"
   },
-  "21.0/": {},
+  "21.0/": {
+   "21.0.0/": {
+    "installer_source/": {
+     "windows_x64/": {
+      "wininterrupt.7z": "32K",
+      "sdktool.7z": "1.1M",
+      "qtcreatorcdbext.7z": "35M",
+      "qtcreator_dev.7z": "13M",
+      "qtcreator.7z": "165M",
+      "qtcreator-debug.7z": "474M",
+      "md5sums.txt": "299"
+     },
+     "windows_arm64/": {
+      "wininterrupt.7z": "31K",
+      "sdktool.7z": "876K",
+      "qtcreatorcdbext.7z": "31M",
+      "qtcreator_dev.7z": "13M",
+      "qtcreator.7z": "142M",
+      "qtcreator-debug.7z": "461M",
+      "md5sums.txt": "299"
+     },
+     "mac_x64/": {
+      "sdktool.7z": "1.6M",
+      "qtcreator_dev.7z": "27M",
+      "qtcreator.7z": "226M",
+      "qtcreator-signed.7z": "231M",
+      "qtcreator-debug.7z": "781M",
+      "md5sums.txt": "250"
+     },
+     "linux_x64/": {
+      "sdktool.7z": "1.2M",
+      "qtcreator_dev.7z": "21M",
+      "qtcreator.7z": "169M",
+      "qtcreator-debug.7z": "728M",
+      "md5sums.txt": "196"
+     },
+     "linux_arm64/": {
+      "sdktool.7z": "1.1M",
+      "qtcreator_dev.7z": "21M",
+      "qtcreator.7z": "160M",
+      "qtcreator-debug.7z": "861M",
+      "md5sums.txt": "196"
+     },
+     "jsonschemas/": {
+      "project.json": "6.1K",
+      "md5sums.txt": "47"
+     }
+    },
+    "cpack_experimental/": {
+     "qtcreator-opensource-linux-x86_64-21.0.0.deb": "157M",
+     "qtcreator-opensource-linux-arm64-21.0.0.deb": "145M",
+     "md5sums.txt": "157"
+    },
+    "qt-creator-opensource-windows-x86_64-21.0.0.exe": "392M",
+    "qt-creator-opensource-windows-arm64-21.0.0.exe": "314M",
+    "qt-creator-opensource-src-21.0.0.zip": "64M",
+    "qt-creator-opensource-src-21.0.0.tar.xz": "39M",
+    "qt-creator-opensource-src-21.0.0.tar.gz": "52M",
+    "qt-creator-opensource-mac-universal-21.0.0_installer.dmg": "337M",
+    "qt-creator-opensource-mac-universal-21.0.0.dmg": "411M",
+    "qt-creator-opensource-linux-x86_64-21.0.0.run": "261M",
+    "qt-creator-opensource-linux-arm64-21.0.0.run": "252M",
+    "md5sums.txt": "713"
+   }
+  },
   "20.0/": {
    "20.0.2/": {
     "installer_source/": {
@@ -1464,6 +1528,97 @@
  },
  "qt/": {
   "6.12/": {
+   "6.12.1/": {
+    "submodules/": {
+     "qtwebview-everywhere-src-6.12.1.zip": "250K",
+     "qtwebview-everywhere-src-6.12.1.tar.xz": "124K",
+     "qtwebsockets-everywhere-src-6.12.1.zip": "721K",
+     "qtwebsockets-everywhere-src-6.12.1.tar.xz": "448K",
+     "qtwebchannel-everywhere-src-6.12.1.zip": "434K",
+     "qtwebchannel-everywhere-src-6.12.1.tar.xz": "193K",
+     "qtwayland-everywhere-src-6.12.1.zip": "1.5M",
+     "qtwayland-everywhere-src-6.12.1.tar.xz": "887K",
+     "qtvirtualkeyboard-everywhere-src-6.12.1.zip": "5.0M",
+     "qtvirtualkeyboard-everywhere-src-6.12.1.tar.xz": "3.1M",
+     "qttranslations-everywhere-src-6.12.1.zip": "3.4M",
+     "qttranslations-everywhere-src-6.12.1.tar.xz": "1.7M",
+     "qttools-everywhere-src-6.12.1.zip": "18M",
+     "qttools-everywhere-src-6.12.1.tar.xz": "10M",
+     "qttasktree-everywhere-src-6.12.1.zip": "321K",
+     "qttasktree-everywhere-src-6.12.1.tar.xz": "254K",
+     "qtsvg-everywhere-src-6.12.1.zip": "2.9M",
+     "qtsvg-everywhere-src-6.12.1.tar.xz": "2.2M",
+     "qtspeech-everywhere-src-6.12.1.zip": "364K",
+     "qtspeech-everywhere-src-6.12.1.tar.xz": "250K",
+     "qtshadertools-everywhere-src-6.12.1.zip": "2.0M",
+     "qtshadertools-everywhere-src-6.12.1.tar.xz": "1.2M",
+     "qtserialport-everywhere-src-6.12.1.zip": "516K",
+     "qtserialport-everywhere-src-6.12.1.tar.xz": "259K",
+     "qtserialbus-everywhere-src-6.12.1.zip": "1.0M",
+     "qtserialbus-everywhere-src-6.12.1.tar.xz": "526K",
+     "qtsensors-everywhere-src-6.12.1.zip": "1.9M",
+     "qtsensors-everywhere-src-6.12.1.tar.xz": "1.4M",
+     "qtscxml-everywhere-src-6.12.1.zip": "1.4M",
+     "qtscxml-everywhere-src-6.12.1.tar.xz": "539K",
+     "qtremoteobjects-everywhere-src-6.12.1.zip": "927K",
+     "qtremoteobjects-everywhere-src-6.12.1.tar.xz": "525K",
+     "qtquicktimeline-everywhere-src-6.12.1.zip": "147K",
+     "qtquicktimeline-everywhere-src-6.12.1.tar.xz": "95K",
+     "qtquickeffectmaker-everywhere-src-6.12.1.zip": "4.4M",
+     "qtquickeffectmaker-everywhere-src-6.12.1.tar.xz": "4.1M",
+     "qtquick3dphysics-everywhere-src-6.12.1.zip": "7.4M",
+     "qtquick3dphysics-everywhere-src-6.12.1.tar.xz": "4.5M",
+     "qtquick3d-everywhere-src-6.12.1.zip": "84M",
+     "qtquick3d-everywhere-src-6.12.1.tar.xz": "67M",
+     "qtpositioning-everywhere-src-6.12.1.zip": "1.2M",
+     "qtpositioning-everywhere-src-6.12.1.tar.xz": "647K",
+     "qtopenapi-everywhere-src-6.12.1.zip": "1.1M",
+     "qtopenapi-everywhere-src-6.12.1.tar.xz": "677K",
+     "qtnetworkauth-everywhere-src-6.12.1.zip": "540K",
+     "qtnetworkauth-everywhere-src-6.12.1.tar.xz": "426K",
+     "qtmultimedia-everywhere-src-6.12.1.zip": "26M",
+     "qtmultimedia-everywhere-src-6.12.1.tar.xz": "10M",
+     "qtlottie-everywhere-src-6.12.1.zip": "1.1M",
+     "qtlottie-everywhere-src-6.12.1.tar.xz": "813K",
+     "qtlocation-everywhere-src-6.12.1.zip": "4.3M",
+     "qtlocation-everywhere-src-6.12.1.tar.xz": "3.0M",
+     "qtlanguageserver-everywhere-src-6.12.1.zip": "208K",
+     "qtlanguageserver-everywhere-src-6.12.1.tar.xz": "132K",
+     "qtimageformats-everywhere-src-6.12.1.zip": "2.6M",
+     "qtimageformats-everywhere-src-6.12.1.tar.xz": "1.8M",
+     "qthttpserver-everywhere-src-6.12.1.zip": "295K",
+     "qthttpserver-everywhere-src-6.12.1.tar.xz": "186K",
+     "qtgrpc-everywhere-src-6.12.1.zip": "1.6M",
+     "qtgrpc-everywhere-src-6.12.1.tar.xz": "761K",
+     "qtgraphs-everywhere-src-6.12.1.zip": "10M",
+     "qtgraphs-everywhere-src-6.12.1.tar.xz": "8.9M",
+     "qtdoc-everywhere-src-6.12.1.zip": "52M",
+     "qtdoc-everywhere-src-6.12.1.tar.xz": "48M",
+     "qtdeclarative-everywhere-src-6.12.1.zip": "85M",
+     "qtdeclarative-everywhere-src-6.12.1.tar.xz": "37M",
+     "qtdatavis3d-everywhere-src-6.12.1.zip": "4.4M",
+     "qtdatavis3d-everywhere-src-6.12.1.tar.xz": "3.8M",
+     "qtconnectivity-everywhere-src-6.12.1.zip": "2.0M",
+     "qtconnectivity-everywhere-src-6.12.1.tar.xz": "1.0M",
+     "qtcharts-everywhere-src-6.12.1.zip": "5.6M",
+     "qtcharts-everywhere-src-6.12.1.tar.xz": "4.4M",
+     "qtcanvaspainter-everywhere-src-6.12.1.zip": "1.6M",
+     "qtcanvaspainter-everywhere-src-6.12.1.tar.xz": "1.1M",
+     "qtbase-everywhere-src-6.12.1.zip": "77M",
+     "qtbase-everywhere-src-6.12.1.tar.xz": "49M",
+     "qtactiveqt-everywhere-src-6.12.1.zip": "476K",
+     "qtactiveqt-everywhere-src-6.12.1.tar.xz": "248K",
+     "qt5compat-everywhere-src-6.12.1.zip": "17M",
+     "qt5compat-everywhere-src-6.12.1.tar.xz": "14M",
+     "qt3d-everywhere-src-6.12.1.zip": "143M",
+     "qt3d-everywhere-src-6.12.1.tar.xz": "135M",
+     "md5sums.txt": "5.9K"
+    },
+    "single/": {
+     "qt-everywhere-src-6.12.1.zip": "579M",
+     "qt-everywhere-src-6.12.1.tar.xz": "424M"
+    }
+   },
    "6.12.0/": {
     "submodules/": {
      "qtwebview-everywhere-src-6.12.0.zip": "250K",
@@ -2419,6 +2574,18 @@
   }
  },
  "qbs/": {
+  "3.4.0/": {
+   "sha256sums.txt": "718",
+   "qbs.3.4.0.nupkg": "24K",
+   "qbs-windows-x86_64-3.4.0.zip": "16M",
+   "qbs-src-3.4.0.zip": "8.5M",
+   "qbs-src-3.4.0.tar.gz": "5.7M",
+   "qbs-macos-x86_64-3.4.0.tar.gz": "28M",
+   "qbs-macos-arm64-3.4.0.tar.gz": "27M",
+   "qbs-linux-x86_64-3.4.0.tar.gz": "32M",
+   "md5sums.txt": "462",
+   "changes-3.4.0.md": "1.3K"
+  },
   "3.3.1/": {
    "sha256sums.txt": "718",
    "qbs.3.3.1.nupkg": "24K",
@@ -4641,6 +4808,10 @@
    "PySide6-6.6.0-src/": {
     "pyside-setup-everywhere-src-6.6.0.zip": "18M",
     "pyside-setup-everywhere-src-6.6.0.tar.xz": "13M"
+   },
+   "PySide6-6.5.11-src/": {
+    "pyside-setup-opensource-src-6.5.11.zip": "16M",
+    "pyside-setup-opensource-src-6.5.11.tar.xz": "29M"
    },
    "PySide6-6.5.10-src/": {
     "pyside-setup-opensource-src-6.5.10.zip": "16M",
